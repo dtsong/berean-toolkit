@@ -1,0 +1,63 @@
+{
+  "questions": [
+    {
+      "id": "q001",
+      "mode": "verse_detective",
+      "difficulty": "easy",
+      "verseReference": "John 3:16",
+      "questionText": "\"For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life.\" Where is this verse found?",
+      "correctAnswer": "John 3:16",
+      "incorrectAnswers": ["Romans 5:8", "1 John 4:8", "Ephesians 2:8"],
+      "explanation": "This is one of the most well-known verses in the Bible, often called 'the Gospel in a nutshell.'"
+    },
+    {
+      "id": "q002",
+      "mode": "verse_detective",
+      "difficulty": "easy",
+      "verseReference": "Psalm 23:1",
+      "questionText": "\"The LORD is my shepherd; I shall not want.\" Which book contains this verse?",
+      "correctAnswer": "Psalms",
+      "incorrectAnswers": ["Proverbs", "Isaiah", "Ecclesiastes"],
+      "explanation": "Psalm 23 is one of the most beloved passages in Scripture, written by David."
+    },
+    {
+      "id": "q003",
+      "mode": "context_clues",
+      "difficulty": "medium",
+      "verseReference": "Genesis 1:1",
+      "questionText": "What comes immediately after 'In the beginning, God created the heavens and the earth'?",
+      "correctAnswer": "The earth was without form and void",
+      "incorrectAnswers": [
+        "And God said, 'Let there be light'",
+        "And the Spirit of God was hovering",
+        "And God saw that it was good"
+      ],
+      "explanation": "Genesis 1:2 describes the initial state of creation before God began to form and fill it."
+    },
+    {
+      "id": "q004",
+      "mode": "word_connections",
+      "difficulty": "hard",
+      "verseReference": "John 1:1",
+      "questionText": "The Greek word 'logos' (λόγος) translated as 'Word' in John 1:1 also appears in which of these passages?",
+      "correctAnswer": "Revelation 19:13 - 'His name is called The Word of God'",
+      "incorrectAnswers": [
+        "Matthew 5:17 - 'Do not think that I have come to abolish the Law'",
+        "Romans 10:17 - 'Faith comes from hearing'",
+        "2 Timothy 3:16 - 'All Scripture is breathed out by God'"
+      ],
+      "strongsNumber": "G3056",
+      "explanation": "Logos (G3056) is used as a title for Christ in both John 1:1 and Revelation 19:13."
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "lastUpdated": "2024-01-01",
+    "totalQuestions": 4,
+    "byMode": {
+      "verse_detective": 2,
+      "context_clues": 1,
+      "word_connections": 1
+    }
+  }
+}
