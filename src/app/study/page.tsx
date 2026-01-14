@@ -4,13 +4,26 @@ import { useState, useCallback } from 'react';
 import Link from 'next/link';
 import { VerseDisplay } from '@/components/VerseDisplay';
 import { OriginalLanguage } from '@/components/OriginalLanguage';
+import { InterlinearDisplay } from '@/components/InterlinearDisplay';
 import { useVerse } from '@/hooks/useVerse';
-import type { Translation, OriginalLanguageWord, StrongsEntry } from '@/types';
+import { useInterlinear } from '@/hooks/useInterlinear';
+import { getBookCode } from '@/lib/bible';
+import { parseVerseReference } from '@/lib/verse-parser';
+import type { Translation, OriginalLanguageWord, StrongsEntry, InterlinearWord } from '@/types';
 
 export default function StudyPage(): React.ReactElement {
   const [reference, setReference] = useState('');
   const [translation, setTranslation] = useState<Translation>('ESV');
   const { verse, loading, error, fetchVerse } = useVerse();
+
+  // Interlinear state
+  const [showInterlinear, setShowInterlinear] = useState(false);
+  const {
+    verses: interlinearVerses,
+    loading: interlinearLoading,
+    error: interlinearError,
+    fetchInterlinear,
+  } = useInterlinear();
 
   // Strong's lookup state
   const [strongsNumber, setStrongsNumber] = useState('');
@@ -60,6 +73,39 @@ export default function StudyPage(): React.ReactElement {
     e.preventDefault();
     if (reference.trim() !== '') {
       void fetchVerse(reference, translation);
+
+      // Also fetch interlinear if enabled
+      if (showInterlinear) {
+        const parsed = parseVerseReference(reference);
+        if (parsed) {
+          const bookCode = getBookCode(parsed.book);
+          if (bookCode) {
+            void fetchInterlinear(bookCode, parsed.chapter, parsed.startVerse);
+          }
+        }
+      }
+    }
+  };
+
+  const handleInterlinearWordClick = (word: InterlinearWord): void => {
+    if (word.strongsNumber) {
+      void fetchStrongsEntry(word.strongsNumber);
+    }
+  };
+
+  const handleInterlinearToggle = (): void => {
+    const newValue = !showInterlinear;
+    setShowInterlinear(newValue);
+
+    // Fetch interlinear if toggling on and we have a verse
+    if (newValue && verse) {
+      const parsed = parseVerseReference(reference);
+      if (parsed) {
+        const bookCode = getBookCode(parsed.book);
+        if (bookCode) {
+          void fetchInterlinear(bookCode, parsed.chapter, parsed.startVerse);
+        }
+      }
     }
   };
 
@@ -123,6 +169,22 @@ export default function StudyPage(): React.ReactElement {
             </button>
           </div>
         </form>
+
+        {/* Interlinear Toggle */}
+        <div className="mb-6 flex items-center gap-3">
+          <label className="relative inline-flex cursor-pointer items-center">
+            <input
+              type="checkbox"
+              checked={showInterlinear}
+              onChange={handleInterlinearToggle}
+              className="peer sr-only"
+            />
+            <div className="peer h-6 w-11 rounded-full bg-gray-200 after:absolute after:left-[2px] after:top-[2px] after:h-5 after:w-5 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white dark:border-gray-600 dark:bg-gray-700"></div>
+          </label>
+          <span className="text-sm font-medium text-zinc-700 dark:text-zinc-300">
+            Show Interlinear (Greek/Hebrew)
+          </span>
+        </div>
 
         {/* Results */}
         <div className="grid gap-8 lg:grid-cols-2">
@@ -208,20 +270,24 @@ export default function StudyPage(): React.ReactElement {
           </div>
         </div>
 
+        {/* Interlinear Display */}
+        {showInterlinear && (
+          <div className="mt-8">
+            <InterlinearDisplay
+              verses={interlinearVerses}
+              loading={interlinearLoading}
+              error={interlinearError}
+              onWordClick={handleInterlinearWordClick}
+            />
+          </div>
+        )}
+
         {/* Feature Status */}
         <div className="mt-8 rounded-lg border border-green-200 bg-green-50 p-4 dark:border-green-800 dark:bg-green-900/20">
           <p className="text-sm text-green-800 dark:text-green-200">
-            <strong>New:</strong> Strong&apos;s Concordance lookup is now available! Enter a
-            Strong&apos;s number (H1-H8674 for Hebrew, G1-G5624 for Greek) to see the original word,
-            transliteration, and definition.
-          </p>
-        </div>
-
-        {/* Coming Soon Notice */}
-        <div className="mt-4 rounded-lg border border-blue-200 bg-blue-50 p-4 dark:border-blue-800 dark:bg-blue-900/20">
-          <p className="text-sm text-blue-800 dark:text-blue-200">
-            <strong>Coming Soon:</strong> Word-level interlinear display with clickable Greek/Hebrew
-            words directly in the verse text, powered by the Berean Standard Bible.
+            <strong>Features:</strong> Strong&apos;s Concordance with 14,000+ entries. Word-level
+            interlinear display with clickable Greek/Hebrew words. Powered by the Berean Standard
+            Bible.
           </p>
         </div>
       </main>

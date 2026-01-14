@@ -1,0 +1,3305 @@
+{
+  "book": "JUD",
+  "chapters": {
+    "1": {
+      "1": [
+        {
+          "position": 0,
+          "text": "Jude",
+          "original": "Ἰούδας",
+          "transliteration": "Ioudas",
+          "strongsNumber": "G2455",
+          "morphology": "N-NMS"
+        },
+        {
+          "position": 1,
+          "text": "a servant",
+          "original": "δοῦλος",
+          "transliteration": "doulos",
+          "strongsNumber": "G1401",
+          "morphology": "N-NMS"
+        },
+        {
+          "position": 2,
+          "text": "of Jesus",
+          "original": "Ἰησοῦ",
+          "transliteration": "Iēsou",
+          "strongsNumber": "G2424",
+          "morphology": "N-GMS"
+        },
+        {
+          "position": 3,
+          "text": "Christ",
+          "original": "Χριστοῦ",
+          "transliteration": "Christou",
+          "strongsNumber": "G5547",
+          "morphology": "N-GMS"
+        },
+        {
+          "position": 4,
+          "text": "and",
+          "original": "δὲ",
+          "transliteration": "de",
+          "strongsNumber": "G1161",
+          "morphology": "Conj"
+        },
+        {
+          "position": 5,
+          "text": "a brother",
+          "original": "ἀδελφὸς",
+          "transliteration": "adelphos",
+          "strongsNumber": "G0080",
+          "morphology": "N-NMS"
+        },
+        {
+          "position": 6,
+          "text": "of James",
+          "original": "Ἰακώβου",
+          "transliteration": "Iakōbou",
+          "strongsNumber": "G2385",
+          "morphology": "N-GMS"
+        },
+        {
+          "position": 7,
+          "text": "To those who [are]",
+          "original": "Τοῖς",
+          "transliteration": "Tois",
+          "strongsNumber": "G3588",
+          "morphology": "Art-DMP"
+        },
+        {
+          "position": 8,
+          "text": "called",
+          "original": "κλητοῖς",
+          "transliteration": "klētois",
+          "strongsNumber": "G2822",
+          "morphology": "Adj-DMP"
+        },
+        {
+          "position": 9,
+          "text": "loved",
+          "original": "ἠγαπημένοις",
+          "transliteration": "ēgapēmenois",
+          "strongsNumber": "G0025",
+          "morphology": "V-RPM/P-DMP"
+        },
+        {
+          "position": 10,
+          "text": "by",
+          "original": "ἐν",
+          "transliteration": "en",
+          "strongsNumber": "G1722",
+          "morphology": "Prep"
+        },
+        {
+          "position": 11,
+          "text": "God",
+          "original": "Θεῷ",
+          "transliteration": "Theō",
+          "strongsNumber": "G2316",
+          "morphology": "N-DMS"
+        },
+        {
+          "position": 12,
+          "text": "[the] Father",
+          "original": "Πατρὶ",
+          "transliteration": "Patri",
+          "strongsNumber": "G3962",
+          "morphology": "N-DMS"
+        },
+        {
+          "position": 13,
+          "text": "and",
+          "original": "καὶ",
+          "transliteration": "kai",
+          "strongsNumber": "G2532",
+          "morphology": "Conj"
+        },
+        {
+          "position": 14,
+          "text": "kept",
+          "original": "τετηρημένοις",
+          "transliteration": "tetērēmenois",
+          "strongsNumber": "G5083",
+          "morphology": "V-RPM/P-DMP"
+        },
+        {
+          "position": 15,
+          "text": "in Jesus",
+          "original": "Ἰησοῦ",
+          "transliteration": "Iēsou",
+          "strongsNumber": "G2424",
+          "morphology": "N-DMS"
+        },
+        {
+          "position": 16,
+          "text": "Christ",
+          "original": "Χριστῷ",
+          "transliteration": "Christō",
+          "strongsNumber": "G5547",
+          "morphology": "N-DMS"
+        }
+      ],
+      "2": [
+        {
+          "position": 0,
+          "text": "Mercy",
+          "original": "Ἔλεος",
+          "transliteration": "Eleos",
+          "strongsNumber": "G1656",
+          "morphology": "N-NNS"
+        },
+        {
+          "position": 1,
+          "text": "peace",
+          "original": "εἰρήνη",
+          "transliteration": "eirēnē",
+          "strongsNumber": "G1515",
+          "morphology": "N-NFS"
+        },
+        {
+          "position": 2,
+          "text": "and",
+          "original": "καὶ",
+          "transliteration": "kai",
+          "strongsNumber": "G2532",
+          "morphology": "Conj"
+        },
+        {
+          "position": 3,
+          "text": "love",
+          "original": "ἀγάπη",
+          "transliteration": "agapē",
+          "strongsNumber": "G0026",
+          "morphology": "N-NFS"
+        },
+        {
+          "position": 4,
+          "text": "be multiplied",
+          "original": "πληθυνθείη",
+          "transliteration": "plēthyntheiē",
+          "strongsNumber": "G4129",
+          "morphology": "V-AOP-3S"
+        },
+        {
+          "position": 5,
+          "text": "to you",
+          "original": "ὑμῖν",
+          "transliteration": "hymin",
+          "strongsNumber": "G4771",
+          "morphology": "PPro-D2P"
+        }
+      ],
+      "3": [
+        {
+          "position": 0,
+          "text": "Beloved",
+          "original": "Ἀγαπητοί",
+          "transliteration": "Agapētoi",
+          "strongsNumber": "G0027",
+          "morphology": "Adj-VMP"
+        },
+        {
+          "position": 1,
+          "text": "[although] I made",
+          "original": "ποιούμενος",
+          "transliteration": "poioumenos",
+          "strongsNumber": "G4160",
+          "morphology": "V-PPM-NMS"
+        },
+        {
+          "position": 2,
+          "text": "every",
+          "original": "πᾶσαν",
+          "transliteration": "pasan",
+          "strongsNumber": "G3956",
+          "morphology": "Adj-AFS"
+        },
+        {
+          "position": 3,
+          "text": "effort",
+          "original": "σπουδὴν",
+          "transliteration": "spoudēn",
+          "strongsNumber": "G4710",
+          "morphology": "N-AFS"
+        },
+        {
+          "position": 4,
+          "text": "to write",
+          "original": "γράφειν",
+          "transliteration": "graphein",
+          "strongsNumber": "G1125",
+          "morphology": "V-PNA"
+        },
+        {
+          "position": 5,
+          "text": "to you",
+          "original": "ὑμῖν",
+          "transliteration": "hymin",
+          "strongsNumber": "G4771",
+          "morphology": "PPro-D2P"
+        },
+        {
+          "position": 6,
+          "text": "about",
+          "original": "περὶ",
+          "transliteration": "peri",
+          "strongsNumber": "G4012",
+          "morphology": "Prep"
+        },
+        {
+          "position": 7,
+          "text": "the",
+          "original": "τῆς",
+          "transliteration": "tēs",
+          "strongsNumber": "G3588",
+          "morphology": "Art-GFS"
+        },
+        {
+          "position": 8,
+          "text": "salvation",
+          "original": "σωτηρίας",
+          "transliteration": "sōtērias",
+          "strongsNumber": "G4991",
+          "morphology": "N-GFS"
+        },
+        {
+          "position": 9,
+          "text": "we",
+          "original": "ἡμῶν",
+          "transliteration": "hēmōn",
+          "strongsNumber": "G1473",
+          "morphology": "PPro-G1P"
+        },
+        {
+          "position": 10,
+          "text": "share",
+          "original": "κοινῆς",
+          "transliteration": "koinēs",
+          "strongsNumber": "G2839",
+          "morphology": "Adj-GFS"
+        },
+        {
+          "position": 11,
+          "text": "I felt",
+          "original": "ἔσχον",
+          "transliteration": "eschon",
+          "strongsNumber": "G2192",
+          "morphology": "V-AIA-1S"
+        },
+        {
+          "position": 12,
+          "text": "it necessary",
+          "original": "ἀνάγκην",
+          "transliteration": "anankēn",
+          "strongsNumber": "G0318",
+          "morphology": "N-AFS"
+        },
+        {
+          "position": 13,
+          "text": "to write",
+          "original": "γράψαι",
+          "transliteration": "grapsai",
+          "strongsNumber": "G1125",
+          "morphology": "V-ANA"
+        },
+        {
+          "position": 14,
+          "text": "[and] urge",
+          "original": "παρακαλῶν",
+          "transliteration": "parakalōn",
+          "strongsNumber": "G3870",
+          "morphology": "V-PPA-NMS"
+        },
+        {
+          "position": 15,
+          "text": "you",
+          "original": "ὑμῖν",
+          "transliteration": "hymin",
+          "strongsNumber": "G4771",
+          "morphology": "PPro-D2P"
+        },
+        {
+          "position": 16,
+          "text": "to contend earnestly",
+          "original": "ἐπαγωνίζεσθαι",
+          "transliteration": "epagōnizesthai",
+          "strongsNumber": "G1864",
+          "morphology": "V-PNM/P"
+        },
+        {
+          "position": 17,
+          "text": "for the",
+          "original": "τῇ",
+          "transliteration": "tē",
+          "strongsNumber": "G3588",
+          "morphology": "Art-DFS"
+        },
+        {
+          "position": 18,
+          "text": "faith",
+          "original": "πίστει",
+          "transliteration": "pistei",
+          "strongsNumber": "G4102",
+          "morphology": "N-DFS"
+        },
+        {
+          "position": 19,
+          "text": "entrusted",
+          "original": "παραδοθείσῃ",
+          "transliteration": "paradotheisē",
+          "strongsNumber": "G3860",
+          "morphology": "V-APP-DFS"
+        },
+        {
+          "position": 20,
+          "text": "once for all",
+          "original": "ἅπαξ",
+          "transliteration": "hapax",
+          "strongsNumber": "G0530",
+          "morphology": "Adv"
+        },
+        {
+          "position": 21,
+          "text": "to the",
+          "original": "τοῖς",
+          "transliteration": "tois",
+          "strongsNumber": "G3588",
+          "morphology": "Art-DMP"
+        },
+        {
+          "position": 22,
+          "text": "saints",
+          "original": "ἁγίοις",
+          "transliteration": "hagiois",
+          "strongsNumber": "G0040",
+          "morphology": "Adj-DMP"
+        }
+      ],
+      "4": [
+        {
+          "position": 0,
+          "text": "For",
+          "original": "γάρ",
+          "transliteration": "gar",
+          "strongsNumber": "G1063",
+          "morphology": "Conj"
+        },
+        {
+          "position": 1,
+          "text": "certain",
+          "original": "τινες",
+          "transliteration": "tines",
+          "strongsNumber": "G5100",
+          "morphology": "IPro-NMP"
+        },
+        {
+          "position": 2,
+          "text": "men",
+          "original": "ἄνθρωποι",
+          "transliteration": "anthrōpoi",
+          "strongsNumber": "G0444",
+          "morphology": "N-NMP"
+        },
+        {
+          "position": 3,
+          "text": "have crept in [among you] unnoticed",
+          "original": "παρεισέδυσαν*",
+          "transliteration": "pareisedysan",
+          "strongsNumber": "G3921",
+          "morphology": "V-AIA-3P"
+        },
+        {
+          "position": 4,
+          "text": "ungodly [ones]",
+          "original": "ἀσεβεῖς",
+          "transliteration": "asebeis",
+          "strongsNumber": "G0765",
+          "morphology": "Adj-NMP"
+        },
+        {
+          "position": 5,
+          "text": "who were designated",
+          "original": "προγεγραμμένοι",
+          "transliteration": "progegrammenoi",
+          "strongsNumber": "G4270",
+          "morphology": "V-RPM/P-NMP"
+        },
+        {
+          "position": 6,
+          "text": "long ago",
+          "original": "πάλαι",
+          "transliteration": "palai",
+          "strongsNumber": "G3819",
+          "morphology": "Adv"
+        },
+        {
+          "position": 7,
+          "text": "for",
+          "original": "εἰς",
+          "transliteration": "eis",
+          "strongsNumber": "G1519",
+          "morphology": "Prep"
+        },
+        {
+          "position": 8,
+          "text": "condemnation",
+          "original": "κρίμα",
+          "transliteration": "krima",
+          "strongsNumber": "G2917",
+          "morphology": "N-ANS"
+        },
+        {
+          "position": 9,
+          "text": "They turn",
+          "original": "μετατιθέντες",
+          "transliteration": "metatithentes",
+          "strongsNumber": "G3346",
+          "morphology": "V-PPA-NMP"
+        },
+        {
+          "position": 10,
+          "text": "the",
+          "original": "τὴν",
+          "transliteration": "tēn",
+          "strongsNumber": "G3588",
+          "morphology": "Art-AFS"
+        },
+        {
+          "position": 11,
+          "text": "grace",
+          "original": "χάριτα",
+          "transliteration": "charita",
+          "strongsNumber": "G5485",
+          "morphology": "N-AFS"
+        },
+        {
+          "position": 12,
+          "text": "of our",
+          "original": "ἡμῶν",
+          "transliteration": "hēmōn",
+          "strongsNumber": "G1473",
+          "morphology": "PPro-G1P"
+        },
+        {
+          "position": 13,
+          "text": "God",
+          "original": "Θεοῦ",
+          "transliteration": "Theou",
+          "strongsNumber": "G2316",
+          "morphology": "N-GMS"
+        },
+        {
+          "position": 14,
+          "text": "into",
+          "original": "εἰς",
+          "transliteration": "eis",
+          "strongsNumber": "G1519",
+          "morphology": "Prep"
+        },
+        {
+          "position": 15,
+          "text": "a license for immorality",
+          "original": "ἀσέλγειαν",
+          "transliteration": "aselgeian",
+          "strongsNumber": "G0766",
+          "morphology": "N-AFS"
+        },
+        {
+          "position": 16,
+          "text": "and",
+          "original": "καὶ",
+          "transliteration": "kai",
+          "strongsNumber": "G2532",
+          "morphology": "Conj"
+        },
+        {
+          "position": 17,
+          "text": "they deny",
+          "original": "ἀρνούμενοι",
+          "transliteration": "arnoumenoi",
+          "strongsNumber": "G0720",
+          "morphology": "V-PPM/P-NMP"
+        },
+        {
+          "position": 18,
+          "text": "our",
+          "original": "ἡμῶν",
+          "transliteration": "hēmōn",
+          "strongsNumber": "G1473",
+          "morphology": "PPro-G1P"
+        },
+        {
+          "position": 19,
+          "text": "only",
+          "original": "μόνον",
+          "transliteration": "monon",
+          "strongsNumber": "G3441",
+          "morphology": "Adj-AMS"
+        },
+        {
+          "position": 20,
+          "text": "Master",
+          "original": "Δεσπότην",
+          "transliteration": "Despotēn",
+          "strongsNumber": "G1203",
+          "morphology": "N-AMS"
+        },
+        {
+          "position": 21,
+          "text": "and",
+          "original": "καὶ",
+          "transliteration": "kai",
+          "strongsNumber": "G2532",
+          "morphology": "Conj"
+        },
+        {
+          "position": 22,
+          "text": "Lord",
+          "original": "Κύριον",
+          "transliteration": "Kyrion",
+          "strongsNumber": "G2962",
+          "morphology": "N-AMS"
+        },
+        {
+          "position": 23,
+          "text": "Jesus",
+          "original": "Ἰησοῦν",
+          "transliteration": "Iēsoun",
+          "strongsNumber": "G2424",
+          "morphology": "N-AMS"
+        },
+        {
+          "position": 24,
+          "text": "Christ",
+          "original": "Χριστὸν",
+          "transliteration": "Christon",
+          "strongsNumber": "G5547",
+          "morphology": "N-AMS"
+        }
+      ],
+      "5": [
+        {
+          "position": 0,
+          "text": "Although you are fully aware of this",
+          "original": "εἰδότας",
+          "transliteration": "eidotas",
+          "strongsNumber": "G1492",
+          "morphology": "V-RPA-AMP"
+        },
+        {
+          "position": 1,
+          "text": ". . .",
+          "original": "ὑμᾶς",
+          "transliteration": "hymas",
+          "strongsNumber": "G4771",
+          "morphology": "PPro-A2P"
+        },
+        {
+          "position": 2,
+          "text": ". . .",
+          "original": "«πάντα",
+          "transliteration": "panta",
+          "strongsNumber": "G3956",
+          "morphology": "Adj-ANP"
+        },
+        {
+          "position": 3,
+          "text": "I want",
+          "original": "βούλομαι",
+          "transliteration": "boulomai",
+          "strongsNumber": "G1014",
+          "morphology": "V-PIM/P-1S"
+        },
+        {
+          "position": 4,
+          "text": "to remind",
+          "original": "Ὑπομνῆσαι",
+          "transliteration": "Hypomnēsai",
+          "strongsNumber": "G5279",
+          "morphology": "V-ANA"
+        },
+        {
+          "position": 5,
+          "text": "you",
+          "original": "ὑμᾶς",
+          "transliteration": "hymas",
+          "strongsNumber": "G4771",
+          "morphology": "PPro-A2P"
+        },
+        {
+          "position": 6,
+          "text": "that",
+          "original": "ὅτι",
+          "transliteration": "hoti",
+          "strongsNumber": "G3754",
+          "morphology": "Conj"
+        },
+        {
+          "position": 7,
+          "text": "after",
+          "original": "δεύτερον",
+          "transliteration": "deuteron",
+          "strongsNumber": "G1208",
+          "morphology": "Adj-ANS"
+        },
+        {
+          "position": 8,
+          "text": ". . .",
+          "original": "ἅπαξ",
+          "transliteration": "hapax",
+          "strongsNumber": "G0530",
+          "morphology": "Adv"
+        },
+        {
+          "position": 9,
+          "text": "Jesus",
+          "original": "Ἰησοῦς»",
+          "transliteration": "Iēsous",
+          "strongsNumber": "G2424",
+          "morphology": "N-NMS"
+        },
+        {
+          "position": 10,
+          "text": "had delivered",
+          "original": "σώσας",
+          "transliteration": "sōsas",
+          "strongsNumber": "G4982",
+          "morphology": "V-APA-NMS"
+        },
+        {
+          "position": 11,
+          "text": "[His] people",
+          "original": "λαὸν",
+          "transliteration": "laon",
+          "strongsNumber": "G2992",
+          "morphology": "N-AMS"
+        },
+        {
+          "position": 12,
+          "text": "out of",
+          "original": "ἐκ",
+          "transliteration": "ek",
+          "strongsNumber": "G1537",
+          "morphology": "Prep"
+        },
+        {
+          "position": 13,
+          "text": "[the] land",
+          "original": "γῆς",
+          "transliteration": "gēs",
+          "strongsNumber": "G1093",
+          "morphology": "N-GFS"
+        },
+        {
+          "position": 14,
+          "text": "of Egypt",
+          "original": "Αἰγύπτου",
+          "transliteration": "Aigyptou",
+          "strongsNumber": "G0125",
+          "morphology": "N-GFS"
+        },
+        {
+          "position": 15,
+          "text": "He destroyed",
+          "original": "ἀπώλεσεν",
+          "transliteration": "apōlesen",
+          "strongsNumber": "G0622",
+          "morphology": "V-AIA-3S"
+        },
+        {
+          "position": 16,
+          "text": "those who",
+          "original": "τοὺς",
+          "transliteration": "tous",
+          "strongsNumber": "G3588",
+          "morphology": "Art-AMP"
+        },
+        {
+          "position": 17,
+          "text": "did not believe",
+          "original": "πιστεύσαντας",
+          "transliteration": "pisteusantas",
+          "strongsNumber": "G4100",
+          "morphology": "V-APA-AMP"
+        }
+      ],
+      "6": [
+        {
+          "position": 0,
+          "text": "And",
+          "original": "τε",
+          "transliteration": "te",
+          "strongsNumber": "G5037",
+          "morphology": "Conj"
+        },
+        {
+          "position": 1,
+          "text": "[the] angels",
+          "original": "ἀγγέλους",
+          "transliteration": "angelous",
+          "strongsNumber": "G0032",
+          "morphology": "N-AMP"
+        },
+        {
+          "position": 2,
+          "text": "who",
+          "original": "τοὺς",
+          "transliteration": "tous",
+          "strongsNumber": "G3588",
+          "morphology": "Art-AMP"
+        },
+        {
+          "position": 3,
+          "text": "did not stay within",
+          "original": "τηρήσαντας",
+          "transliteration": "tērēsantas",
+          "strongsNumber": "G5083",
+          "morphology": "V-APA-AMP"
+        },
+        {
+          "position": 4,
+          "text": "their",
+          "original": "ἑαυτῶν",
+          "transliteration": "heautōn",
+          "strongsNumber": "G1438",
+          "morphology": "RefPro-GM3P"
+        },
+        {
+          "position": 5,
+          "text": "[own]",
+          "original": "τὴν",
+          "transliteration": "tēn",
+          "strongsNumber": "G3588",
+          "morphology": "Art-AFS"
+        },
+        {
+          "position": 6,
+          "text": "domain",
+          "original": "ἀρχὴν",
+          "transliteration": "archēn",
+          "strongsNumber": "G0746",
+          "morphology": "N-AFS"
+        },
+        {
+          "position": 7,
+          "text": "but",
+          "original": "ἀλλὰ",
+          "transliteration": "alla",
+          "strongsNumber": "G0235",
+          "morphology": "Conj"
+        },
+        {
+          "position": 8,
+          "text": "abandoned",
+          "original": "ἀπολιπόντας",
+          "transliteration": "apolipontas",
+          "strongsNumber": "G0620",
+          "morphology": "V-APA-AMP"
+        },
+        {
+          "position": 9,
+          "text": "their",
+          "original": "τὸ",
+          "transliteration": "to",
+          "strongsNumber": "G3588",
+          "morphology": "Art-ANS"
+        },
+        {
+          "position": 10,
+          "text": "[proper]",
+          "original": "ἴδιον",
+          "transliteration": "idion",
+          "strongsNumber": "G2398",
+          "morphology": "Adj-ANS"
+        },
+        {
+          "position": 11,
+          "text": "dwelling",
+          "original": "οἰκητήριον",
+          "transliteration": "oikētērion",
+          "strongsNumber": "G3613",
+          "morphology": "N-ANS"
+        },
+        {
+          "position": 12,
+          "text": "[these] He has kept",
+          "original": "τετήρηκεν",
+          "transliteration": "tetērēken",
+          "strongsNumber": "G5083",
+          "morphology": "V-RIA-3S"
+        },
+        {
+          "position": 13,
+          "text": "in eternal",
+          "original": "ἀϊδίοις",
+          "transliteration": "aidiois",
+          "strongsNumber": "G0126",
+          "morphology": "Adj-DMP"
+        },
+        {
+          "position": 14,
+          "text": "chains",
+          "original": "δεσμοῖς",
+          "transliteration": "desmois",
+          "strongsNumber": "G1199",
+          "morphology": "N-DMP"
+        },
+        {
+          "position": 15,
+          "text": "under",
+          "original": "ὑπὸ",
+          "transliteration": "hypo",
+          "strongsNumber": "G5259",
+          "morphology": "Prep"
+        },
+        {
+          "position": 16,
+          "text": "darkness",
+          "original": "ζόφον",
+          "transliteration": "zophon",
+          "strongsNumber": "G2217",
+          "morphology": "N-AMS"
+        },
+        {
+          "position": 17,
+          "text": "{bound} for",
+          "original": "εἰς",
+          "transliteration": "eis",
+          "strongsNumber": "G1519",
+          "morphology": "Prep"
+        },
+        {
+          "position": 18,
+          "text": "judgment",
+          "original": "κρίσιν",
+          "transliteration": "krisin",
+          "strongsNumber": "G2920",
+          "morphology": "N-AFS"
+        },
+        {
+          "position": 19,
+          "text": "on [that] great",
+          "original": "μεγάλης",
+          "transliteration": "megalēs",
+          "strongsNumber": "G3173",
+          "morphology": "Adj-GFS"
+        },
+        {
+          "position": 20,
+          "text": "day",
+          "original": "ἡμέρας",
+          "transliteration": "hēmeras",
+          "strongsNumber": "G2250",
+          "morphology": "N-GFS"
+        }
+      ],
+      "7": [
+        {
+          "position": 0,
+          "text": "In like",
+          "original": "ὅμοιον",
+          "transliteration": "homoion",
+          "strongsNumber": "G3664",
+          "morphology": "Adj-AMS"
+        },
+        {
+          "position": 1,
+          "text": "manner",
+          "original": "τρόπον",
+          "transliteration": "tropon",
+          "strongsNumber": "G5158",
+          "morphology": "N-AMS"
+        },
+        {
+          "position": 2,
+          "text": ". . .",
+          "original": "τούτοις",
+          "transliteration": "toutois",
+          "strongsNumber": "G3778",
+          "morphology": "DPro-DMP"
+        },
+        {
+          "position": 3,
+          "text": "Sodom",
+          "original": "Σόδομα",
+          "transliteration": "Sodoma",
+          "strongsNumber": "G4670",
+          "morphology": "N-NNP"
+        },
+        {
+          "position": 4,
+          "text": "and",
+          "original": "καὶ",
+          "transliteration": "kai",
+          "strongsNumber": "G2532",
+          "morphology": "Conj"
+        },
+        {
+          "position": 5,
+          "text": "Gomorrah",
+          "original": "Γόμορρα",
+          "transliteration": "Gomorra",
+          "strongsNumber": "G1116",
+          "morphology": "N-NFS"
+        },
+        {
+          "position": 6,
+          "text": "and",
+          "original": "καὶ",
+          "transliteration": "kai",
+          "strongsNumber": "G2532",
+          "morphology": "Conj"
+        },
+        {
+          "position": 7,
+          "text": "the",
+          "original": "αἱ",
+          "transliteration": "hai",
+          "strongsNumber": "G3588",
+          "morphology": "Art-NFP"
+        },
+        {
+          "position": 8,
+          "text": "cities",
+          "original": "πόλεις",
+          "transliteration": "poleis",
+          "strongsNumber": "G4172",
+          "morphology": "N-NFP"
+        },
+        {
+          "position": 9,
+          "text": "around",
+          "original": "περὶ",
+          "transliteration": "peri",
+          "strongsNumber": "G4012",
+          "morphology": "Prep"
+        },
+        {
+          "position": 10,
+          "text": "them",
+          "original": "αὐτὰς",
+          "transliteration": "autas",
+          "strongsNumber": "G0846",
+          "morphology": "PPro-AF3P"
+        },
+        {
+          "position": 11,
+          "text": "who indulged in sexual immorality",
+          "original": "ἐκπορνεύσασαι",
+          "transliteration": "ekporneusasai",
+          "strongsNumber": "G1608",
+          "morphology": "V-APA-NFP"
+        },
+        {
+          "position": 12,
+          "text": "and",
+          "original": "καὶ",
+          "transliteration": "kai",
+          "strongsNumber": "G2532",
+          "morphology": "Conj"
+        },
+        {
+          "position": 13,
+          "text": "pursued",
+          "original": "ἀπελθοῦσαι",
+          "transliteration": "apelthousai",
+          "strongsNumber": "G0565",
+          "morphology": "V-APA-NFP"
+        },
+        {
+          "position": 14,
+          "text": ". . .",
+          "original": "ὀπίσω",
+          "transliteration": "opisō",
+          "strongsNumber": "G3694",
+          "morphology": "Prep"
+        },
+        {
+          "position": 15,
+          "text": "strange",
+          "original": "ἑτέρας",
+          "transliteration": "heteras",
+          "strongsNumber": "G2087",
+          "morphology": "Adj-GFS"
+        },
+        {
+          "position": 16,
+          "text": "flesh",
+          "original": "σαρκὸς",
+          "transliteration": "sarkos",
+          "strongsNumber": "G4561",
+          "morphology": "N-GFS"
+        },
+        {
+          "position": 17,
+          "text": "are on display",
+          "original": "πρόκεινται",
+          "transliteration": "prokeintai",
+          "strongsNumber": "G4295",
+          "morphology": "V-PIM/P-3P"
+        },
+        {
+          "position": 18,
+          "text": "as an example",
+          "original": "δεῖγμα",
+          "transliteration": "deigma",
+          "strongsNumber": "G1164",
+          "morphology": "N-ANS"
+        },
+        {
+          "position": 19,
+          "text": "of those who sustain",
+          "original": "ὑπέχουσαι",
+          "transliteration": "hypechousai",
+          "strongsNumber": "G5254",
+          "morphology": "V-PPA-NFP"
+        },
+        {
+          "position": 20,
+          "text": "[the] punishment",
+          "original": "δίκην",
+          "transliteration": "dikēn",
+          "strongsNumber": "G1349",
+          "morphology": "N-AFS"
+        },
+        {
+          "position": 21,
+          "text": "of eternal",
+          "original": "αἰωνίου",
+          "transliteration": "aiōniou",
+          "strongsNumber": "G0166",
+          "morphology": "Adj-GNS"
+        },
+        {
+          "position": 22,
+          "text": "fire",
+          "original": "πυρὸς",
+          "transliteration": "pyros",
+          "strongsNumber": "G4442",
+          "morphology": "N-GNS"
+        }
+      ],
+      "8": [
+        {
+          "position": 0,
+          "text": "Yet",
+          "original": "μέντοι",
+          "transliteration": "mentoi",
+          "strongsNumber": "G3305",
+          "morphology": "Conj"
+        },
+        {
+          "position": 1,
+          "text": "in the same way",
+          "original": "Ὁμοίως",
+          "transliteration": "Homoiōs",
+          "strongsNumber": "G3668",
+          "morphology": "Adv"
+        },
+        {
+          "position": 2,
+          "text": ". . .",
+          "original": "καὶ",
+          "transliteration": "kai",
+          "strongsNumber": "G2532",
+          "morphology": "Conj"
+        },
+        {
+          "position": 3,
+          "text": "these",
+          "original": "οὗτοι",
+          "transliteration": "houtoi",
+          "strongsNumber": "G3778",
+          "morphology": "DPro-NMP"
+        },
+        {
+          "position": 4,
+          "text": "dreamers",
+          "original": "ἐνυπνιαζόμενοι",
+          "transliteration": "enypniazomenoi",
+          "strongsNumber": "G1797",
+          "morphology": "V-PPM/P-NMP"
+        },
+        {
+          "position": 5,
+          "text": "defile",
+          "original": "μιαίνουσιν",
+          "transliteration": "miainousin",
+          "strongsNumber": "G3392",
+          "morphology": "V-PIA-3P"
+        },
+        {
+          "position": 6,
+          "text": "[their] bodies",
+          "original": "σάρκα",
+          "transliteration": "sarka",
+          "strongsNumber": "G4561",
+          "morphology": "N-AFS"
+        },
+        {
+          "position": 7,
+          "text": "reject",
+          "original": "ἀθετοῦσιν",
+          "transliteration": "athetousin",
+          "strongsNumber": "G0114",
+          "morphology": "V-PIA-3P"
+        },
+        {
+          "position": 8,
+          "text": "authority",
+          "original": "κυριότητα",
+          "transliteration": "kyriotēta",
+          "strongsNumber": "G2963",
+          "morphology": "N-AFS"
+        },
+        {
+          "position": 9,
+          "text": "and",
+          "original": "δὲ",
+          "transliteration": "de",
+          "strongsNumber": "G1161",
+          "morphology": "Conj"
+        },
+        {
+          "position": 10,
+          "text": "slander",
+          "original": "βλασφημοῦσιν",
+          "transliteration": "blasphēmousin",
+          "strongsNumber": "G0987",
+          "morphology": "V-PIA-3P"
+        },
+        {
+          "position": 11,
+          "text": "glorious [beings]",
+          "original": "δόξας",
+          "transliteration": "doxas",
+          "strongsNumber": "G1391",
+          "morphology": "N-AFP"
+        }
+      ],
+      "9": [
+        {
+          "position": 0,
+          "text": "But [even]",
+          "original": "δὲ",
+          "transliteration": "de",
+          "strongsNumber": "G1161",
+          "morphology": "Conj"
+        },
+        {
+          "position": 1,
+          "text": "the",
+          "original": "ὁ",
+          "transliteration": "ho",
+          "strongsNumber": "G3588",
+          "morphology": "Art-NMS"
+        },
+        {
+          "position": 2,
+          "text": "archangel",
+          "original": "ἀρχάγγελος",
+          "transliteration": "archangelos",
+          "strongsNumber": "G0743",
+          "morphology": "N-NMS"
+        },
+        {
+          "position": 3,
+          "text": "Michael",
+          "original": "Μιχαὴλ",
+          "transliteration": "Michaēl",
+          "strongsNumber": "G3413",
+          "morphology": "N-NMS"
+        },
+        {
+          "position": 4,
+          "text": "when",
+          "original": "ὅτε",
+          "transliteration": "hote",
+          "strongsNumber": "G3753",
+          "morphology": "Adv"
+        },
+        {
+          "position": 5,
+          "text": "he disputed",
+          "original": "διακρινόμενος",
+          "transliteration": "diakrinomenos",
+          "strongsNumber": "G1252",
+          "morphology": "V-PPM-NMS"
+        },
+        {
+          "position": 6,
+          "text": "with the",
+          "original": "τῷ",
+          "transliteration": "tō",
+          "strongsNumber": "G3588",
+          "morphology": "Art-DMS"
+        },
+        {
+          "position": 7,
+          "text": "devil",
+          "original": "διαβόλῳ",
+          "transliteration": "diabolō",
+          "strongsNumber": "G1228",
+          "morphology": "Adj-DMS"
+        },
+        {
+          "position": 8,
+          "text": "over",
+          "original": "περὶ",
+          "transliteration": "peri",
+          "strongsNumber": "G4012",
+          "morphology": "Prep"
+        },
+        {
+          "position": 9,
+          "text": "the",
+          "original": "τοῦ",
+          "transliteration": "tou",
+          "strongsNumber": "G3588",
+          "morphology": "Art-GNS"
+        },
+        {
+          "position": 10,
+          "text": "body",
+          "original": "σώματος",
+          "transliteration": "sōmatos",
+          "strongsNumber": "G4983",
+          "morphology": "N-GNS"
+        },
+        {
+          "position": 11,
+          "text": "of Moses",
+          "original": "Μωϋσέως",
+          "transliteration": "Mōuseōs",
+          "strongsNumber": "G3475",
+          "morphology": "N-GMS"
+        },
+        {
+          "position": 12,
+          "text": "did not presume",
+          "original": "ἐτόλμησεν",
+          "transliteration": "etolmēsen",
+          "strongsNumber": "G5111",
+          "morphology": "V-AIA-3S"
+        },
+        {
+          "position": 13,
+          "text": "to bring",
+          "original": "ἐπενεγκεῖν",
+          "transliteration": "epenenkein",
+          "strongsNumber": "G2018",
+          "morphology": "V-ANA"
+        },
+        {
+          "position": 14,
+          "text": "a slanderous",
+          "original": "βλασφημίας",
+          "transliteration": "blasphēmias",
+          "strongsNumber": "G0988",
+          "morphology": "N-GFS"
+        },
+        {
+          "position": 15,
+          "text": "charge {against him}",
+          "original": "κρίσιν",
+          "transliteration": "krisin",
+          "strongsNumber": "G2920",
+          "morphology": "N-AFS"
+        },
+        {
+          "position": 16,
+          "text": "but",
+          "original": "ἀλλὰ",
+          "transliteration": "alla",
+          "strongsNumber": "G0235",
+          "morphology": "Conj"
+        },
+        {
+          "position": 17,
+          "text": "said",
+          "original": "εἶπεν",
+          "transliteration": "eipen",
+          "strongsNumber": "G2036",
+          "morphology": "V-AIA-3S"
+        },
+        {
+          "position": 18,
+          "text": "[The] Lord",
+          "original": "Κύριος",
+          "transliteration": "Kyrios",
+          "strongsNumber": "G2962",
+          "morphology": "N-NMS"
+        },
+        {
+          "position": 19,
+          "text": "rebuke",
+          "original": "Ἐπιτιμήσαι",
+          "transliteration": "Epitimēsai",
+          "strongsNumber": "G2008",
+          "morphology": "V-AOA-3S"
+        },
+        {
+          "position": 20,
+          "text": "you",
+          "original": "σοι",
+          "transliteration": "soi",
+          "strongsNumber": "G4771",
+          "morphology": "PPro-D2S"
+        }
+      ],
+      "10": [
+        {
+          "position": 0,
+          "text": "These [men]",
+          "original": "οὗτοι",
+          "transliteration": "houtoi",
+          "strongsNumber": "G3778",
+          "morphology": "DPro-NMP"
+        },
+        {
+          "position": 1,
+          "text": "however",
+          "original": "δὲ",
+          "transliteration": "de",
+          "strongsNumber": "G1161",
+          "morphology": "Conj"
+        },
+        {
+          "position": 2,
+          "text": "slander",
+          "original": "βλασφημοῦσιν",
+          "transliteration": "blasphēmousin",
+          "strongsNumber": "G0987",
+          "morphology": "V-PIA-3P"
+        },
+        {
+          "position": 3,
+          "text": "what",
+          "original": "ὅσα",
+          "transliteration": "hosa",
+          "strongsNumber": "G3745",
+          "morphology": "RelPro-ANP"
+        },
+        {
+          "position": 4,
+          "text": "they do not understand",
+          "original": "οἴδασιν",
+          "transliteration": "oidasin",
+          "strongsNumber": "G1492",
+          "morphology": "V-RIA-3P"
+        },
+        {
+          "position": 5,
+          "text": "and",
+          "original": "δὲ",
+          "transliteration": "de",
+          "strongsNumber": "G1161",
+          "morphology": "Conj"
+        },
+        {
+          "position": 6,
+          "text": "like",
+          "original": "ὡς",
+          "transliteration": "hōs",
+          "strongsNumber": "G5613",
+          "morphology": "Adv"
+        },
+        {
+          "position": 7,
+          "text": "irrational",
+          "original": "ἄλογα",
+          "transliteration": "aloga",
+          "strongsNumber": "G0249",
+          "morphology": "Adj-NNP"
+        },
+        {
+          "position": 8,
+          "text": "animals",
+          "original": "ζῷα",
+          "transliteration": "zōa",
+          "strongsNumber": "G2226",
+          "morphology": "N-NNP"
+        },
+        {
+          "position": 9,
+          "text": "they will be destroyed",
+          "original": "φθείρονται",
+          "transliteration": "phtheirontai",
+          "strongsNumber": "G5351",
+          "morphology": "V-PIM/P-3P"
+        },
+        {
+          "position": 10,
+          "text": "by",
+          "original": "ἐν",
+          "transliteration": "en",
+          "strongsNumber": "G1722",
+          "morphology": "Prep"
+        },
+        {
+          "position": 11,
+          "text": "the things",
+          "original": "τούτοις",
+          "transliteration": "toutois",
+          "strongsNumber": "G3778",
+          "morphology": "DPro-DNP"
+        },
+        {
+          "position": 12,
+          "text": "they do instinctively",
+          "original": "ἐπίστανται",
+          "transliteration": "epistantai",
+          "strongsNumber": "G1987",
+          "morphology": "V-PIM/P-3P"
+        },
+        {
+          "position": 13,
+          "text": ". . .",
+          "original": "φυσικῶς",
+          "transliteration": "physikōs",
+          "strongsNumber": "G5447",
+          "morphology": "Adv"
+        }
+      ],
+      "11": [
+        {
+          "position": 0,
+          "text": "Woe",
+          "original": "οὐαὶ",
+          "transliteration": "ouai",
+          "strongsNumber": "G3759",
+          "morphology": "I"
+        },
+        {
+          "position": 1,
+          "text": "to them",
+          "original": "αὐτοῖς",
+          "transliteration": "autois",
+          "strongsNumber": "G0846",
+          "morphology": "PPro-DM3P"
+        },
+        {
+          "position": 2,
+          "text": "They have traveled",
+          "original": "ἐπορεύθησαν",
+          "transliteration": "eporeuthēsan",
+          "strongsNumber": "G4198",
+          "morphology": "V-AIP-3P"
+        },
+        {
+          "position": 3,
+          "text": "the",
+          "original": "τῇ",
+          "transliteration": "tē",
+          "strongsNumber": "G3588",
+          "morphology": "Art-DFS"
+        },
+        {
+          "position": 4,
+          "text": "path",
+          "original": "ὁδῷ",
+          "transliteration": "hodō",
+          "strongsNumber": "G3598",
+          "morphology": "N-DFS"
+        },
+        {
+          "position": 5,
+          "text": "of Cain",
+          "original": "Κάϊν",
+          "transliteration": "Kain",
+          "strongsNumber": "G2535",
+          "morphology": "N-GMS"
+        },
+        {
+          "position": 6,
+          "text": "they have rushed",
+          "original": "ἐξεχύθησαν",
+          "transliteration": "exechythēsan",
+          "strongsNumber": "G1632",
+          "morphology": "V-AIP-3P"
+        },
+        {
+          "position": 7,
+          "text": "for profit",
+          "original": "μισθοῦ",
+          "transliteration": "misthou",
+          "strongsNumber": "G3408",
+          "morphology": "N-GMS"
+        },
+        {
+          "position": 8,
+          "text": "into the",
+          "original": "τῇ",
+          "transliteration": "tē",
+          "strongsNumber": "G3588",
+          "morphology": "Art-DFS"
+        },
+        {
+          "position": 9,
+          "text": "error",
+          "original": "πλάνῃ",
+          "transliteration": "planē",
+          "strongsNumber": "G4106",
+          "morphology": "N-DFS"
+        },
+        {
+          "position": 10,
+          "text": "of Balaam",
+          "original": "Βαλαὰμ",
+          "transliteration": "Balaam",
+          "strongsNumber": "G0903",
+          "morphology": "N-GMS"
+        },
+        {
+          "position": 11,
+          "text": "they have perished",
+          "original": "ἀπώλοντο",
+          "transliteration": "apōlonto",
+          "strongsNumber": "G0622",
+          "morphology": "V-AIM-3P"
+        },
+        {
+          "position": 12,
+          "text": "in",
+          "original": "τῇ",
+          "transliteration": "tē",
+          "strongsNumber": "G3588",
+          "morphology": "Art-DFS"
+        },
+        {
+          "position": 13,
+          "text": "Korah’s",
+          "original": "Κόρε",
+          "transliteration": "Kore",
+          "strongsNumber": "G2879",
+          "morphology": "N-GMS"
+        },
+        {
+          "position": 14,
+          "text": "rebellion",
+          "original": "ἀντιλογίᾳ",
+          "transliteration": "antilogia",
+          "strongsNumber": "G0485",
+          "morphology": "N-DFS"
+        }
+      ],
+      "12": [
+        {
+          "position": 0,
+          "text": "These [men]",
+          "original": "Οὗτοί",
+          "transliteration": "Houtoi",
+          "strongsNumber": "G3778",
+          "morphology": "DPro-NMP"
+        },
+        {
+          "position": 1,
+          "text": "are",
+          "original": "εἰσιν",
+          "transliteration": "eisin",
+          "strongsNumber": "G1510",
+          "morphology": "V-PIA-3P"
+        },
+        {
+          "position": 2,
+          "text": "hidden reefs",
+          "original": "σπιλάδες",
+          "transliteration": "spilades",
+          "strongsNumber": "G4694",
+          "morphology": "N-NFP"
+        },
+        {
+          "position": 3,
+          "text": "in",
+          "original": "ἐν",
+          "transliteration": "en",
+          "strongsNumber": "G1722",
+          "morphology": "Prep"
+        },
+        {
+          "position": 4,
+          "text": "your",
+          "original": "ὑμῶν",
+          "transliteration": "hymōn",
+          "strongsNumber": "G4771",
+          "morphology": "PPro-G2P"
+        },
+        {
+          "position": 5,
+          "text": "love feasts",
+          "original": "ἀγάπαις",
+          "transliteration": "agapais",
+          "strongsNumber": "G0026",
+          "morphology": "N-DFP"
+        },
+        {
+          "position": 6,
+          "text": "shamelessly",
+          "original": "ἀφόβως",
+          "transliteration": "aphobōs",
+          "strongsNumber": "G0870",
+          "morphology": "Adv"
+        },
+        {
+          "position": 7,
+          "text": "feasting [with you]",
+          "original": "συνευωχούμενοι",
+          "transliteration": "syneuōchoumenoi",
+          "strongsNumber": "G4910",
+          "morphology": "V-PPM/P-NMP"
+        },
+        {
+          "position": 8,
+          "text": "[but] shepherding",
+          "original": "ποιμαίνοντες",
+          "transliteration": "poimainontes",
+          "strongsNumber": "G4165",
+          "morphology": "V-PPA-NMP"
+        },
+        {
+          "position": 9,
+          "text": "[only] themselves",
+          "original": "ἑαυτοὺς",
+          "transliteration": "heautous",
+          "strongsNumber": "G1438",
+          "morphology": "RefPro-AM3P"
+        },
+        {
+          "position": 10,
+          "text": "[They are] clouds",
+          "original": "νεφέλαι",
+          "transliteration": "nephelai",
+          "strongsNumber": "G3507",
+          "morphology": "N-NFP"
+        },
+        {
+          "position": 11,
+          "text": "without water",
+          "original": "ἄνυδροι",
+          "transliteration": "anydroi",
+          "strongsNumber": "G0504",
+          "morphology": "Adj-NFP"
+        },
+        {
+          "position": 12,
+          "text": "carried along",
+          "original": "παραφερόμεναι",
+          "transliteration": "parapheromenai",
+          "strongsNumber": "G3911",
+          "morphology": "V-PPM/P-NFP"
+        },
+        {
+          "position": 13,
+          "text": "by",
+          "original": "ὑπὸ",
+          "transliteration": "hypo",
+          "strongsNumber": "G5259",
+          "morphology": "Prep"
+        },
+        {
+          "position": 14,
+          "text": "[the] wind",
+          "original": "ἀνέμων",
+          "transliteration": "anemōn",
+          "strongsNumber": "G0417",
+          "morphology": "N-GMP"
+        },
+        {
+          "position": 15,
+          "text": "fruitless",
+          "original": "ἄκαρπα",
+          "transliteration": "akarpa",
+          "strongsNumber": "G0175",
+          "morphology": "Adj-NNP"
+        },
+        {
+          "position": 16,
+          "text": "trees",
+          "original": "δένδρα",
+          "transliteration": "dendra",
+          "strongsNumber": "G1186",
+          "morphology": "N-NNP"
+        },
+        {
+          "position": 17,
+          "text": "in autumn",
+          "original": "φθινοπωρινὰ",
+          "transliteration": "phthinopōrina",
+          "strongsNumber": "G5352",
+          "morphology": "Adj-NNP"
+        },
+        {
+          "position": 18,
+          "text": "twice",
+          "original": "δὶς",
+          "transliteration": "dis",
+          "strongsNumber": "G1364",
+          "morphology": "Adv"
+        },
+        {
+          "position": 19,
+          "text": "dead",
+          "original": "ἀποθανόντα",
+          "transliteration": "apothanonta",
+          "strongsNumber": "G0599",
+          "morphology": "V-APA-NNP"
+        },
+        {
+          "position": 20,
+          "text": "after being uprooted",
+          "original": "ἐκριζωθέντα",
+          "transliteration": "ekrizōthenta",
+          "strongsNumber": "G1610",
+          "morphology": "V-APP-NNP"
+        }
+      ],
+      "13": [
+        {
+          "position": 0,
+          "text": "[They are] wild",
+          "original": "ἄγρια",
+          "transliteration": "agria",
+          "strongsNumber": "G0066",
+          "morphology": "Adj-NNP"
+        },
+        {
+          "position": 1,
+          "text": "waves",
+          "original": "κύματα",
+          "transliteration": "kymata",
+          "strongsNumber": "G2949",
+          "morphology": "N-NNP"
+        },
+        {
+          "position": 2,
+          "text": "of [the] sea",
+          "original": "θαλάσσης",
+          "transliteration": "thalassēs",
+          "strongsNumber": "G2281",
+          "morphology": "N-GFS"
+        },
+        {
+          "position": 3,
+          "text": "foaming up",
+          "original": "ἐπαφρίζοντα",
+          "transliteration": "epaphrizonta",
+          "strongsNumber": "G1890",
+          "morphology": "V-PPA-NNP"
+        },
+        {
+          "position": 4,
+          "text": "their",
+          "original": "ἑαυτῶν",
+          "transliteration": "heautōn",
+          "strongsNumber": "G1438",
+          "morphology": "RefPro-GN3P"
+        },
+        {
+          "position": 5,
+          "text": "[own]",
+          "original": "τὰς",
+          "transliteration": "tas",
+          "strongsNumber": "G3588",
+          "morphology": "Art-AFP"
+        },
+        {
+          "position": 6,
+          "text": "shame",
+          "original": "αἰσχύνας",
+          "transliteration": "aischynas",
+          "strongsNumber": "G0152",
+          "morphology": "N-AFP"
+        },
+        {
+          "position": 7,
+          "text": "wandering",
+          "original": "πλανῆται",
+          "transliteration": "planētai",
+          "strongsNumber": "G4107",
+          "morphology": "N-NMP"
+        },
+        {
+          "position": 8,
+          "text": "stars",
+          "original": "ἀστέρες",
+          "transliteration": "asteres",
+          "strongsNumber": "G0792",
+          "morphology": "N-NMP"
+        },
+        {
+          "position": 9,
+          "text": "for whom",
+          "original": "οἷς",
+          "transliteration": "hois",
+          "strongsNumber": "G3739",
+          "morphology": "RelPro-DMP"
+        },
+        {
+          "position": 10,
+          "text": "blackest",
+          "original": "ζόφος",
+          "transliteration": "zophos",
+          "strongsNumber": "G2217",
+          "morphology": "N-NMS"
+        },
+        {
+          "position": 11,
+          "text": "darkness",
+          "original": "σκότους",
+          "transliteration": "skotous",
+          "strongsNumber": "G4655",
+          "morphology": "N-GNS"
+        },
+        {
+          "position": 12,
+          "text": "has been reserved",
+          "original": "τετήρηται",
+          "transliteration": "tetērētai",
+          "strongsNumber": "G5083",
+          "morphology": "V-RIM/P-3S"
+        },
+        {
+          "position": 13,
+          "text": "forever",
+          "original": "αἰῶνα",
+          "transliteration": "aiōna",
+          "strongsNumber": "G0165",
+          "morphology": "N-AMS"
+        }
+      ],
+      "14": [
+        {
+          "position": 0,
+          "text": "Enoch",
+          "original": "Ἑνὼχ",
+          "transliteration": "Henōch",
+          "strongsNumber": "G1802",
+          "morphology": "N-NMS"
+        },
+        {
+          "position": 1,
+          "text": "[the] seventh",
+          "original": "ἕβδομος",
+          "transliteration": "hebdomos",
+          "strongsNumber": "G1442",
+          "morphology": "Adj-NMS"
+        },
+        {
+          "position": 2,
+          "text": "from",
+          "original": "ἀπὸ",
+          "transliteration": "apo",
+          "strongsNumber": "G0575",
+          "morphology": "Prep"
+        },
+        {
+          "position": 3,
+          "text": "Adam",
+          "original": "Ἀδὰμ",
+          "transliteration": "Adam",
+          "strongsNumber": "G0076",
+          "morphology": "N-GMS"
+        },
+        {
+          "position": 4,
+          "text": "also",
+          "original": "καὶ",
+          "transliteration": "kai",
+          "strongsNumber": "G2532",
+          "morphology": "Conj"
+        },
+        {
+          "position": 5,
+          "text": "prophesied",
+          "original": "Προεφήτευσεν*",
+          "transliteration": "Proephēteusen",
+          "strongsNumber": "G4395",
+          "morphology": "V-AIA-3S"
+        },
+        {
+          "position": 6,
+          "text": "about them",
+          "original": "τούτοις",
+          "transliteration": "toutois",
+          "strongsNumber": "G3778",
+          "morphology": "DPro-DMP"
+        },
+        {
+          "position": 7,
+          "text": "Behold",
+          "original": "Ἰδοὺ",
+          "transliteration": "Idou",
+          "strongsNumber": "G2400",
+          "morphology": "V-AMA-2S"
+        },
+        {
+          "position": 8,
+          "text": "[the] Lord",
+          "original": "Κύριος",
+          "transliteration": "Kyrios",
+          "strongsNumber": "G2962",
+          "morphology": "N-NMS"
+        },
+        {
+          "position": 9,
+          "text": "is coming",
+          "original": "ἦλθεν",
+          "transliteration": "ēlthen",
+          "strongsNumber": "G2064",
+          "morphology": "V-AIA-3S"
+        },
+        {
+          "position": 10,
+          "text": "with",
+          "original": "ἐν",
+          "transliteration": "en",
+          "strongsNumber": "G1722",
+          "morphology": "Prep"
+        },
+        {
+          "position": 11,
+          "text": "myriads",
+          "original": "μυριάσιν",
+          "transliteration": "myriasin",
+          "strongsNumber": "G3461",
+          "morphology": "N-DFP"
+        },
+        {
+          "position": 12,
+          "text": "of His",
+          "original": "αὐτοῦ",
+          "transliteration": "autou",
+          "strongsNumber": "G0846",
+          "morphology": "PPro-GM3S"
+        },
+        {
+          "position": 13,
+          "text": "holy [ones]",
+          "original": "ἁγίαις",
+          "transliteration": "hagiais",
+          "strongsNumber": "G0040",
+          "morphology": "Adj-DFP"
+        }
+      ],
+      "15": [
+        {
+          "position": 0,
+          "text": "to execute",
+          "original": "ποιῆσαι",
+          "transliteration": "poiēsai",
+          "strongsNumber": "G4160",
+          "morphology": "V-ANA"
+        },
+        {
+          "position": 1,
+          "text": "judgment",
+          "original": "κρίσιν",
+          "transliteration": "krisin",
+          "strongsNumber": "G2920",
+          "morphology": "N-AFS"
+        },
+        {
+          "position": 2,
+          "text": "on",
+          "original": "κατὰ",
+          "transliteration": "kata",
+          "strongsNumber": "G2596",
+          "morphology": "Prep"
+        },
+        {
+          "position": 3,
+          "text": "everyone",
+          "original": "πάντων",
+          "transliteration": "pantōn",
+          "strongsNumber": "G3956",
+          "morphology": "Adj-GMP"
+        },
+        {
+          "position": 4,
+          "text": "and",
+          "original": "καὶ",
+          "transliteration": "kai",
+          "strongsNumber": "G2532",
+          "morphology": "Conj"
+        },
+        {
+          "position": 5,
+          "text": "to convict",
+          "original": "ἐλέγξαι",
+          "transliteration": "elenxai",
+          "strongsNumber": "G1651",
+          "morphology": "V-ANA"
+        },
+        {
+          "position": 6,
+          "text": "all",
+          "original": "πάντας",
+          "transliteration": "pantas",
+          "strongsNumber": "G3956",
+          "morphology": "Adj-AMP"
+        },
+        {
+          "position": 7,
+          "text": "the",
+          "original": "τοὺς",
+          "transliteration": "tous",
+          "strongsNumber": "G3588",
+          "morphology": "Art-AMP"
+        },
+        {
+          "position": 8,
+          "text": "ungodly",
+          "original": "ἀσεβεῖς",
+          "transliteration": "asebeis",
+          "strongsNumber": "G0765",
+          "morphology": "Adj-NMP"
+        },
+        {
+          "position": 9,
+          "text": "of",
+          "original": "περὶ",
+          "transliteration": "peri",
+          "strongsNumber": "G4012",
+          "morphology": "Prep"
+        },
+        {
+          "position": 10,
+          "text": "every",
+          "original": "πάντων",
+          "transliteration": "pantōn",
+          "strongsNumber": "G3956",
+          "morphology": "Adj-GNP"
+        },
+        {
+          "position": 11,
+          "text": ". . .",
+          "original": "αὐτῶν",
+          "transliteration": "autōn",
+          "strongsNumber": "G0846",
+          "morphology": "PPro-GM3P"
+        },
+        {
+          "position": 12,
+          "text": "ungodly",
+          "original": "ἠσέβησαν",
+          "transliteration": "ēsebēsan",
+          "strongsNumber": "G0764",
+          "morphology": "V-AIA-3P"
+        },
+        {
+          "position": 13,
+          "text": "act",
+          "original": "ἔργων",
+          "transliteration": "ergōn",
+          "strongsNumber": "G2041",
+          "morphology": "N-GNP"
+        },
+        {
+          "position": 14,
+          "text": "of wickedness",
+          "original": "ἀσεβείας",
+          "transliteration": "asebeias",
+          "strongsNumber": "G0763",
+          "morphology": "N-GFS"
+        },
+        {
+          "position": 15,
+          "text": "and",
+          "original": "καὶ",
+          "transliteration": "kai",
+          "strongsNumber": "G2532",
+          "morphology": "Conj"
+        },
+        {
+          "position": 16,
+          "text": "every",
+          "original": "πάντων",
+          "transliteration": "pantōn",
+          "strongsNumber": "G3956",
+          "morphology": "Adj-GNP"
+        },
+        {
+          "position": 17,
+          "text": "harsh [word]",
+          "original": "σκληρῶν",
+          "transliteration": "sklērōn",
+          "strongsNumber": "G4642",
+          "morphology": "Adj-GNP"
+        },
+        {
+          "position": 18,
+          "text": "spoken",
+          "original": "ἐλάλησαν",
+          "transliteration": "elalēsan",
+          "strongsNumber": "G2980",
+          "morphology": "V-AIA-3P"
+        },
+        {
+          "position": 19,
+          "text": "against",
+          "original": "κατ’",
+          "transliteration": "kat’",
+          "strongsNumber": "G2596",
+          "morphology": "Prep"
+        },
+        {
+          "position": 20,
+          "text": "Him",
+          "original": "αὐτοῦ",
+          "transliteration": "autou",
+          "strongsNumber": "G0846",
+          "morphology": "PPro-GM3S"
+        },
+        {
+          "position": 21,
+          "text": "by ungodly",
+          "original": "ἀσεβεῖς",
+          "transliteration": "asebeis",
+          "strongsNumber": "G0765",
+          "morphology": "Adj-NMP"
+        },
+        {
+          "position": 22,
+          "text": "sinners",
+          "original": "ἁμαρτωλοὶ",
+          "transliteration": "hamartōloi",
+          "strongsNumber": "G0268",
+          "morphology": "Adj-NMP"
+        }
+      ],
+      "16": [
+        {
+          "position": 0,
+          "text": "These [men]",
+          "original": "Οὗτοί",
+          "transliteration": "Houtoi",
+          "strongsNumber": "G3778",
+          "morphology": "DPro-NMP"
+        },
+        {
+          "position": 1,
+          "text": "are",
+          "original": "εἰσιν",
+          "transliteration": "eisin",
+          "strongsNumber": "G1510",
+          "morphology": "V-PIA-3P"
+        },
+        {
+          "position": 2,
+          "text": "discontented",
+          "original": "μεμψίμοιροι",
+          "transliteration": "mempsimoiroi",
+          "strongsNumber": "G3202",
+          "morphology": "Adj-NMP"
+        },
+        {
+          "position": 3,
+          "text": "grumblers",
+          "original": "γογγυσταί",
+          "transliteration": "gongystai",
+          "strongsNumber": "G1113",
+          "morphology": "N-NMP"
+        },
+        {
+          "position": 4,
+          "text": "following",
+          "original": "πορευόμενοι",
+          "transliteration": "poreuomenoi",
+          "strongsNumber": "G4198",
+          "morphology": "V-PPM/P-NMP"
+        },
+        {
+          "position": 5,
+          "text": "after",
+          "original": "κατὰ",
+          "transliteration": "kata",
+          "strongsNumber": "G2596",
+          "morphology": "Prep"
+        },
+        {
+          "position": 6,
+          "text": "[their]",
+          "original": "τὰς",
+          "transliteration": "tas",
+          "strongsNumber": "G3588",
+          "morphology": "Art-AFP"
+        },
+        {
+          "position": 7,
+          "text": "own",
+          "original": "αὐτῶν",
+          "transliteration": "autōn",
+          "strongsNumber": "G0846",
+          "morphology": "PPro-GM3P"
+        },
+        {
+          "position": 8,
+          "text": "lusts",
+          "original": "ἐπιθυμίας",
+          "transliteration": "epithymias",
+          "strongsNumber": "G1939",
+          "morphology": "N-AFP"
+        },
+        {
+          "position": 9,
+          "text": "their",
+          "original": "αὐτῶν",
+          "transliteration": "autōn",
+          "strongsNumber": "G0846",
+          "morphology": "PPro-GM3P"
+        },
+        {
+          "position": 10,
+          "text": "mouths",
+          "original": "στόμα",
+          "transliteration": "stoma",
+          "strongsNumber": "G4750",
+          "morphology": "N-NNS"
+        },
+        {
+          "position": 11,
+          "text": "spew",
+          "original": "λαλεῖ",
+          "transliteration": "lalei",
+          "strongsNumber": "G2980",
+          "morphology": "V-PIA-3S"
+        },
+        {
+          "position": 12,
+          "text": "arrogance",
+          "original": "ὑπέρογκα",
+          "transliteration": "hyperonka",
+          "strongsNumber": "G5246",
+          "morphology": "Adj-ANP"
+        },
+        {
+          "position": 13,
+          "text": "they flatter",
+          "original": "θαυμάζοντες",
+          "transliteration": "thaumazontes",
+          "strongsNumber": "G2296",
+          "morphology": "V-PPA-NMP"
+        },
+        {
+          "position": 14,
+          "text": "others",
+          "original": "πρόσωπα",
+          "transliteration": "prosōpa",
+          "strongsNumber": "G4383",
+          "morphology": "N-ANP"
+        },
+        {
+          "position": 15,
+          "text": "for their own",
+          "original": "χάριν",
+          "transliteration": "charin",
+          "strongsNumber": "G5484",
+          "morphology": "Prep"
+        },
+        {
+          "position": 16,
+          "text": "advantage",
+          "original": "ὠφελείας",
+          "transliteration": "ōpheleias",
+          "strongsNumber": "G5622",
+          "morphology": "N-GFS"
+        }
+      ],
+      "17": [
+        {
+          "position": 0,
+          "text": "But",
+          "original": "δέ",
+          "transliteration": "de",
+          "strongsNumber": "G1161",
+          "morphology": "Conj"
+        },
+        {
+          "position": 1,
+          "text": "you",
+          "original": "Ὑμεῖς",
+          "transliteration": "Hymeis",
+          "strongsNumber": "G4771",
+          "morphology": "PPro-N2P"
+        },
+        {
+          "position": 2,
+          "text": "beloved",
+          "original": "ἀγαπητοί",
+          "transliteration": "agapētoi",
+          "strongsNumber": "G0027",
+          "morphology": "Adj-VMP"
+        },
+        {
+          "position": 3,
+          "text": "remember",
+          "original": "μνήσθητε",
+          "transliteration": "mnēsthēte",
+          "strongsNumber": "G3403",
+          "morphology": "V-AMP-2P"
+        },
+        {
+          "position": 4,
+          "text": "what",
+          "original": "τῶν",
+          "transliteration": "tōn",
+          "strongsNumber": "G3588",
+          "morphology": "Art-GNP"
+        },
+        {
+          "position": 5,
+          "text": "was foretold",
+          "original": "προειρημένων",
+          "transliteration": "proeirēmenōn",
+          "strongsNumber": "G4302",
+          "morphology": "V-RPM/P-GNP"
+        },
+        {
+          "position": 6,
+          "text": "by",
+          "original": "ὑπὸ",
+          "transliteration": "hypo",
+          "strongsNumber": "G5259",
+          "morphology": "Prep"
+        },
+        {
+          "position": 7,
+          "text": "the",
+          "original": "τῶν",
+          "transliteration": "tōn",
+          "strongsNumber": "G3588",
+          "morphology": "Art-GMP"
+        },
+        {
+          "position": 8,
+          "text": "apostles",
+          "original": "ἀποστόλων",
+          "transliteration": "apostolōn",
+          "strongsNumber": "G0652",
+          "morphology": "N-GMP"
+        },
+        {
+          "position": 9,
+          "text": "of our",
+          "original": "ἡμῶν",
+          "transliteration": "hēmōn",
+          "strongsNumber": "G1473",
+          "morphology": "PPro-G1P"
+        },
+        {
+          "position": 10,
+          "text": "Lord",
+          "original": "Κυρίου",
+          "transliteration": "Kyriou",
+          "strongsNumber": "G2962",
+          "morphology": "N-GMS"
+        },
+        {
+          "position": 11,
+          "text": "Jesus",
+          "original": "Ἰησοῦ",
+          "transliteration": "Iēsou",
+          "strongsNumber": "G2424",
+          "morphology": "N-GMS"
+        },
+        {
+          "position": 12,
+          "text": "Christ",
+          "original": "Χριστοῦ",
+          "transliteration": "Christou",
+          "strongsNumber": "G5547",
+          "morphology": "N-GMS"
+        }
+      ],
+      "18": [
+        {
+          "position": 0,
+          "text": "when",
+          "original": "ὅτι",
+          "transliteration": "hoti",
+          "strongsNumber": "G3754",
+          "morphology": "Conj"
+        },
+        {
+          "position": 1,
+          "text": "they said",
+          "original": "ἔλεγον",
+          "transliteration": "elegon",
+          "strongsNumber": "G2036",
+          "morphology": "V-IIA-3P"
+        },
+        {
+          "position": 2,
+          "text": "to you",
+          "original": "ὑμῖν",
+          "transliteration": "hymin",
+          "strongsNumber": "G4771",
+          "morphology": "PPro-D2P"
+        },
+        {
+          "position": 3,
+          "text": "In",
+          "original": "Ἐπ’",
+          "transliteration": "Ep’",
+          "strongsNumber": "G1909",
+          "morphology": "Prep"
+        },
+        {
+          "position": 4,
+          "text": "[the] last",
+          "original": "ἐσχάτου",
+          "transliteration": "eschatou",
+          "strongsNumber": "G2078",
+          "morphology": "Adj-GMS"
+        },
+        {
+          "position": 5,
+          "text": "times",
+          "original": "χρόνου",
+          "transliteration": "chronou",
+          "strongsNumber": "G5550",
+          "morphology": "N-GMS"
+        },
+        {
+          "position": 6,
+          "text": "there will be",
+          "original": "ἔσονται",
+          "transliteration": "esontai",
+          "strongsNumber": "G1510",
+          "morphology": "V-FIM-3P"
+        },
+        {
+          "position": 7,
+          "text": "scoffers",
+          "original": "ἐμπαῖκται",
+          "transliteration": "empaiktai",
+          "strongsNumber": "G1703",
+          "morphology": "N-NMP"
+        },
+        {
+          "position": 8,
+          "text": "who will follow",
+          "original": "πορευόμενοι",
+          "transliteration": "poreuomenoi",
+          "strongsNumber": "G4198",
+          "morphology": "V-PPM/P-NMP"
+        },
+        {
+          "position": 9,
+          "text": "after",
+          "original": "κατὰ",
+          "transliteration": "kata",
+          "strongsNumber": "G2596",
+          "morphology": "Prep"
+        },
+        {
+          "position": 10,
+          "text": "their own",
+          "original": "ἑαυτῶν",
+          "transliteration": "heautōn",
+          "strongsNumber": "G1438",
+          "morphology": "RefPro-GM3P"
+        },
+        {
+          "position": 11,
+          "text": "ungodly",
+          "original": "ἀσεβειῶν",
+          "transliteration": "asebeiōn",
+          "strongsNumber": "G0763",
+          "morphology": "N-GFP"
+        },
+        {
+          "position": 12,
+          "text": "desires",
+          "original": "ἐπιθυμίας",
+          "transliteration": "epithymias",
+          "strongsNumber": "G1939",
+          "morphology": "N-AFP"
+        }
+      ],
+      "19": [
+        {
+          "position": 0,
+          "text": "These",
+          "original": "Οὗτοί",
+          "transliteration": "Houtoi",
+          "strongsNumber": "G3778",
+          "morphology": "DPro-NMP"
+        },
+        {
+          "position": 1,
+          "text": "are",
+          "original": "εἰσιν",
+          "transliteration": "eisin",
+          "strongsNumber": "G1510",
+          "morphology": "V-PIA-3P"
+        },
+        {
+          "position": 2,
+          "text": "the [ones who]",
+          "original": "οἱ",
+          "transliteration": "hoi",
+          "strongsNumber": "G3588",
+          "morphology": "Art-NMP"
+        },
+        {
+          "position": 3,
+          "text": "cause divisions",
+          "original": "ἀποδιορίζοντες",
+          "transliteration": "apodiorizontes",
+          "strongsNumber": "G0592",
+          "morphology": "V-PPA-NMP"
+        },
+        {
+          "position": 4,
+          "text": "[who are] worldly",
+          "original": "ψυχικοί",
+          "transliteration": "psychikoi",
+          "strongsNumber": "G5591",
+          "morphology": "Adj-NMP"
+        },
+        {
+          "position": 5,
+          "text": "[and] devoid of",
+          "original": "ἔχοντες",
+          "transliteration": "echontes",
+          "strongsNumber": "G2192",
+          "morphology": "V-PPA-NMP"
+        },
+        {
+          "position": 6,
+          "text": "[the] Spirit",
+          "original": "Πνεῦμα",
+          "transliteration": "Pneuma",
+          "strongsNumber": "G4151",
+          "morphology": "N-ANS"
+        }
+      ],
+      "20": [
+        {
+          "position": 0,
+          "text": "But",
+          "original": "δέ",
+          "transliteration": "de",
+          "strongsNumber": "G1161",
+          "morphology": "Conj"
+        },
+        {
+          "position": 1,
+          "text": "you",
+          "original": "Ὑμεῖς",
+          "transliteration": "Hymeis",
+          "strongsNumber": "G4771",
+          "morphology": "PPro-N2P"
+        },
+        {
+          "position": 2,
+          "text": "beloved",
+          "original": "ἀγαπητοί",
+          "transliteration": "agapētoi",
+          "strongsNumber": "G0027",
+          "morphology": "Adj-VMP"
+        },
+        {
+          "position": 3,
+          "text": "by building",
+          "original": "ἐποικοδομοῦντες",
+          "transliteration": "epoikodomountes",
+          "strongsNumber": "G2026",
+          "morphology": "V-PPA-NMP"
+        },
+        {
+          "position": 4,
+          "text": "yourselves {up}",
+          "original": "ἑαυτοὺς",
+          "transliteration": "heautous",
+          "strongsNumber": "G1438",
+          "morphology": "RefPro-AM3P"
+        },
+        {
+          "position": 5,
+          "text": "in",
+          "original": "τῇ",
+          "transliteration": "tē",
+          "strongsNumber": "G3588",
+          "morphology": "Art-DFS"
+        },
+        {
+          "position": 6,
+          "text": "your",
+          "original": "ὑμῶν",
+          "transliteration": "hymōn",
+          "strongsNumber": "G4771",
+          "morphology": "PPro-G2P"
+        },
+        {
+          "position": 7,
+          "text": "most holy",
+          "original": "ἁγιωτάτῃ",
+          "transliteration": "hagiōtatē",
+          "strongsNumber": "G0040",
+          "morphology": "Adj-DFS-S"
+        },
+        {
+          "position": 8,
+          "text": "faith",
+          "original": "πίστει",
+          "transliteration": "pistei",
+          "strongsNumber": "G4102",
+          "morphology": "N-DFS"
+        },
+        {
+          "position": 9,
+          "text": "[and] praying",
+          "original": "προσευχόμενοι",
+          "transliteration": "proseuchomenoi",
+          "strongsNumber": "G4336",
+          "morphology": "V-PPM/P-NMP"
+        },
+        {
+          "position": 10,
+          "text": "in",
+          "original": "ἐν",
+          "transliteration": "en",
+          "strongsNumber": "G1722",
+          "morphology": "Prep"
+        },
+        {
+          "position": 11,
+          "text": "[the] Holy",
+          "original": "Ἁγίῳ",
+          "transliteration": "Hagiō",
+          "strongsNumber": "G0040",
+          "morphology": "Adj-DNS"
+        },
+        {
+          "position": 12,
+          "text": "Spirit",
+          "original": "Πνεύματι",
+          "transliteration": "Pneumati",
+          "strongsNumber": "G4151",
+          "morphology": "N-DNS"
+        }
+      ],
+      "21": [
+        {
+          "position": 0,
+          "text": "keep",
+          "original": "τηρήσατε",
+          "transliteration": "tērēsate",
+          "strongsNumber": "G5083",
+          "morphology": "V-AMA-2P"
+        },
+        {
+          "position": 1,
+          "text": "yourselves",
+          "original": "ἑαυτοὺς",
+          "transliteration": "heautous",
+          "strongsNumber": "G1438",
+          "morphology": "RefPro-AM3P"
+        },
+        {
+          "position": 2,
+          "text": "in",
+          "original": "ἐν",
+          "transliteration": "en",
+          "strongsNumber": "G1722",
+          "morphology": "Prep"
+        },
+        {
+          "position": 3,
+          "text": "[the] love",
+          "original": "ἀγάπῃ",
+          "transliteration": "agapē",
+          "strongsNumber": "G0026",
+          "morphology": "N-DFS"
+        },
+        {
+          "position": 4,
+          "text": "of God",
+          "original": "Θεοῦ",
+          "transliteration": "Theou",
+          "strongsNumber": "G2316",
+          "morphology": "N-GMS"
+        },
+        {
+          "position": 5,
+          "text": "as you await",
+          "original": "προσδεχόμενοι",
+          "transliteration": "prosdechomenoi",
+          "strongsNumber": "G4327",
+          "morphology": "V-PPM/P-NMP"
+        },
+        {
+          "position": 6,
+          "text": "the",
+          "original": "τὸ",
+          "transliteration": "to",
+          "strongsNumber": "G3588",
+          "morphology": "Art-ANS"
+        },
+        {
+          "position": 7,
+          "text": "mercy",
+          "original": "ἔλεος",
+          "transliteration": "eleos",
+          "strongsNumber": "G1656",
+          "morphology": "N-ANS"
+        },
+        {
+          "position": 8,
+          "text": "of our",
+          "original": "ἡμῶν",
+          "transliteration": "hēmōn",
+          "strongsNumber": "G1473",
+          "morphology": "PPro-G1P"
+        },
+        {
+          "position": 9,
+          "text": "Lord",
+          "original": "Κυρίου",
+          "transliteration": "Kyriou",
+          "strongsNumber": "G2962",
+          "morphology": "N-GMS"
+        },
+        {
+          "position": 10,
+          "text": "Jesus",
+          "original": "Ἰησοῦ",
+          "transliteration": "Iēsou",
+          "strongsNumber": "G2424",
+          "morphology": "N-GMS"
+        },
+        {
+          "position": 11,
+          "text": "Christ",
+          "original": "Χριστοῦ",
+          "transliteration": "Christou",
+          "strongsNumber": "G5547",
+          "morphology": "N-GMS"
+        },
+        {
+          "position": 12,
+          "text": "to bring [you]",
+          "original": "εἰς",
+          "transliteration": "eis",
+          "strongsNumber": "G1519",
+          "morphology": "Prep"
+        },
+        {
+          "position": 13,
+          "text": "eternal",
+          "original": "αἰώνιον",
+          "transliteration": "aiōnion",
+          "strongsNumber": "G0166",
+          "morphology": "Adj-AFS"
+        },
+        {
+          "position": 14,
+          "text": "life",
+          "original": "ζωὴν",
+          "transliteration": "zōēn",
+          "strongsNumber": "G2222",
+          "morphology": "N-AFS"
+        }
+      ],
+      "22": [
+        {
+          "position": 0,
+          "text": "And",
+          "original": "Καὶ",
+          "transliteration": "Kai",
+          "strongsNumber": "G2532",
+          "morphology": "Conj"
+        },
+        {
+          "position": 1,
+          "text": "indeed",
+          "original": "μὲν",
+          "transliteration": "men",
+          "strongsNumber": "G3303",
+          "morphology": "Conj"
+        },
+        {
+          "position": 2,
+          "text": "have mercy on",
+          "original": "ἐλεᾶτε",
+          "transliteration": "eleate",
+          "strongsNumber": "G1653",
+          "morphology": "V-PMA-2P"
+        },
+        {
+          "position": 3,
+          "text": "those who",
+          "original": "οὓς",
+          "transliteration": "hous",
+          "strongsNumber": "G3739",
+          "morphology": "RelPro-AMP"
+        },
+        {
+          "position": 4,
+          "text": "doubt",
+          "original": "διακρινομένους",
+          "transliteration": "diakrinomenous",
+          "strongsNumber": "G1252",
+          "morphology": "V-PPM-AMP"
+        }
+      ],
+      "23": [
+        {
+          "position": 0,
+          "text": "save",
+          "original": "σῴζετε",
+          "transliteration": "sōzete",
+          "strongsNumber": "G4982",
+          "morphology": "V-PMA-2P"
+        },
+        {
+          "position": 1,
+          "text": "others",
+          "original": "οὓς",
+          "transliteration": "hous",
+          "strongsNumber": "G3739",
+          "morphology": "RelPro-AMP"
+        },
+        {
+          "position": 2,
+          "text": "by snatching [them]",
+          "original": "ἁρπάζοντες",
+          "transliteration": "harpazontes",
+          "strongsNumber": "G0726",
+          "morphology": "V-PPA-NMP"
+        },
+        {
+          "position": 3,
+          "text": "from",
+          "original": "ἐκ",
+          "transliteration": "ek",
+          "strongsNumber": "G1537",
+          "morphology": "Prep"
+        },
+        {
+          "position": 4,
+          "text": "[the] fire",
+          "original": "πυρὸς",
+          "transliteration": "pyros",
+          "strongsNumber": "G4442",
+          "morphology": "N-GNS"
+        },
+        {
+          "position": 5,
+          "text": "and",
+          "original": "δὲ",
+          "transliteration": "de",
+          "strongsNumber": "G1161",
+          "morphology": "Conj"
+        },
+        {
+          "position": 6,
+          "text": "to still others",
+          "original": "οὓς",
+          "transliteration": "hous",
+          "strongsNumber": "G3739",
+          "morphology": "RelPro-AMP"
+        },
+        {
+          "position": 7,
+          "text": "show mercy",
+          "original": "ἐλεᾶτε",
+          "transliteration": "eleate",
+          "strongsNumber": "G1653",
+          "morphology": "V-PMA-2P"
+        },
+        {
+          "position": 8,
+          "text": "[ tempered ] with",
+          "original": "ἐν",
+          "transliteration": "en",
+          "strongsNumber": "G1722",
+          "morphology": "Prep"
+        },
+        {
+          "position": 9,
+          "text": "fear",
+          "original": "φόβῳ",
+          "transliteration": "phobō",
+          "strongsNumber": "G5401",
+          "morphology": "N-DMS"
+        },
+        {
+          "position": 10,
+          "text": "hating",
+          "original": "μισοῦντες",
+          "transliteration": "misountes",
+          "strongsNumber": "G3404",
+          "morphology": "V-PPA-NMP"
+        },
+        {
+          "position": 11,
+          "text": "even",
+          "original": "καὶ",
+          "transliteration": "kai",
+          "strongsNumber": "G2532",
+          "morphology": "Conj"
+        },
+        {
+          "position": 12,
+          "text": "the",
+          "original": "τὸν",
+          "transliteration": "ton",
+          "strongsNumber": "G3588",
+          "morphology": "Art-AMS"
+        },
+        {
+          "position": 13,
+          "text": "clothing",
+          "original": "χιτῶνα",
+          "transliteration": "chitōna",
+          "strongsNumber": "G5509",
+          "morphology": "N-AMS"
+        },
+        {
+          "position": 14,
+          "text": "stained",
+          "original": "ἐσπιλωμένον",
+          "transliteration": "espilōmenon",
+          "strongsNumber": "G4695",
+          "morphology": "V-RPM/P-AMS"
+        },
+        {
+          "position": 15,
+          "text": "by",
+          "original": "ἀπὸ",
+          "transliteration": "apo",
+          "strongsNumber": "G0575",
+          "morphology": "Prep"
+        },
+        {
+          "position": 16,
+          "text": "the",
+          "original": "τῆς",
+          "transliteration": "tēs",
+          "strongsNumber": "G3588",
+          "morphology": "Art-GFS"
+        },
+        {
+          "position": 17,
+          "text": "flesh",
+          "original": "σαρκὸς",
+          "transliteration": "sarkos",
+          "strongsNumber": "G4561",
+          "morphology": "N-GFS"
+        }
+      ],
+      "24": [
+        {
+          "position": 0,
+          "text": "Now",
+          "original": "δὲ",
+          "transliteration": "de",
+          "strongsNumber": "G1161",
+          "morphology": "Conj"
+        },
+        {
+          "position": 1,
+          "text": "to Him who",
+          "original": "Τῷ",
+          "transliteration": "Tō",
+          "strongsNumber": "G3588",
+          "morphology": "Art-DMS"
+        },
+        {
+          "position": 2,
+          "text": "is able",
+          "original": "δυναμένῳ",
+          "transliteration": "dynamenō",
+          "strongsNumber": "G1410",
+          "morphology": "V-PPM/P-DMS"
+        },
+        {
+          "position": 3,
+          "text": "to keep",
+          "original": "φυλάξαι",
+          "transliteration": "phylaxai",
+          "strongsNumber": "G5442",
+          "morphology": "V-ANA"
+        },
+        {
+          "position": 4,
+          "text": "you",
+          "original": "ὑμᾶς",
+          "transliteration": "hymas",
+          "strongsNumber": "G4771",
+          "morphology": "PPro-A2P"
+        },
+        {
+          "position": 5,
+          "text": "from stumbling",
+          "original": "ἀπταίστους",
+          "transliteration": "aptaistous",
+          "strongsNumber": "G0679",
+          "morphology": "Adj-AMP"
+        },
+        {
+          "position": 6,
+          "text": "and",
+          "original": "καὶ",
+          "transliteration": "kai",
+          "strongsNumber": "G2532",
+          "morphology": "Conj"
+        },
+        {
+          "position": 7,
+          "text": "to present [you]",
+          "original": "στῆσαι",
+          "transliteration": "stēsai",
+          "strongsNumber": "G2476",
+          "morphology": "V-ANA"
+        },
+        {
+          "position": 8,
+          "text": "unblemished",
+          "original": "ἀμώμους",
+          "transliteration": "amōmous",
+          "strongsNumber": "G0299",
+          "morphology": "Adj-AMP"
+        },
+        {
+          "position": 9,
+          "text": "in His",
+          "original": "αὐτοῦ",
+          "transliteration": "autou",
+          "strongsNumber": "G0846",
+          "morphology": "PPro-GM3S"
+        },
+        {
+          "position": 10,
+          "text": "glorious",
+          "original": "δόξης",
+          "transliteration": "doxēs",
+          "strongsNumber": "G1391",
+          "morphology": "N-GFS"
+        },
+        {
+          "position": 11,
+          "text": "presence",
+          "original": "κατενώπιον",
+          "transliteration": "katenōpion",
+          "strongsNumber": "G2714",
+          "morphology": "Prep"
+        },
+        {
+          "position": 12,
+          "text": "with",
+          "original": "ἐν",
+          "transliteration": "en",
+          "strongsNumber": "G1722",
+          "morphology": "Prep"
+        },
+        {
+          "position": 13,
+          "text": "great joy",
+          "original": "ἀγαλλιάσει",
+          "transliteration": "agalliasei",
+          "strongsNumber": "G0020",
+          "morphology": "N-DFS"
+        }
+      ],
+      "25": [
+        {
+          "position": 0,
+          "text": "to [the] only",
+          "original": "μόνῳ",
+          "transliteration": "monō",
+          "strongsNumber": "G3441",
+          "morphology": "Adj-DMS"
+        },
+        {
+          "position": 1,
+          "text": "God",
+          "original": "Θεῷ",
+          "transliteration": "Theō",
+          "strongsNumber": "G2316",
+          "morphology": "N-DMS"
+        },
+        {
+          "position": 2,
+          "text": "our",
+          "original": "ἡμῶν",
+          "transliteration": "hēmōn",
+          "strongsNumber": "G1473",
+          "morphology": "PPro-G1P"
+        },
+        {
+          "position": 3,
+          "text": "Savior",
+          "original": "Σωτῆρι",
+          "transliteration": "Sōtēri",
+          "strongsNumber": "G4990",
+          "morphology": "N-DMS"
+        },
+        {
+          "position": 4,
+          "text": "[be] glory",
+          "original": "δόξα",
+          "transliteration": "doxa",
+          "strongsNumber": "G1391",
+          "morphology": "N-NFS"
+        },
+        {
+          "position": 5,
+          "text": "majesty",
+          "original": "μεγαλωσύνη",
+          "transliteration": "megalōsynē",
+          "strongsNumber": "G3172",
+          "morphology": "N-NFS"
+        },
+        {
+          "position": 6,
+          "text": "dominion",
+          "original": "κράτος",
+          "transliteration": "kratos",
+          "strongsNumber": "G2904",
+          "morphology": "N-NNS"
+        },
+        {
+          "position": 7,
+          "text": "and",
+          "original": "καὶ",
+          "transliteration": "kai",
+          "strongsNumber": "G2532",
+          "morphology": "Conj"
+        },
+        {
+          "position": 8,
+          "text": "authority",
+          "original": "ἐξουσία",
+          "transliteration": "exousia",
+          "strongsNumber": "G1849",
+          "morphology": "N-NFS"
+        },
+        {
+          "position": 9,
+          "text": "through",
+          "original": "διὰ",
+          "transliteration": "dia",
+          "strongsNumber": "G1223",
+          "morphology": "Prep"
+        },
+        {
+          "position": 10,
+          "text": "Jesus",
+          "original": "Ἰησοῦ",
+          "transliteration": "Iēsou",
+          "strongsNumber": "G2424",
+          "morphology": "N-GMS"
+        },
+        {
+          "position": 11,
+          "text": "Christ",
+          "original": "Χριστοῦ",
+          "transliteration": "Christou",
+          "strongsNumber": "G5547",
+          "morphology": "N-GMS"
+        },
+        {
+          "position": 12,
+          "text": "our",
+          "original": "ἡμῶν",
+          "transliteration": "hēmōn",
+          "strongsNumber": "G1473",
+          "morphology": "PPro-G1P"
+        },
+        {
+          "position": 13,
+          "text": "Lord",
+          "original": "Κυρίου",
+          "transliteration": "Kyriou",
+          "strongsNumber": "G2962",
+          "morphology": "N-GMS"
+        },
+        {
+          "position": 14,
+          "text": "before",
+          "original": "πρὸ",
+          "transliteration": "pro",
+          "strongsNumber": "G4253",
+          "morphology": "Prep"
+        },
+        {
+          "position": 15,
+          "text": "all",
+          "original": "παντὸς",
+          "transliteration": "pantos",
+          "strongsNumber": "G3956",
+          "morphology": "Adj-GMS"
+        },
+        {
+          "position": 16,
+          "text": "time",
+          "original": "αἰῶνος",
+          "transliteration": "aiōnos",
+          "strongsNumber": "G0165",
+          "morphology": "N-GMS"
+        },
+        {
+          "position": 17,
+          "text": "and",
+          "original": "καὶ",
+          "transliteration": "kai",
+          "strongsNumber": "G2532",
+          "morphology": "Conj"
+        },
+        {
+          "position": 18,
+          "text": "now",
+          "original": "νῦν",
+          "transliteration": "nyn",
+          "strongsNumber": "G3568",
+          "morphology": "Adv"
+        },
+        {
+          "position": 19,
+          "text": "and",
+          "original": "καὶ",
+          "transliteration": "kai",
+          "strongsNumber": "G2532",
+          "morphology": "Conj"
+        },
+        {
+          "position": 20,
+          "text": "for",
+          "original": "εἰς",
+          "transliteration": "eis",
+          "strongsNumber": "G1519",
+          "morphology": "Prep"
+        },
+        {
+          "position": 21,
+          "text": "all",
+          "original": "πάντας",
+          "transliteration": "pantas",
+          "strongsNumber": "G3956",
+          "morphology": "Adj-AMP"
+        },
+        {
+          "position": 22,
+          "text": "eternity",
+          "original": "αἰῶνας",
+          "transliteration": "aiōnas",
+          "strongsNumber": "G0165",
+          "morphology": "N-AMP"
+        },
+        {
+          "position": 23,
+          "text": "Amen",
+          "original": "Ἀμήν",
+          "transliteration": "Amēn",
+          "strongsNumber": "G0281",
+          "morphology": "Heb"
+        }
+      ]
+    }
+  }
+}

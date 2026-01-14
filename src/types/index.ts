@@ -56,6 +56,29 @@ export interface OriginalLanguageWord {
   partOfSpeech?: string;
 }
 
+// Interlinear types for word-by-word display
+export interface InterlinearWord {
+  position: number;
+  text: string; // English/BSB word
+  original: string; // Greek/Hebrew characters
+  transliteration: string;
+  strongsNumber: string; // H#### or G####
+  morphology?: string; // Part of speech, tense, etc.
+}
+
+export interface InterlinearVerse {
+  book: string;
+  chapter: number;
+  verse: number;
+  words: InterlinearWord[];
+}
+
+export interface InterlinearChapter {
+  book: string;
+  chapter: number;
+  verses: InterlinearVerse[];
+}
+
 // Game types for Berean Challenge
 export type GameMode = 'verse_detective' | 'context_clues' | 'word_connections';
 export type Difficulty = 'easy' | 'medium' | 'hard';

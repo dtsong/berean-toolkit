@@ -1,0 +1,6811 @@
+{
+  "book": "MAL",
+  "chapters": {
+    "1": {
+      "1": [
+        {
+          "position": 0,
+          "text": "[This is] the burden",
+          "original": "מַשָּׂ֥א",
+          "transliteration": "maś·śā",
+          "strongsNumber": "H4853",
+          "morphology": "N-msc"
+        },
+        {
+          "position": 1,
+          "text": "of the word",
+          "original": "דְבַר־",
+          "transliteration": "ḏə·ḇar-",
+          "strongsNumber": "H1697",
+          "morphology": "N-msc"
+        },
+        {
+          "position": 2,
+          "text": "of the LORD",
+          "original": "יְהוָ֖ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 3,
+          "text": "to",
+          "original": "אֶל־",
+          "transliteration": "’el-",
+          "strongsNumber": "H0413",
+          "morphology": "Prep"
+        },
+        {
+          "position": 4,
+          "text": "Israel",
+          "original": "יִשְׂרָאֵ֑ל",
+          "transliteration": "yiś·rā·’êl",
+          "strongsNumber": "H3478",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 5,
+          "text": "through",
+          "original": "בְּיַ֖ד",
+          "transliteration": "bə·yaḏ",
+          "strongsNumber": "H3027",
+          "morphology": "Prep-b | N-fsc"
+        },
+        {
+          "position": 6,
+          "text": "Malachi",
+          "original": "מַלְאָכִֽי׃",
+          "transliteration": "mal·’ā·ḵî",
+          "strongsNumber": "H4401",
+          "morphology": "N-proper-ms"
+        }
+      ],
+      "2": [
+        {
+          "position": 0,
+          "text": "I have loved you",
+          "original": "אָהַ֤בְתִּי",
+          "transliteration": "’ā·haḇ·tî",
+          "strongsNumber": "H0157",
+          "morphology": "V-Qal-Perf-1cs"
+        },
+        {
+          "position": 1,
+          "text": "says",
+          "original": "אָמַ֣ר",
+          "transliteration": "’ā·mar",
+          "strongsNumber": "H0559",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 2,
+          "text": "the LORD",
+          "original": "יְהוָ֔ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 3,
+          "text": "But you ask",
+          "original": "וַאֲמַרְתֶּ֖ם",
+          "transliteration": "wa·’ă·mar·tem",
+          "strongsNumber": "H0559",
+          "morphology": "Conj-w | V-Qal-ConjPerf-2mp"
+        },
+        {
+          "position": 4,
+          "text": "How",
+          "original": "בַּמָּ֣ה",
+          "transliteration": "bam·māh",
+          "strongsNumber": "H4100",
+          "morphology": "Prep-b | Interrog"
+        },
+        {
+          "position": 5,
+          "text": "have You loved us",
+          "original": "אֲהַבְתָּ֑נוּ",
+          "transliteration": "’ă·haḇ·tā·nū",
+          "strongsNumber": "H0157",
+          "morphology": "V-Qal-Perf-2ms | 1cp"
+        },
+        {
+          "position": 6,
+          "text": "Was not",
+          "original": "הֲלוֹא־",
+          "transliteration": "hă·lō·w-",
+          "strongsNumber": "H3808",
+          "morphology": "Adv-NegPrt"
+        },
+        {
+          "position": 7,
+          "text": "Esau",
+          "original": "עֵשָׂ֤ו",
+          "transliteration": "‘ê·śāw",
+          "strongsNumber": "H6215",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 8,
+          "text": "Jacob’s",
+          "original": "לְיַֽעֲקֹב֙",
+          "transliteration": "lə·ya·‘ă·qōḇ",
+          "strongsNumber": "H3290",
+          "morphology": "Prep-l | N-proper-ms"
+        },
+        {
+          "position": 9,
+          "text": "brother",
+          "original": "אָ֨ח",
+          "transliteration": "’āḥ",
+          "strongsNumber": "H0251",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 10,
+          "text": "declares",
+          "original": "נְאֻם־",
+          "transliteration": "nə·’um-",
+          "strongsNumber": "H5002",
+          "morphology": "N-msc"
+        },
+        {
+          "position": 11,
+          "text": "the LORD",
+          "original": "יְהוָ֔ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 12,
+          "text": "Yet Jacob",
+          "original": "יַעֲקֹֽב׃",
+          "transliteration": "ya·‘ă·qōḇ",
+          "strongsNumber": "H3290",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 13,
+          "text": "I have loved",
+          "original": "וָאֹהַ֖ב",
+          "transliteration": "wā·’ō·haḇ",
+          "strongsNumber": "H0157",
+          "morphology": "Conj-w | V-Qal-ConsecImperf-1cs"
+        }
+      ],
+      "3": [
+        {
+          "position": 0,
+          "text": "but",
+          "original": "וְאֶת־",
+          "transliteration": "wə·’eṯ-",
+          "strongsNumber": "H0853",
+          "morphology": "Conj-w | DirObjM"
+        },
+        {
+          "position": 1,
+          "text": "Esau",
+          "original": "עֵשָׂ֖ו",
+          "transliteration": "‘ê·śāw",
+          "strongsNumber": "H6215",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 2,
+          "text": "I have hated",
+          "original": "שָׂנֵ֑אתִי",
+          "transliteration": "śā·nê·ṯî",
+          "strongsNumber": "H8130",
+          "morphology": "V-Qal-Perf-1cs"
+        },
+        {
+          "position": 3,
+          "text": "and I have made",
+          "original": "וָאָשִׂ֤ים",
+          "transliteration": "wā·’ā·śîm",
+          "strongsNumber": "H7760",
+          "morphology": "Conj-w | V-Qal-ConsecImperf-1cs"
+        },
+        {
+          "position": 4,
+          "text": "his mountains",
+          "original": "הָרָיו֙",
+          "transliteration": "hā·rāw",
+          "strongsNumber": "H2022",
+          "morphology": "N-mpc | 3ms"
+        },
+        {
+          "position": 5,
+          "text": "a wasteland",
+          "original": "שְׁמָמָ֔ה",
+          "transliteration": "šə·mā·māh",
+          "strongsNumber": "H8077",
+          "morphology": "N-fs"
+        },
+        {
+          "position": 6,
+          "text": "and left his inheritance",
+          "original": "נַחֲלָת֖וֹ",
+          "transliteration": "na·ḥă·lā·ṯōw",
+          "strongsNumber": "H5159",
+          "morphology": "N-fsc | 3ms"
+        },
+        {
+          "position": 7,
+          "text": "to the desert",
+          "original": "מִדְבָּֽר׃",
+          "transliteration": "miḏ·bār",
+          "strongsNumber": "H4057",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 8,
+          "text": "jackals",
+          "original": "לְתַנּ֥וֹת",
+          "transliteration": "lə·ṯan·nō·wṯ",
+          "strongsNumber": "H8568",
+          "morphology": "Prep-l | N-cp"
+        }
+      ],
+      "4": [
+        {
+          "position": 0,
+          "text": "Though",
+          "original": "כִּֽי־",
+          "transliteration": "kî-",
+          "strongsNumber": "H3588",
+          "morphology": "Conj"
+        },
+        {
+          "position": 1,
+          "text": "Edom",
+          "original": "אֱד֜וֹם",
+          "transliteration": "’ĕ·ḏō·wm",
+          "strongsNumber": "H0123",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 2,
+          "text": "may say",
+          "original": "תֹאמַ֨ר",
+          "transliteration": "ṯō·mar",
+          "strongsNumber": "H0559",
+          "morphology": "V-Qal-Imperf-3fs"
+        },
+        {
+          "position": 3,
+          "text": "We have been devastated",
+          "original": "רֻשַּׁ֗שְׁנוּ",
+          "transliteration": "ruš·šaš·nū",
+          "strongsNumber": "H7567",
+          "morphology": "V-Pual-Perf-1cp"
+        },
+        {
+          "position": 4,
+          "text": "but we will rebuild",
+          "original": "וְנָשׁוּב֙",
+          "transliteration": "wə·nā·šūḇ",
+          "strongsNumber": "H7725",
+          "morphology": "Conj-w | V-Qal-ConjImperf-1cp"
+        },
+        {
+          "position": 5,
+          "text": ". . .",
+          "original": "וְנִבְנֶ֣ה",
+          "transliteration": "wə·niḇ·neh",
+          "strongsNumber": "H1129",
+          "morphology": "Conj-w | V-Qal-ConjImperf-1cp"
+        },
+        {
+          "position": 6,
+          "text": "the ruins",
+          "original": "חֳרָב֔וֹת",
+          "transliteration": "ḥo·rā·ḇō·wṯ",
+          "strongsNumber": "H2723",
+          "morphology": "N-fp"
+        },
+        {
+          "position": 7,
+          "text": "this is what",
+          "original": "כֹּ֤ה",
+          "transliteration": "kōh",
+          "strongsNumber": "H3541",
+          "morphology": "Adv"
+        },
+        {
+          "position": 8,
+          "text": "the LORD",
+          "original": "יְהוָ֣ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 9,
+          "text": "of Hosts",
+          "original": "צְבָא֔וֹת",
+          "transliteration": "ṣə·ḇā·’ō·wṯ",
+          "strongsNumber": "H6635",
+          "morphology": "N-cp"
+        },
+        {
+          "position": 10,
+          "text": "says",
+          "original": "אָמַר֙",
+          "transliteration": "’ā·mar",
+          "strongsNumber": "H0559",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 11,
+          "text": "They",
+          "original": "הֵ֥מָּה",
+          "transliteration": "hêm·māh",
+          "strongsNumber": "H1992",
+          "morphology": "Pro-3mp"
+        },
+        {
+          "position": 12,
+          "text": "may build",
+          "original": "יִבְנ֖וּ",
+          "transliteration": "yiḇ·nū",
+          "strongsNumber": "H1129",
+          "morphology": "V-Qal-Imperf-3mp"
+        },
+        {
+          "position": 13,
+          "text": "but I",
+          "original": "וַאֲנִ֣י",
+          "transliteration": "wa·’ă·nî",
+          "strongsNumber": "H0589",
+          "morphology": "Conj-w | Pro-1cs"
+        },
+        {
+          "position": 14,
+          "text": "will demolish",
+          "original": "אֶהֱר֑וֹס",
+          "transliteration": "’e·hĕ·rō·ws",
+          "strongsNumber": "H2040",
+          "morphology": "V-Qal-Imperf-1cs"
+        },
+        {
+          "position": 15,
+          "text": "They will be called",
+          "original": "וְקָרְא֤וּ",
+          "transliteration": "wə·qā·rə·’ū",
+          "strongsNumber": "H7121",
+          "morphology": "Conj-w | V-Qal-ConjPerf-3cp"
+        },
+        {
+          "position": 16,
+          "text": "the Land",
+          "original": "גְּב֣וּל",
+          "transliteration": "gə·ḇūl",
+          "strongsNumber": "H1366",
+          "morphology": "N-msc"
+        },
+        {
+          "position": 17,
+          "text": "of Wickedness",
+          "original": "רִשְׁעָ֔ה",
+          "transliteration": "riš·‘āh",
+          "strongsNumber": "H7564",
+          "morphology": "N-fs"
+        },
+        {
+          "position": 18,
+          "text": "and a people",
+          "original": "וְהָעָ֛ם",
+          "transliteration": "wə·hā·‘ām",
+          "strongsNumber": "H5971",
+          "morphology": "Conj-w, Art | N-ms"
+        },
+        {
+          "position": 19,
+          "text": "with whom",
+          "original": "אֲשֶׁר־",
+          "transliteration": "’ă·šer-",
+          "strongsNumber": "H0834",
+          "morphology": "Pro-r"
+        },
+        {
+          "position": 20,
+          "text": "the LORD",
+          "original": "יְהוָ֖ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 21,
+          "text": "is indignant",
+          "original": "זָעַ֥ם",
+          "transliteration": "zā·‘am",
+          "strongsNumber": "H2194",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 22,
+          "text": "forever",
+          "original": "עַד־",
+          "transliteration": "‘aḏ-",
+          "strongsNumber": "H5704",
+          "morphology": "Prep"
+        },
+        {
+          "position": 23,
+          "text": ". . .",
+          "original": "עוֹלָֽם׃",
+          "transliteration": "‘ō·w·lām",
+          "strongsNumber": "H5769",
+          "morphology": "N-ms"
+        }
+      ],
+      "5": [
+        {
+          "position": 0,
+          "text": "You will see this",
+          "original": "תִּרְאֶ֑ינָה",
+          "transliteration": "tir·’e·nāh",
+          "strongsNumber": "H7200",
+          "morphology": "V-Qal-Imperf-3fp"
+        },
+        {
+          "position": 1,
+          "text": "with your own eyes",
+          "original": "וְעֵינֵיכֶ֖ם",
+          "transliteration": "wə·‘ê·nê·ḵem",
+          "strongsNumber": "H5869",
+          "morphology": "Conj-w | N-cdc | 2mp"
+        },
+        {
+          "position": 2,
+          "text": "and you yourselves",
+          "original": "וְאַתֶּ֤ם",
+          "transliteration": "wə·’at·tem",
+          "strongsNumber": "H0859",
+          "morphology": "Conj-w | Pro-2mp"
+        },
+        {
+          "position": 3,
+          "text": "will say",
+          "original": "תֹּֽאמְרוּ֙",
+          "transliteration": "tō·mə·rū",
+          "strongsNumber": "H0559",
+          "morphology": "V-Qal-Imperf-2mp"
+        },
+        {
+          "position": 4,
+          "text": "The LORD",
+          "original": "יְהוָ֔ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 5,
+          "text": "is great",
+          "original": "יִגְדַּ֣ל",
+          "transliteration": "yiḡ·dal",
+          "strongsNumber": "H1431",
+          "morphology": "V-Qal-Imperf-3ms"
+        },
+        {
+          "position": 6,
+          "text": "even beyond",
+          "original": "מֵעַ֖ל",
+          "transliteration": "mê·‘al",
+          "strongsNumber": "H5921",
+          "morphology": "Prep-m"
+        },
+        {
+          "position": 7,
+          "text": "the borders",
+          "original": "לִגְב֥וּל",
+          "transliteration": "liḡ·ḇūl",
+          "strongsNumber": "H1366",
+          "morphology": "Prep-l | N-msc"
+        },
+        {
+          "position": 8,
+          "text": "of Israel",
+          "original": "יִשְׂרָאֵֽל׃",
+          "transliteration": "yiś·rā·’êl",
+          "strongsNumber": "H3478",
+          "morphology": "N-proper-ms"
+        }
+      ],
+      "6": [
+        {
+          "position": 0,
+          "text": "A son",
+          "original": "בֵּ֛ן",
+          "transliteration": "bên",
+          "strongsNumber": "H1121",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 1,
+          "text": "honors",
+          "original": "יְכַבֵּ֥ד",
+          "transliteration": "yə·ḵab·bêḏ",
+          "strongsNumber": "H3513",
+          "morphology": "V-Piel-Imperf-3ms"
+        },
+        {
+          "position": 2,
+          "text": "his father",
+          "original": "אָ֖ב",
+          "transliteration": "’āḇ",
+          "strongsNumber": "H0001",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 3,
+          "text": "and a servant",
+          "original": "וְעֶ֣בֶד",
+          "transliteration": "wə·‘e·ḇeḏ",
+          "strongsNumber": "H5650",
+          "morphology": "Conj-w | N-ms"
+        },
+        {
+          "position": 4,
+          "text": "his master",
+          "original": "אֲדֹנָ֑יו",
+          "transliteration": "’ă·ḏō·nāw",
+          "strongsNumber": "H0113",
+          "morphology": "N-mpc | 3ms"
+        },
+        {
+          "position": 5,
+          "text": "But if",
+          "original": "וְאִם־",
+          "transliteration": "wə·’im-",
+          "strongsNumber": "H0518",
+          "morphology": "Conj"
+        },
+        {
+          "position": 6,
+          "text": "I",
+          "original": "אָ֣נִי",
+          "transliteration": "’ā·nî",
+          "strongsNumber": "H0589",
+          "morphology": "Pro-1cs"
+        },
+        {
+          "position": 7,
+          "text": "am a father",
+          "original": "אָ֣ב",
+          "transliteration": "’āḇ",
+          "strongsNumber": "H0001",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 8,
+          "text": "where",
+          "original": "אַיֵּ֣ה",
+          "transliteration": "’ay·yêh",
+          "strongsNumber": "H0346",
+          "morphology": "Interrog"
+        },
+        {
+          "position": 9,
+          "text": "is My honor",
+          "original": "כְבוֹדִ֡י",
+          "transliteration": "ḵə·ḇō·w·ḏî",
+          "strongsNumber": "H3519",
+          "morphology": "N-msc | 1cs"
+        },
+        {
+          "position": 10,
+          "text": "And if",
+          "original": "וְאִם־",
+          "transliteration": "wə·’im-",
+          "strongsNumber": "H0518",
+          "morphology": "Conj"
+        },
+        {
+          "position": 11,
+          "text": "I",
+          "original": "אָנִי֩",
+          "transliteration": "’ā·nî",
+          "strongsNumber": "H0589",
+          "morphology": "Pro-1cs"
+        },
+        {
+          "position": 12,
+          "text": "am a master",
+          "original": "אֲדוֹנִ֣ים",
+          "transliteration": "’ă·ḏō·w·nîm",
+          "strongsNumber": "H0113",
+          "morphology": "N-mp"
+        },
+        {
+          "position": 13,
+          "text": "where",
+          "original": "אַיֵּ֨ה",
+          "transliteration": "’ay·yêh",
+          "strongsNumber": "H0346",
+          "morphology": "Interrog"
+        },
+        {
+          "position": 14,
+          "text": "is your fear of Me",
+          "original": "מוֹרָאִ֜י",
+          "transliteration": "mō·w·rā·’î",
+          "strongsNumber": "H4172",
+          "morphology": "N-msc | 1cs"
+        },
+        {
+          "position": 15,
+          "text": "says",
+          "original": "אָמַ֣ר׀",
+          "transliteration": "’ā·mar",
+          "strongsNumber": "H0559",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 16,
+          "text": "the LORD",
+          "original": "יְהוָ֣ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 17,
+          "text": "of Hosts",
+          "original": "צְבָא֗וֹת",
+          "transliteration": "ṣə·ḇā·’ō·wṯ",
+          "strongsNumber": "H6635",
+          "morphology": "N-cp"
+        },
+        {
+          "position": 18,
+          "text": "to you",
+          "original": "לָכֶם֙",
+          "transliteration": "lā·ḵem",
+          "strongsNumber": "",
+          "morphology": "Prep | 2mp"
+        },
+        {
+          "position": 19,
+          "text": "priests",
+          "original": "הַכֹּֽהֲנִים֙",
+          "transliteration": "hak·kō·hă·nîm",
+          "strongsNumber": "H3548",
+          "morphology": "Art | N-mp"
+        },
+        {
+          "position": 20,
+          "text": "who despise",
+          "original": "בּוֹזֵ֣י",
+          "transliteration": "bō·w·zê",
+          "strongsNumber": "H0959",
+          "morphology": "V-Qal-Prtcpl-mpc"
+        },
+        {
+          "position": 21,
+          "text": "My name",
+          "original": "שְׁמִ֔י",
+          "transliteration": "šə·mî",
+          "strongsNumber": "H8034",
+          "morphology": "N-msc | 1cs"
+        },
+        {
+          "position": 22,
+          "text": "But you ask",
+          "original": "וַאֲמַרְתֶּ֕ם",
+          "transliteration": "wa·’ă·mar·tem",
+          "strongsNumber": "H0559",
+          "morphology": "Conj-w | V-Qal-ConjPerf-2mp"
+        },
+        {
+          "position": 23,
+          "text": "How",
+          "original": "בַּמֶּ֥ה",
+          "transliteration": "bam·meh",
+          "strongsNumber": "H4100",
+          "morphology": "Prep-b | Interrog"
+        },
+        {
+          "position": 24,
+          "text": "have we despised",
+          "original": "בָזִ֖ינוּ",
+          "transliteration": "ḇā·zî·nū",
+          "strongsNumber": "H0959",
+          "morphology": "V-Qal-Perf-1cp"
+        },
+        {
+          "position": 25,
+          "text": "Your name",
+          "original": "שְׁמֶֽךָ׃",
+          "transliteration": "šə·me·ḵā",
+          "strongsNumber": "H8034",
+          "morphology": "N-msc | 2ms"
+        }
+      ],
+      "7": [
+        {
+          "position": 0,
+          "text": "By presenting",
+          "original": "מַגִּישִׁ֤ים",
+          "transliteration": "mag·gî·šîm",
+          "strongsNumber": "H5066",
+          "morphology": "V-Hifil-Prtcpl-mp"
+        },
+        {
+          "position": 1,
+          "text": "defiled",
+          "original": "מְגֹאָ֔ל",
+          "transliteration": "mə·ḡō·’āl",
+          "strongsNumber": "H1351",
+          "morphology": "V-Pual-Prtcpl-ms"
+        },
+        {
+          "position": 2,
+          "text": "food",
+          "original": "לֶ֣חֶם",
+          "transliteration": "le·ḥem",
+          "strongsNumber": "H3899",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 3,
+          "text": "on",
+          "original": "עַֽל־",
+          "transliteration": "‘al-",
+          "strongsNumber": "H5921",
+          "morphology": "Prep"
+        },
+        {
+          "position": 4,
+          "text": "My altar",
+          "original": "מִזְבְּחִי֙",
+          "transliteration": "miz·bə·ḥî",
+          "strongsNumber": "H4196",
+          "morphology": "N-msc | 1cs"
+        },
+        {
+          "position": 5,
+          "text": "But you ask",
+          "original": "וַאֲמַרְתֶּ֖ם",
+          "transliteration": "wa·’ă·mar·tem",
+          "strongsNumber": "H0559",
+          "morphology": "Conj-w | V-Qal-ConjPerf-2mp"
+        },
+        {
+          "position": 6,
+          "text": "How",
+          "original": "בַּמֶּ֣ה",
+          "transliteration": "bam·meh",
+          "strongsNumber": "H4100",
+          "morphology": "Prep-b | Interrog"
+        },
+        {
+          "position": 7,
+          "text": "have we defiled You",
+          "original": "גֵֽאַלְנ֑וּךָ",
+          "transliteration": "ḡê·’al·nū·ḵā",
+          "strongsNumber": "H1351",
+          "morphology": "V-Piel-Perf-1cp | 2ms"
+        },
+        {
+          "position": 8,
+          "text": "By saying that",
+          "original": "בֶּאֱמָרְכֶ֕ם",
+          "transliteration": "be·’ĕ·mā·rə·ḵem",
+          "strongsNumber": "H0559",
+          "morphology": "Prep-b | V-Qal-Inf | 2mp"
+        },
+        {
+          "position": 9,
+          "text": "the table",
+          "original": "שֻׁלְחַ֥ן",
+          "transliteration": "šul·ḥan",
+          "strongsNumber": "H7979",
+          "morphology": "N-msc"
+        },
+        {
+          "position": 10,
+          "text": "of the LORD",
+          "original": "יְהוָ֖ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 11,
+          "text": "is contemptible",
+          "original": "נִבְזֶ֥ה",
+          "transliteration": "niḇ·zeh",
+          "strongsNumber": "H0959",
+          "morphology": "V-Nifal-Prtcpl-ms"
+        },
+        {
+          "position": 12,
+          "text": ". . .",
+          "original": "הֽוּא׃",
+          "transliteration": "hū",
+          "strongsNumber": "H1931",
+          "morphology": "Pro-3ms"
+        }
+      ],
+      "8": [
+        {
+          "position": 0,
+          "text": "When",
+          "original": "וְכִֽי־",
+          "transliteration": "wə·ḵî-",
+          "strongsNumber": "H3588",
+          "morphology": "Conj"
+        },
+        {
+          "position": 1,
+          "text": "you offer",
+          "original": "תַגִּשׁ֨וּן",
+          "transliteration": "ṯag·gi·šūn",
+          "strongsNumber": "H5066",
+          "morphology": "V-Hifil-Imperf-2mp | Pn"
+        },
+        {
+          "position": 2,
+          "text": "blind animals",
+          "original": "עִוֵּ֤ר",
+          "transliteration": "‘iw·wêr",
+          "strongsNumber": "H5787",
+          "morphology": "Adj-ms"
+        },
+        {
+          "position": 3,
+          "text": "for sacrifice",
+          "original": "לִזְבֹּ֙חַ֙",
+          "transliteration": "liz·bō·aḥ",
+          "strongsNumber": "H2076",
+          "morphology": "Prep-l | V-Qal-Inf"
+        },
+        {
+          "position": 4,
+          "text": "is it not",
+          "original": "אֵ֣ין",
+          "transliteration": "’ên",
+          "strongsNumber": "H0369",
+          "morphology": "Adv"
+        },
+        {
+          "position": 5,
+          "text": "wrong",
+          "original": "רָ֔ע",
+          "transliteration": "rā‘",
+          "strongsNumber": "H7451",
+          "morphology": "Adj-ms"
+        },
+        {
+          "position": 6,
+          "text": "And when",
+          "original": "וְכִ֥י",
+          "transliteration": "wə·ḵî",
+          "strongsNumber": "H3588",
+          "morphology": "Conj"
+        },
+        {
+          "position": 7,
+          "text": "you present",
+          "original": "תַגִּ֛ישׁוּ",
+          "transliteration": "ṯag·gî·šū",
+          "strongsNumber": "H5066",
+          "morphology": "V-Hifil-Imperf-2mp"
+        },
+        {
+          "position": 8,
+          "text": "the lame",
+          "original": "פִּסֵּ֥חַ",
+          "transliteration": "pis·sê·aḥ",
+          "strongsNumber": "H6455",
+          "morphology": "Adj-ms"
+        },
+        {
+          "position": 9,
+          "text": "and sick [ones]",
+          "original": "וְחֹלֶ֖ה",
+          "transliteration": "wə·ḥō·leh",
+          "strongsNumber": "H2470",
+          "morphology": "Conj-w | V-Qal-Prtcpl-ms"
+        },
+        {
+          "position": 10,
+          "text": "is it not",
+          "original": "אֵ֣ין",
+          "transliteration": "’ên",
+          "strongsNumber": "H0369",
+          "morphology": "Adv"
+        },
+        {
+          "position": 11,
+          "text": "wrong",
+          "original": "רָ֑ע",
+          "transliteration": "rā‘",
+          "strongsNumber": "H7451",
+          "morphology": "Adj-ms"
+        },
+        {
+          "position": 12,
+          "text": "Try offering them",
+          "original": "הַקְרִיבֵ֨הוּ",
+          "transliteration": "haq·rî·ḇê·hū",
+          "strongsNumber": "H7126",
+          "morphology": "V-Hifil-Imp-ms | 3ms"
+        },
+        {
+          "position": 13,
+          "text": ". . .",
+          "original": "נָ֜א",
+          "transliteration": "nā",
+          "strongsNumber": "H4994",
+          "morphology": "Interjection"
+        },
+        {
+          "position": 14,
+          "text": "to your governor",
+          "original": "לְפֶחָתֶ֗ךָ",
+          "transliteration": "lə·p̄e·ḥā·ṯe·ḵā",
+          "strongsNumber": "H6346",
+          "morphology": "Prep-l | N-msc | 2ms"
+        },
+        {
+          "position": 15,
+          "text": "Would he be pleased",
+          "original": "הֲיִּרְצְךָ֙",
+          "transliteration": "h·yir·ṣə·ḵå̄",
+          "strongsNumber": "H7521",
+          "morphology": "V-Qal-Imperf-3ms | 2ms"
+        },
+        {
+          "position": 16,
+          "text": "with you or",
+          "original": "א֚וֹ",
+          "transliteration": "’ōw",
+          "strongsNumber": "H0176",
+          "morphology": "Conj"
+        },
+        {
+          "position": 17,
+          "text": "show you favor",
+          "original": "הֲיִשָּׂ֣א",
+          "transliteration": "hă·yiś·śā",
+          "strongsNumber": "H5375",
+          "morphology": "V-Qal-Imperf-3ms"
+        },
+        {
+          "position": 18,
+          "text": ". . .",
+          "original": "פָנֶ֔יךָ",
+          "transliteration": "p̄ā·ne·ḵā",
+          "strongsNumber": "H6440",
+          "morphology": "N-cpc | 2ms"
+        },
+        {
+          "position": 19,
+          "text": "asks",
+          "original": "אָמַ֖ר",
+          "transliteration": "’ā·mar",
+          "strongsNumber": "H0559",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 20,
+          "text": "the LORD",
+          "original": "יְהוָ֥ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 21,
+          "text": "of Hosts",
+          "original": "צְבָאֽוֹת׃",
+          "transliteration": "ṣə·ḇā·’ō·wṯ",
+          "strongsNumber": "H6635",
+          "morphology": "N-cp"
+        }
+      ],
+      "9": [
+        {
+          "position": 0,
+          "text": "But {ask} now",
+          "original": "וְעַתָּ֛ה",
+          "transliteration": "wə·‘at·tāh",
+          "strongsNumber": "H6258",
+          "morphology": "Conj-w | Adv"
+        },
+        {
+          "position": 1,
+          "text": "for God’s",
+          "original": "אֵ֖ל",
+          "transliteration": "’êl",
+          "strongsNumber": "H0410",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 2,
+          "text": "favor",
+          "original": "חַלּוּ־",
+          "transliteration": "ḥal·lū-",
+          "strongsNumber": "H2470",
+          "morphology": "V-Piel-Imp-mp"
+        },
+        {
+          "position": 3,
+          "text": ". . .",
+          "original": "נָ֥א",
+          "transliteration": "nā",
+          "strongsNumber": "H4994",
+          "morphology": "Interjection"
+        },
+        {
+          "position": 4,
+          "text": ". . .",
+          "original": "פְנֵי־",
+          "transliteration": "p̄ə·nê-",
+          "strongsNumber": "H6440",
+          "morphology": "N-mpc"
+        },
+        {
+          "position": 5,
+          "text": "Will He be gracious",
+          "original": "וִֽיחָנֵ֑נוּ",
+          "transliteration": "wī·ḥå̄·nē·nū",
+          "strongsNumber": "H2603",
+          "morphology": "Conj-w | V-Qal-ConjImperf-3ms | 1cp"
+        },
+        {
+          "position": 6,
+          "text": "Since this",
+          "original": "זֹּ֔את",
+          "transliteration": "zōṯ",
+          "strongsNumber": "H2063",
+          "morphology": "Pro-fs"
+        },
+        {
+          "position": 7,
+          "text": "has come",
+          "original": "הָ֣יְתָה",
+          "transliteration": "hā·yə·ṯāh",
+          "strongsNumber": "H1961",
+          "morphology": "V-Qal-Perf-3fs"
+        },
+        {
+          "position": 8,
+          "text": "from",
+          "original": "מִכֶּם֙",
+          "transliteration": "mik·kem",
+          "strongsNumber": "",
+          "morphology": "Prep | 2mp"
+        },
+        {
+          "position": 9,
+          "text": "your hands",
+          "original": "מִיֶּדְכֶם֙",
+          "transliteration": "mî·yeḏ·ḵem",
+          "strongsNumber": "H3027",
+          "morphology": "Prep-m | N-fsc | 2mp"
+        },
+        {
+          "position": 10,
+          "text": "will He show you favor",
+          "original": "הֲיִשָּׂ֤א",
+          "transliteration": "hă·yiś·śā",
+          "strongsNumber": "H5375",
+          "morphology": "V-Qal-Imperf-3ms"
+        },
+        {
+          "position": 11,
+          "text": ". . .",
+          "original": "פָּנִ֔ים",
+          "transliteration": "pā·nîm",
+          "strongsNumber": "H6440",
+          "morphology": "N-mp"
+        },
+        {
+          "position": 12,
+          "text": "asks",
+          "original": "אָמַ֖ר",
+          "transliteration": "’ā·mar",
+          "strongsNumber": "H0559",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 13,
+          "text": "the LORD",
+          "original": "יְהוָ֥ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 14,
+          "text": "of Hosts",
+          "original": "צְבָאֽוֹת׃",
+          "transliteration": "ṣə·ḇā·’ō·wṯ",
+          "strongsNumber": "H6635",
+          "morphology": "N-cp"
+        }
+      ],
+      "10": [
+        {
+          "position": 0,
+          "text": "Oh",
+          "original": "מִ֤י",
+          "transliteration": "mî",
+          "strongsNumber": "H4310",
+          "morphology": "Interrog"
+        },
+        {
+          "position": 1,
+          "text": "that one",
+          "original": "גַם־",
+          "transliteration": "ḡam-",
+          "strongsNumber": "H1571",
+          "morphology": "Conj"
+        },
+        {
+          "position": 2,
+          "text": "of you",
+          "original": "בָּכֶם֙",
+          "transliteration": "bā·ḵem",
+          "strongsNumber": "",
+          "morphology": "Prep | 2mp"
+        },
+        {
+          "position": 3,
+          "text": "would shut",
+          "original": "וְיִסְגֹּ֣ר",
+          "transliteration": "wə·yis·gōr",
+          "strongsNumber": "H5462",
+          "morphology": "Conj-w | V-Qal-ConjImperf-3ms"
+        },
+        {
+          "position": 4,
+          "text": "the temple doors",
+          "original": "דְּלָתַ֔יִם",
+          "transliteration": "də·lā·ṯa·yim",
+          "strongsNumber": "H1817",
+          "morphology": "N-fd"
+        },
+        {
+          "position": 5,
+          "text": "so that you would no",
+          "original": "וְלֹֽא־",
+          "transliteration": "wə·lō-",
+          "strongsNumber": "H3808",
+          "morphology": "Conj-w | Adv-NegPrt"
+        },
+        {
+          "position": 6,
+          "text": "longer kindle",
+          "original": "תָאִ֥ירוּ",
+          "transliteration": "ṯā·’î·rū",
+          "strongsNumber": "H0215",
+          "morphology": "V-Hifil-Imperf-2mp"
+        },
+        {
+          "position": 7,
+          "text": "useless",
+          "original": "חִנָּ֑ם",
+          "transliteration": "ḥin·nām",
+          "strongsNumber": "H2600",
+          "morphology": "Adv"
+        },
+        {
+          "position": 8,
+          "text": "fires on My altar",
+          "original": "מִזְבְּחִ֖י",
+          "transliteration": "miz·bə·ḥî",
+          "strongsNumber": "H4196",
+          "morphology": "N-msc | 1cs"
+        },
+        {
+          "position": 9,
+          "text": "I take no",
+          "original": "אֵֽין־",
+          "transliteration": "’ên-",
+          "strongsNumber": "H0369",
+          "morphology": "Adv"
+        },
+        {
+          "position": 10,
+          "text": "pleasure",
+          "original": "חֵ֜פֶץ",
+          "transliteration": "ḥê·p̄eṣ",
+          "strongsNumber": "H2656",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 11,
+          "text": "in you",
+          "original": "בָּכֶ֗ם",
+          "transliteration": "bā·ḵem",
+          "strongsNumber": "",
+          "morphology": "Prep | 2mp"
+        },
+        {
+          "position": 12,
+          "text": "says",
+          "original": "אָמַר֙",
+          "transliteration": "’ā·mar",
+          "strongsNumber": "H0559",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 13,
+          "text": "the LORD",
+          "original": "יְהוָ֣ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 14,
+          "text": "of Hosts",
+          "original": "צְבָא֔וֹת",
+          "transliteration": "ṣə·ḇā·’ō·wṯ",
+          "strongsNumber": "H6635",
+          "morphology": "N-cp"
+        },
+        {
+          "position": 15,
+          "text": "and I will accept",
+          "original": "אֶרְצֶ֥ה",
+          "transliteration": "’er·ṣeh",
+          "strongsNumber": "H7521",
+          "morphology": "V-Qal-Imperf-1cs"
+        },
+        {
+          "position": 16,
+          "text": "no",
+          "original": "לֹֽא־",
+          "transliteration": "lō-",
+          "strongsNumber": "H3808",
+          "morphology": "Adv-NegPrt"
+        },
+        {
+          "position": 17,
+          "text": "offering",
+          "original": "וּמִנְחָ֖ה",
+          "transliteration": "ū·min·ḥāh",
+          "strongsNumber": "H4503",
+          "morphology": "Conj-w | N-fs"
+        },
+        {
+          "position": 18,
+          "text": "from your hands",
+          "original": "מִיֶּדְכֶֽם׃",
+          "transliteration": "mî·yeḏ·ḵem",
+          "strongsNumber": "H3027",
+          "morphology": "Prep-m | N-fsc | 2mp"
+        }
+      ],
+      "11": [
+        {
+          "position": 0,
+          "text": "For",
+          "original": "כִּ֣י",
+          "transliteration": "kî",
+          "strongsNumber": "H3588",
+          "morphology": "Conj"
+        },
+        {
+          "position": 1,
+          "text": "My name",
+          "original": "שְׁמִי֙",
+          "transliteration": "šə·mî",
+          "strongsNumber": "H8034",
+          "morphology": "N-msc | 1cs"
+        },
+        {
+          "position": 2,
+          "text": "will be great",
+          "original": "גָּד֤וֹל",
+          "transliteration": "gā·ḏō·wl",
+          "strongsNumber": "H1419",
+          "morphology": "Adj-ms"
+        },
+        {
+          "position": 3,
+          "text": "among the nations",
+          "original": "בַּגּוֹיִ֔ם",
+          "transliteration": "bag·gō·w·yim",
+          "strongsNumber": "H1471",
+          "morphology": "Prep-b, Art | N-mp"
+        },
+        {
+          "position": 4,
+          "text": "from where the sun rises",
+          "original": "מִמִּזְרַח־",
+          "transliteration": "mim·miz·raḥ-",
+          "strongsNumber": "H4217",
+          "morphology": "Prep-m | N-msc"
+        },
+        {
+          "position": 5,
+          "text": "to",
+          "original": "וְעַד־",
+          "transliteration": "wə·‘aḏ-",
+          "strongsNumber": "H5704",
+          "morphology": "Conj-w | Prep"
+        },
+        {
+          "position": 6,
+          "text": "where it sets",
+          "original": "מְבוֹא֗וֹ",
+          "transliteration": "mə·ḇō·w·’ōw",
+          "strongsNumber": "H3996",
+          "morphology": "N-msc | 3ms"
+        },
+        {
+          "position": 7,
+          "text": ". . .",
+          "original": "שֶׁ֜מֶשׁ",
+          "transliteration": "še·meš",
+          "strongsNumber": "H8121",
+          "morphology": "N-cs"
+        },
+        {
+          "position": 8,
+          "text": "In every",
+          "original": "וּבְכָל־",
+          "transliteration": "ū·ḇə·ḵāl",
+          "strongsNumber": "H3605",
+          "morphology": "Conj-w, Prep-b | N-msc"
+        },
+        {
+          "position": 9,
+          "text": "place",
+          "original": "מָק֗וֹם",
+          "transliteration": "mā·qō·wm",
+          "strongsNumber": "H4725",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 10,
+          "text": "incense",
+          "original": "מֻקְטָ֥ר",
+          "transliteration": "muq·ṭār",
+          "strongsNumber": "H6999",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 11,
+          "text": "and pure",
+          "original": "טְהוֹרָ֑ה",
+          "transliteration": "ṭə·hō·w·rāh",
+          "strongsNumber": "H2889",
+          "morphology": "Adj-fs"
+        },
+        {
+          "position": 12,
+          "text": "offerings",
+          "original": "וּמִנְחָ֣ה",
+          "transliteration": "ū·min·ḥāh",
+          "strongsNumber": "H4503",
+          "morphology": "Conj-w | N-fs"
+        },
+        {
+          "position": 13,
+          "text": "[will be] presented",
+          "original": "מֻגָּ֛שׁ",
+          "transliteration": "mug·gāš",
+          "strongsNumber": "H5066",
+          "morphology": "V-Hofal-Prtcpl-ms"
+        },
+        {
+          "position": 14,
+          "text": "in My name",
+          "original": "לִשְׁמִ֖י",
+          "transliteration": "liš·mî",
+          "strongsNumber": "H8034",
+          "morphology": "Prep-l | N-msc | 1cs"
+        },
+        {
+          "position": 15,
+          "text": "because",
+          "original": "כִּֽי־",
+          "transliteration": "kî-",
+          "strongsNumber": "H3588",
+          "morphology": "Conj"
+        },
+        {
+          "position": 16,
+          "text": "My name",
+          "original": "שְׁמִי֙",
+          "transliteration": "šə·mî",
+          "strongsNumber": "H8034",
+          "morphology": "N-msc | 1cs"
+        },
+        {
+          "position": 17,
+          "text": "will be great",
+          "original": "גָד֤וֹל",
+          "transliteration": "ḡā·ḏō·wl",
+          "strongsNumber": "H1419",
+          "morphology": "Adj-ms"
+        },
+        {
+          "position": 18,
+          "text": "among the nations",
+          "original": "בַּגּוֹיִ֔ם",
+          "transliteration": "bag·gō·w·yim",
+          "strongsNumber": "H1471",
+          "morphology": "Prep-b, Art | N-mp"
+        },
+        {
+          "position": 19,
+          "text": "says",
+          "original": "אָמַ֖ר",
+          "transliteration": "’ā·mar",
+          "strongsNumber": "H0559",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 20,
+          "text": "the LORD",
+          "original": "יְהוָ֥ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 21,
+          "text": "of Hosts",
+          "original": "צְבָאֽוֹת׃",
+          "transliteration": "ṣə·ḇā·’ō·wṯ",
+          "strongsNumber": "H6635",
+          "morphology": "N-cp"
+        }
+      ],
+      "12": [
+        {
+          "position": 0,
+          "text": "But you",
+          "original": "וְאַתֶּ֖ם",
+          "transliteration": "wə·’at·tem",
+          "strongsNumber": "H0859",
+          "morphology": "Conj-w | Pro-2mp"
+        },
+        {
+          "position": 1,
+          "text": "profane",
+          "original": "מְחַלְּלִ֣ים",
+          "transliteration": "mə·ḥal·lə·lîm",
+          "strongsNumber": "H2490",
+          "morphology": "V-Piel-Prtcpl-mp"
+        },
+        {
+          "position": 2,
+          "text": "it",
+          "original": "אוֹת֑וֹ",
+          "transliteration": "’ō·w·ṯōw",
+          "strongsNumber": "H0853",
+          "morphology": "DirObjM | 3ms"
+        },
+        {
+          "position": 3,
+          "text": "when you say",
+          "original": "בֶּאֱמָרְכֶ֗ם",
+          "transliteration": "be·’ĕ·mā·rə·ḵem",
+          "strongsNumber": "H0559",
+          "morphology": "Prep-b | V-Qal-Inf | 2mp"
+        },
+        {
+          "position": 4,
+          "text": "The table",
+          "original": "שֻׁלְחַ֤ן",
+          "transliteration": "šul·ḥan",
+          "strongsNumber": "H7979",
+          "morphology": "N-msc"
+        },
+        {
+          "position": 5,
+          "text": "of the Lord",
+          "original": "אֲדֹנָי֙",
+          "transliteration": "’ă·ḏō·nāy",
+          "strongsNumber": "H0136",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 6,
+          "text": "is",
+          "original": "ה֔וּא",
+          "transliteration": "hū",
+          "strongsNumber": "H1931",
+          "morphology": "Pro-3ms"
+        },
+        {
+          "position": 7,
+          "text": "defiled",
+          "original": "מְגֹאָ֣ל",
+          "transliteration": "mə·ḡō·’āl",
+          "strongsNumber": "H1351",
+          "morphology": "V-Pual-Prtcpl-ms"
+        },
+        {
+          "position": 8,
+          "text": "and [as for] its fruit",
+          "original": "וְנִיב֖וֹ",
+          "transliteration": "wə·nî·ḇōw",
+          "strongsNumber": "H5108",
+          "morphology": "Conj-w | N-msc | 3ms"
+        },
+        {
+          "position": 9,
+          "text": "its food",
+          "original": "אָכְלֽוֹ׃",
+          "transliteration": "’ā·ḵə·lōw",
+          "strongsNumber": "H0400",
+          "morphology": "N-msc | 3ms"
+        },
+        {
+          "position": 10,
+          "text": "is contemptible",
+          "original": "נִבְזֶ֥ה",
+          "transliteration": "niḇ·zeh",
+          "strongsNumber": "H0959",
+          "morphology": "V-Nifal-Prtcpl-ms"
+        }
+      ],
+      "13": [
+        {
+          "position": 0,
+          "text": "You also say",
+          "original": "וַאֲמַרְתֶּם֩",
+          "transliteration": "wa·’ă·mar·tem",
+          "strongsNumber": "H0559",
+          "morphology": "Conj-w | V-Qal-ConjPerf-2mp"
+        },
+        {
+          "position": 1,
+          "text": "Oh",
+          "original": "הִנֵּ֨ה",
+          "transliteration": "hin·nêh",
+          "strongsNumber": "H2009",
+          "morphology": "Interjection"
+        },
+        {
+          "position": 2,
+          "text": "what a nuisance",
+          "original": "מַתְּלָאָ֜ה",
+          "transliteration": "mat·tə·lā·’āh",
+          "strongsNumber": "H4100",
+          "morphology": "N-fs"
+        },
+        {
+          "position": 3,
+          "text": "And you turn up your nose at",
+          "original": "וְהִפַּחְתֶּ֣ם",
+          "transliteration": "wə·hip·paḥ·tem",
+          "strongsNumber": "H5301",
+          "morphology": "Conj-w | V-Hifil-ConjPerf-2mp"
+        },
+        {
+          "position": 4,
+          "text": "it",
+          "original": "אוֹת֗וֹ",
+          "transliteration": "’ō·w·ṯōw",
+          "strongsNumber": "H0853",
+          "morphology": "DirObjM | 3ms"
+        },
+        {
+          "position": 5,
+          "text": "says",
+          "original": "אָמַר֙",
+          "transliteration": "’ā·mar",
+          "strongsNumber": "H0559",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 6,
+          "text": "the LORD",
+          "original": "יְהוָ֣ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 7,
+          "text": "of Hosts",
+          "original": "צְבָא֔וֹת",
+          "transliteration": "ṣə·ḇā·’ō·wṯ",
+          "strongsNumber": "H6635",
+          "morphology": "N-cp"
+        },
+        {
+          "position": 8,
+          "text": "You bring",
+          "original": "וַהֲבֵאתֶ֣ם",
+          "transliteration": "wa·hă·ḇê·ṯem",
+          "strongsNumber": "H0935",
+          "morphology": "Conj-w | V-Hifil-ConjPerf-2mp"
+        },
+        {
+          "position": 9,
+          "text": "offerings",
+          "original": "הַמִּנְחָ֑ה",
+          "transliteration": "ham·min·ḥāh",
+          "strongsNumber": "H4503",
+          "morphology": "Art | N-fs"
+        },
+        {
+          "position": 10,
+          "text": "[that are] stolen",
+          "original": "גָּז֗וּל",
+          "transliteration": "gā·zūl",
+          "strongsNumber": "H1497",
+          "morphology": "V-Qal-QalPassPrtcpl-ms"
+        },
+        {
+          "position": 11,
+          "text": "lame",
+          "original": "הַפִּסֵּ֙חַ֙",
+          "transliteration": "hap·pis·sê·aḥ",
+          "strongsNumber": "H6455",
+          "morphology": "Art | Adj-ms"
+        },
+        {
+          "position": 12,
+          "text": "or sick",
+          "original": "הַ֣חוֹלֶ֔ה",
+          "transliteration": "ha·ḥō·w·leh",
+          "strongsNumber": "H2470",
+          "morphology": "Art | V-Qal-Prtcpl-ms"
+        },
+        {
+          "position": 13,
+          "text": "Should I accept",
+          "original": "הַאֶרְצֶ֥ה",
+          "transliteration": "ha·’er·ṣeh",
+          "strongsNumber": "H7521",
+          "morphology": "V-Qal-Imperf-1cs"
+        },
+        {
+          "position": 14,
+          "text": "these",
+          "original": "אוֹתָ֛הּ",
+          "transliteration": "’ō·w·ṯāh",
+          "strongsNumber": "H0853",
+          "morphology": "DirObjM | 3fs"
+        },
+        {
+          "position": 15,
+          "text": "from your hands",
+          "original": "מִיֶּדְכֶ֖ם",
+          "transliteration": "mî·yeḏ·ḵem",
+          "strongsNumber": "H3027",
+          "morphology": "Prep-m | N-fsc | 2mp"
+        },
+        {
+          "position": 16,
+          "text": "asks",
+          "original": "אָמַ֥ר",
+          "transliteration": "’ā·mar",
+          "strongsNumber": "H0559",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 17,
+          "text": "the LORD",
+          "original": "יְהוָֽה׃ס",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        }
+      ],
+      "14": [
+        {
+          "position": 0,
+          "text": "But cursed",
+          "original": "וְאָר֣וּר",
+          "transliteration": "wə·’ā·rūr",
+          "strongsNumber": "H0779",
+          "morphology": "Conj-w | V-Qal-QalPassPrtcpl-ms"
+        },
+        {
+          "position": 1,
+          "text": "[is] the deceiver",
+          "original": "נוֹכֵ֗ל",
+          "transliteration": "nō·w·ḵêl",
+          "strongsNumber": "H5230",
+          "morphology": "V-Qal-Prtcpl-ms"
+        },
+        {
+          "position": 2,
+          "text": "who has",
+          "original": "וְיֵ֤שׁ",
+          "transliteration": "wə·yêš",
+          "strongsNumber": "H3426",
+          "morphology": "Conj-w | Adv"
+        },
+        {
+          "position": 3,
+          "text": "an acceptable male",
+          "original": "זָכָ֔ר",
+          "transliteration": "zā·ḵār",
+          "strongsNumber": "H2145",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 4,
+          "text": "in his flock",
+          "original": "בְּעֶדְרוֹ֙",
+          "transliteration": "bə·‘eḏ·rōw",
+          "strongsNumber": "H5739",
+          "morphology": "Prep-b | N-msc | 3ms"
+        },
+        {
+          "position": 5,
+          "text": "and vows to give it",
+          "original": "וְנֹדֵ֛ר",
+          "transliteration": "wə·nō·ḏêr",
+          "strongsNumber": "H5087",
+          "morphology": "Conj-w | V-Qal-Prtcpl-ms"
+        },
+        {
+          "position": 6,
+          "text": "but sacrifices",
+          "original": "וְזֹבֵ֥חַ",
+          "transliteration": "wə·zō·ḇê·aḥ",
+          "strongsNumber": "H2076",
+          "morphology": "Conj-w | V-Qal-Prtcpl-ms"
+        },
+        {
+          "position": 7,
+          "text": "a defective [animal]",
+          "original": "מָשְׁחָ֖ת",
+          "transliteration": "mā·šə·ḥāṯ",
+          "strongsNumber": "H7843",
+          "morphology": "V-Hofal-Prtcpl-ms"
+        },
+        {
+          "position": 8,
+          "text": "to the Lord",
+          "original": "לַֽאדֹנָ֑י",
+          "transliteration": "la·ḏō·nāy",
+          "strongsNumber": "H0136",
+          "morphology": "Prep-l | N-proper-ms"
+        },
+        {
+          "position": 9,
+          "text": "For",
+          "original": "כִּי֩",
+          "transliteration": "kî",
+          "strongsNumber": "H3588",
+          "morphology": "Conj"
+        },
+        {
+          "position": 10,
+          "text": "I",
+          "original": "אָ֗נִי",
+          "transliteration": "’ā·nî",
+          "strongsNumber": "H0589",
+          "morphology": "Pro-1cs"
+        },
+        {
+          "position": 11,
+          "text": "am a great",
+          "original": "גָּד֜וֹל",
+          "transliteration": "gā·ḏō·wl",
+          "strongsNumber": "H1419",
+          "morphology": "Adj-ms"
+        },
+        {
+          "position": 12,
+          "text": "King",
+          "original": "מֶ֨לֶךְ",
+          "transliteration": "me·leḵ",
+          "strongsNumber": "H4428",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 13,
+          "text": "says",
+          "original": "אָמַר֙",
+          "transliteration": "’ā·mar",
+          "strongsNumber": "H0559",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 14,
+          "text": "the LORD",
+          "original": "יְהוָ֣ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 15,
+          "text": "of Hosts",
+          "original": "צְבָא֔וֹת",
+          "transliteration": "ṣə·ḇā·’ō·wṯ",
+          "strongsNumber": "H6635",
+          "morphology": "N-cp"
+        },
+        {
+          "position": 16,
+          "text": "and My name",
+          "original": "וּשְׁמִ֖י",
+          "transliteration": "ū·šə·mî",
+          "strongsNumber": "H8034",
+          "morphology": "Conj-w | N-msc | 1cs"
+        },
+        {
+          "position": 17,
+          "text": "[is to be] feared",
+          "original": "נוֹרָ֥א",
+          "transliteration": "nō·w·rā",
+          "strongsNumber": "H3372",
+          "morphology": "V-Nifal-Prtcpl-ms"
+        },
+        {
+          "position": 18,
+          "text": "among the nations",
+          "original": "בַגּוֹיִֽם׃",
+          "transliteration": "ḇag·gō·w·yim",
+          "strongsNumber": "H1471",
+          "morphology": "Prep-b, Art | N-mp"
+        }
+      ]
+    },
+    "2": {
+      "1": [
+        {
+          "position": 0,
+          "text": "And now",
+          "original": "וְעַתָּ֗ה",
+          "transliteration": "wə·‘at·tāh",
+          "strongsNumber": "H6258",
+          "morphology": "Conj-w | Adv"
+        },
+        {
+          "position": 1,
+          "text": "this",
+          "original": "הַזֹּ֖את",
+          "transliteration": "haz·zōṯ",
+          "strongsNumber": "H2063",
+          "morphology": "Art | Pro-fs"
+        },
+        {
+          "position": 2,
+          "text": "decree",
+          "original": "הַמִּצְוָ֥ה",
+          "transliteration": "ham·miṣ·wāh",
+          "strongsNumber": "H4687",
+          "morphology": "Art | N-fs"
+        },
+        {
+          "position": 3,
+          "text": "is for you",
+          "original": "אֲלֵיכֶ֛ם",
+          "transliteration": "’ă·lê·ḵem",
+          "strongsNumber": "H0413",
+          "morphology": "Prep | 2mp"
+        },
+        {
+          "position": 4,
+          "text": "O priests",
+          "original": "הַכֹּהֲנִֽים׃",
+          "transliteration": "hak·kō·hă·nîm",
+          "strongsNumber": "H3548",
+          "morphology": "Art | N-mp"
+        }
+      ],
+      "2": [
+        {
+          "position": 0,
+          "text": "If",
+          "original": "אִם־",
+          "transliteration": "’im-",
+          "strongsNumber": "H0518",
+          "morphology": "Conj"
+        },
+        {
+          "position": 1,
+          "text": "you do not",
+          "original": "לֹ֣א",
+          "transliteration": "lō",
+          "strongsNumber": "H3808",
+          "morphology": "Adv-NegPrt"
+        },
+        {
+          "position": 2,
+          "text": "listen",
+          "original": "תִשְׁמְע֡וּ",
+          "transliteration": "ṯiš·mə·‘ū",
+          "strongsNumber": "H8085",
+          "morphology": "V-Qal-Imperf-2mp"
+        },
+        {
+          "position": 3,
+          "text": "and if",
+          "original": "וְאִם־",
+          "transliteration": "wə·’im-",
+          "strongsNumber": "H0518",
+          "morphology": "Conj"
+        },
+        {
+          "position": 4,
+          "text": "you do not",
+          "original": "לֹא֩",
+          "transliteration": "lō",
+          "strongsNumber": "H3808",
+          "morphology": "Adv-NegPrt"
+        },
+        {
+          "position": 5,
+          "text": "take [it]",
+          "original": "תָשִׂ֨ימוּ",
+          "transliteration": "ṯā·śî·mū",
+          "strongsNumber": "H7760",
+          "morphology": "V-Qal-Imperf-2mp"
+        },
+        {
+          "position": 6,
+          "text": "to",
+          "original": "עַל־",
+          "transliteration": "‘al-",
+          "strongsNumber": "H5921",
+          "morphology": "Prep"
+        },
+        {
+          "position": 7,
+          "text": "heart",
+          "original": "לֵ֜ב",
+          "transliteration": "lêḇ",
+          "strongsNumber": "H3820",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 8,
+          "text": "to honor",
+          "original": "לָתֵ֧ת",
+          "transliteration": "lā·ṯêṯ",
+          "strongsNumber": "H5414",
+          "morphology": "Prep-l | V-Qal-Inf"
+        },
+        {
+          "position": 9,
+          "text": ". . .",
+          "original": "כָּב֣וֹד",
+          "transliteration": "kā·ḇō·wḏ",
+          "strongsNumber": "H3519",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 10,
+          "text": "My name",
+          "original": "לִשְׁמִ֗י",
+          "transliteration": "liš·mî",
+          "strongsNumber": "H8034",
+          "morphology": "Prep-l | N-msc | 1cs"
+        },
+        {
+          "position": 11,
+          "text": "says",
+          "original": "אָמַר֙",
+          "transliteration": "’ā·mar",
+          "strongsNumber": "H0559",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 12,
+          "text": "the LORD",
+          "original": "יְהוָ֣ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 13,
+          "text": "of Hosts",
+          "original": "צְבָא֔וֹת",
+          "transliteration": "ṣə·ḇā·’ō·wṯ",
+          "strongsNumber": "H6635",
+          "morphology": "N-cp"
+        },
+        {
+          "position": 14,
+          "text": "I will send",
+          "original": "וְשִׁלַּחְתִּ֤י",
+          "transliteration": "wə·šil·laḥ·tî",
+          "strongsNumber": "H7971",
+          "morphology": "Conj-w | V-Piel-ConjPerf-1cs"
+        },
+        {
+          "position": 15,
+          "text": "a curse",
+          "original": "הַמְּאֵרָ֔ה",
+          "transliteration": "ham·mə·’ê·rāh",
+          "strongsNumber": "H3994",
+          "morphology": "Art | N-fs"
+        },
+        {
+          "position": 16,
+          "text": "among you",
+          "original": "בָכֶם֙",
+          "transliteration": "ḇā·ḵem",
+          "strongsNumber": "",
+          "morphology": "Prep | 2mp"
+        },
+        {
+          "position": 17,
+          "text": "and I will curse",
+          "original": "וְאָרוֹתִ֖י",
+          "transliteration": "wə·’ā·rō·w·ṯî",
+          "strongsNumber": "H0779",
+          "morphology": "Conj-w | V-Qal-ConjPerf-1cs"
+        },
+        {
+          "position": 18,
+          "text": "your blessings",
+          "original": "בִּרְכֽוֹתֵיכֶ֑ם",
+          "transliteration": "bir·ḵō·w·ṯê·ḵem",
+          "strongsNumber": "H1293",
+          "morphology": "N-fpc | 2mp"
+        },
+        {
+          "position": 19,
+          "text": "Yes",
+          "original": "וְגַם֙",
+          "transliteration": "wə·ḡam",
+          "strongsNumber": "H1571",
+          "morphology": "Conj"
+        },
+        {
+          "position": 20,
+          "text": "I have already begun to curse them",
+          "original": "אָרוֹתִ֔יהָ",
+          "transliteration": "’ā·rō·w·ṯî·hā",
+          "strongsNumber": "H0779",
+          "morphology": "V-Qal-Perf-1cs | 3fs"
+        },
+        {
+          "position": 21,
+          "text": "because",
+          "original": "כִּ֥י",
+          "transliteration": "kî",
+          "strongsNumber": "H3588",
+          "morphology": "Conj"
+        },
+        {
+          "position": 22,
+          "text": "you are not",
+          "original": "אֵינְכֶ֖ם",
+          "transliteration": "’ê·nə·ḵem",
+          "strongsNumber": "H0369",
+          "morphology": "Adv | 2mp"
+        },
+        {
+          "position": 23,
+          "text": "taking",
+          "original": "שָׂמִ֥ים",
+          "transliteration": "śā·mîm",
+          "strongsNumber": "H7760",
+          "morphology": "V-Qal-Prtcpl-mp"
+        },
+        {
+          "position": 24,
+          "text": "it to",
+          "original": "עַל־",
+          "transliteration": "‘al-",
+          "strongsNumber": "H5921",
+          "morphology": "Prep"
+        },
+        {
+          "position": 25,
+          "text": "heart",
+          "original": "לֵֽב׃",
+          "transliteration": "lêḇ",
+          "strongsNumber": "H3820",
+          "morphology": "N-ms"
+        }
+      ],
+      "3": [
+        {
+          "position": 0,
+          "text": "Behold",
+          "original": "הִנְנִ֨י",
+          "transliteration": "hin·nî",
+          "strongsNumber": "H2005",
+          "morphology": "Interjection | 1cs"
+        },
+        {
+          "position": 1,
+          "text": "I will rebuke",
+          "original": "גֹעֵ֤ר",
+          "transliteration": "ḡō·‘êr",
+          "strongsNumber": "H1605",
+          "morphology": "V-Qal-Prtcpl-ms"
+        },
+        {
+          "position": 2,
+          "text": "your",
+          "original": "לָכֶם֙",
+          "transliteration": "lā·ḵem",
+          "strongsNumber": "",
+          "morphology": "Prep | 2mp"
+        },
+        {
+          "position": 3,
+          "text": "descendants",
+          "original": "הַזֶּ֔רַע",
+          "transliteration": "haz·ze·ra‘",
+          "strongsNumber": "H2233",
+          "morphology": "Art | N-ms"
+        },
+        {
+          "position": 4,
+          "text": "and I will spread",
+          "original": "וְזֵרִ֤יתִי",
+          "transliteration": "wə·zê·rî·ṯî",
+          "strongsNumber": "H2219",
+          "morphology": "Conj-w | V-Piel-ConjPerf-1cs"
+        },
+        {
+          "position": 5,
+          "text": "dung",
+          "original": "פֶ֙רֶשׁ֙",
+          "transliteration": "p̄e·reš",
+          "strongsNumber": "H6569",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 6,
+          "text": "on",
+          "original": "עַל־",
+          "transliteration": "‘al-",
+          "strongsNumber": "H5921",
+          "morphology": "Prep"
+        },
+        {
+          "position": 7,
+          "text": "your faces",
+          "original": "פְּנֵיכֶ֔ם",
+          "transliteration": "pə·nê·ḵem",
+          "strongsNumber": "H6440",
+          "morphology": "N-mpc | 2mp"
+        },
+        {
+          "position": 8,
+          "text": "the waste",
+          "original": "פֶּ֖רֶשׁ",
+          "transliteration": "pe·reš",
+          "strongsNumber": "H6569",
+          "morphology": "N-msc"
+        },
+        {
+          "position": 9,
+          "text": "from your feasts",
+          "original": "חַגֵּיכֶ֑ם",
+          "transliteration": "ḥag·gê·ḵem",
+          "strongsNumber": "H2282",
+          "morphology": "N-mpc | 2mp"
+        },
+        {
+          "position": 10,
+          "text": "and you will be carried off",
+          "original": "וְנָשָׂ֥א",
+          "transliteration": "wə·nā·śā",
+          "strongsNumber": "H5375",
+          "morphology": "Conj-w | V-Qal-ConjPerf-3ms"
+        },
+        {
+          "position": 11,
+          "text": "with it",
+          "original": "אֵלָֽיו׃",
+          "transliteration": "’ê·lāw",
+          "strongsNumber": "H0413",
+          "morphology": "Prep | 3ms"
+        }
+      ],
+      "4": [
+        {
+          "position": 0,
+          "text": "Then you will know",
+          "original": "וִֽידַעְתֶּ֕ם",
+          "transliteration": "wî·ḏa‘·tem",
+          "strongsNumber": "H3045",
+          "morphology": "Conj-w | V-Qal-ConjPerf-2mp"
+        },
+        {
+          "position": 1,
+          "text": "that",
+          "original": "כִּ֚י",
+          "transliteration": "kî",
+          "strongsNumber": "H3588",
+          "morphology": "Conj"
+        },
+        {
+          "position": 2,
+          "text": "I have sent",
+          "original": "שִׁלַּ֣חְתִּי",
+          "transliteration": "šil·laḥ·tî",
+          "strongsNumber": "H7971",
+          "morphology": "V-Piel-Perf-1cs"
+        },
+        {
+          "position": 3,
+          "text": "you",
+          "original": "אֲלֵיכֶ֔ם",
+          "transliteration": "’ă·lê·ḵem",
+          "strongsNumber": "H0413",
+          "morphology": "Prep | 2mp"
+        },
+        {
+          "position": 4,
+          "text": "this",
+          "original": "הַזֹּ֑את",
+          "transliteration": "haz·zōṯ",
+          "strongsNumber": "H2063",
+          "morphology": "Art | Pro-fs"
+        },
+        {
+          "position": 5,
+          "text": "commandment",
+          "original": "הַמִּצְוָ֣ה",
+          "transliteration": "ham·miṣ·wāh",
+          "strongsNumber": "H4687",
+          "morphology": "Art | N-fs"
+        },
+        {
+          "position": 6,
+          "text": "so that My covenant",
+          "original": "בְּרִיתִי֙",
+          "transliteration": "bə·rî·ṯî",
+          "strongsNumber": "H1285",
+          "morphology": "N-fsc | 1cs"
+        },
+        {
+          "position": 7,
+          "text": "with",
+          "original": "אֶת־",
+          "transliteration": "’eṯ-",
+          "strongsNumber": "H0854",
+          "morphology": "Prep"
+        },
+        {
+          "position": 8,
+          "text": "Levi",
+          "original": "לֵוִ֔י",
+          "transliteration": "lê·wî",
+          "strongsNumber": "H3878",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 9,
+          "text": "may continue",
+          "original": "לִֽהְי֤וֹת",
+          "transliteration": "lih·yō·wṯ",
+          "strongsNumber": "H1961",
+          "morphology": "Prep-l | V-Qal-Inf"
+        },
+        {
+          "position": 10,
+          "text": "says",
+          "original": "אָמַ֖ר",
+          "transliteration": "’ā·mar",
+          "strongsNumber": "H0559",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 11,
+          "text": "the LORD",
+          "original": "יְהוָ֥ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 12,
+          "text": "of Hosts",
+          "original": "צְבָאֽוֹת׃",
+          "transliteration": "ṣə·ḇā·’ō·wṯ",
+          "strongsNumber": "H6635",
+          "morphology": "N-cp"
+        }
+      ],
+      "5": [
+        {
+          "position": 0,
+          "text": "My covenant",
+          "original": "בְּרִיתִ֣י׀",
+          "transliteration": "bə·rî·ṯî",
+          "strongsNumber": "H1285",
+          "morphology": "N-fsc | 1cs"
+        },
+        {
+          "position": 1,
+          "text": "with him",
+          "original": "אִתּ֗וֹ",
+          "transliteration": "’it·tōw",
+          "strongsNumber": "H0854",
+          "morphology": "Prep | 3ms"
+        },
+        {
+          "position": 2,
+          "text": "was",
+          "original": "הָיְתָ֣ה",
+          "transliteration": "hā·yə·ṯāh",
+          "strongsNumber": "H1961",
+          "morphology": "V-Qal-Perf-3fs"
+        },
+        {
+          "position": 3,
+          "text": "[one] of life",
+          "original": "הַֽחַיִּים֙",
+          "transliteration": "ha·ḥay·yîm",
+          "strongsNumber": "H2416",
+          "morphology": "Art | N-mp"
+        },
+        {
+          "position": 4,
+          "text": "and peace",
+          "original": "וְהַ֨שָּׁל֔וֹם",
+          "transliteration": "wə·haš·šā·lō·wm",
+          "strongsNumber": "H7965",
+          "morphology": "Conj-w, Art | N-ms"
+        },
+        {
+          "position": 5,
+          "text": "which I gave",
+          "original": "וָאֶתְּנֵֽם־",
+          "transliteration": "wā·’et·tə·nêm-",
+          "strongsNumber": "H5414",
+          "morphology": "Conj-w | V-Qal-ConsecImperf-1cs | 3mp"
+        },
+        {
+          "position": 6,
+          "text": "to him",
+          "original": "ל֥וֹ",
+          "transliteration": "lōw",
+          "strongsNumber": "",
+          "morphology": "Prep | 3ms"
+        },
+        {
+          "position": 7,
+          "text": "it called for reverence",
+          "original": "מוֹרָ֖א",
+          "transliteration": "mō·w·rā",
+          "strongsNumber": "H4172",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 8,
+          "text": "and he revered Me",
+          "original": "וַיִּֽירָאֵ֑נִי",
+          "transliteration": "way·yî·rā·’ê·nî",
+          "strongsNumber": "H3372",
+          "morphology": "Conj-w | V-Qal-ConsecImperf-3ms | 1cs"
+        },
+        {
+          "position": 9,
+          "text": "and stood in awe",
+          "original": "נִחַ֥ת",
+          "transliteration": "ni·ḥaṯ",
+          "strongsNumber": "H2865",
+          "morphology": "V-Nifal-Perf-3ms"
+        },
+        {
+          "position": 10,
+          "text": ". . .",
+          "original": "הֽוּא׃",
+          "transliteration": "hū",
+          "strongsNumber": "H1931",
+          "morphology": "Pro-3ms"
+        },
+        {
+          "position": 11,
+          "text": ". . .",
+          "original": "וּמִפְּנֵ֥י",
+          "transliteration": "ū·mip·pə·nê",
+          "strongsNumber": "H6440",
+          "morphology": "Conj-w, Prep-m | N-cpc"
+        },
+        {
+          "position": 12,
+          "text": "of My name",
+          "original": "שְׁמִ֖י",
+          "transliteration": "šə·mî",
+          "strongsNumber": "H8034",
+          "morphology": "N-msc | 1cs"
+        }
+      ],
+      "6": [
+        {
+          "position": 0,
+          "text": "True",
+          "original": "אֱמֶת֙",
+          "transliteration": "’ĕ·meṯ",
+          "strongsNumber": "H0571",
+          "morphology": "N-fs"
+        },
+        {
+          "position": 1,
+          "text": "instruction",
+          "original": "תּוֹרַ֤ת",
+          "transliteration": "tō·w·raṯ",
+          "strongsNumber": "H8451",
+          "morphology": "N-fsc"
+        },
+        {
+          "position": 2,
+          "text": "was",
+          "original": "הָיְתָ֣ה",
+          "transliteration": "hā·yə·ṯāh",
+          "strongsNumber": "H1961",
+          "morphology": "V-Qal-Perf-3fs"
+        },
+        {
+          "position": 3,
+          "text": "in his mouth",
+          "original": "בְּפִ֔יהוּ",
+          "transliteration": "bə·p̄î·hū",
+          "strongsNumber": "H6310",
+          "morphology": "Prep-b | N-msc | 3ms"
+        },
+        {
+          "position": 4,
+          "text": "and nothing",
+          "original": "לֹא־",
+          "transliteration": "lō-",
+          "strongsNumber": "H3808",
+          "morphology": "Adv-NegPrt"
+        },
+        {
+          "position": 5,
+          "text": "false",
+          "original": "וְעַוְלָ֖ה",
+          "transliteration": "wə·‘aw·lāh",
+          "strongsNumber": "H5766",
+          "morphology": "Conj-w | N-fs"
+        },
+        {
+          "position": 6,
+          "text": "was found",
+          "original": "נִמְצָ֣א",
+          "transliteration": "nim·ṣā",
+          "strongsNumber": "H4672",
+          "morphology": "V-Nifal-Perf-3ms"
+        },
+        {
+          "position": 7,
+          "text": "on his lips",
+          "original": "בִשְׂפָתָ֑יו",
+          "transliteration": "ḇiś·p̄ā·ṯāw",
+          "strongsNumber": "H8193",
+          "morphology": "Prep-b | N-fdc | 3ms"
+        },
+        {
+          "position": 8,
+          "text": "He walked",
+          "original": "הָלַ֣ךְ",
+          "transliteration": "hā·laḵ",
+          "strongsNumber": "H1980",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 9,
+          "text": "with Me",
+          "original": "אִתִּ֔י",
+          "transliteration": "’it·tî",
+          "strongsNumber": "H0854",
+          "morphology": "Prep | 1cs"
+        },
+        {
+          "position": 10,
+          "text": "in peace",
+          "original": "בְּשָׁל֤וֹם",
+          "transliteration": "bə·šā·lō·wm",
+          "strongsNumber": "H7965",
+          "morphology": "Prep-b | N-ms"
+        },
+        {
+          "position": 11,
+          "text": "and uprightness",
+          "original": "וּבְמִישׁוֹר֙",
+          "transliteration": "ū·ḇə·mî·šō·wr",
+          "strongsNumber": "H4334",
+          "morphology": "Conj-w, Prep-b | N-ms"
+        },
+        {
+          "position": 12,
+          "text": "and he turned",
+          "original": "הֵשִׁ֥יב",
+          "transliteration": "hê·šîḇ",
+          "strongsNumber": "H7725",
+          "morphology": "V-Hifil-Perf-3ms"
+        },
+        {
+          "position": 13,
+          "text": "many",
+          "original": "וְרַבִּ֖ים",
+          "transliteration": "wə·rab·bîm",
+          "strongsNumber": "H7227",
+          "morphology": "Conj-w | Adj-mp"
+        },
+        {
+          "position": 14,
+          "text": "from iniquity",
+          "original": "מֵעָוֺֽן׃",
+          "transliteration": "mê·‘ā·wōn",
+          "strongsNumber": "H5771",
+          "morphology": "Prep-m | N-cs"
+        }
+      ],
+      "7": [
+        {
+          "position": 0,
+          "text": "For",
+          "original": "כִּֽי־",
+          "transliteration": "kî-",
+          "strongsNumber": "H3588",
+          "morphology": "Conj"
+        },
+        {
+          "position": 1,
+          "text": "the lips",
+          "original": "שִׂפְתֵ֤י",
+          "transliteration": "śip̄·ṯê",
+          "strongsNumber": "H8193",
+          "morphology": "N-fdc"
+        },
+        {
+          "position": 2,
+          "text": "of a priest",
+          "original": "כֹהֵן֙",
+          "transliteration": "ḵō·hên",
+          "strongsNumber": "H3548",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 3,
+          "text": "should preserve",
+          "original": "יִשְׁמְרוּ־",
+          "transliteration": "yiš·mə·rū-",
+          "strongsNumber": "H8104",
+          "morphology": "V-Qal-Imperf-3mp"
+        },
+        {
+          "position": 4,
+          "text": "knowledge",
+          "original": "דַ֔עַת",
+          "transliteration": "ḏa·‘aṯ",
+          "strongsNumber": "H1847",
+          "morphology": "N-fs"
+        },
+        {
+          "position": 5,
+          "text": "and people should seek",
+          "original": "יְבַקְשׁ֣וּ",
+          "transliteration": "yə·ḇaq·šū",
+          "strongsNumber": "H1245",
+          "morphology": "V-Piel-Imperf-3mp"
+        },
+        {
+          "position": 6,
+          "text": "instruction",
+          "original": "וְתוֹרָ֖ה",
+          "transliteration": "wə·ṯō·w·rāh",
+          "strongsNumber": "H8451",
+          "morphology": "Conj-w | N-fs"
+        },
+        {
+          "position": 7,
+          "text": "from his mouth",
+          "original": "מִפִּ֑יהוּ",
+          "transliteration": "mip·pî·hū",
+          "strongsNumber": "H6310",
+          "morphology": "Prep-m | N-msc | 3ms"
+        },
+        {
+          "position": 8,
+          "text": "because",
+          "original": "כִּ֛י",
+          "transliteration": "kî",
+          "strongsNumber": "H3588",
+          "morphology": "Conj"
+        },
+        {
+          "position": 9,
+          "text": "he",
+          "original": "הֽוּא׃",
+          "transliteration": "hū",
+          "strongsNumber": "H1931",
+          "morphology": "Pro-3ms"
+        },
+        {
+          "position": 10,
+          "text": "is the messenger",
+          "original": "מַלְאַ֥ךְ",
+          "transliteration": "mal·’aḵ",
+          "strongsNumber": "H4397",
+          "morphology": "N-msc"
+        },
+        {
+          "position": 11,
+          "text": "of the LORD",
+          "original": "יְהוָֽה־",
+          "transliteration": "Yah·weh-",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 12,
+          "text": "of Hosts",
+          "original": "צְבָא֖וֹת",
+          "transliteration": "ṣə·ḇā·’ō·wṯ",
+          "strongsNumber": "H6635",
+          "morphology": "N-cp"
+        }
+      ],
+      "8": [
+        {
+          "position": 0,
+          "text": "But you",
+          "original": "וְאַתֶּם֙",
+          "transliteration": "wə·’at·tem",
+          "strongsNumber": "H0859",
+          "morphology": "Conj-w | Pro-2mp"
+        },
+        {
+          "position": 1,
+          "text": "have departed",
+          "original": "סַרְתֶּ֣ם",
+          "transliteration": "sar·tem",
+          "strongsNumber": "H5493",
+          "morphology": "V-Qal-Perf-2mp"
+        },
+        {
+          "position": 2,
+          "text": "from",
+          "original": "מִן־",
+          "transliteration": "min-",
+          "strongsNumber": "H4480",
+          "morphology": "Prep"
+        },
+        {
+          "position": 3,
+          "text": "the way",
+          "original": "הַדֶּ֔רֶךְ",
+          "transliteration": "had·de·reḵ",
+          "strongsNumber": "H1870",
+          "morphology": "Art | N-cs"
+        },
+        {
+          "position": 4,
+          "text": "and your instruction",
+          "original": "בַּתּוֹרָ֑ה",
+          "transliteration": "bat·tō·w·rāh",
+          "strongsNumber": "H8451",
+          "morphology": "Prep-b, Art | N-fs"
+        },
+        {
+          "position": 5,
+          "text": "has caused many",
+          "original": "רַבִּ֖ים",
+          "transliteration": "rab·bîm",
+          "strongsNumber": "H7227",
+          "morphology": "Adj-mp"
+        },
+        {
+          "position": 6,
+          "text": "to stumble",
+          "original": "הִכְשַׁלְתֶּ֥ם",
+          "transliteration": "hiḵ·šal·tem",
+          "strongsNumber": "H3782",
+          "morphology": "V-Hifil-Perf-2mp"
+        },
+        {
+          "position": 7,
+          "text": "You have violated",
+          "original": "שִֽׁחַתֶּם֙",
+          "transliteration": "ši·ḥat·tem",
+          "strongsNumber": "H7843",
+          "morphology": "V-Piel-Perf-2mp"
+        },
+        {
+          "position": 8,
+          "text": "the covenant",
+          "original": "בְּרִ֣ית",
+          "transliteration": "bə·rîṯ",
+          "strongsNumber": "H1285",
+          "morphology": "N-fsc"
+        },
+        {
+          "position": 9,
+          "text": "of Levi",
+          "original": "הַלֵּוִ֔י",
+          "transliteration": "hal·lê·wî",
+          "strongsNumber": "H3878",
+          "morphology": "Art | N-proper-ms"
+        },
+        {
+          "position": 10,
+          "text": "says",
+          "original": "אָמַ֖ר",
+          "transliteration": "’ā·mar",
+          "strongsNumber": "H0559",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 11,
+          "text": "the LORD",
+          "original": "יְהוָ֥ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 12,
+          "text": "of Hosts",
+          "original": "צְבָאֽוֹת׃",
+          "transliteration": "ṣə·ḇā·’ō·wṯ",
+          "strongsNumber": "H6635",
+          "morphology": "N-cp"
+        }
+      ],
+      "9": [
+        {
+          "position": 0,
+          "text": "So I",
+          "original": "אֲנִ֞י",
+          "transliteration": "’ă·nî",
+          "strongsNumber": "H0589",
+          "morphology": "Pro-1cs"
+        },
+        {
+          "position": 1,
+          "text": "in turn",
+          "original": "וְגַם־",
+          "transliteration": "wə·ḡam-",
+          "strongsNumber": "H1571",
+          "morphology": "Conj"
+        },
+        {
+          "position": 2,
+          "text": "have made",
+          "original": "נָתַ֧תִּי",
+          "transliteration": "nā·ṯat·tî",
+          "strongsNumber": "H5414",
+          "morphology": "V-Qal-Perf-1cs"
+        },
+        {
+          "position": 3,
+          "text": "you despised",
+          "original": "נִבְזִ֥ים",
+          "transliteration": "niḇ·zîm",
+          "strongsNumber": "H0959",
+          "morphology": "V-Nifal-Prtcpl-mp"
+        },
+        {
+          "position": 4,
+          "text": "and humiliated",
+          "original": "וּשְׁפָלִ֖ים",
+          "transliteration": "ū·šə·p̄ā·lîm",
+          "strongsNumber": "H8217",
+          "morphology": "Conj-w | Adj-mp"
+        },
+        {
+          "position": 5,
+          "text": "before all",
+          "original": "לְכָל־",
+          "transliteration": "lə·ḵāl",
+          "strongsNumber": "H3605",
+          "morphology": "Prep-l | N-msc"
+        },
+        {
+          "position": 6,
+          "text": "the people",
+          "original": "הָעָ֑ם",
+          "transliteration": "hā·‘ām",
+          "strongsNumber": "H5971",
+          "morphology": "Art | N-ms"
+        },
+        {
+          "position": 7,
+          "text": "because",
+          "original": "כְּפִ֗י",
+          "transliteration": "kə·p̄î",
+          "strongsNumber": "H6310",
+          "morphology": "Prep-k | N-msc"
+        },
+        {
+          "position": 8,
+          "text": "you have not",
+          "original": "אֵֽינְכֶם֙",
+          "transliteration": "’ê·nə·ḵem",
+          "strongsNumber": "H0369",
+          "morphology": "Adv | 2mp"
+        },
+        {
+          "position": 9,
+          "text": "kept",
+          "original": "שֹׁמְרִ֣ים",
+          "transliteration": "šō·mə·rîm",
+          "strongsNumber": "H8104",
+          "morphology": "V-Qal-Prtcpl-mp"
+        },
+        {
+          "position": 10,
+          "text": "My ways",
+          "original": "דְּרָכַ֔י",
+          "transliteration": "də·rā·ḵay",
+          "strongsNumber": "H1870",
+          "morphology": "N-cpc | 1cs"
+        },
+        {
+          "position": 11,
+          "text": "but have shown partiality",
+          "original": "וְנֹשְׂאִ֥ים",
+          "transliteration": "wə·nō·śə·’îm",
+          "strongsNumber": "H5375",
+          "morphology": "Conj-w | V-Qal-Prtcpl-mp"
+        },
+        {
+          "position": 12,
+          "text": ". . .",
+          "original": "פָּנִ֖ים",
+          "transliteration": "pā·nîm",
+          "strongsNumber": "H6440",
+          "morphology": "N-mp"
+        },
+        {
+          "position": 13,
+          "text": "in matters of the law",
+          "original": "בַּתּוֹרָֽה׃פ",
+          "transliteration": "bat·tō·w·rāh",
+          "strongsNumber": "H8451",
+          "morphology": "Prep-b, Art | N-fs"
+        }
+      ],
+      "10": [
+        {
+          "position": 0,
+          "text": "Do we not",
+          "original": "הֲל֨וֹא",
+          "transliteration": "hă·lō·w",
+          "strongsNumber": "H3808",
+          "morphology": "Adv-NegPrt"
+        },
+        {
+          "position": 1,
+          "text": "all",
+          "original": "לְכֻלָּ֔נוּ",
+          "transliteration": "lə·ḵul·lā·nū",
+          "strongsNumber": "H3605",
+          "morphology": "Prep-l | N-msc | 1cp"
+        },
+        {
+          "position": 2,
+          "text": "have one",
+          "original": "אֶחָד֙",
+          "transliteration": "’e·ḥāḏ",
+          "strongsNumber": "H0259",
+          "morphology": "Number-ms"
+        },
+        {
+          "position": 3,
+          "text": "Father",
+          "original": "אָ֤ב",
+          "transliteration": "’āḇ",
+          "strongsNumber": "H0001",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 4,
+          "text": "Did not",
+          "original": "הֲל֛וֹא",
+          "transliteration": "hă·lō·w",
+          "strongsNumber": "H3808",
+          "morphology": "Adv-NegPrt"
+        },
+        {
+          "position": 5,
+          "text": "one",
+          "original": "אֶֽחָ֖ד",
+          "transliteration": "’e·ḥāḏ",
+          "strongsNumber": "H0259",
+          "morphology": "Number-ms"
+        },
+        {
+          "position": 6,
+          "text": "God",
+          "original": "אֵ֥ל",
+          "transliteration": "’êl",
+          "strongsNumber": "H0410",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 7,
+          "text": "create us",
+          "original": "בְּרָאָ֑נוּ",
+          "transliteration": "bə·rā·’ā·nū",
+          "strongsNumber": "H1254",
+          "morphology": "V-Qal-Perf-3ms | 1cp"
+        },
+        {
+          "position": 8,
+          "text": "Why then",
+          "original": "מַדּ֗וּעַ",
+          "transliteration": "mad·dū·a‘",
+          "strongsNumber": "H4069",
+          "morphology": "Interrog"
+        },
+        {
+          "position": 9,
+          "text": "do we break faith",
+          "original": "נִבְגַּד֙",
+          "transliteration": "niḇ·gaḏ",
+          "strongsNumber": "H0898",
+          "morphology": "V-Qal-Imperf-1cp"
+        },
+        {
+          "position": 10,
+          "text": "with one",
+          "original": "אִ֣ישׁ",
+          "transliteration": "’îš",
+          "strongsNumber": "H0376",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 11,
+          "text": "another",
+          "original": "בְּאָחִ֔יו",
+          "transliteration": "bə·’ā·ḥîw",
+          "strongsNumber": "H0251",
+          "morphology": "Prep-b | N-msc | 3ms"
+        },
+        {
+          "position": 12,
+          "text": "so as to profane",
+          "original": "לְחַלֵּ֖ל",
+          "transliteration": "lə·ḥal·lêl",
+          "strongsNumber": "H2490",
+          "morphology": "Prep-l | V-Piel-Inf"
+        },
+        {
+          "position": 13,
+          "text": "the covenant",
+          "original": "בְּרִ֥ית",
+          "transliteration": "bə·rîṯ",
+          "strongsNumber": "H1285",
+          "morphology": "N-fsc"
+        },
+        {
+          "position": 14,
+          "text": "of our fathers",
+          "original": "אֲבֹתֵֽינוּ׃",
+          "transliteration": "’ă·ḇō·ṯê·nū",
+          "strongsNumber": "H0001",
+          "morphology": "N-mpc | 1cp"
+        }
+      ],
+      "11": [
+        {
+          "position": 0,
+          "text": "Judah",
+          "original": "יְהוּדָ֔ה",
+          "transliteration": "yə·hū·ḏāh",
+          "strongsNumber": "H3063",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 1,
+          "text": "has broken faith",
+          "original": "בָּגְדָ֣ה",
+          "transliteration": "bā·ḡə·ḏāh",
+          "strongsNumber": "H0898",
+          "morphology": "V-Qal-Perf-3fs"
+        },
+        {
+          "position": 2,
+          "text": "an abomination",
+          "original": "וְתוֹעֵבָ֛ה",
+          "transliteration": "wə·ṯō·w·‘ê·ḇāh",
+          "strongsNumber": "H8441",
+          "morphology": "Conj-w | N-fs"
+        },
+        {
+          "position": 3,
+          "text": "has been committed",
+          "original": "נֶעֶשְׂתָ֥ה",
+          "transliteration": "ne·‘eś·ṯāh",
+          "strongsNumber": "H6213",
+          "morphology": "V-Nifal-Perf-3fs"
+        },
+        {
+          "position": 4,
+          "text": "in Israel",
+          "original": "בְיִשְׂרָאֵ֖ל",
+          "transliteration": "ḇə·yiś·rā·’êl",
+          "strongsNumber": "H3478",
+          "morphology": "Prep-b | N-proper-ms"
+        },
+        {
+          "position": 5,
+          "text": "and in Jerusalem",
+          "original": "וּבִירֽוּשָׁלִָ֑ם",
+          "transliteration": "ū·ḇî·rū·šā·lim",
+          "strongsNumber": "H3389",
+          "morphology": "Conj-w, Prep-b | N-proper-fs"
+        },
+        {
+          "position": 6,
+          "text": "For",
+          "original": "כִּ֣י׀",
+          "transliteration": "kî",
+          "strongsNumber": "H3588",
+          "morphology": "Conj"
+        },
+        {
+          "position": 7,
+          "text": "Judah",
+          "original": "יְהוּדָ֗ה",
+          "transliteration": "yə·hū·ḏāh",
+          "strongsNumber": "H3063",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 8,
+          "text": "has profaned",
+          "original": "חִלֵּ֣ל",
+          "transliteration": "ḥil·lêl",
+          "strongsNumber": "H2490",
+          "morphology": "V-Piel-Perf-3ms"
+        },
+        {
+          "position": 9,
+          "text": "the LORD’s",
+          "original": "יְהוָה֙",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 10,
+          "text": "beloved",
+          "original": "אָהֵ֔ב",
+          "transliteration": "’ā·hêḇ",
+          "strongsNumber": "H0157",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 11,
+          "text": "sanctuary",
+          "original": "קֹ֤דֶשׁ",
+          "transliteration": "qō·ḏeš",
+          "strongsNumber": "H6944",
+          "morphology": "N-msc"
+        },
+        {
+          "position": 12,
+          "text": "by marrying",
+          "original": "וּבָעַ֖ל",
+          "transliteration": "ū·ḇā·‘al",
+          "strongsNumber": "H1166",
+          "morphology": "Conj-w | V-Qal-ConjPerf-3ms"
+        },
+        {
+          "position": 13,
+          "text": "the daughter",
+          "original": "בַּת־",
+          "transliteration": "baṯ-",
+          "strongsNumber": "H1323",
+          "morphology": "N-fsc"
+        },
+        {
+          "position": 14,
+          "text": "of a foreign",
+          "original": "נֵכָֽר׃",
+          "transliteration": "nê·ḵār",
+          "strongsNumber": "H5236",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 15,
+          "text": "god",
+          "original": "אֵ֥ל",
+          "transliteration": "’êl",
+          "strongsNumber": "H0410",
+          "morphology": "N-msc"
+        }
+      ],
+      "12": [
+        {
+          "position": 0,
+          "text": "[As] for the man",
+          "original": "לָאִ֨ישׁ",
+          "transliteration": "lā·’îš",
+          "strongsNumber": "H0376",
+          "morphology": "Prep-l, Art | N-ms"
+        },
+        {
+          "position": 1,
+          "text": "who",
+          "original": "אֲשֶׁ֤ר",
+          "transliteration": "’ă·šer",
+          "strongsNumber": "H0834",
+          "morphology": "Pro-r"
+        },
+        {
+          "position": 2,
+          "text": "does this",
+          "original": "יַעֲשֶׂ֙נָּה֙",
+          "transliteration": "ya·‘ă·śen·nāh",
+          "strongsNumber": "H6213",
+          "morphology": "V-Qal-Imperf-3ms | 3fs"
+        },
+        {
+          "position": 3,
+          "text": "may the LORD",
+          "original": "יְהוָ֜ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 4,
+          "text": "cut off",
+          "original": "יַכְרֵ֨ת",
+          "transliteration": "yaḵ·rêṯ",
+          "strongsNumber": "H3772",
+          "morphology": "V-Hifil-Imperf.Jus-3ms"
+        },
+        {
+          "position": 5,
+          "text": "from the tents",
+          "original": "מֵאָהֳלֵ֖י",
+          "transliteration": "mê·’ā·ho·lê",
+          "strongsNumber": "H0168",
+          "morphology": "Prep-m | N-mpc"
+        },
+        {
+          "position": 6,
+          "text": "of Jacob",
+          "original": "יַֽעֲקֹ֑ב",
+          "transliteration": "ya·‘ă·qōḇ",
+          "strongsNumber": "H3290",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 7,
+          "text": "[everyone who is] awake",
+          "original": "עֵ֣ר",
+          "transliteration": "‘êr",
+          "strongsNumber": "H5782",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 8,
+          "text": "and aware",
+          "original": "וְעֹנֶ֔ה",
+          "transliteration": "wə·‘ō·neh",
+          "strongsNumber": "H6030",
+          "morphology": "Conj-w | V-Qal-Prtcpl-ms"
+        },
+        {
+          "position": 9,
+          "text": "even if he brings",
+          "original": "וּמַגִּ֣ישׁ",
+          "transliteration": "ū·mag·gîš",
+          "strongsNumber": "H5066",
+          "morphology": "Conj-w | V-Hifil-Prtcpl-ms"
+        },
+        {
+          "position": 10,
+          "text": "an offering",
+          "original": "מִנְחָ֔ה",
+          "transliteration": "min·ḥāh",
+          "strongsNumber": "H4503",
+          "morphology": "N-fs"
+        },
+        {
+          "position": 11,
+          "text": "to the LORD",
+          "original": "לַֽיהוָ֖ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "Prep-l | N-proper-ms"
+        },
+        {
+          "position": 12,
+          "text": "of Hosts",
+          "original": "צְבָאֽוֹת׃פ",
+          "transliteration": "ṣə·ḇā·’ō·wṯ",
+          "strongsNumber": "H6635",
+          "morphology": "N-cp"
+        }
+      ],
+      "13": [
+        {
+          "position": 0,
+          "text": "And this",
+          "original": "וְזֹאת֙",
+          "transliteration": "wə·zōṯ",
+          "strongsNumber": "H2063",
+          "morphology": "Conj-w | Pro-fs"
+        },
+        {
+          "position": 1,
+          "text": "is another",
+          "original": "שֵׁנִ֣ית",
+          "transliteration": "šê·nîṯ",
+          "strongsNumber": "H8145",
+          "morphology": "Number-ofs"
+        },
+        {
+          "position": 2,
+          "text": "thing you do",
+          "original": "תַּֽעֲשׂ֔וּ",
+          "transliteration": "ta·‘ă·śū",
+          "strongsNumber": "H6213",
+          "morphology": "V-Qal-Imperf-2mp"
+        },
+        {
+          "position": 3,
+          "text": "You cover",
+          "original": "כַּסּ֤וֹת",
+          "transliteration": "kas·sō·wṯ",
+          "strongsNumber": "H3680",
+          "morphology": "V-Piel-Inf"
+        },
+        {
+          "position": 4,
+          "text": "the altar",
+          "original": "מִזְבַּ֣ח",
+          "transliteration": "miz·baḥ",
+          "strongsNumber": "H4196",
+          "morphology": "N-msc"
+        },
+        {
+          "position": 5,
+          "text": "of the LORD",
+          "original": "יְהוָ֔ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 6,
+          "text": "with tears",
+          "original": "דִּמְעָה֙",
+          "transliteration": "dim·‘āh",
+          "strongsNumber": "H1832",
+          "morphology": "N-fs"
+        },
+        {
+          "position": 7,
+          "text": "with weeping",
+          "original": "בְּכִ֖י",
+          "transliteration": "bə·ḵî",
+          "strongsNumber": "H1065",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 8,
+          "text": "and groaning",
+          "original": "וַֽאֲנָקָ֑ה",
+          "transliteration": "wa·’ă·nā·qāh",
+          "strongsNumber": "H0603",
+          "morphology": "Conj-w | N-fs"
+        },
+        {
+          "position": 9,
+          "text": "because He no",
+          "original": "מֵאֵ֣ין",
+          "transliteration": "mê·’ên",
+          "strongsNumber": "H0369",
+          "morphology": "Prep-m | Adv"
+        },
+        {
+          "position": 10,
+          "text": "longer",
+          "original": "ע֗וֹד",
+          "transliteration": "‘ō·wḏ",
+          "strongsNumber": "H5750",
+          "morphology": "Adv"
+        },
+        {
+          "position": 11,
+          "text": "regards",
+          "original": "פְּנוֹת֙",
+          "transliteration": "pə·nō·wṯ",
+          "strongsNumber": "H6437",
+          "morphology": "V-Qal-Inf"
+        },
+        {
+          "position": 12,
+          "text": ". . .",
+          "original": "אֶל־",
+          "transliteration": "’el-",
+          "strongsNumber": "H0413",
+          "morphology": "Prep"
+        },
+        {
+          "position": 13,
+          "text": "your offerings",
+          "original": "הַמִּנְחָ֔ה",
+          "transliteration": "ham·min·ḥāh",
+          "strongsNumber": "H4503",
+          "morphology": "Art | N-fs"
+        },
+        {
+          "position": 14,
+          "text": "or receives them",
+          "original": "וְלָקַ֥חַת",
+          "transliteration": "wə·lā·qa·ḥaṯ",
+          "strongsNumber": "H3947",
+          "morphology": "Conj-w, Prep-l | V-Qal-Inf"
+        },
+        {
+          "position": 15,
+          "text": "gladly",
+          "original": "רָצ֖וֹן",
+          "transliteration": "rā·ṣō·wn",
+          "strongsNumber": "H7522",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 16,
+          "text": "from your hands",
+          "original": "מִיֶּדְכֶֽם׃",
+          "transliteration": "mî·yeḏ·ḵem",
+          "strongsNumber": "H3027",
+          "morphology": "Prep-m | N-fsc | 2mp"
+        }
+      ],
+      "14": [
+        {
+          "position": 0,
+          "text": "Yet you ask",
+          "original": "וַאֲמַרְתֶּ֖ם",
+          "transliteration": "wa·’ă·mar·tem",
+          "strongsNumber": "H0559",
+          "morphology": "Conj-w | V-Qal-ConjPerf-2mp"
+        },
+        {
+          "position": 1,
+          "text": "Why",
+          "original": "עַל־",
+          "transliteration": "‘al-",
+          "strongsNumber": "H5921",
+          "morphology": "Prep"
+        },
+        {
+          "position": 2,
+          "text": ". . .",
+          "original": "מָ֑ה",
+          "transliteration": "māh",
+          "strongsNumber": "H4100",
+          "morphology": "Interrog"
+        },
+        {
+          "position": 3,
+          "text": "It is because",
+          "original": "עַ֡ל",
+          "transliteration": "‘al",
+          "strongsNumber": "H5921",
+          "morphology": "Prep"
+        },
+        {
+          "position": 4,
+          "text": ". . .",
+          "original": "כִּי־",
+          "transliteration": "kî-",
+          "strongsNumber": "H3588",
+          "morphology": "Conj"
+        },
+        {
+          "position": 5,
+          "text": "the LORD",
+          "original": "יְהוָה֩",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 6,
+          "text": "has been a witness",
+          "original": "הֵעִ֨יד",
+          "transliteration": "hê·‘îḏ",
+          "strongsNumber": "H5749",
+          "morphology": "V-Hifil-Perf-3ms"
+        },
+        {
+          "position": 7,
+          "text": "between you",
+          "original": "בֵּינְךָ֜",
+          "transliteration": "bê·nə·ḵā",
+          "strongsNumber": "H0996",
+          "morphology": "Prep | 2ms"
+        },
+        {
+          "position": 8,
+          "text": "and",
+          "original": "וּבֵ֣ין׀",
+          "transliteration": "ū·ḇên",
+          "strongsNumber": "H0996",
+          "morphology": "Conj-w | Prep"
+        },
+        {
+          "position": 9,
+          "text": "the wife",
+          "original": "אֵ֣שֶׁת",
+          "transliteration": "’ê·šeṯ",
+          "strongsNumber": "H0802",
+          "morphology": "N-fsc"
+        },
+        {
+          "position": 10,
+          "text": "of your youth",
+          "original": "נְעוּרֶ֗יךָ",
+          "transliteration": "nə·‘ū·re·ḵā",
+          "strongsNumber": "H5271",
+          "morphology": "N-mpc | 2ms"
+        },
+        {
+          "position": 11,
+          "text": "against whom",
+          "original": "אֲשֶׁ֤ר",
+          "transliteration": "’ă·šer",
+          "strongsNumber": "H0834",
+          "morphology": "Pro-r"
+        },
+        {
+          "position": 12,
+          "text": "you",
+          "original": "אַתָּה֙",
+          "transliteration": "’at·tāh",
+          "strongsNumber": "H0859",
+          "morphology": "Pro-2ms"
+        },
+        {
+          "position": 13,
+          "text": "have broken faith",
+          "original": "בָּגַ֣דְתָּה",
+          "transliteration": "bā·ḡaḏ·tāh",
+          "strongsNumber": "H0898",
+          "morphology": "V-Qal-Perf-2ms"
+        },
+        {
+          "position": 14,
+          "text": "though she is",
+          "original": "וְהִ֥יא",
+          "transliteration": "wə·hî",
+          "strongsNumber": "H1931",
+          "morphology": "Conj-w | Pro-3fs"
+        },
+        {
+          "position": 15,
+          "text": "your companion",
+          "original": "חֲבֶרְתְּךָ֖",
+          "transliteration": "ḥă·ḇer·tə·ḵā",
+          "strongsNumber": "H2278",
+          "morphology": "N-fsc | 2ms"
+        },
+        {
+          "position": 16,
+          "text": "and your wife",
+          "original": "וְאֵ֥שֶׁת",
+          "transliteration": "wə·’ê·šeṯ",
+          "strongsNumber": "H0802",
+          "morphology": "Conj-w | N-fsc"
+        },
+        {
+          "position": 17,
+          "text": "by covenant",
+          "original": "בְּרִיתֶֽךָ׃",
+          "transliteration": "bə·rî·ṯe·ḵā",
+          "strongsNumber": "H1285",
+          "morphology": "N-fsc | 2ms"
+        }
+      ],
+      "15": [
+        {
+          "position": 0,
+          "text": "Has not [the LORD]",
+          "original": "וְלֹא־",
+          "transliteration": "wə·lō-",
+          "strongsNumber": "H3808",
+          "morphology": "Conj-w | Adv-NegPrt"
+        },
+        {
+          "position": 1,
+          "text": "made them",
+          "original": "עָשָׂ֗ה",
+          "transliteration": "‘ā·śāh",
+          "strongsNumber": "H6213",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 2,
+          "text": "one",
+          "original": "אֶחָ֣ד",
+          "transliteration": "’e·ḥāḏ",
+          "strongsNumber": "H0259",
+          "morphology": "Number-ms"
+        },
+        {
+          "position": 3,
+          "text": "having a portion",
+          "original": "וּשְׁאָ֥ר",
+          "transliteration": "ū·šə·’ār",
+          "strongsNumber": "H7605",
+          "morphology": "Conj-w | N-msc"
+        },
+        {
+          "position": 4,
+          "text": "of the Spirit",
+          "original": "ר֙וּחַ֙",
+          "transliteration": "rū·aḥ",
+          "strongsNumber": "H7307",
+          "morphology": "N-cs"
+        },
+        {
+          "position": 5,
+          "text": "And why",
+          "original": "וּמָה֙",
+          "transliteration": "ū·māh",
+          "strongsNumber": "H4100",
+          "morphology": "Conj-w | Interrog"
+        },
+        {
+          "position": 6,
+          "text": "one",
+          "original": "הָֽאֶחָ֔ד",
+          "transliteration": "hā·’e·ḥāḏ",
+          "strongsNumber": "H0259",
+          "morphology": "Art | Number-ms"
+        },
+        {
+          "position": 7,
+          "text": "Because He seeks",
+          "original": "מְבַקֵּ֖שׁ",
+          "transliteration": "mə·ḇaq·qêš",
+          "strongsNumber": "H1245",
+          "morphology": "V-Piel-Prtcpl-ms"
+        },
+        {
+          "position": 8,
+          "text": "godly",
+          "original": "אֱלֹהִ֑ים",
+          "transliteration": "’ĕ·lō·hîm",
+          "strongsNumber": "H0430",
+          "morphology": "N-mp"
+        },
+        {
+          "position": 9,
+          "text": "offspring",
+          "original": "זֶ֣רַע",
+          "transliteration": "ze·ra‘",
+          "strongsNumber": "H2233",
+          "morphology": "N-msc"
+        },
+        {
+          "position": 10,
+          "text": "So guard yourselves",
+          "original": "וְנִשְׁמַרְתֶּם֙",
+          "transliteration": "wə·niš·mar·tem",
+          "strongsNumber": "H8104",
+          "morphology": "Conj-w | V-Nifal-ConjPerf-2mp"
+        },
+        {
+          "position": 11,
+          "text": "in your spirit",
+          "original": "בְּר֣וּחֲכֶ֔ם",
+          "transliteration": "bə·rū·ḥă·ḵem",
+          "strongsNumber": "H7307",
+          "morphology": "Prep-b | N-msc | 2mp"
+        },
+        {
+          "position": 12,
+          "text": "and do not",
+          "original": "אַל־",
+          "transliteration": "’al-",
+          "strongsNumber": "H0408",
+          "morphology": "Adv"
+        },
+        {
+          "position": 13,
+          "text": "break faith",
+          "original": "יִבְגֹּֽד׃",
+          "transliteration": "yiḇ·gōḏ",
+          "strongsNumber": "H0898",
+          "morphology": "V-Qal-Imperf-3ms"
+        },
+        {
+          "position": 14,
+          "text": "with the wife",
+          "original": "וּבְאֵ֥שֶׁת",
+          "transliteration": "ū·ḇə·’ê·šeṯ",
+          "strongsNumber": "H0802",
+          "morphology": "Conj-w, Prep-b | N-fsc"
+        },
+        {
+          "position": 15,
+          "text": "of your youth",
+          "original": "נְעוּרֶ֖יךָ",
+          "transliteration": "nə·‘ū·re·ḵā",
+          "strongsNumber": "H5271",
+          "morphology": "N-mpc | 2ms"
+        }
+      ],
+      "16": [
+        {
+          "position": 0,
+          "text": "For",
+          "original": "כִּֽי־",
+          "transliteration": "kî-",
+          "strongsNumber": "H3588",
+          "morphology": "Conj"
+        },
+        {
+          "position": 1,
+          "text": "I hate",
+          "original": "שָׂנֵ֣א",
+          "transliteration": "śā·nê",
+          "strongsNumber": "H8130",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 2,
+          "text": "divorce",
+          "original": "שַׁלַּ֗ח",
+          "transliteration": "šal·laḥ",
+          "strongsNumber": "H7971",
+          "morphology": "V-Piel-Inf"
+        },
+        {
+          "position": 3,
+          "text": "says",
+          "original": "אָמַ֤ר",
+          "transliteration": "’ā·mar",
+          "strongsNumber": "H0559",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 4,
+          "text": "the LORD",
+          "original": "יְהוָה֙",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 5,
+          "text": "the God",
+          "original": "אֱלֹהֵ֣י",
+          "transliteration": "’ĕ·lō·hê",
+          "strongsNumber": "H0430",
+          "morphology": "N-mpc"
+        },
+        {
+          "position": 6,
+          "text": "of Israel",
+          "original": "יִשְׂרָאֵ֔ל",
+          "transliteration": "yiś·rā·’êl",
+          "strongsNumber": "H3478",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 7,
+          "text": "He [who divorces his wife] covers",
+          "original": "וְכִסָּ֤ה",
+          "transliteration": "wə·ḵis·sāh",
+          "strongsNumber": "H3680",
+          "morphology": "Conj-w | V-Piel-ConjPerf-3ms"
+        },
+        {
+          "position": 8,
+          "text": "his garment",
+          "original": "לְבוּשׁ֔וֹ",
+          "transliteration": "lə·ḇū·šōw",
+          "strongsNumber": "H3830",
+          "morphology": "N-msc | 3ms"
+        },
+        {
+          "position": 9,
+          "text": "with",
+          "original": "עַל־",
+          "transliteration": "‘al-",
+          "strongsNumber": "H5921",
+          "morphology": "Prep"
+        },
+        {
+          "position": 10,
+          "text": "violence",
+          "original": "חָמָס֙",
+          "transliteration": "ḥā·mās",
+          "strongsNumber": "H2555",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 11,
+          "text": "says",
+          "original": "אָמַ֖ר",
+          "transliteration": "’ā·mar",
+          "strongsNumber": "H0559",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 12,
+          "text": "the LORD",
+          "original": "יְהוָ֣ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 13,
+          "text": "of Hosts",
+          "original": "צְבָא֑וֹת",
+          "transliteration": "ṣə·ḇā·’ō·wṯ",
+          "strongsNumber": "H6635",
+          "morphology": "N-cp"
+        },
+        {
+          "position": 14,
+          "text": "So guard yourselves",
+          "original": "וְנִשְׁמַרְתֶּ֥ם",
+          "transliteration": "wə·niš·mar·tem",
+          "strongsNumber": "H8104",
+          "morphology": "Conj-w | V-Nifal-ConjPerf-2mp"
+        },
+        {
+          "position": 15,
+          "text": "in your spirit",
+          "original": "בְּרוּחֲכֶ֖ם",
+          "transliteration": "bə·rū·ḥă·ḵem",
+          "strongsNumber": "H7307",
+          "morphology": "Prep-b | N-msc | 2mp"
+        },
+        {
+          "position": 16,
+          "text": "and do not",
+          "original": "וְלֹ֥א",
+          "transliteration": "wə·lō",
+          "strongsNumber": "H3808",
+          "morphology": "Conj-w | Adv-NegPrt"
+        },
+        {
+          "position": 17,
+          "text": "break faith",
+          "original": "תִבְגֹּֽדוּ׃ס",
+          "transliteration": "ṯiḇ·gō·ḏū",
+          "strongsNumber": "H0898",
+          "morphology": "V-Qal-Imperf-2mp"
+        }
+      ],
+      "17": [
+        {
+          "position": 0,
+          "text": "You have wearied",
+          "original": "הוֹגַעְתֶּ֤ם",
+          "transliteration": "hō·w·ḡa‘·tem",
+          "strongsNumber": "H3021",
+          "morphology": "V-Hifil-Perf-2mp"
+        },
+        {
+          "position": 1,
+          "text": "the LORD",
+          "original": "יְהוָה֙",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 2,
+          "text": "with your words",
+          "original": "בְּדִבְרֵיכֶ֔ם",
+          "transliteration": "bə·ḏiḇ·rê·ḵem",
+          "strongsNumber": "H1697",
+          "morphology": "Prep-b | N-mpc | 2mp"
+        },
+        {
+          "position": 3,
+          "text": "yet you ask",
+          "original": "וַאֲמַרְתֶּ֖ם",
+          "transliteration": "wa·’ă·mar·tem",
+          "strongsNumber": "H0559",
+          "morphology": "Conj-w | V-Qal-ConjPerf-2mp"
+        },
+        {
+          "position": 4,
+          "text": "How",
+          "original": "בַּמָּ֣ה",
+          "transliteration": "bam·māh",
+          "strongsNumber": "H4100",
+          "morphology": "Prep-b | Interrog"
+        },
+        {
+          "position": 5,
+          "text": "have we wearied Him",
+          "original": "הוֹגָ֑עְנוּ",
+          "transliteration": "hō·w·ḡā·‘ə·nū",
+          "strongsNumber": "H3021",
+          "morphology": "V-Hifil-Perf-1cp"
+        },
+        {
+          "position": 6,
+          "text": "By saying",
+          "original": "בֶּאֱמָרְכֶ֗ם",
+          "transliteration": "be·’ĕ·mā·rə·ḵem",
+          "strongsNumber": "H0559",
+          "morphology": "Prep-b | V-Qal-Inf | 2mp"
+        },
+        {
+          "position": 7,
+          "text": "All",
+          "original": "כָּל־",
+          "transliteration": "kāl-",
+          "strongsNumber": "H3605",
+          "morphology": "N-msc"
+        },
+        {
+          "position": 8,
+          "text": "who do",
+          "original": "עֹ֨שֵׂה",
+          "transliteration": "‘ō·śêh",
+          "strongsNumber": "H6213",
+          "morphology": "V-Qal-Prtcpl-msc"
+        },
+        {
+          "position": 9,
+          "text": "evil",
+          "original": "רָ֜ע",
+          "transliteration": "rā‘",
+          "strongsNumber": "H7451",
+          "morphology": "Adj-ms"
+        },
+        {
+          "position": 10,
+          "text": "[are] good",
+          "original": "ט֣וֹב׀",
+          "transliteration": "ṭō·wḇ",
+          "strongsNumber": "H2896",
+          "morphology": "Adj-ms"
+        },
+        {
+          "position": 11,
+          "text": "in the sight",
+          "original": "בְּעֵינֵ֣י",
+          "transliteration": "bə·‘ê·nê",
+          "strongsNumber": "H5869",
+          "morphology": "Prep-b | N-cdc"
+        },
+        {
+          "position": 12,
+          "text": "of the LORD",
+          "original": "יְהוָ֗ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 13,
+          "text": "and in them",
+          "original": "וּבָהֶם֙",
+          "transliteration": "ū·ḇā·hem",
+          "strongsNumber": "",
+          "morphology": "Conj-w | Prep | 3mp"
+        },
+        {
+          "position": 14,
+          "text": "He",
+          "original": "ה֣וּא",
+          "transliteration": "hū",
+          "strongsNumber": "H1931",
+          "morphology": "Pro-3ms"
+        },
+        {
+          "position": 15,
+          "text": "delights",
+          "original": "חָפֵ֔ץ",
+          "transliteration": "ḥā·p̄êṣ",
+          "strongsNumber": "H2654",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 16,
+          "text": "or",
+          "original": "א֥וֹ",
+          "transliteration": "’ōw",
+          "strongsNumber": "H0176",
+          "morphology": "Conj"
+        },
+        {
+          "position": 17,
+          "text": "Where",
+          "original": "אַיֵּ֖ה",
+          "transliteration": "’ay·yêh",
+          "strongsNumber": "H0346",
+          "morphology": "Interrog"
+        },
+        {
+          "position": 18,
+          "text": "is the God",
+          "original": "אֱלֹהֵ֥י",
+          "transliteration": "’ĕ·lō·hê",
+          "strongsNumber": "H0430",
+          "morphology": "N-mpc"
+        },
+        {
+          "position": 19,
+          "text": "of justice",
+          "original": "הַמִּשְׁפָּֽט׃",
+          "transliteration": "ham·miš·pāṭ",
+          "strongsNumber": "H4941",
+          "morphology": "Art | N-ms"
+        }
+      ]
+    },
+    "3": {
+      "1": [
+        {
+          "position": 0,
+          "text": "Behold",
+          "original": "הִנְנִ֤י",
+          "transliteration": "hin·nî",
+          "strongsNumber": "H2005",
+          "morphology": "Interjection | 1cs"
+        },
+        {
+          "position": 1,
+          "text": "I will send",
+          "original": "שֹׁלֵחַ֙",
+          "transliteration": "šō·lê·aḥ",
+          "strongsNumber": "H7971",
+          "morphology": "V-Qal-Prtcpl-ms"
+        },
+        {
+          "position": 2,
+          "text": "My messenger",
+          "original": "מַלְאָכִ֔י",
+          "transliteration": "mal·’ā·ḵî",
+          "strongsNumber": "H4397",
+          "morphology": "N-msc | 1cs"
+        },
+        {
+          "position": 3,
+          "text": "who will prepare",
+          "original": "וּפִנָּה־",
+          "transliteration": "ū·p̄in·nāh-",
+          "strongsNumber": "H6437",
+          "morphology": "Conj-w | V-Piel-ConjPerf-3ms"
+        },
+        {
+          "position": 4,
+          "text": "the way",
+          "original": "דֶ֖רֶךְ",
+          "transliteration": "ḏe·reḵ",
+          "strongsNumber": "H1870",
+          "morphology": "N-cs"
+        },
+        {
+          "position": 5,
+          "text": "before Me",
+          "original": "לְפָנָ֑י",
+          "transliteration": "lə·p̄ā·nāy",
+          "strongsNumber": "H6440",
+          "morphology": "Prep-l | N-mpc | 1cs"
+        },
+        {
+          "position": 6,
+          "text": "Then the Lord",
+          "original": "הָאָד֣וֹן׀",
+          "transliteration": "hā·’ā·ḏō·wn",
+          "strongsNumber": "H0113",
+          "morphology": "Art | N-ms"
+        },
+        {
+          "position": 7,
+          "text": "whom",
+          "original": "אֲשֶׁר־",
+          "transliteration": "’ă·šer-",
+          "strongsNumber": "H0834",
+          "morphology": "Pro-r"
+        },
+        {
+          "position": 8,
+          "text": "you",
+          "original": "אַתֶּ֣ם",
+          "transliteration": "’at·tem",
+          "strongsNumber": "H0859",
+          "morphology": "Pro-2mp"
+        },
+        {
+          "position": 9,
+          "text": "seek",
+          "original": "מְבַקְשִׁ֗ים",
+          "transliteration": "mə·ḇaq·šîm",
+          "strongsNumber": "H1245",
+          "morphology": "V-Piel-Prtcpl-mp"
+        },
+        {
+          "position": 10,
+          "text": "will suddenly",
+          "original": "וּפִתְאֹם֩",
+          "transliteration": "ū·p̄iṯ·’ōm",
+          "strongsNumber": "H6597",
+          "morphology": "Conj-w | Adv"
+        },
+        {
+          "position": 11,
+          "text": "come",
+          "original": "יָב֨וֹא",
+          "transliteration": "yā·ḇō·w",
+          "strongsNumber": "H0935",
+          "morphology": "V-Qal-Imperf-3ms"
+        },
+        {
+          "position": 12,
+          "text": "to",
+          "original": "אֶל־",
+          "transliteration": "’el-",
+          "strongsNumber": "H0413",
+          "morphology": "Prep"
+        },
+        {
+          "position": 13,
+          "text": "His temple",
+          "original": "הֵיכָל֜וֹ",
+          "transliteration": "hê·ḵā·lōw",
+          "strongsNumber": "H1964",
+          "morphology": "N-msc | 3ms"
+        },
+        {
+          "position": 14,
+          "text": "the Messenger",
+          "original": "וּמַלְאַ֨ךְ",
+          "transliteration": "ū·mal·’aḵ",
+          "strongsNumber": "H4397",
+          "morphology": "Conj-w | N-msc"
+        },
+        {
+          "position": 15,
+          "text": "of the covenant",
+          "original": "הַבְּרִ֜ית",
+          "transliteration": "hab·bə·rîṯ",
+          "strongsNumber": "H1285",
+          "morphology": "Art | N-fs"
+        },
+        {
+          "position": 16,
+          "text": "in whom",
+          "original": "אֲשֶׁר־",
+          "transliteration": "’ă·šer-",
+          "strongsNumber": "H0834",
+          "morphology": "Pro-r"
+        },
+        {
+          "position": 17,
+          "text": "you",
+          "original": "אַתֶּ֤ם",
+          "transliteration": "’at·tem",
+          "strongsNumber": "H0859",
+          "morphology": "Pro-2mp"
+        },
+        {
+          "position": 18,
+          "text": "delight",
+          "original": "חֲפֵצִים֙",
+          "transliteration": "ḥă·p̄ê·ṣîm",
+          "strongsNumber": "H2655",
+          "morphology": "Adj-mp"
+        },
+        {
+          "position": 19,
+          "text": "see",
+          "original": "הִנֵּה־",
+          "transliteration": "hin·nêh-",
+          "strongsNumber": "H2009",
+          "morphology": "Interjection"
+        },
+        {
+          "position": 20,
+          "text": "He is coming",
+          "original": "בָ֔א",
+          "transliteration": "ḇā",
+          "strongsNumber": "H0935",
+          "morphology": "V-Qal-Prtcpl-ms"
+        },
+        {
+          "position": 21,
+          "text": "says",
+          "original": "אָמַ֖ר",
+          "transliteration": "’ā·mar",
+          "strongsNumber": "H0559",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 22,
+          "text": "the LORD",
+          "original": "יְהוָ֥ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 23,
+          "text": "of Hosts",
+          "original": "צְבָאֽוֹת׃",
+          "transliteration": "ṣə·ḇā·’ō·wṯ",
+          "strongsNumber": "H6635",
+          "morphology": "N-cp"
+        }
+      ],
+      "2": [
+        {
+          "position": 0,
+          "text": "But who",
+          "original": "וּמִ֤י",
+          "transliteration": "ū·mî",
+          "strongsNumber": "H4310",
+          "morphology": "Conj-w | Interrog"
+        },
+        {
+          "position": 1,
+          "text": "can endure",
+          "original": "מְכַלְכֵּל֙",
+          "transliteration": "mə·ḵal·kêl",
+          "strongsNumber": "H3557",
+          "morphology": "V-Piel-Prtcpl-ms"
+        },
+        {
+          "position": 2,
+          "text": "the day",
+          "original": "י֣וֹם",
+          "transliteration": "yō·wm",
+          "strongsNumber": "H3117",
+          "morphology": "N-msc"
+        },
+        {
+          "position": 3,
+          "text": "of His coming",
+          "original": "בּוֹא֔וֹ",
+          "transliteration": "bō·w·’ōw",
+          "strongsNumber": "H0935",
+          "morphology": "V-Qal-Inf | 3ms"
+        },
+        {
+          "position": 4,
+          "text": "And who",
+          "original": "וּמִ֥י",
+          "transliteration": "ū·mî",
+          "strongsNumber": "H4310",
+          "morphology": "Conj-w | Interrog"
+        },
+        {
+          "position": 5,
+          "text": "can stand",
+          "original": "הָעֹמֵ֖ד",
+          "transliteration": "hā·‘ō·mêḏ",
+          "strongsNumber": "H5975",
+          "morphology": "Art | V-Qal-Prtcpl-ms"
+        },
+        {
+          "position": 6,
+          "text": "when He appears",
+          "original": "בְּהֵרָֽאוֹת֑וֹ",
+          "transliteration": "bə·hê·rā·’ō·w·ṯōw",
+          "strongsNumber": "H7200",
+          "morphology": "Prep-b | V-Nifal-Inf | 3ms"
+        },
+        {
+          "position": 7,
+          "text": "For",
+          "original": "כִּֽי־",
+          "transliteration": "kî-",
+          "strongsNumber": "H3588",
+          "morphology": "Conj"
+        },
+        {
+          "position": 8,
+          "text": "He",
+          "original": "הוּא֙",
+          "transliteration": "hū",
+          "strongsNumber": "H1931",
+          "morphology": "Pro-3ms"
+        },
+        {
+          "position": 9,
+          "text": "will be like a refiner’s",
+          "original": "מְצָרֵ֔ף",
+          "transliteration": "mə·ṣā·rêp̄",
+          "strongsNumber": "H6884",
+          "morphology": "V-Piel-Prtcpl-ms"
+        },
+        {
+          "position": 10,
+          "text": "fire",
+          "original": "כְּאֵ֣שׁ",
+          "transliteration": "kə·’êš",
+          "strongsNumber": "H0784",
+          "morphology": "Prep-k | N-cs"
+        },
+        {
+          "position": 11,
+          "text": "[like] a launderer’s",
+          "original": "מְכַבְּסִֽים׃",
+          "transliteration": "mə·ḵab·bə·sîm",
+          "strongsNumber": "H3526",
+          "morphology": "V-Piel-Prtcpl-mp"
+        },
+        {
+          "position": 12,
+          "text": "soap",
+          "original": "וּכְבֹרִ֖ית",
+          "transliteration": "ū·ḵə·ḇō·rîṯ",
+          "strongsNumber": "H1287",
+          "morphology": "Conj-w, Prep-k | N-fs"
+        }
+      ],
+      "3": [
+        {
+          "position": 0,
+          "text": "And He will sit",
+          "original": "וְיָשַׁ֨ב",
+          "transliteration": "wə·yā·šaḇ",
+          "strongsNumber": "H3427",
+          "morphology": "Conj-w | V-Qal-ConjPerf-3ms"
+        },
+        {
+          "position": 1,
+          "text": "as a refiner",
+          "original": "מְצָרֵ֤ף",
+          "transliteration": "mə·ṣā·rêp̄",
+          "strongsNumber": "H6884",
+          "morphology": "V-Piel-Prtcpl-ms"
+        },
+        {
+          "position": 2,
+          "text": "and purifier",
+          "original": "וּמְטַהֵר֙",
+          "transliteration": "ū·mə·ṭa·hêr",
+          "strongsNumber": "H2891",
+          "morphology": "Conj-w | V-Piel-Prtcpl-ms"
+        },
+        {
+          "position": 3,
+          "text": "of silver",
+          "original": "כֶּ֔סֶף",
+          "transliteration": "ke·sep̄",
+          "strongsNumber": "H3701",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 4,
+          "text": "He will purify",
+          "original": "וְטִהַ֤ר",
+          "transliteration": "wə·ṭi·har",
+          "strongsNumber": "H2891",
+          "morphology": "Conj-w | V-Piel-ConjPerf-3ms"
+        },
+        {
+          "position": 5,
+          "text": "the sons",
+          "original": "בְּנֵֽי־",
+          "transliteration": "bə·nê-",
+          "strongsNumber": "H1121",
+          "morphology": "N-mpc"
+        },
+        {
+          "position": 6,
+          "text": "of Levi",
+          "original": "לֵוִי֙",
+          "transliteration": "lê·wî",
+          "strongsNumber": "H3878",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 7,
+          "text": "and refine",
+          "original": "וְזִקַּ֣ק",
+          "transliteration": "wə·ziq·qaq",
+          "strongsNumber": "H2212",
+          "morphology": "Conj-w | V-Piel-ConjPerf-3ms"
+        },
+        {
+          "position": 8,
+          "text": "them",
+          "original": "אֹתָ֔ם",
+          "transliteration": "’ō·ṯām",
+          "strongsNumber": "H0853",
+          "morphology": "DirObjM | 3mp"
+        },
+        {
+          "position": 9,
+          "text": "like gold",
+          "original": "כַּזָּהָ֖ב",
+          "transliteration": "kaz·zā·hāḇ",
+          "strongsNumber": "H2091",
+          "morphology": "Prep-k, Art | N-ms"
+        },
+        {
+          "position": 10,
+          "text": "and silver",
+          "original": "וְכַכָּ֑סֶף",
+          "transliteration": "wə·ḵak·kā·sep̄",
+          "strongsNumber": "H3701",
+          "morphology": "Conj-w, Prep-k, Art | N-ms"
+        },
+        {
+          "position": 11,
+          "text": ". . .",
+          "original": "וְהָיוּ֙",
+          "transliteration": "wə·hā·yū",
+          "strongsNumber": "H1961",
+          "morphology": "Conj-w | V-Qal-ConjPerf-3cp"
+        },
+        {
+          "position": 12,
+          "text": "Then they will present",
+          "original": "מַגִּישֵׁ֥י",
+          "transliteration": "mag·gî·šê",
+          "strongsNumber": "H5066",
+          "morphology": "V-Hifil-Prtcpl-mpc"
+        },
+        {
+          "position": 13,
+          "text": "offerings",
+          "original": "מִנְחָ֖ה",
+          "transliteration": "min·ḥāh",
+          "strongsNumber": "H4503",
+          "morphology": "N-fs"
+        },
+        {
+          "position": 14,
+          "text": "to the LORD",
+          "original": "לַֽיהוָ֔ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "Prep-l | N-proper-ms"
+        },
+        {
+          "position": 15,
+          "text": "in righteousness",
+          "original": "בִּצְדָקָֽה׃",
+          "transliteration": "biṣ·ḏā·qāh",
+          "strongsNumber": "H6666",
+          "morphology": "Prep-b | N-fs"
+        }
+      ],
+      "4": [
+        {
+          "position": 0,
+          "text": "Then the offerings",
+          "original": "מִנְחַ֥ת",
+          "transliteration": "min·ḥaṯ",
+          "strongsNumber": "H4503",
+          "morphology": "N-fsc"
+        },
+        {
+          "position": 1,
+          "text": "of Judah",
+          "original": "יְהוּדָ֖ה",
+          "transliteration": "yə·hū·ḏāh",
+          "strongsNumber": "H3063",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 2,
+          "text": "and Jerusalem",
+          "original": "וִירֽוּשָׁלִָ֑ם",
+          "transliteration": "wî·rū·šā·lim",
+          "strongsNumber": "H3389",
+          "morphology": "Conj-w | N-proper-fs"
+        },
+        {
+          "position": 3,
+          "text": "will please",
+          "original": "וְעָֽרְבָה֙",
+          "transliteration": "wə·‘ā·rə·ḇāh",
+          "strongsNumber": "H6149",
+          "morphology": "Conj-w | V-Qal-ConjPerf-3fs"
+        },
+        {
+          "position": 4,
+          "text": "the LORD",
+          "original": "לַֽיהוָ֔ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "Prep-l | N-proper-ms"
+        },
+        {
+          "position": 5,
+          "text": "as in days",
+          "original": "כִּימֵ֣י",
+          "transliteration": "kî·mê",
+          "strongsNumber": "H3117",
+          "morphology": "Prep-k | N-mpc"
+        },
+        {
+          "position": 6,
+          "text": "of old",
+          "original": "עוֹלָ֔ם",
+          "transliteration": "‘ō·w·lām",
+          "strongsNumber": "H5769",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 7,
+          "text": "and years",
+          "original": "וּכְשָׁנִ֖ים",
+          "transliteration": "ū·ḵə·šā·nîm",
+          "strongsNumber": "H8141",
+          "morphology": "Conj-w, Prep-k | N-fp"
+        },
+        {
+          "position": 8,
+          "text": "gone by",
+          "original": "קַדְמֹנִיּֽוֹת׃",
+          "transliteration": "qaḏ·mō·nî·yō·wṯ",
+          "strongsNumber": "H6931",
+          "morphology": "Adj-fp"
+        }
+      ],
+      "5": [
+        {
+          "position": 0,
+          "text": "Then I will draw near",
+          "original": "וְקָרַבְתִּ֣י",
+          "transliteration": "wə·qā·raḇ·tî",
+          "strongsNumber": "H7126",
+          "morphology": "Conj-w | V-Qal-ConjPerf-1cs"
+        },
+        {
+          "position": 1,
+          "text": "to you",
+          "original": "אֲלֵיכֶם֮",
+          "transliteration": "’ă·lê·ḵem",
+          "strongsNumber": "H0413",
+          "morphology": "Prep | 2mp"
+        },
+        {
+          "position": 2,
+          "text": "for judgment",
+          "original": "לַמִּשְׁפָּט֒",
+          "transliteration": "lam·miš·pāṭ",
+          "strongsNumber": "H4941",
+          "morphology": "Prep-l, Art | N-ms"
+        },
+        {
+          "position": 3,
+          "text": "And I will be",
+          "original": "וְהָיִ֣יתִי׀",
+          "transliteration": "wə·hā·yî·ṯî",
+          "strongsNumber": "H1961",
+          "morphology": "Conj-w | V-Qal-ConjPerf-1cs"
+        },
+        {
+          "position": 4,
+          "text": "a swift",
+          "original": "מְמַהֵ֗ר",
+          "transliteration": "mə·ma·hêr",
+          "strongsNumber": "H4116",
+          "morphology": "V-Piel-Prtcpl-ms"
+        },
+        {
+          "position": 5,
+          "text": "witness",
+          "original": "עֵ֣ד",
+          "transliteration": "‘êḏ",
+          "strongsNumber": "H5707",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 6,
+          "text": "against sorcerers",
+          "original": "בַּֽמְכַשְּׁפִים֙",
+          "transliteration": "bam·ḵaš·šə·p̄îm",
+          "strongsNumber": "H3784",
+          "morphology": "Prep-b, Art | V-Piel-Prtcpl-mp"
+        },
+        {
+          "position": 7,
+          "text": "and adulterers",
+          "original": "וּבַמְנָ֣אֲפִ֔ים",
+          "transliteration": "ū·ḇam·nā·’ă·p̄îm",
+          "strongsNumber": "H5003",
+          "morphology": "Conj-w, Prep-b, Art | V-Piel-Prtcpl-mp"
+        },
+        {
+          "position": 8,
+          "text": "and",
+          "original": "וּבַנִּשְׁבָּעִ֖ים",
+          "transliteration": "ū·ḇan·niš·bā·‘îm",
+          "strongsNumber": "H7650",
+          "morphology": "Conj-w, Prep-b, Art | V-Nifal-Prtcpl-mp"
+        },
+        {
+          "position": 9,
+          "text": "perjurers",
+          "original": "לַשָּׁ֑קֶר",
+          "transliteration": "laš·šā·qer",
+          "strongsNumber": "H8267",
+          "morphology": "Prep-l, Art | N-ms"
+        },
+        {
+          "position": 10,
+          "text": "against oppressors",
+          "original": "וּבְעֹשְׁקֵ֣י",
+          "transliteration": "ū·ḇə·‘ō·šə·qê",
+          "strongsNumber": "H6231",
+          "morphology": "Conj-w, Prep-b | V-Qal-Prtcpl-mpc"
+        },
+        {
+          "position": 11,
+          "text": "of the widowed",
+          "original": "אַלְמָנָ֨ה",
+          "transliteration": "’al·mā·nāh",
+          "strongsNumber": "H0490",
+          "morphology": "N-fs"
+        },
+        {
+          "position": 12,
+          "text": "and fatherless",
+          "original": "וְיָת֤וֹם",
+          "transliteration": "wə·yā·ṯō·wm",
+          "strongsNumber": "H3490",
+          "morphology": "Conj-w | N-ms"
+        },
+        {
+          "position": 13,
+          "text": "and against those who defraud laborers",
+          "original": "שְׂכַר־",
+          "transliteration": "śə·ḵa·r·śā-",
+          "strongsNumber": "H7939",
+          "morphology": "N-msc"
+        },
+        {
+          "position": 14,
+          "text": "of their wages",
+          "original": "שָׂ֠כִיר",
+          "transliteration": "śā·k̲îr",
+          "strongsNumber": "H7916",
+          "morphology": "Adj-ms"
+        },
+        {
+          "position": 15,
+          "text": "and deny justice",
+          "original": "וּמַטֵּי־",
+          "transliteration": "ū·maṭ·ṭê-",
+          "strongsNumber": "H5186",
+          "morphology": "Conj-w | V-Hifil-Prtcpl-mpc"
+        },
+        {
+          "position": 16,
+          "text": "to the foreigner",
+          "original": "גֵר֙",
+          "transliteration": "ḡêr",
+          "strongsNumber": "H1616",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 17,
+          "text": "but do not",
+          "original": "וְלֹ֣א",
+          "transliteration": "wə·lō",
+          "strongsNumber": "H3808",
+          "morphology": "Conj-w | Adv-NegPrt"
+        },
+        {
+          "position": 18,
+          "text": "fear Me",
+          "original": "יְרֵא֔וּנִי",
+          "transliteration": "yə·rê·’ū·nî",
+          "strongsNumber": "H3372",
+          "morphology": "V-Qal-Perf-3cp | 1cs"
+        },
+        {
+          "position": 19,
+          "text": "says",
+          "original": "אָמַ֖ר",
+          "transliteration": "’ā·mar",
+          "strongsNumber": "H0559",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 20,
+          "text": "the LORD",
+          "original": "יְהוָ֥ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 21,
+          "text": "of Hosts",
+          "original": "צְבָאֽוֹת׃",
+          "transliteration": "ṣə·ḇā·’ō·wṯ",
+          "strongsNumber": "H6635",
+          "morphology": "N-cp"
+        }
+      ],
+      "6": [
+        {
+          "position": 0,
+          "text": "Because",
+          "original": "כִּ֛י",
+          "transliteration": "kî",
+          "strongsNumber": "H3588",
+          "morphology": "Conj"
+        },
+        {
+          "position": 1,
+          "text": "I",
+          "original": "אֲנִ֥י",
+          "transliteration": "’ă·nî",
+          "strongsNumber": "H0589",
+          "morphology": "Pro-1cs"
+        },
+        {
+          "position": 2,
+          "text": "the LORD",
+          "original": "יְהוָ֖ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 3,
+          "text": "do not",
+          "original": "לֹ֣א",
+          "transliteration": "lō",
+          "strongsNumber": "H3808",
+          "morphology": "Adv-NegPrt"
+        },
+        {
+          "position": 4,
+          "text": "change",
+          "original": "שָׁנִ֑יתִי",
+          "transliteration": "šā·nî·ṯî",
+          "strongsNumber": "H8138",
+          "morphology": "V-Qal-Perf-1cs"
+        },
+        {
+          "position": 5,
+          "text": "you",
+          "original": "וְאַתֶּ֥ם",
+          "transliteration": "wə·’at·tem",
+          "strongsNumber": "H0859",
+          "morphology": "Conj-w | Pro-2mp"
+        },
+        {
+          "position": 6,
+          "text": "descendants",
+          "original": "בְּנֵֽי־",
+          "transliteration": "bə·nê-",
+          "strongsNumber": "H1121",
+          "morphology": "N-mpc"
+        },
+        {
+          "position": 7,
+          "text": "of Jacob",
+          "original": "יַעֲקֹ֖ב",
+          "transliteration": "ya·‘ă·qōḇ",
+          "strongsNumber": "H3290",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 8,
+          "text": "have not",
+          "original": "לֹ֥א",
+          "transliteration": "lō",
+          "strongsNumber": "H3808",
+          "morphology": "Adv-NegPrt"
+        },
+        {
+          "position": 9,
+          "text": "been destroyed",
+          "original": "כְלִיתֶֽם׃",
+          "transliteration": "ḵə·lî·ṯem",
+          "strongsNumber": "H3615",
+          "morphology": "V-Qal-Perf-2mp"
+        }
+      ],
+      "7": [
+        {
+          "position": 0,
+          "text": "Yet from the days",
+          "original": "לְמִימֵ֨י",
+          "transliteration": "lə·mî·mê",
+          "strongsNumber": "H3117",
+          "morphology": "Prep-l, Prep-m | N-mpc"
+        },
+        {
+          "position": 1,
+          "text": "of your fathers",
+          "original": "אֲבֹתֵיכֶ֜ם",
+          "transliteration": "’ă·ḇō·ṯê·ḵem",
+          "strongsNumber": "H0001",
+          "morphology": "N-mpc | 2mp"
+        },
+        {
+          "position": 2,
+          "text": "you have turned away",
+          "original": "סַרְתֶּ֤ם",
+          "transliteration": "sar·tem",
+          "strongsNumber": "H5493",
+          "morphology": "V-Qal-Perf-2mp"
+        },
+        {
+          "position": 3,
+          "text": "from My statutes",
+          "original": "מֵֽחֻקַּי֙",
+          "transliteration": "mê·ḥuq·qay",
+          "strongsNumber": "H2706",
+          "morphology": "Prep-m | N-mpc | 1cs"
+        },
+        {
+          "position": 4,
+          "text": "and have not",
+          "original": "וְלֹ֣א",
+          "transliteration": "wə·lō",
+          "strongsNumber": "H3808",
+          "morphology": "Conj-w | Adv-NegPrt"
+        },
+        {
+          "position": 5,
+          "text": "kept them",
+          "original": "שְׁמַרְתֶּ֔ם",
+          "transliteration": "šə·mar·tem",
+          "strongsNumber": "H8104",
+          "morphology": "V-Qal-Perf-2mp"
+        },
+        {
+          "position": 6,
+          "text": "Return",
+          "original": "שׁ֤וּבוּ",
+          "transliteration": "šū·ḇū",
+          "strongsNumber": "H7725",
+          "morphology": "V-Qal-Imp-mp"
+        },
+        {
+          "position": 7,
+          "text": "to Me",
+          "original": "אֵלַי֙",
+          "transliteration": "’ê·lay",
+          "strongsNumber": "H0413",
+          "morphology": "Prep | 1cs"
+        },
+        {
+          "position": 8,
+          "text": "and I will return",
+          "original": "וְאָשׁ֣וּבָה",
+          "transliteration": "wə·’ā·šū·ḇāh",
+          "strongsNumber": "H7725",
+          "morphology": "Conj-w | V-Qal-ConjImperf.Cohort-1cs"
+        },
+        {
+          "position": 9,
+          "text": "to you",
+          "original": "אֲלֵיכֶ֔ם",
+          "transliteration": "’ă·lê·ḵem",
+          "strongsNumber": "H0413",
+          "morphology": "Prep | 2mp"
+        },
+        {
+          "position": 10,
+          "text": "says",
+          "original": "אָמַ֖ר",
+          "transliteration": "’ā·mar",
+          "strongsNumber": "H0559",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 11,
+          "text": "the LORD",
+          "original": "יְהוָ֣ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 12,
+          "text": "of Hosts",
+          "original": "צְבָא֑וֹת",
+          "transliteration": "ṣə·ḇā·’ō·wṯ",
+          "strongsNumber": "H6635",
+          "morphology": "N-cp"
+        },
+        {
+          "position": 13,
+          "text": "But you ask",
+          "original": "וַאֲמַרְתֶּ֖ם",
+          "transliteration": "wa·’ă·mar·tem",
+          "strongsNumber": "H0559",
+          "morphology": "Conj-w | V-Qal-ConjPerf-2mp"
+        },
+        {
+          "position": 14,
+          "text": "How",
+          "original": "בַּמֶּ֥ה",
+          "transliteration": "bam·meh",
+          "strongsNumber": "H4100",
+          "morphology": "Prep-b | Interrog"
+        },
+        {
+          "position": 15,
+          "text": "can we return",
+          "original": "נָשֽׁוּב׃",
+          "transliteration": "nā·šūḇ",
+          "strongsNumber": "H7725",
+          "morphology": "V-Qal-Imperf-1cp"
+        }
+      ],
+      "8": [
+        {
+          "position": 0,
+          "text": "Will a man",
+          "original": "אָדָ֜ם",
+          "transliteration": "’ā·ḏām",
+          "strongsNumber": "H0120",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 1,
+          "text": "rob",
+          "original": "הֲיִקְבַּ֨ע",
+          "transliteration": "hă·yiq·ba‘",
+          "strongsNumber": "H6906",
+          "morphology": "V-Qal-Imperf-3ms"
+        },
+        {
+          "position": 2,
+          "text": "God",
+          "original": "אֱלֹהִ֗ים",
+          "transliteration": "’ĕ·lō·hîm",
+          "strongsNumber": "H0430",
+          "morphology": "N-mp"
+        },
+        {
+          "position": 3,
+          "text": "Yet",
+          "original": "כִּ֤י",
+          "transliteration": "kî",
+          "strongsNumber": "H3588",
+          "morphology": "Conj"
+        },
+        {
+          "position": 4,
+          "text": "you",
+          "original": "אַתֶּם֙",
+          "transliteration": "’at·tem",
+          "strongsNumber": "H0859",
+          "morphology": "Pro-2mp"
+        },
+        {
+          "position": 5,
+          "text": "are robbing",
+          "original": "קֹבְעִ֣ים",
+          "transliteration": "qō·ḇə·‘îm",
+          "strongsNumber": "H6906",
+          "morphology": "V-Qal-Prtcpl-mp"
+        },
+        {
+          "position": 6,
+          "text": "Me",
+          "original": "אֹתִ֔י",
+          "transliteration": "’ō·ṯî",
+          "strongsNumber": "H0853",
+          "morphology": "DirObjM | 1cs"
+        },
+        {
+          "position": 7,
+          "text": "But you ask",
+          "original": "וַאֲמַרְתֶּ֖ם",
+          "transliteration": "wa·’ă·mar·tem",
+          "strongsNumber": "H0559",
+          "morphology": "Conj-w | V-Qal-ConjPerf-2mp"
+        },
+        {
+          "position": 8,
+          "text": "How",
+          "original": "בַּמֶּ֣ה",
+          "transliteration": "bam·meh",
+          "strongsNumber": "H4100",
+          "morphology": "Prep-b | Interrog"
+        },
+        {
+          "position": 9,
+          "text": "do we rob You",
+          "original": "קְבַעֲנ֑וּךָ",
+          "transliteration": "qə·ḇa·‘ă·nū·ḵā",
+          "strongsNumber": "H6906",
+          "morphology": "V-Qal-Perf-1cp | 2ms"
+        },
+        {
+          "position": 10,
+          "text": "In tithes",
+          "original": "הַֽמַּעֲשֵׂ֖ר",
+          "transliteration": "ham·ma·‘ă·śêr",
+          "strongsNumber": "H4643",
+          "morphology": "Art | N-ms"
+        },
+        {
+          "position": 11,
+          "text": "and offerings",
+          "original": "וְהַתְּרוּמָֽה׃",
+          "transliteration": "wə·hat·tə·rū·māh",
+          "strongsNumber": "H8641",
+          "morphology": "Conj-w, Art | N-fs"
+        }
+      ],
+      "9": [
+        {
+          "position": 0,
+          "text": "You",
+          "original": "אַתֶּ֣ם",
+          "transliteration": "’at·tem",
+          "strongsNumber": "H0859",
+          "morphology": "Pro-2mp"
+        },
+        {
+          "position": 1,
+          "text": "are cursed",
+          "original": "נֵֽאָרִ֔ים",
+          "transliteration": "nê·’ā·rîm",
+          "strongsNumber": "H0779",
+          "morphology": "V-Nifal-Prtcpl-mp"
+        },
+        {
+          "position": 2,
+          "text": "with a curse",
+          "original": "בַּמְּאֵרָה֙",
+          "transliteration": "bam·mə·’ê·rāh",
+          "strongsNumber": "H3994",
+          "morphology": "Prep-b, Art | N-fs"
+        },
+        {
+          "position": 3,
+          "text": "yet you",
+          "original": "אַתֶּ֣ם",
+          "transliteration": "’at·tem",
+          "strongsNumber": "H0859",
+          "morphology": "Pro-2mp"
+        },
+        {
+          "position": 4,
+          "text": "the whole",
+          "original": "כֻּלּֽוֹ׃",
+          "transliteration": "kul·lōw",
+          "strongsNumber": "H3605",
+          "morphology": "N-msc | 3ms"
+        },
+        {
+          "position": 5,
+          "text": "nation",
+          "original": "הַגּ֖וֹי",
+          "transliteration": "hag·gō·w",
+          "strongsNumber": "H1471",
+          "morphology": "Art | N-ms"
+        },
+        {
+          "position": 6,
+          "text": "are still robbing Me",
+          "original": "קֹבְעִ֑ים",
+          "transliteration": "qō·ḇə·‘îm",
+          "strongsNumber": "H6906",
+          "morphology": "V-Qal-Prtcpl-mp"
+        }
+      ],
+      "10": [
+        {
+          "position": 0,
+          "text": "Bring",
+          "original": "הָבִ֨יאוּ",
+          "transliteration": "hā·ḇî·’ū",
+          "strongsNumber": "H0935",
+          "morphology": "V-Hifil-Imp-mp"
+        },
+        {
+          "position": 1,
+          "text": "the full",
+          "original": "כָּל־",
+          "transliteration": "kāl-",
+          "strongsNumber": "H3605",
+          "morphology": "N-msc"
+        },
+        {
+          "position": 2,
+          "text": "tithe",
+          "original": "הַֽמַּעֲשֵׂ֜ר",
+          "transliteration": "ham·ma·‘ă·śêr",
+          "strongsNumber": "H4643",
+          "morphology": "Art | N-ms"
+        },
+        {
+          "position": 3,
+          "text": "into",
+          "original": "אֶל־",
+          "transliteration": "’el-",
+          "strongsNumber": "H0413",
+          "morphology": "Prep"
+        },
+        {
+          "position": 4,
+          "text": "the storehouse",
+          "original": "בֵּ֣ית",
+          "transliteration": "bêṯ",
+          "strongsNumber": "H1004",
+          "morphology": "N-msc"
+        },
+        {
+          "position": 5,
+          "text": ". . .",
+          "original": "הָאוֹצָ֗ר",
+          "transliteration": "hā·’ō·w·ṣār",
+          "strongsNumber": "H0214",
+          "morphology": "Art | N-ms"
+        },
+        {
+          "position": 6,
+          "text": "so that there may be",
+          "original": "וִיהִ֥י",
+          "transliteration": "wî·hî",
+          "strongsNumber": "H1961",
+          "morphology": "Conj-w | V-Qal-ConjImperf.Jus-3ms"
+        },
+        {
+          "position": 7,
+          "text": "food",
+          "original": "טֶ֙רֶף֙",
+          "transliteration": "ṭe·rep̄",
+          "strongsNumber": "H2964",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 8,
+          "text": "in My house",
+          "original": "בְּבֵיתִ֔י",
+          "transliteration": "bə·ḇê·ṯî",
+          "strongsNumber": "H1004",
+          "morphology": "Prep-b | N-msc | 1cs"
+        },
+        {
+          "position": 9,
+          "text": "Test Me",
+          "original": "וּבְחָנ֤וּנִי",
+          "transliteration": "ū·ḇə·ḥā·nū·nî",
+          "strongsNumber": "H0974",
+          "morphology": "Conj-w | V-Qal-Imp-mp | 1cs"
+        },
+        {
+          "position": 10,
+          "text": ". . .",
+          "original": "נָא֙",
+          "transliteration": "nā",
+          "strongsNumber": "H4994",
+          "morphology": "Interjection"
+        },
+        {
+          "position": 11,
+          "text": "in this",
+          "original": "בָּזֹ֔את",
+          "transliteration": "bā·zōṯ",
+          "strongsNumber": "H2063",
+          "morphology": "Prep-b | Pro-fs"
+        },
+        {
+          "position": 12,
+          "text": "says",
+          "original": "אָמַ֖ר",
+          "transliteration": "’ā·mar",
+          "strongsNumber": "H0559",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 13,
+          "text": "the LORD",
+          "original": "יְהוָ֣ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 14,
+          "text": "of Hosts",
+          "original": "צְבָא֑וֹת",
+          "transliteration": "ṣə·ḇā·’ō·wṯ",
+          "strongsNumber": "H6635",
+          "morphology": "N-cp"
+        },
+        {
+          "position": 15,
+          "text": "See if",
+          "original": "אִם־",
+          "transliteration": "’im-",
+          "strongsNumber": "H0518",
+          "morphology": "Conj"
+        },
+        {
+          "position": 16,
+          "text": "I will not",
+          "original": "לֹ֧א",
+          "transliteration": "lō",
+          "strongsNumber": "H3808",
+          "morphology": "Adv-NegPrt"
+        },
+        {
+          "position": 17,
+          "text": "open",
+          "original": "אֶפְתַּ֣ח",
+          "transliteration": "’ep̄·taḥ",
+          "strongsNumber": "H6605",
+          "morphology": "V-Qal-Imperf-1cs"
+        },
+        {
+          "position": 18,
+          "text": "the windows",
+          "original": "אֲרֻבּ֣וֹת",
+          "transliteration": "’ă·rub·bō·wṯ",
+          "strongsNumber": "H0699",
+          "morphology": "N-fpc"
+        },
+        {
+          "position": 19,
+          "text": "of heaven",
+          "original": "הַשָּׁמַ֔יִם",
+          "transliteration": "haš·šā·ma·yim",
+          "strongsNumber": "H8064",
+          "morphology": "Art | N-mp"
+        },
+        {
+          "position": 20,
+          "text": "and pour out",
+          "original": "וַהֲרִיקֹתִ֥י",
+          "transliteration": "wa·hă·rî·qō·ṯî",
+          "strongsNumber": "H7324",
+          "morphology": "Conj-w | V-Hifil-ConjPerf-1cs"
+        },
+        {
+          "position": 21,
+          "text": "for you",
+          "original": "לָכֶ֛ם",
+          "transliteration": "lā·ḵem",
+          "strongsNumber": "",
+          "morphology": "Prep | 2mp"
+        },
+        {
+          "position": 22,
+          "text": "blessing",
+          "original": "בְּרָכָ֖ה",
+          "transliteration": "bə·rā·ḵāh",
+          "strongsNumber": "H1293",
+          "morphology": "N-fs"
+        },
+        {
+          "position": 23,
+          "text": ". . .",
+          "original": "עַד־",
+          "transliteration": "‘aḏ-",
+          "strongsNumber": "H5704",
+          "morphology": "Prep"
+        },
+        {
+          "position": 24,
+          "text": "without",
+          "original": "בְּלִי־",
+          "transliteration": "bə·lî-",
+          "strongsNumber": "H1097",
+          "morphology": "N-msc"
+        },
+        {
+          "position": 25,
+          "text": "measure",
+          "original": "דָֽי׃",
+          "transliteration": "ḏāy",
+          "strongsNumber": "H1767",
+          "morphology": "N-ms"
+        }
+      ],
+      "11": [
+        {
+          "position": 0,
+          "text": "I will rebuke",
+          "original": "וְגָעַרְתִּ֤י",
+          "transliteration": "wə·ḡā·‘ar·tî",
+          "strongsNumber": "H1605",
+          "morphology": "Conj-w | V-Qal-ConjPerf-1cs"
+        },
+        {
+          "position": 1,
+          "text": "the devourer",
+          "original": "בָּֽאֹכֵ֔ל",
+          "transliteration": "bā·’ō·ḵêl",
+          "strongsNumber": "H0398",
+          "morphology": "Prep-b, Art | V-Qal-Prtcpl-ms"
+        },
+        {
+          "position": 2,
+          "text": "for you",
+          "original": "לָכֶם֙",
+          "transliteration": "lā·ḵem",
+          "strongsNumber": "",
+          "morphology": "Prep | 2mp"
+        },
+        {
+          "position": 3,
+          "text": "so that it will not",
+          "original": "וְלֹֽא־",
+          "transliteration": "wə·lō-",
+          "strongsNumber": "H3808",
+          "morphology": "Conj-w | Adv-NegPrt"
+        },
+        {
+          "position": 4,
+          "text": "destroy",
+          "original": "יַשְׁחִ֥ת",
+          "transliteration": "yaš·ḥiṯ",
+          "strongsNumber": "H7843",
+          "morphology": "V-Hifil-Imperf-3ms"
+        },
+        {
+          "position": 5,
+          "text": "the fruits",
+          "original": "פְּרִ֣י",
+          "transliteration": "pə·rî",
+          "strongsNumber": "H6529",
+          "morphology": "N-msc"
+        },
+        {
+          "position": 6,
+          "text": "of your land",
+          "original": "הָאֲדָמָ֑ה",
+          "transliteration": "hā·’ă·ḏā·māh",
+          "strongsNumber": "H0127",
+          "morphology": "Art | N-fs"
+        },
+        {
+          "position": 7,
+          "text": "and the vine",
+          "original": "הַגֶּ֙פֶן֙",
+          "transliteration": "hag·ge·p̄en",
+          "strongsNumber": "H1612",
+          "morphology": "Art | N-cs"
+        },
+        {
+          "position": 8,
+          "text": "in your field",
+          "original": "בַּשָּׂדֶ֔ה",
+          "transliteration": "baś·śā·ḏeh",
+          "strongsNumber": "H7704",
+          "morphology": "Prep-b, Art | N-ms"
+        },
+        {
+          "position": 9,
+          "text": "will not",
+          "original": "וְלֹא־",
+          "transliteration": "wə·lō-",
+          "strongsNumber": "H3808",
+          "morphology": "Conj-w | Adv-NegPrt"
+        },
+        {
+          "position": 10,
+          "text": "fail to produce fruit",
+          "original": "תְשַׁכֵּ֨ל",
+          "transliteration": "ṯə·šak·kêl",
+          "strongsNumber": "H7921",
+          "morphology": "V-Piel-Imperf-3fs"
+        },
+        {
+          "position": 11,
+          "text": "says",
+          "original": "אָמַ֖ר",
+          "transliteration": "’ā·mar",
+          "strongsNumber": "H0559",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 12,
+          "text": "the LORD",
+          "original": "יְהוָ֥ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 13,
+          "text": "of Hosts",
+          "original": "צְבָאֽוֹת׃",
+          "transliteration": "ṣə·ḇā·’ō·wṯ",
+          "strongsNumber": "H6635",
+          "morphology": "N-cp"
+        }
+      ],
+      "12": [
+        {
+          "position": 0,
+          "text": "Then all",
+          "original": "כָּל־",
+          "transliteration": "kāl-",
+          "strongsNumber": "H3605",
+          "morphology": "N-msc"
+        },
+        {
+          "position": 1,
+          "text": "the nations",
+          "original": "הַגּוֹיִ֑ם",
+          "transliteration": "hag·gō·w·yim",
+          "strongsNumber": "H1471",
+          "morphology": "Art | N-mp"
+        },
+        {
+          "position": 2,
+          "text": "will call you blessed",
+          "original": "וְאִשְּׁר֥וּ",
+          "transliteration": "wə·’iš·šə·rū",
+          "strongsNumber": "H0833",
+          "morphology": "Conj-w | V-Piel-ConjPerf-3cp"
+        },
+        {
+          "position": 3,
+          "text": "for",
+          "original": "כִּֽי־",
+          "transliteration": "kî-",
+          "strongsNumber": "H3588",
+          "morphology": "Conj"
+        },
+        {
+          "position": 4,
+          "text": "you",
+          "original": "אַתֶּם֙",
+          "transliteration": "’at·tem",
+          "strongsNumber": "H0859",
+          "morphology": "Pro-2mp"
+        },
+        {
+          "position": 5,
+          "text": "will be",
+          "original": "תִהְי֤וּ",
+          "transliteration": "ṯih·yū",
+          "strongsNumber": "H1961",
+          "morphology": "V-Qal-Imperf-2mp"
+        },
+        {
+          "position": 6,
+          "text": "a land",
+          "original": "אֶ֣רֶץ",
+          "transliteration": "’e·reṣ",
+          "strongsNumber": "H0776",
+          "morphology": "N-fsc"
+        },
+        {
+          "position": 7,
+          "text": "of delight",
+          "original": "חֵ֔פֶץ",
+          "transliteration": "ḥê·p̄eṣ",
+          "strongsNumber": "H2656",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 8,
+          "text": "says",
+          "original": "אָמַ֖ר",
+          "transliteration": "’ā·mar",
+          "strongsNumber": "H0559",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 9,
+          "text": "the LORD",
+          "original": "יְהוָ֥ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 10,
+          "text": "of Hosts",
+          "original": "צְבָאֽוֹת׃ס",
+          "transliteration": "ṣə·ḇā·’ō·wṯ",
+          "strongsNumber": "H6635",
+          "morphology": "N-cp"
+        }
+      ],
+      "13": [
+        {
+          "position": 0,
+          "text": "Your words",
+          "original": "דִּבְרֵיכֶ֖ם",
+          "transliteration": "diḇ·rê·ḵem",
+          "strongsNumber": "H1697",
+          "morphology": "N-mpc | 2mp"
+        },
+        {
+          "position": 1,
+          "text": "against Me",
+          "original": "עָלַ֛י",
+          "transliteration": "‘ā·lay",
+          "strongsNumber": "H5921",
+          "morphology": "Prep | 1cs"
+        },
+        {
+          "position": 2,
+          "text": "have been harsh",
+          "original": "חָזְק֥וּ",
+          "transliteration": "ḥā·zə·qū",
+          "strongsNumber": "H2388",
+          "morphology": "V-Qal-Perf-3cp"
+        },
+        {
+          "position": 3,
+          "text": "says",
+          "original": "אָמַ֣ר",
+          "transliteration": "’ā·mar",
+          "strongsNumber": "H0559",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 4,
+          "text": "the LORD",
+          "original": "יְהוָ֑ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 5,
+          "text": "Yet you ask",
+          "original": "וַאֲמַרְתֶּ֕ם",
+          "transliteration": "wa·’ă·mar·tem",
+          "strongsNumber": "H0559",
+          "morphology": "Conj-w | V-Qal-ConjPerf-2mp"
+        },
+        {
+          "position": 6,
+          "text": "What",
+          "original": "מַה־",
+          "transliteration": "mah-",
+          "strongsNumber": "H4100",
+          "morphology": "Interrog"
+        },
+        {
+          "position": 7,
+          "text": "have we spoken",
+          "original": "נִּדְבַּ֖רְנוּ",
+          "transliteration": "niḏ·bar·nū",
+          "strongsNumber": "H1696",
+          "morphology": "V-Nifal-Perf-1cp"
+        },
+        {
+          "position": 8,
+          "text": "against You",
+          "original": "עָלֶֽיךָ׃",
+          "transliteration": "‘ā·le·ḵā",
+          "strongsNumber": "H5921",
+          "morphology": "Prep | 2ms"
+        }
+      ],
+      "14": [
+        {
+          "position": 0,
+          "text": "You have said",
+          "original": "אֲמַרְתֶּ֕ם",
+          "transliteration": "’ă·mar·tem",
+          "strongsNumber": "H0559",
+          "morphology": "V-Qal-Perf-2mp"
+        },
+        {
+          "position": 1,
+          "text": "It is futile",
+          "original": "שָׁ֖וְא",
+          "transliteration": "šāw",
+          "strongsNumber": "H7723",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 2,
+          "text": "to serve",
+          "original": "עֲבֹ֣ד",
+          "transliteration": "‘ă·ḇōḏ",
+          "strongsNumber": "H5647",
+          "morphology": "V-Qal-Inf"
+        },
+        {
+          "position": 3,
+          "text": "God",
+          "original": "אֱלֹהִ֑ים",
+          "transliteration": "’ĕ·lō·hîm",
+          "strongsNumber": "H0430",
+          "morphology": "N-mp"
+        },
+        {
+          "position": 4,
+          "text": "What",
+          "original": "וּמַה־",
+          "transliteration": "ū·mah-",
+          "strongsNumber": "H4100",
+          "morphology": "Conj-w | Interrog"
+        },
+        {
+          "position": 5,
+          "text": "have we gained",
+          "original": "בֶּ֗צַע",
+          "transliteration": "be·ṣa‘",
+          "strongsNumber": "H1215",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 6,
+          "text": ". . .",
+          "original": "כִּ֤י",
+          "transliteration": "kî",
+          "strongsNumber": "H3588",
+          "morphology": "Conj"
+        },
+        {
+          "position": 7,
+          "text": "by keeping",
+          "original": "שָׁמַ֙רְנוּ֙",
+          "transliteration": "šā·mar·nū",
+          "strongsNumber": "H8104",
+          "morphology": "V-Qal-Perf-1cp"
+        },
+        {
+          "position": 8,
+          "text": "His requirements",
+          "original": "מִשְׁמַרְתּ֔וֹ",
+          "transliteration": "miš·mar·tōw",
+          "strongsNumber": "H4931",
+          "morphology": "N-fsc | 3ms"
+        },
+        {
+          "position": 9,
+          "text": ". . .",
+          "original": "וְכִ֤י",
+          "transliteration": "wə·ḵî",
+          "strongsNumber": "H3588",
+          "morphology": "Conj"
+        },
+        {
+          "position": 10,
+          "text": "and walking",
+          "original": "הָלַ֙כְנוּ֙",
+          "transliteration": "hā·laḵ·nū",
+          "strongsNumber": "H1980",
+          "morphology": "V-Qal-Perf-1cp"
+        },
+        {
+          "position": 11,
+          "text": "mournfully",
+          "original": "קְדֹ֣רַנִּ֔ית",
+          "transliteration": "qə·ḏō·ran·nîṯ",
+          "strongsNumber": "H6941",
+          "morphology": "Adv"
+        },
+        {
+          "position": 12,
+          "text": "before",
+          "original": "מִפְּנֵ֖י",
+          "transliteration": "mip·pə·nê",
+          "strongsNumber": "H6440",
+          "morphology": "Prep-m | N-cpc"
+        },
+        {
+          "position": 13,
+          "text": "the LORD",
+          "original": "יְהוָ֥ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 14,
+          "text": "of Hosts",
+          "original": "צְבָאֽוֹת׃",
+          "transliteration": "ṣə·ḇā·’ō·wṯ",
+          "strongsNumber": "H6635",
+          "morphology": "N-cp"
+        }
+      ],
+      "15": [
+        {
+          "position": 0,
+          "text": "So now",
+          "original": "וְעַתָּ֕ה",
+          "transliteration": "wə·‘at·tāh",
+          "strongsNumber": "H6258",
+          "morphology": "Conj-w | Adv"
+        },
+        {
+          "position": 1,
+          "text": "we",
+          "original": "אֲנַ֖חְנוּ",
+          "transliteration": "’ă·naḥ·nū",
+          "strongsNumber": "H0587",
+          "morphology": "Pro-1cp"
+        },
+        {
+          "position": 2,
+          "text": "call the arrogant",
+          "original": "זֵדִ֑ים",
+          "transliteration": "zê·ḏîm",
+          "strongsNumber": "H2086",
+          "morphology": "Adj-mp"
+        },
+        {
+          "position": 3,
+          "text": "blessed",
+          "original": "מְאַשְּׁרִ֣ים",
+          "transliteration": "mə·’aš·šə·rîm",
+          "strongsNumber": "H0833",
+          "morphology": "V-Piel-Prtcpl-mp"
+        },
+        {
+          "position": 4,
+          "text": "Not only",
+          "original": "גַּם־",
+          "transliteration": "gam-",
+          "strongsNumber": "H1571",
+          "morphology": "Conj"
+        },
+        {
+          "position": 5,
+          "text": "do evildoers",
+          "original": "עֹשֵׂ֣י",
+          "transliteration": "‘ō·śê",
+          "strongsNumber": "H6213",
+          "morphology": "V-Qal-Prtcpl-mpc"
+        },
+        {
+          "position": 6,
+          "text": ". . .",
+          "original": "רִשְׁעָ֔ה",
+          "transliteration": "riš·‘āh",
+          "strongsNumber": "H7564",
+          "morphology": "N-fs"
+        },
+        {
+          "position": 7,
+          "text": "prosper",
+          "original": "נִבְנוּ֙",
+          "transliteration": "niḇ·nū",
+          "strongsNumber": "H1129",
+          "morphology": "V-Nifal-Perf-3cp"
+        },
+        {
+          "position": 8,
+          "text": "they even",
+          "original": "גַּ֧ם",
+          "transliteration": "gam",
+          "strongsNumber": "H1571",
+          "morphology": "Conj"
+        },
+        {
+          "position": 9,
+          "text": "test",
+          "original": "בָּחֲנ֛וּ",
+          "transliteration": "bā·ḥă·nū",
+          "strongsNumber": "H0974",
+          "morphology": "V-Qal-Perf-3cp"
+        },
+        {
+          "position": 10,
+          "text": "God",
+          "original": "אֱלֹהִ֖ים",
+          "transliteration": "’ĕ·lō·hîm",
+          "strongsNumber": "H0430",
+          "morphology": "N-mp"
+        },
+        {
+          "position": 11,
+          "text": "and escape",
+          "original": "וַיִּמָּלֵֽטוּ׃",
+          "transliteration": "way·yim·mā·lê·ṭū",
+          "strongsNumber": "H4422",
+          "morphology": "Conj-w | V-Nifal-ConsecImperf-3mp"
+        }
+      ],
+      "16": [
+        {
+          "position": 0,
+          "text": "At that time",
+          "original": "אָ֧ז",
+          "transliteration": "’āz",
+          "strongsNumber": "H0227",
+          "morphology": "Adv"
+        },
+        {
+          "position": 1,
+          "text": "those who feared",
+          "original": "יִרְאֵ֥י",
+          "transliteration": "yir·’ê",
+          "strongsNumber": "H3373",
+          "morphology": "Adj-mpc"
+        },
+        {
+          "position": 2,
+          "text": "the LORD",
+          "original": "יְהוָ֖ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 3,
+          "text": "spoke",
+          "original": "נִדְבְּר֛וּ",
+          "transliteration": "niḏ·bə·rū",
+          "strongsNumber": "H1696",
+          "morphology": "V-Nifal-Perf-3cp"
+        },
+        {
+          "position": 4,
+          "text": "with one",
+          "original": "אִ֣ישׁ",
+          "transliteration": "’îš",
+          "strongsNumber": "H0376",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 5,
+          "text": ". . .",
+          "original": "אֶת־",
+          "transliteration": "’eṯ-",
+          "strongsNumber": "H0854",
+          "morphology": "Prep"
+        },
+        {
+          "position": 6,
+          "text": "another",
+          "original": "רֵעֵ֑הוּ",
+          "transliteration": "rê·‘ê·hū",
+          "strongsNumber": "H7453",
+          "morphology": "N-msc | 3ms"
+        },
+        {
+          "position": 7,
+          "text": "and the LORD",
+          "original": "יְהוָה֙",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 8,
+          "text": "listened",
+          "original": "וַיַּקְשֵׁ֤ב",
+          "transliteration": "way·yaq·šêḇ",
+          "strongsNumber": "H7181",
+          "morphology": "Conj-w | V-Hifil-ConsecImperf-3ms"
+        },
+        {
+          "position": 9,
+          "text": "and heard [them]",
+          "original": "וַיִּשְׁמָ֔ע",
+          "transliteration": "way·yiš·mā‘",
+          "strongsNumber": "H8085",
+          "morphology": "Conj-w | V-Qal-ConsecImperf-3ms"
+        },
+        {
+          "position": 10,
+          "text": "So a scroll",
+          "original": "סֵ֣פֶר",
+          "transliteration": "sê·p̄er",
+          "strongsNumber": "H5612",
+          "morphology": "N-msc"
+        },
+        {
+          "position": 11,
+          "text": "of remembrance",
+          "original": "זִכָּר֤וֹן",
+          "transliteration": "zik·kā·rō·wn",
+          "strongsNumber": "H2146",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 12,
+          "text": "was written",
+          "original": "וַ֠יִּכָּתֵב",
+          "transliteration": "way·yik·kā·ṯêḇ",
+          "strongsNumber": "H3789",
+          "morphology": "Conj-w | V-Nifal-ConsecImperf-3ms"
+        },
+        {
+          "position": 13,
+          "text": "before Him",
+          "original": "לְפָנָיו֙",
+          "transliteration": "lə·p̄ā·nāw",
+          "strongsNumber": "H6440",
+          "morphology": "Prep-l | N-cpc | 3ms"
+        },
+        {
+          "position": 14,
+          "text": "regarding those who feared",
+          "original": "לְיִרְאֵ֣י",
+          "transliteration": "lə·yir·’ê",
+          "strongsNumber": "H3373",
+          "morphology": "Prep-l | Adj-mpc"
+        },
+        {
+          "position": 15,
+          "text": "the LORD",
+          "original": "יְהוָ֔ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 16,
+          "text": "and honored",
+          "original": "וּלְחֹשְׁבֵ֖י",
+          "transliteration": "ū·lə·ḥō·šə·ḇê",
+          "strongsNumber": "H2803",
+          "morphology": "Conj-w, Prep-l | V-Qal-Prtcpl-mpc"
+        },
+        {
+          "position": 17,
+          "text": "His name",
+          "original": "שְׁמֽוֹ׃",
+          "transliteration": "šə·mōw",
+          "strongsNumber": "H8034",
+          "morphology": "N-msc | 3ms"
+        }
+      ],
+      "17": [
+        {
+          "position": 0,
+          "text": "They will be",
+          "original": "וְהָ֣יוּ",
+          "transliteration": "wə·hā·yū",
+          "strongsNumber": "H1961",
+          "morphology": "Conj-w | V-Qal-ConjPerf-3cp"
+        },
+        {
+          "position": 1,
+          "text": "Mine",
+          "original": "לִ֗י",
+          "transliteration": "lî",
+          "strongsNumber": "",
+          "morphology": "Prep | 1cs"
+        },
+        {
+          "position": 2,
+          "text": "says",
+          "original": "אָמַר֙",
+          "transliteration": "’ā·mar",
+          "strongsNumber": "H0559",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 3,
+          "text": "the LORD",
+          "original": "יְהוָ֣ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 4,
+          "text": "of Hosts",
+          "original": "צְבָא֔וֹת",
+          "transliteration": "ṣə·ḇā·’ō·wṯ",
+          "strongsNumber": "H6635",
+          "morphology": "N-cp"
+        },
+        {
+          "position": 5,
+          "text": "on the day",
+          "original": "לַיּ֕וֹם",
+          "transliteration": "lay·yō·wm",
+          "strongsNumber": "H3117",
+          "morphology": "Prep-l, Art | N-ms"
+        },
+        {
+          "position": 6,
+          "text": "when",
+          "original": "אֲשֶׁ֥ר",
+          "transliteration": "’ă·šer",
+          "strongsNumber": "H0834",
+          "morphology": "Pro-r"
+        },
+        {
+          "position": 7,
+          "text": "I",
+          "original": "אֲנִ֖י",
+          "transliteration": "’ă·nî",
+          "strongsNumber": "H0589",
+          "morphology": "Pro-1cs"
+        },
+        {
+          "position": 8,
+          "text": "prepare",
+          "original": "עֹשֶׂ֣ה",
+          "transliteration": "‘ō·śeh",
+          "strongsNumber": "H6213",
+          "morphology": "V-Qal-Prtcpl-ms"
+        },
+        {
+          "position": 9,
+          "text": "My treasured possession",
+          "original": "סְגֻלָּ֑ה",
+          "transliteration": "sə·ḡul·lāh",
+          "strongsNumber": "H5459",
+          "morphology": "N-fs"
+        },
+        {
+          "position": 10,
+          "text": "And I will spare",
+          "original": "וְחָמַלְתִּ֣י",
+          "transliteration": "wə·ḥā·mal·tî",
+          "strongsNumber": "H2550",
+          "morphology": "Conj-w | V-Qal-ConjPerf-1cs"
+        },
+        {
+          "position": 11,
+          "text": "them",
+          "original": "עֲלֵיהֶ֔ם",
+          "transliteration": "‘ă·lê·hem",
+          "strongsNumber": "H5921",
+          "morphology": "Prep | 3mp"
+        },
+        {
+          "position": 12,
+          "text": "as",
+          "original": "כַּֽאֲשֶׁר֙",
+          "transliteration": "ka·’ă·šer",
+          "strongsNumber": "H0834",
+          "morphology": "Prep-k | Pro-r"
+        },
+        {
+          "position": 13,
+          "text": "a man",
+          "original": "אִ֔ישׁ",
+          "transliteration": "’îš",
+          "strongsNumber": "H0376",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 14,
+          "text": "spares",
+          "original": "יַחְמֹ֣ל",
+          "transliteration": "yaḥ·mōl",
+          "strongsNumber": "H2550",
+          "morphology": "V-Qal-Imperf-3ms"
+        },
+        {
+          "position": 15,
+          "text": "his own",
+          "original": "עַל־",
+          "transliteration": "‘al-",
+          "strongsNumber": "H5921",
+          "morphology": "Prep"
+        },
+        {
+          "position": 16,
+          "text": "son",
+          "original": "בְּנ֖וֹ",
+          "transliteration": "bə·nōw",
+          "strongsNumber": "H1121",
+          "morphology": "N-msc | 3ms"
+        },
+        {
+          "position": 17,
+          "text": "who serves",
+          "original": "הָעֹבֵ֥ד",
+          "transliteration": "hā·‘ō·ḇêḏ",
+          "strongsNumber": "H5647",
+          "morphology": "Art | V-Qal-Prtcpl-ms"
+        },
+        {
+          "position": 18,
+          "text": "him",
+          "original": "אֹתֽוֹ׃",
+          "transliteration": "’ō·ṯōw",
+          "strongsNumber": "H0853",
+          "morphology": "DirObjM | 3ms"
+        }
+      ],
+      "18": [
+        {
+          "position": 0,
+          "text": "So you will again",
+          "original": "וְשַׁבְתֶּם֙",
+          "transliteration": "wə·šaḇ·tem",
+          "strongsNumber": "H7725",
+          "morphology": "Conj-w | V-Qal-ConjPerf-2mp"
+        },
+        {
+          "position": 1,
+          "text": "distinguish",
+          "original": "וּרְאִיתֶ֔ם",
+          "transliteration": "ū·rə·’î·ṯem",
+          "strongsNumber": "H7200",
+          "morphology": "Conj-w | V-Qal-ConjPerf-2mp"
+        },
+        {
+          "position": 2,
+          "text": "between",
+          "original": "בֵּ֥ין",
+          "transliteration": "bên",
+          "strongsNumber": "H0996",
+          "morphology": "Prep"
+        },
+        {
+          "position": 3,
+          "text": "the righteous",
+          "original": "צַדִּ֖יק",
+          "transliteration": "ṣad·dîq",
+          "strongsNumber": "H6662",
+          "morphology": "Adj-ms"
+        },
+        {
+          "position": 4,
+          "text": "and the wicked",
+          "original": "לְרָשָׁ֑ע",
+          "transliteration": "lə·rā·šā‘",
+          "strongsNumber": "H7563",
+          "morphology": "Prep-l | Adj-ms"
+        },
+        {
+          "position": 5,
+          "text": "between",
+          "original": "בֵּ֚ין",
+          "transliteration": "bên",
+          "strongsNumber": "H0996",
+          "morphology": "Prep"
+        },
+        {
+          "position": 6,
+          "text": "those who serve",
+          "original": "עֹבֵ֣ד",
+          "transliteration": "‘ō·ḇêḏ",
+          "strongsNumber": "H5647",
+          "morphology": "V-Qal-Prtcpl-msc"
+        },
+        {
+          "position": 7,
+          "text": "God",
+          "original": "אֱלֹהִ֔ים",
+          "transliteration": "’ĕ·lō·hîm",
+          "strongsNumber": "H0430",
+          "morphology": "N-mp"
+        },
+        {
+          "position": 8,
+          "text": "and those who",
+          "original": "לַאֲשֶׁ֖ר",
+          "transliteration": "la·’ă·šer",
+          "strongsNumber": "H0834",
+          "morphology": "Prep-l | Pro-r"
+        },
+        {
+          "position": 9,
+          "text": "do not",
+          "original": "לֹ֥א",
+          "transliteration": "lō",
+          "strongsNumber": "H3808",
+          "morphology": "Adv-NegPrt"
+        },
+        {
+          "position": 10,
+          "text": ". . .",
+          "original": "עֲבָדֽוֹ׃ס",
+          "transliteration": "‘ă·ḇā·ḏōw",
+          "strongsNumber": "H5647",
+          "morphology": "V-Qal-Perf-3ms | 3ms"
+        }
+      ]
+    },
+    "4": {
+      "1": [
+        {
+          "position": 0,
+          "text": "For",
+          "original": "כִּֽי־",
+          "transliteration": "kî-",
+          "strongsNumber": "H3588",
+          "morphology": "Conj"
+        },
+        {
+          "position": 1,
+          "text": "behold",
+          "original": "הִנֵּ֤ה",
+          "transliteration": "hin·nêh",
+          "strongsNumber": "H2009",
+          "morphology": "Interjection"
+        },
+        {
+          "position": 2,
+          "text": "the day",
+          "original": "הַיּוֹם֙",
+          "transliteration": "hay·yō·wm",
+          "strongsNumber": "H3117",
+          "morphology": "Art | N-ms"
+        },
+        {
+          "position": 3,
+          "text": "is coming",
+          "original": "בָּ֔א",
+          "transliteration": "bā",
+          "strongsNumber": "H0935",
+          "morphology": "V-Qal-Prtcpl-ms"
+        },
+        {
+          "position": 4,
+          "text": "burning",
+          "original": "בֹּעֵ֖ר",
+          "transliteration": "bō·‘êr",
+          "strongsNumber": "H1197",
+          "morphology": "V-Qal-Prtcpl-ms"
+        },
+        {
+          "position": 5,
+          "text": "like a furnace",
+          "original": "כַּתַּנּ֑וּר",
+          "transliteration": "kat·tan·nūr",
+          "strongsNumber": "H8574",
+          "morphology": "Prep-k, Art | N-cs"
+        },
+        {
+          "position": 6,
+          "text": "[when]",
+          "original": "וְהָי֨וּ",
+          "transliteration": "wə·hā·yū",
+          "strongsNumber": "H1961",
+          "morphology": "Conj-w | V-Qal-ConjPerf-3cp"
+        },
+        {
+          "position": 7,
+          "text": "all",
+          "original": "כָל־",
+          "transliteration": "ḵāl",
+          "strongsNumber": "H3605",
+          "morphology": "N-msc"
+        },
+        {
+          "position": 8,
+          "text": "the arrogant",
+          "original": "זֵדִ֜ים",
+          "transliteration": "zê·ḏîm",
+          "strongsNumber": "H2086",
+          "morphology": "Adj-mp"
+        },
+        {
+          "position": 9,
+          "text": "and every",
+          "original": "וְכָל־",
+          "transliteration": "wə·ḵāl",
+          "strongsNumber": "H3605",
+          "morphology": "Conj-w | N-msc"
+        },
+        {
+          "position": 10,
+          "text": "evildoer",
+          "original": "עֹשֵׂ֤ה",
+          "transliteration": "‘ō·śêh",
+          "strongsNumber": "H6213",
+          "morphology": "V-Qal-Prtcpl-msc"
+        },
+        {
+          "position": 11,
+          "text": ". . .",
+          "original": "רִשְׁעָה֙",
+          "transliteration": "riš·‘āh",
+          "strongsNumber": "H7564",
+          "morphology": "N-fs"
+        },
+        {
+          "position": 12,
+          "text": "will be stubble",
+          "original": "קַ֔שׁ",
+          "transliteration": "qaš",
+          "strongsNumber": "H7179",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 13,
+          "text": "the day",
+          "original": "הַיּ֣וֹם",
+          "transliteration": "hay·yō·wm",
+          "strongsNumber": "H3117",
+          "morphology": "Art | N-ms"
+        },
+        {
+          "position": 14,
+          "text": "is coming",
+          "original": "הַבָּ֗א",
+          "transliteration": "hab·bā",
+          "strongsNumber": "H0935",
+          "morphology": "Art | V-Qal-Prtcpl-ms"
+        },
+        {
+          "position": 15,
+          "text": "when I will set them ablaze",
+          "original": "וְלִהַ֨ט",
+          "transliteration": "wə·li·haṭ",
+          "strongsNumber": "H3857",
+          "morphology": "Conj-w | V-Piel-ConjPerf-3ms"
+        },
+        {
+          "position": 16,
+          "text": "says",
+          "original": "אָמַר֙",
+          "transliteration": "’ā·mar",
+          "strongsNumber": "H0559",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 17,
+          "text": "the LORD",
+          "original": "יְהוָ֣ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 18,
+          "text": "of Hosts",
+          "original": "צְבָא֔וֹת",
+          "transliteration": "ṣə·ḇā·’ō·wṯ",
+          "strongsNumber": "H6635",
+          "morphology": "N-cp"
+        },
+        {
+          "position": 19,
+          "text": "Not",
+          "original": "לֹא־",
+          "transliteration": "lō-",
+          "strongsNumber": "H3808",
+          "morphology": "Adv-NegPrt"
+        },
+        {
+          "position": 20,
+          "text": "a root",
+          "original": "שֹׁ֥רֶשׁ",
+          "transliteration": "šō·reš",
+          "strongsNumber": "H8328",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 21,
+          "text": "or branch",
+          "original": "וְעָנָֽף׃",
+          "transliteration": "wə·‘ā·nāp̄",
+          "strongsNumber": "H6057",
+          "morphology": "Conj-w | N-ms"
+        },
+        {
+          "position": 22,
+          "text": "will be left",
+          "original": "יַעֲזֹ֥ב",
+          "transliteration": "ya·‘ă·zōḇ",
+          "strongsNumber": "H5800",
+          "morphology": "V-Qal-Imperf-3ms"
+        },
+        {
+          "position": 23,
+          "text": "to them",
+          "original": "לָהֶ֖ם",
+          "transliteration": "lā·hem",
+          "strongsNumber": "",
+          "morphology": "Prep-l | Pro-3mp"
+        }
+      ],
+      "2": [
+        {
+          "position": 0,
+          "text": "But for you who fear",
+          "original": "יִרְאֵ֤י",
+          "transliteration": "yir·’ê",
+          "strongsNumber": "H3373",
+          "morphology": "Adj-mpc"
+        },
+        {
+          "position": 1,
+          "text": "My name",
+          "original": "שְׁמִי֙",
+          "transliteration": "šə·mî",
+          "strongsNumber": "H8034",
+          "morphology": "N-msc | 1cs"
+        },
+        {
+          "position": 2,
+          "text": "the sun",
+          "original": "שֶׁ֣מֶשׁ",
+          "transliteration": "še·meš",
+          "strongsNumber": "H8121",
+          "morphology": "N-csc"
+        },
+        {
+          "position": 3,
+          "text": "of righteousness",
+          "original": "צְדָקָ֔ה",
+          "transliteration": "ṣə·ḏā·qāh",
+          "strongsNumber": "H6666",
+          "morphology": "N-fs"
+        },
+        {
+          "position": 4,
+          "text": "will rise",
+          "original": "וְזָרְחָ֨ה",
+          "transliteration": "wə·zā·rə·ḥāh",
+          "strongsNumber": "H2224",
+          "morphology": "Conj-w | V-Qal-ConjPerf-3fs"
+        },
+        {
+          "position": 5,
+          "text": "with healing",
+          "original": "וּמַרְפֵּ֖א",
+          "transliteration": "ū·mar·pê",
+          "strongsNumber": "H4832",
+          "morphology": "Conj-w | N-ms"
+        },
+        {
+          "position": 6,
+          "text": "in its wings",
+          "original": "בִּכְנָפֶ֑יהָ",
+          "transliteration": "biḵ·nā·p̄e·hā",
+          "strongsNumber": "H3671",
+          "morphology": "Prep-b | N-fpc | 3fs"
+        },
+        {
+          "position": 7,
+          "text": "and you will go out",
+          "original": "וִֽיצָאתֶ֥ם",
+          "transliteration": "wî·ṣā·ṯem",
+          "strongsNumber": "H3318",
+          "morphology": "Conj-w | V-Qal-ConjPerf-2mp"
+        },
+        {
+          "position": 8,
+          "text": "and leap",
+          "original": "וּפִשְׁתֶּ֖ם",
+          "transliteration": "ū·p̄iš·tem",
+          "strongsNumber": "H6335",
+          "morphology": "Conj-w | V-Qal-ConjPerf-2mp"
+        },
+        {
+          "position": 9,
+          "text": "like calves",
+          "original": "כְּעֶגְלֵ֥י",
+          "transliteration": "kə·‘eḡ·lê",
+          "strongsNumber": "H5695",
+          "morphology": "Prep-k | N-mpc"
+        },
+        {
+          "position": 10,
+          "text": "from the stall",
+          "original": "מַרְבֵּֽק׃",
+          "transliteration": "mar·bêq",
+          "strongsNumber": "H4770",
+          "morphology": "N-ms"
+        }
+      ],
+      "3": [
+        {
+          "position": 0,
+          "text": "Then you will trample",
+          "original": "וְעַסּוֹתֶ֣ם",
+          "transliteration": "wə·‘as·sō·w·ṯem",
+          "strongsNumber": "H6072",
+          "morphology": "Conj-w | V-Qal-ConjPerf-2mp"
+        },
+        {
+          "position": 1,
+          "text": "the wicked",
+          "original": "רְשָׁעִ֔ים",
+          "transliteration": "rə·šā·‘îm",
+          "strongsNumber": "H7563",
+          "morphology": "Adj-mp"
+        },
+        {
+          "position": 2,
+          "text": "for",
+          "original": "כִּֽי־",
+          "transliteration": "kî-",
+          "strongsNumber": "H3588",
+          "morphology": "Conj"
+        },
+        {
+          "position": 3,
+          "text": "they will be",
+          "original": "יִהְי֣וּ",
+          "transliteration": "yih·yū",
+          "strongsNumber": "H1961",
+          "morphology": "V-Qal-Imperf-3mp"
+        },
+        {
+          "position": 4,
+          "text": "ashes",
+          "original": "אֵ֔פֶר",
+          "transliteration": "’ê·p̄er",
+          "strongsNumber": "H0665",
+          "morphology": "N-ms"
+        },
+        {
+          "position": 5,
+          "text": "under",
+          "original": "תַּ֖חַת",
+          "transliteration": "ta·ḥaṯ",
+          "strongsNumber": "H8478",
+          "morphology": "Prep"
+        },
+        {
+          "position": 6,
+          "text": "the soles",
+          "original": "כַּפּ֣וֹת",
+          "transliteration": "kap·pō·wṯ",
+          "strongsNumber": "H3709",
+          "morphology": "N-fpc"
+        },
+        {
+          "position": 7,
+          "text": "of your feet",
+          "original": "רַגְלֵיכֶ֑ם",
+          "transliteration": "raḡ·lê·ḵem",
+          "strongsNumber": "H7272",
+          "morphology": "N-fdc | 2mp"
+        },
+        {
+          "position": 8,
+          "text": "on the day",
+          "original": "בַּיּוֹם֙",
+          "transliteration": "bay·yō·wm",
+          "strongsNumber": "H3117",
+          "morphology": "Prep-b, Art | N-ms"
+        },
+        {
+          "position": 9,
+          "text": "I",
+          "original": "אֲנִ֣י",
+          "transliteration": "’ă·nî",
+          "strongsNumber": "H0589",
+          "morphology": "Pro-1cs"
+        },
+        {
+          "position": 10,
+          "text": "am preparing",
+          "original": "עֹשֶׂ֔ה",
+          "transliteration": "‘ō·śeh",
+          "strongsNumber": "H6213",
+          "morphology": "V-Qal-Prtcpl-ms"
+        },
+        {
+          "position": 11,
+          "text": "says",
+          "original": "אָמַ֖ר",
+          "transliteration": "’ā·mar",
+          "strongsNumber": "H0559",
+          "morphology": "V-Qal-Perf-3ms"
+        },
+        {
+          "position": 12,
+          "text": "the LORD",
+          "original": "יְהוָ֥ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 13,
+          "text": "of Hosts",
+          "original": "צְבָאֽוֹת׃פ",
+          "transliteration": "ṣə·ḇā·’ō·wṯ",
+          "strongsNumber": "H6635",
+          "morphology": "N-cp"
+        }
+      ],
+      "4": [
+        {
+          "position": 0,
+          "text": "Remember",
+          "original": "זִכְר֕וּ",
+          "transliteration": "ziḵ·rū",
+          "strongsNumber": "H2142",
+          "morphology": "V-Qal-Imp-mp"
+        },
+        {
+          "position": 1,
+          "text": "the law",
+          "original": "תּוֹרַ֖ת",
+          "transliteration": "tō·w·raṯ",
+          "strongsNumber": "H8451",
+          "morphology": "N-fsc"
+        },
+        {
+          "position": 2,
+          "text": "of My servant",
+          "original": "עַבְדִּ֑י",
+          "transliteration": "‘aḇ·dî",
+          "strongsNumber": "H5650",
+          "morphology": "N-msc | 1cs"
+        },
+        {
+          "position": 3,
+          "text": "Moses",
+          "original": "מֹשֶׁ֣ה",
+          "transliteration": "mō·šeh",
+          "strongsNumber": "H4872",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 4,
+          "text": "the statutes",
+          "original": "חֻקִּ֖ים",
+          "transliteration": "ḥuq·qîm",
+          "strongsNumber": "H2706",
+          "morphology": "N-mp"
+        },
+        {
+          "position": 5,
+          "text": "and ordinances",
+          "original": "וּמִשְׁפָּטִֽים׃",
+          "transliteration": "ū·miš·pā·ṭîm",
+          "strongsNumber": "H4941",
+          "morphology": "Conj-w | N-mp"
+        },
+        {
+          "position": 6,
+          "text": "I commanded",
+          "original": "צִוִּ֨יתִי",
+          "transliteration": "ṣiw·wî·ṯî",
+          "strongsNumber": "H6680",
+          "morphology": "V-Piel-Perf-1cs"
+        },
+        {
+          "position": 7,
+          "text": "him",
+          "original": "אוֹת֤וֹ",
+          "transliteration": "’ō·w·ṯōw",
+          "strongsNumber": "H0853",
+          "morphology": "DirObjM | 3ms"
+        },
+        {
+          "position": 8,
+          "text": "for",
+          "original": "עַל־",
+          "transliteration": "‘al-",
+          "strongsNumber": "H5921",
+          "morphology": "Prep"
+        },
+        {
+          "position": 9,
+          "text": "all",
+          "original": "כָּל־",
+          "transliteration": "kāl-",
+          "strongsNumber": "H3605",
+          "morphology": "N-msc"
+        },
+        {
+          "position": 10,
+          "text": "Israel",
+          "original": "יִשְׂרָאֵ֔ל",
+          "transliteration": "yiś·rā·’êl",
+          "strongsNumber": "H3478",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 11,
+          "text": "at Horeb",
+          "original": "בְחֹרֵב֙",
+          "transliteration": "ḇə·ḥō·rêḇ",
+          "strongsNumber": "H2722",
+          "morphology": "Prep-b | N-proper-fs"
+        }
+      ],
+      "5": [
+        {
+          "position": 0,
+          "text": "Behold",
+          "original": "הִנֵּ֤ה",
+          "transliteration": "hin·nêh",
+          "strongsNumber": "H2009",
+          "morphology": "Interjection"
+        },
+        {
+          "position": 1,
+          "text": "I",
+          "original": "אָֽנֹכִי֙",
+          "transliteration": "’ā·nō·ḵî",
+          "strongsNumber": "H0595",
+          "morphology": "Pro-1cs"
+        },
+        {
+          "position": 2,
+          "text": "will send",
+          "original": "שֹׁלֵ֣חַ",
+          "transliteration": "šō·lê·aḥ",
+          "strongsNumber": "H7971",
+          "morphology": "V-Qal-Prtcpl-ms"
+        },
+        {
+          "position": 3,
+          "text": "you",
+          "original": "לָכֶ֔ם",
+          "transliteration": "lā·ḵem",
+          "strongsNumber": "",
+          "morphology": "Prep | 2mp"
+        },
+        {
+          "position": 4,
+          "text": "Elijah",
+          "original": "אֵלִיָּ֣ה",
+          "transliteration": "’ê·lî·yāh",
+          "strongsNumber": "H0452",
+          "morphology": "N-proper-ms"
+        },
+        {
+          "position": 5,
+          "text": "the prophet",
+          "original": "הַנָּבִ֑יא",
+          "transliteration": "han·nā·ḇî",
+          "strongsNumber": "H5030",
+          "morphology": "Art | N-ms"
+        },
+        {
+          "position": 6,
+          "text": "before",
+          "original": "לִפְנֵ֗י",
+          "transliteration": "lip̄·nê",
+          "strongsNumber": "H6440",
+          "morphology": "Prep-l | N-cpc"
+        },
+        {
+          "position": 7,
+          "text": "the coming",
+          "original": "בּ֚וֹא",
+          "transliteration": "bō·w",
+          "strongsNumber": "H0935",
+          "morphology": "V-Qal-Inf"
+        },
+        {
+          "position": 8,
+          "text": "of the great",
+          "original": "הַגָּד֖וֹל",
+          "transliteration": "hag·gā·ḏō·wl",
+          "strongsNumber": "H1419",
+          "morphology": "Art | Adj-ms"
+        },
+        {
+          "position": 9,
+          "text": "and awesome",
+          "original": "וְהַנּוֹרָֽא׃",
+          "transliteration": "wə·han·nō·w·rā",
+          "strongsNumber": "H3372",
+          "morphology": "Conj-w, Art | V-Nifal-Prtcpl-ms"
+        },
+        {
+          "position": 10,
+          "text": "Day",
+          "original": "י֣וֹם",
+          "transliteration": "yō·wm",
+          "strongsNumber": "H3117",
+          "morphology": "N-msc"
+        },
+        {
+          "position": 11,
+          "text": "of the LORD",
+          "original": "יְהוָ֔ה",
+          "transliteration": "Yah·weh",
+          "strongsNumber": "H3068",
+          "morphology": "N-proper-ms"
+        }
+      ],
+      "6": [
+        {
+          "position": 0,
+          "text": "And he will turn",
+          "original": "וְהֵשִׁ֤יב",
+          "transliteration": "wə·hê·šîḇ",
+          "strongsNumber": "H7725",
+          "morphology": "Conj-w | V-Hifil-ConjPerf-3ms"
+        },
+        {
+          "position": 1,
+          "text": "the hearts",
+          "original": "לֵב־",
+          "transliteration": "lêḇ-",
+          "strongsNumber": "H3820",
+          "morphology": "N-msc"
+        },
+        {
+          "position": 2,
+          "text": "of the fathers",
+          "original": "אָבוֹת֙",
+          "transliteration": "’ā·ḇō·wṯ",
+          "strongsNumber": "H0001",
+          "morphology": "N-mp"
+        },
+        {
+          "position": 3,
+          "text": "to",
+          "original": "עַל־",
+          "transliteration": "‘al-",
+          "strongsNumber": "H5921",
+          "morphology": "Prep"
+        },
+        {
+          "position": 4,
+          "text": "their children",
+          "original": "בָּנִ֔ים",
+          "transliteration": "bā·nîm",
+          "strongsNumber": "H1121",
+          "morphology": "N-mp"
+        },
+        {
+          "position": 5,
+          "text": "and the hearts",
+          "original": "וְלֵ֥ב",
+          "transliteration": "wə·lêḇ",
+          "strongsNumber": "H3820",
+          "morphology": "Conj-w | N-msc"
+        },
+        {
+          "position": 6,
+          "text": "of the children",
+          "original": "בָּנִ֖ים",
+          "transliteration": "bā·nîm",
+          "strongsNumber": "H1121",
+          "morphology": "N-mp"
+        },
+        {
+          "position": 7,
+          "text": "to",
+          "original": "עַל־",
+          "transliteration": "‘al-",
+          "strongsNumber": "H5921",
+          "morphology": "Prep"
+        },
+        {
+          "position": 8,
+          "text": "their fathers",
+          "original": "אֲבוֹתָ֑ם",
+          "transliteration": "’ă·ḇō·w·ṯām",
+          "strongsNumber": "H0001",
+          "morphology": "N-mpc | 3mp"
+        },
+        {
+          "position": 9,
+          "text": "Otherwise",
+          "original": "פֶּן־",
+          "transliteration": "pen-",
+          "strongsNumber": "H6435",
+          "morphology": "Conj"
+        },
+        {
+          "position": 10,
+          "text": "I will come",
+          "original": "אָב֕וֹא",
+          "transliteration": "’ā·ḇō·w",
+          "strongsNumber": "H0935",
+          "morphology": "V-Qal-Imperf-1cs"
+        },
+        {
+          "position": 11,
+          "text": "and strike",
+          "original": "וְהִכֵּיתִ֥י",
+          "transliteration": "wə·hik·kê·ṯî",
+          "strongsNumber": "H5221",
+          "morphology": "Conj-w | V-Hifil-ConjPerf-1cs"
+        },
+        {
+          "position": 12,
+          "text": "the land",
+          "original": "הָאָ֖רֶץ",
+          "transliteration": "hā·’ā·reṣ",
+          "strongsNumber": "H0776",
+          "morphology": "Art | N-fs"
+        },
+        {
+          "position": 13,
+          "text": "with a curse",
+          "original": "חֵֽרֶם׃",
+          "transliteration": "ḥê·rem",
+          "strongsNumber": "H2764",
+          "morphology": "N-ms"
+        }
+      ]
+    }
+  }
+}
