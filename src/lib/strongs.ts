@@ -37,8 +37,7 @@ export function formatStrongsNumber(number: string): string | null {
 }
 
 /**
- * Fetch Strong's entry from Blue Letter Bible or local data
- * TODO: Implement actual data fetching
+ * Fetch Strong's entry from local API
  */
 export async function fetchStrongsEntry(number: string): Promise<StrongsEntry | null> {
   const formatted = formatStrongsNumber(number);
@@ -46,10 +45,17 @@ export async function fetchStrongsEntry(number: string): Promise<StrongsEntry | 
     return null;
   }
 
-  // Placeholder - implement actual API call or local lookup
-  // For MVP, we might use a bundled JSON file with common Strong's entries
-  console.warn('fetchStrongsEntry not yet implemented:', formatted);
-  return null;
+  try {
+    const response = await fetch(`/api/strongs/${formatted}`);
+    if (!response.ok) {
+      return null;
+    }
+    const data = (await response.json()) as StrongsEntry;
+    return data;
+  } catch (error) {
+    console.error("Failed to fetch Strong's entry:", error);
+    return null;
+  }
 }
 
 /**

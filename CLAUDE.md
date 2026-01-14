@@ -43,10 +43,11 @@ This is an independent project built in that same spirit — using the skills, e
 
 ### Placeholder/Partial Implementation
 
-- **Original language display** — UI component exists, BSB data integration pending
-- **Strong's Concordance** — Validation utilities work, lookup functions stubbed
+- **Original language display** — UI component exists, BSB API created, lexicon partial
+- **Strong's Concordance** — Validation utilities work, Greek lexicon started (~170 entries), lookup functions stubbed
+- **BSB translation** — Text API functional via `/api/bible/[book]/[chapter]`, Hebrew lexicon pending
 - **NIV translation** — Partially configured via api.bible
-- **KJV, NASB, LSB, BSB** — Types defined, not implemented
+- **KJV, NASB, LSB** — Types defined, not implemented
 - **Supabase auth/data** — Schema ready, not yet connected to app features
 
 ---
@@ -346,6 +347,10 @@ berean-toolkit/
 │   │   └── api/
 │   │       ├── verse/
 │   │       │   └── route.ts    # [x] ESV working, NIV partial
+│   │       ├── bible/
+│   │       │   └── [book]/
+│   │       │       └── [chapter]/
+│   │       │           └── route.ts  # [x] BSB text via bible.helloao.org
 │   │       ├── game/
 │   │       │   └── route.ts    # [x] Returns questions from JSON
 │   │       └── sermon/
@@ -368,7 +373,9 @@ berean-toolkit/
 │   ├── hooks/
 │   │   └── useVerse.ts         # [x] Verse fetching with loading/error
 │   ├── data/
-│   │   └── questions.json      # [~] 4 seed questions (needs 50+)
+│   │   ├── questions.json      # [x] 54 curated questions (18 per mode)
+│   │   └── strongs/
+│   │       └── greek.json      # [~] Greek lexicon (~170 common entries)
 │   ├── types/
 │   │   ├── index.ts            # [x] All app types defined
 │   │   └── database.ts         # [~] Placeholder for generated types
@@ -542,8 +549,9 @@ Prompt engineering for outlines:
 
 **Remaining:**
 
-- [ ] Integrate BSB data for Greek/Hebrew word tagging
+- [~] Integrate BSB data for Greek/Hebrew word tagging (Bible API done, Greek lexicon partial, Hebrew pending)
 - [ ] Implement Strong's Concordance lookup (`fetchStrongsEntry`, `searchByStrongsNumber`)
+- [ ] Create Strong's API route `/api/strongs/[number]`
 - [ ] Wire up original language display in Scripture Deep Dive
 
 ### Phase 2 — Enhancement

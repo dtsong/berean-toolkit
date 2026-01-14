@@ -16,9 +16,12 @@ export type Translation = 'ESV' | 'NIV' | 'NASB' | 'LSB' | 'BSB' | 'KJV';
 // Strong's concordance types
 export interface StrongsEntry {
   number: string; // e.g., "H430" or "G2316"
-  lemma: string; // Original Hebrew/Greek word
+  lemma: string; // Original Hebrew/Greek word (alias for word)
+  word?: string; // Original Hebrew/Greek word
   transliteration: string;
+  pronunciation?: string;
   definition: string;
+  partOfSpeech?: string;
   kjvUsage?: string[];
 }
 
@@ -26,6 +29,22 @@ export interface StrongsEntry {
 export interface VerseData {
   reference: VerseReference;
   text: string;
+  translation: Translation;
+}
+
+// Bible API types
+export interface BibleVerse {
+  book: string;
+  chapter: number;
+  verse: number;
+  text: string;
+}
+
+export interface BibleChapter {
+  book: string;
+  bookName: string;
+  chapter: number;
+  verses: BibleVerse[];
   translation: Translation;
 }
 

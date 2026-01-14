@@ -1,0 +1,1815 @@
+{
+  "H1": {
+    "word": "אָב",
+    "transliteration": "ab",
+    "pronunciation": "awb",
+    "definition": "Father; ancestor; originator; head of a household",
+    "partOfSpeech": "noun masculine"
+  },
+  "H113": {
+    "word": "אָדוֹן",
+    "transliteration": "adon",
+    "pronunciation": "aw-done'",
+    "definition": "Lord, master; one with authority; sovereign",
+    "partOfSpeech": "noun masculine"
+  },
+  "H120": {
+    "word": "אָדָם",
+    "transliteration": "adam",
+    "pronunciation": "aw-dawm'",
+    "definition": "Man, mankind; human being; the first man Adam",
+    "partOfSpeech": "noun masculine"
+  },
+  "H136": {
+    "word": "אֲדֹנָי",
+    "transliteration": "Adonai",
+    "pronunciation": "ad-o-noy'",
+    "definition": "Lord; my Lord; a title of reverence for God",
+    "partOfSpeech": "noun masculine"
+  },
+  "H157": {
+    "word": "אָהַב",
+    "transliteration": "ahab",
+    "pronunciation": "aw-hab'",
+    "definition": "To love; to have affection for; to be a friend",
+    "partOfSpeech": "verb"
+  },
+  "H160": {
+    "word": "אַהֲבָה",
+    "transliteration": "ahabah",
+    "pronunciation": "a-hab-aw'",
+    "definition": "Love; affection; lovely things",
+    "partOfSpeech": "noun feminine"
+  },
+  "H176": {
+    "word": "אוֹ",
+    "transliteration": "o",
+    "pronunciation": "o",
+    "definition": "Or; whether; if perhaps",
+    "partOfSpeech": "conjunction"
+  },
+  "H215": {
+    "word": "אוֹר",
+    "transliteration": "or",
+    "pronunciation": "ore",
+    "definition": "To be or become light; to shine; to give light",
+    "partOfSpeech": "verb"
+  },
+  "H216": {
+    "word": "אוֹר",
+    "transliteration": "or",
+    "pronunciation": "ore",
+    "definition": "Light; daylight; sunshine; brightness",
+    "partOfSpeech": "noun masculine"
+  },
+  "H251": {
+    "word": "אָח",
+    "transliteration": "ach",
+    "pronunciation": "awkh",
+    "definition": "Brother; relative; kinsman; fellow countryman",
+    "partOfSpeech": "noun masculine"
+  },
+  "H259": {
+    "word": "אֶחָד",
+    "transliteration": "echad",
+    "pronunciation": "ekh-awd'",
+    "definition": "One; first; united; a certain one",
+    "partOfSpeech": "numeral"
+  },
+  "H310": {
+    "word": "אַחַר",
+    "transliteration": "achar",
+    "pronunciation": "akh-ar'",
+    "definition": "After; behind; following; afterward",
+    "partOfSpeech": "adverb"
+  },
+  "H369": {
+    "word": "אַיִן",
+    "transliteration": "ayin",
+    "pronunciation": "ah'-yin",
+    "definition": "Nothing; not; non-existence; there is not",
+    "partOfSpeech": "particle"
+  },
+  "H376": {
+    "word": "אִישׁ",
+    "transliteration": "ish",
+    "pronunciation": "eesh",
+    "definition": "Man; husband; human being; each one",
+    "partOfSpeech": "noun masculine"
+  },
+  "H389": {
+    "word": "אַךְ",
+    "transliteration": "ak",
+    "pronunciation": "ak",
+    "definition": "Surely; only; however; nevertheless",
+    "partOfSpeech": "adverb"
+  },
+  "H398": {
+    "word": "אָכַל",
+    "transliteration": "akal",
+    "pronunciation": "aw-kal'",
+    "definition": "To eat; to consume; to devour",
+    "partOfSpeech": "verb"
+  },
+  "H410": {
+    "word": "אֵל",
+    "transliteration": "El",
+    "pronunciation": "ale",
+    "definition": "God; mighty one; power; the Almighty",
+    "partOfSpeech": "noun masculine"
+  },
+  "H413": {
+    "word": "אֵל",
+    "transliteration": "el",
+    "pronunciation": "ale",
+    "definition": "To, toward; unto; into; against",
+    "partOfSpeech": "preposition"
+  },
+  "H430": {
+    "word": "אֱלֹהִים",
+    "transliteration": "Elohim",
+    "pronunciation": "el-o-heem'",
+    "definition": "God; gods; the supreme God; divine beings",
+    "partOfSpeech": "noun masculine plural"
+  },
+  "H433": {
+    "word": "אֱלוֹהַּ",
+    "transliteration": "Eloah",
+    "pronunciation": "el-o'-ah",
+    "definition": "God; a god; deity",
+    "partOfSpeech": "noun masculine"
+  },
+  "H517": {
+    "word": "אֵם",
+    "transliteration": "em",
+    "pronunciation": "ame",
+    "definition": "Mother; grandmother; ancestress",
+    "partOfSpeech": "noun feminine"
+  },
+  "H530": {
+    "word": "אֱמוּנָה",
+    "transliteration": "emunah",
+    "pronunciation": "em-oo-naw'",
+    "definition": "Faithfulness; steadfastness; fidelity; truth",
+    "partOfSpeech": "noun feminine"
+  },
+  "H539": {
+    "word": "אָמַן",
+    "transliteration": "aman",
+    "pronunciation": "aw-man'",
+    "definition": "To confirm; to believe; to trust; to be faithful",
+    "partOfSpeech": "verb"
+  },
+  "H543": {
+    "word": "אָמֵן",
+    "transliteration": "amen",
+    "pronunciation": "aw-mane'",
+    "definition": "Truly; so be it; verily",
+    "partOfSpeech": "adverb"
+  },
+  "H559": {
+    "word": "אָמַר",
+    "transliteration": "amar",
+    "pronunciation": "aw-mar'",
+    "definition": "To say; to speak; to command; to promise",
+    "partOfSpeech": "verb"
+  },
+  "H571": {
+    "word": "אֶמֶת",
+    "transliteration": "emet",
+    "pronunciation": "eh'-meth",
+    "definition": "Truth; faithfulness; reliability; stability",
+    "partOfSpeech": "noun feminine"
+  },
+  "H582": {
+    "word": "אֱנוֹשׁ",
+    "transliteration": "enosh",
+    "pronunciation": "en-oshe'",
+    "definition": "Man; mortal; mankind (emphasizing weakness)",
+    "partOfSpeech": "noun masculine"
+  },
+  "H637": {
+    "word": "אַף",
+    "transliteration": "aph",
+    "pronunciation": "af",
+    "definition": "Also; even; indeed; moreover",
+    "partOfSpeech": "conjunction"
+  },
+  "H639": {
+    "word": "אַף",
+    "transliteration": "aph",
+    "pronunciation": "af",
+    "definition": "Nose; nostril; face; anger (lit. flaring nostrils)",
+    "partOfSpeech": "noun masculine"
+  },
+  "H776": {
+    "word": "אֶרֶץ",
+    "transliteration": "erets",
+    "pronunciation": "eh'-rets",
+    "definition": "Earth; land; country; ground; territory",
+    "partOfSpeech": "noun feminine"
+  },
+  "H802": {
+    "word": "אִשָּׁה",
+    "transliteration": "ishshah",
+    "pronunciation": "ish-shaw'",
+    "definition": "Woman; wife; female",
+    "partOfSpeech": "noun feminine"
+  },
+  "H834": {
+    "word": "אֲשֶׁר",
+    "transliteration": "asher",
+    "pronunciation": "ash-er'",
+    "definition": "Who; which; that; because; when",
+    "partOfSpeech": "relative pronoun"
+  },
+  "H853": {
+    "word": "אֵת",
+    "transliteration": "et",
+    "pronunciation": "ayth",
+    "definition": "Direct object marker (untranslatable); with",
+    "partOfSpeech": "particle"
+  },
+  "H905": {
+    "word": "בַּד",
+    "transliteration": "bad",
+    "pronunciation": "bad",
+    "definition": "Separation; alone; by oneself; apart from",
+    "partOfSpeech": "noun masculine"
+  },
+  "H935": {
+    "word": "בּוֹא",
+    "transliteration": "bo",
+    "pronunciation": "bo",
+    "definition": "To go in; to come; to enter; to arrive",
+    "partOfSpeech": "verb"
+  },
+  "H970": {
+    "word": "בָּחוּר",
+    "transliteration": "bachur",
+    "pronunciation": "baw-khoor'",
+    "definition": "Young man; choice youth; elect",
+    "partOfSpeech": "noun masculine"
+  },
+  "H977": {
+    "word": "בָּחַר",
+    "transliteration": "bachar",
+    "pronunciation": "baw-khar'",
+    "definition": "To choose; to select; to prefer; to elect",
+    "partOfSpeech": "verb"
+  },
+  "H982": {
+    "word": "בָּטַח",
+    "transliteration": "batach",
+    "pronunciation": "baw-takh'",
+    "definition": "To trust; to be confident; to rely on",
+    "partOfSpeech": "verb"
+  },
+  "H995": {
+    "word": "בִּין",
+    "transliteration": "bin",
+    "pronunciation": "bene",
+    "definition": "To understand; to discern; to perceive; to consider",
+    "partOfSpeech": "verb"
+  },
+  "H996": {
+    "word": "בֵּין",
+    "transliteration": "ben",
+    "pronunciation": "bane",
+    "definition": "Between; among; interval",
+    "partOfSpeech": "preposition"
+  },
+  "H998": {
+    "word": "בִּינָה",
+    "transliteration": "binah",
+    "pronunciation": "bee-naw'",
+    "definition": "Understanding; insight; discernment",
+    "partOfSpeech": "noun feminine"
+  },
+  "H1004": {
+    "word": "בַּיִת",
+    "transliteration": "bayit",
+    "pronunciation": "bah'-yith",
+    "definition": "House; home; household; temple; family",
+    "partOfSpeech": "noun masculine"
+  },
+  "H1121": {
+    "word": "בֵּן",
+    "transliteration": "ben",
+    "pronunciation": "bane",
+    "definition": "Son; grandson; descendant; member of a group",
+    "partOfSpeech": "noun masculine"
+  },
+  "H1129": {
+    "word": "בָּנָה",
+    "transliteration": "banah",
+    "pronunciation": "baw-naw'",
+    "definition": "To build; to construct; to establish",
+    "partOfSpeech": "verb"
+  },
+  "H1242": {
+    "word": "בֹּקֶר",
+    "transliteration": "boqer",
+    "pronunciation": "bo'-ker",
+    "definition": "Morning; dawn; daybreak",
+    "partOfSpeech": "noun masculine"
+  },
+  "H1245": {
+    "word": "בָּקַשׁ",
+    "transliteration": "baqash",
+    "pronunciation": "baw-kash'",
+    "definition": "To seek; to search; to require; to request",
+    "partOfSpeech": "verb"
+  },
+  "H1254": {
+    "word": "בָּרָא",
+    "transliteration": "bara",
+    "pronunciation": "baw-raw'",
+    "definition": "To create; to shape; to form (divine creation)",
+    "partOfSpeech": "verb"
+  },
+  "H1285": {
+    "word": "בְּרִית",
+    "transliteration": "berit",
+    "pronunciation": "ber-eeth'",
+    "definition": "Covenant; treaty; alliance; agreement",
+    "partOfSpeech": "noun feminine"
+  },
+  "H1288": {
+    "word": "בָּרַךְ",
+    "transliteration": "barak",
+    "pronunciation": "baw-rak'",
+    "definition": "To bless; to kneel; to praise; to salute",
+    "partOfSpeech": "verb"
+  },
+  "H1293": {
+    "word": "בְּרָכָה",
+    "transliteration": "berakah",
+    "pronunciation": "ber-aw-kaw'",
+    "definition": "Blessing; benediction; gift; prosperity",
+    "partOfSpeech": "noun feminine"
+  },
+  "H1320": {
+    "word": "בָּשָׂר",
+    "transliteration": "basar",
+    "pronunciation": "baw-sawr'",
+    "definition": "Flesh; body; meat; mankind",
+    "partOfSpeech": "noun masculine"
+  },
+  "H1323": {
+    "word": "בַּת",
+    "transliteration": "bat",
+    "pronunciation": "bath",
+    "definition": "Daughter; granddaughter; female descendant",
+    "partOfSpeech": "noun feminine"
+  },
+  "H1350": {
+    "word": "גָּאַל",
+    "transliteration": "gaal",
+    "pronunciation": "gaw-al'",
+    "definition": "To redeem; to act as kinsman-redeemer; to ransom",
+    "partOfSpeech": "verb"
+  },
+  "H1361": {
+    "word": "גָּבַהּ",
+    "transliteration": "gabah",
+    "pronunciation": "gaw-bah'",
+    "definition": "To be high; to be exalted; to be proud",
+    "partOfSpeech": "verb"
+  },
+  "H1368": {
+    "word": "גִּבּוֹר",
+    "transliteration": "gibbor",
+    "pronunciation": "ghib-bore'",
+    "definition": "Mighty one; warrior; champion; hero",
+    "partOfSpeech": "adjective"
+  },
+  "H1396": {
+    "word": "גָּבַר",
+    "transliteration": "gabar",
+    "pronunciation": "gaw-bar'",
+    "definition": "To be strong; to prevail; to be mighty",
+    "partOfSpeech": "verb"
+  },
+  "H1397": {
+    "word": "גֶּבֶר",
+    "transliteration": "geber",
+    "pronunciation": "gheh'-ber",
+    "definition": "Man; strong man; warrior",
+    "partOfSpeech": "noun masculine"
+  },
+  "H1419": {
+    "word": "גָּדוֹל",
+    "transliteration": "gadol",
+    "pronunciation": "gaw-dole'",
+    "definition": "Great; large; important; elder",
+    "partOfSpeech": "adjective"
+  },
+  "H1471": {
+    "word": "גּוֹי",
+    "transliteration": "goy",
+    "pronunciation": "go'-ee",
+    "definition": "Nation; people; Gentiles; heathen",
+    "partOfSpeech": "noun masculine"
+  },
+  "H1697": {
+    "word": "דָּבָר",
+    "transliteration": "dabar",
+    "pronunciation": "daw-bawr'",
+    "definition": "Word; matter; thing; affair; speech",
+    "partOfSpeech": "noun masculine"
+  },
+  "H1696": {
+    "word": "דָּבַר",
+    "transliteration": "dabar",
+    "pronunciation": "daw-bar'",
+    "definition": "To speak; to declare; to command; to promise",
+    "partOfSpeech": "verb"
+  },
+  "H1755": {
+    "word": "דּוֹר",
+    "transliteration": "dor",
+    "pronunciation": "dore",
+    "definition": "Generation; age; period; dwelling",
+    "partOfSpeech": "noun masculine"
+  },
+  "H1818": {
+    "word": "דָּם",
+    "transliteration": "dam",
+    "pronunciation": "dawm",
+    "definition": "Blood; bloodshed; bloodguilt",
+    "partOfSpeech": "noun masculine"
+  },
+  "H1847": {
+    "word": "דַּעַת",
+    "transliteration": "daat",
+    "pronunciation": "dah'-ath",
+    "definition": "Knowledge; perception; understanding; wisdom",
+    "partOfSpeech": "noun feminine"
+  },
+  "H1870": {
+    "word": "דֶּרֶךְ",
+    "transliteration": "derek",
+    "pronunciation": "deh'-rek",
+    "definition": "Way; road; path; journey; manner of life",
+    "partOfSpeech": "noun masculine"
+  },
+  "H1875": {
+    "word": "דָּרַשׁ",
+    "transliteration": "darash",
+    "pronunciation": "daw-rash'",
+    "definition": "To seek; to inquire; to study; to require",
+    "partOfSpeech": "verb"
+  },
+  "H1961": {
+    "word": "הָיָה",
+    "transliteration": "hayah",
+    "pronunciation": "haw-yaw'",
+    "definition": "To be; to become; to come to pass; to exist",
+    "partOfSpeech": "verb"
+  },
+  "H1980": {
+    "word": "הָלַךְ",
+    "transliteration": "halak",
+    "pronunciation": "haw-lak'",
+    "definition": "To walk; to go; to come; to live (manner of life)",
+    "partOfSpeech": "verb"
+  },
+  "H1984": {
+    "word": "הָלַל",
+    "transliteration": "halal",
+    "pronunciation": "haw-lal'",
+    "definition": "To praise; to boast; to shine; to be foolish",
+    "partOfSpeech": "verb"
+  },
+  "H2009": {
+    "word": "הִנֵּה",
+    "transliteration": "hinneh",
+    "pronunciation": "hin-nay'",
+    "definition": "Behold! Look! Lo! Here is",
+    "partOfSpeech": "interjection"
+  },
+  "H2022": {
+    "word": "הַר",
+    "transliteration": "har",
+    "pronunciation": "har",
+    "definition": "Mountain; hill; hill country",
+    "partOfSpeech": "noun masculine"
+  },
+  "H2063": {
+    "word": "זֹאת",
+    "transliteration": "zot",
+    "pronunciation": "zothe",
+    "definition": "This (feminine); this thing",
+    "partOfSpeech": "demonstrative pronoun"
+  },
+  "H2088": {
+    "word": "זֶה",
+    "transliteration": "zeh",
+    "pronunciation": "zeh",
+    "definition": "This (masculine); this one; here",
+    "partOfSpeech": "demonstrative pronoun"
+  },
+  "H2091": {
+    "word": "זָהָב",
+    "transliteration": "zahab",
+    "pronunciation": "zaw-hawb'",
+    "definition": "Gold; golden",
+    "partOfSpeech": "noun masculine"
+  },
+  "H2142": {
+    "word": "זָכַר",
+    "transliteration": "zakar",
+    "pronunciation": "zaw-kar'",
+    "definition": "To remember; to recall; to mention; to be mindful",
+    "partOfSpeech": "verb"
+  },
+  "H2145": {
+    "word": "זָכָר",
+    "transliteration": "zakar",
+    "pronunciation": "zaw-kawr'",
+    "definition": "Male; man; mankind",
+    "partOfSpeech": "noun masculine"
+  },
+  "H2167": {
+    "word": "זָמַר",
+    "transliteration": "zamar",
+    "pronunciation": "zaw-mar'",
+    "definition": "To sing; to make music; to praise",
+    "partOfSpeech": "verb"
+  },
+  "H2233": {
+    "word": "זֶרַע",
+    "transliteration": "zera",
+    "pronunciation": "zeh'-rah",
+    "definition": "Seed; offspring; descendants; posterity",
+    "partOfSpeech": "noun masculine"
+  },
+  "H2398": {
+    "word": "חָטָא",
+    "transliteration": "chata",
+    "pronunciation": "khaw-taw'",
+    "definition": "To sin; to miss the mark; to forfeit",
+    "partOfSpeech": "verb"
+  },
+  "H2403": {
+    "word": "חַטָּאת",
+    "transliteration": "chattat",
+    "pronunciation": "khat-tawth'",
+    "definition": "Sin; sin offering; guilt",
+    "partOfSpeech": "noun feminine"
+  },
+  "H2416": {
+    "word": "חַי",
+    "transliteration": "chay",
+    "pronunciation": "khah'-ee",
+    "definition": "Living; alive; life; fresh; reviving",
+    "partOfSpeech": "adjective"
+  },
+  "H2421": {
+    "word": "חָיָה",
+    "transliteration": "chayah",
+    "pronunciation": "khaw-yaw'",
+    "definition": "To live; to revive; to keep alive; to preserve",
+    "partOfSpeech": "verb"
+  },
+  "H2428": {
+    "word": "חַיִל",
+    "transliteration": "chayil",
+    "pronunciation": "khah'-yil",
+    "definition": "Strength; might; army; wealth; virtue",
+    "partOfSpeech": "noun masculine"
+  },
+  "H2451": {
+    "word": "חָכְמָה",
+    "transliteration": "chokmah",
+    "pronunciation": "khok-maw'",
+    "definition": "Wisdom; skill; shrewdness",
+    "partOfSpeech": "noun feminine"
+  },
+  "H2617": {
+    "word": "חֶסֶד",
+    "transliteration": "chesed",
+    "pronunciation": "kheh'-sed",
+    "definition": "Loving-kindness; mercy; steadfast love; covenant loyalty",
+    "partOfSpeech": "noun masculine"
+  },
+  "H2654": {
+    "word": "חָפֵץ",
+    "transliteration": "chaphets",
+    "pronunciation": "khaw-fates'",
+    "definition": "To delight in; to desire; to be pleased with",
+    "partOfSpeech": "verb"
+  },
+  "H2706": {
+    "word": "חֹק",
+    "transliteration": "choq",
+    "pronunciation": "khoke",
+    "definition": "Statute; ordinance; decree; limit",
+    "partOfSpeech": "noun masculine"
+  },
+  "H2719": {
+    "word": "חֶרֶב",
+    "transliteration": "chereb",
+    "pronunciation": "kheh'-reb",
+    "definition": "Sword; knife; tool for cutting",
+    "partOfSpeech": "noun feminine"
+  },
+  "H2822": {
+    "word": "חֹשֶׁךְ",
+    "transliteration": "choshek",
+    "pronunciation": "kho-shek'",
+    "definition": "Darkness; obscurity; secret place",
+    "partOfSpeech": "noun masculine"
+  },
+  "H2896": {
+    "word": "טוֹב",
+    "transliteration": "tov",
+    "pronunciation": "tobe",
+    "definition": "Good; pleasant; beautiful; beneficial",
+    "partOfSpeech": "adjective"
+  },
+  "H3027": {
+    "word": "יָד",
+    "transliteration": "yad",
+    "pronunciation": "yawd",
+    "definition": "Hand; power; strength; side; direction",
+    "partOfSpeech": "noun feminine"
+  },
+  "H3034": {
+    "word": "יָדָה",
+    "transliteration": "yadah",
+    "pronunciation": "yaw-daw'",
+    "definition": "To praise; to give thanks; to confess",
+    "partOfSpeech": "verb"
+  },
+  "H3045": {
+    "word": "יָדַע",
+    "transliteration": "yada",
+    "pronunciation": "yaw-dah'",
+    "definition": "To know; to perceive; to understand; to experience",
+    "partOfSpeech": "verb"
+  },
+  "H3050": {
+    "word": "יָהּ",
+    "transliteration": "Yah",
+    "pronunciation": "yaw",
+    "definition": "The LORD; Jah (contraction of YHWH)",
+    "partOfSpeech": "proper noun"
+  },
+  "H3068": {
+    "word": "יְהוָה",
+    "transliteration": "YHWH",
+    "pronunciation": "yeh-ho-vaw'",
+    "definition": "The LORD; Yahweh; the proper name of God",
+    "partOfSpeech": "proper noun"
+  },
+  "H3069": {
+    "word": "יְהֹוִה",
+    "transliteration": "Yehovih",
+    "pronunciation": "yeh-ho-vee'",
+    "definition": "The LORD (variant pointing of YHWH)",
+    "partOfSpeech": "proper noun"
+  },
+  "H3117": {
+    "word": "יוֹם",
+    "transliteration": "yom",
+    "pronunciation": "yome",
+    "definition": "Day; time; period; year",
+    "partOfSpeech": "noun masculine"
+  },
+  "H3190": {
+    "word": "יָטַב",
+    "transliteration": "yatab",
+    "pronunciation": "yaw-tab'",
+    "definition": "To be good; to do well; to make better",
+    "partOfSpeech": "verb"
+  },
+  "H3212": {
+    "word": "יָלַךְ",
+    "transliteration": "yalak",
+    "pronunciation": "yaw-lak'",
+    "definition": "To go; to walk; to proceed",
+    "partOfSpeech": "verb"
+  },
+  "H3220": {
+    "word": "יָם",
+    "transliteration": "yam",
+    "pronunciation": "yawm",
+    "definition": "Sea; west (direction); large river",
+    "partOfSpeech": "noun masculine"
+  },
+  "H3225": {
+    "word": "יָמִין",
+    "transliteration": "yamin",
+    "pronunciation": "yaw-meen'",
+    "definition": "Right hand; right side; south",
+    "partOfSpeech": "noun feminine"
+  },
+  "H3318": {
+    "word": "יָצָא",
+    "transliteration": "yatsa",
+    "pronunciation": "yaw-tsaw'",
+    "definition": "To go out; to come out; to proceed",
+    "partOfSpeech": "verb"
+  },
+  "H3372": {
+    "word": "יָרֵא",
+    "transliteration": "yare",
+    "pronunciation": "yaw-ray'",
+    "definition": "To fear; to revere; to be afraid; to respect",
+    "partOfSpeech": "verb"
+  },
+  "H3374": {
+    "word": "יִרְאָה",
+    "transliteration": "yirah",
+    "pronunciation": "yir-aw'",
+    "definition": "Fear; reverence; awe; terror",
+    "partOfSpeech": "noun feminine"
+  },
+  "H3381": {
+    "word": "יָרַד",
+    "transliteration": "yarad",
+    "pronunciation": "yaw-rad'",
+    "definition": "To go down; to descend; to decline",
+    "partOfSpeech": "verb"
+  },
+  "H3384": {
+    "word": "יָרָה",
+    "transliteration": "yarah",
+    "pronunciation": "yaw-raw'",
+    "definition": "To throw; to shoot; to teach; to direct",
+    "partOfSpeech": "verb"
+  },
+  "H3389": {
+    "word": "יְרוּשָׁלַם",
+    "transliteration": "Yerushalaim",
+    "pronunciation": "yer-oo-shaw-lah'-im",
+    "definition": "Jerusalem; the holy city",
+    "partOfSpeech": "proper noun"
+  },
+  "H3427": {
+    "word": "יָשַׁב",
+    "transliteration": "yashab",
+    "pronunciation": "yaw-shab'",
+    "definition": "To sit; to dwell; to remain; to inhabit",
+    "partOfSpeech": "verb"
+  },
+  "H3444": {
+    "word": "יְשׁוּעָה",
+    "transliteration": "yeshuah",
+    "pronunciation": "yesh-oo'-aw",
+    "definition": "Salvation; deliverance; rescue; victory",
+    "partOfSpeech": "noun feminine"
+  },
+  "H3467": {
+    "word": "יָשַׁע",
+    "transliteration": "yasha",
+    "pronunciation": "yaw-shah'",
+    "definition": "To save; to deliver; to rescue; to help",
+    "partOfSpeech": "verb"
+  },
+  "H3474": {
+    "word": "יָשָׁר",
+    "transliteration": "yashar",
+    "pronunciation": "yaw-shar'",
+    "definition": "To be straight; to be right; to be upright",
+    "partOfSpeech": "verb"
+  },
+  "H3478": {
+    "word": "יִשְׂרָאֵל",
+    "transliteration": "Yisrael",
+    "pronunciation": "yis-raw-ale'",
+    "definition": "Israel; he who strives with God",
+    "partOfSpeech": "proper noun"
+  },
+  "H3519": {
+    "word": "כָּבוֹד",
+    "transliteration": "kabod",
+    "pronunciation": "kaw-bode'",
+    "definition": "Glory; honor; abundance; wealth; splendor",
+    "partOfSpeech": "noun masculine"
+  },
+  "H3513": {
+    "word": "כָּבַד",
+    "transliteration": "kabad",
+    "pronunciation": "kaw-bad'",
+    "definition": "To be heavy; to be honored; to be glorious",
+    "partOfSpeech": "verb"
+  },
+  "H3541": {
+    "word": "כֹּה",
+    "transliteration": "koh",
+    "pronunciation": "ko",
+    "definition": "Thus; here; so; in this manner",
+    "partOfSpeech": "adverb"
+  },
+  "H3548": {
+    "word": "כֹּהֵן",
+    "transliteration": "kohen",
+    "pronunciation": "ko-hane'",
+    "definition": "Priest; one who officiates at the altar",
+    "partOfSpeech": "noun masculine"
+  },
+  "H3559": {
+    "word": "כּוּן",
+    "transliteration": "kun",
+    "pronunciation": "koon",
+    "definition": "To establish; to prepare; to be firm; to be stable",
+    "partOfSpeech": "verb"
+  },
+  "H3581": {
+    "word": "כֹּחַ",
+    "transliteration": "koach",
+    "pronunciation": "ko'-akh",
+    "definition": "Strength; power; might; ability",
+    "partOfSpeech": "noun masculine"
+  },
+  "H3588": {
+    "word": "כִּי",
+    "transliteration": "ki",
+    "pronunciation": "kee",
+    "definition": "That; for; because; when; if; but",
+    "partOfSpeech": "conjunction"
+  },
+  "H3605": {
+    "word": "כֹּל",
+    "transliteration": "kol",
+    "pronunciation": "kole",
+    "definition": "All; every; whole; any; each",
+    "partOfSpeech": "noun masculine"
+  },
+  "H3615": {
+    "word": "כָּלָה",
+    "transliteration": "kalah",
+    "pronunciation": "kaw-law'",
+    "definition": "To complete; to finish; to consume; to destroy",
+    "partOfSpeech": "verb"
+  },
+  "H3651": {
+    "word": "כֵּן",
+    "transliteration": "ken",
+    "pronunciation": "kane",
+    "definition": "So; thus; therefore; right; honest",
+    "partOfSpeech": "adverb"
+  },
+  "H3678": {
+    "word": "כִּסֵּא",
+    "transliteration": "kisse",
+    "pronunciation": "kis-say'",
+    "definition": "Throne; seat of honor; royal dignity",
+    "partOfSpeech": "noun masculine"
+  },
+  "H3701": {
+    "word": "כֶּסֶף",
+    "transliteration": "keseph",
+    "pronunciation": "keh'-sef",
+    "definition": "Silver; money; price",
+    "partOfSpeech": "noun masculine"
+  },
+  "H3722": {
+    "word": "כָּפַר",
+    "transliteration": "kaphar",
+    "pronunciation": "kaw-far'",
+    "definition": "To cover; to atone; to make reconciliation",
+    "partOfSpeech": "verb"
+  },
+  "H3789": {
+    "word": "כָּתַב",
+    "transliteration": "kathab",
+    "pronunciation": "kaw-thab'",
+    "definition": "To write; to inscribe; to record",
+    "partOfSpeech": "verb"
+  },
+  "H3820": {
+    "word": "לֵב",
+    "transliteration": "leb",
+    "pronunciation": "labe",
+    "definition": "Heart; mind; inner person; will",
+    "partOfSpeech": "noun masculine"
+  },
+  "H3824": {
+    "word": "לֵבָב",
+    "transliteration": "lebab",
+    "pronunciation": "lay-bawb'",
+    "definition": "Heart; inner man; understanding",
+    "partOfSpeech": "noun masculine"
+  },
+  "H3885": {
+    "word": "לוּן",
+    "transliteration": "lun",
+    "pronunciation": "loon",
+    "definition": "To lodge; to pass the night; to remain",
+    "partOfSpeech": "verb"
+  },
+  "H3915": {
+    "word": "לַיְלָה",
+    "transliteration": "layil",
+    "pronunciation": "lah'-yil",
+    "definition": "Night; midnight",
+    "partOfSpeech": "noun masculine"
+  },
+  "H3947": {
+    "word": "לָקַח",
+    "transliteration": "laqach",
+    "pronunciation": "law-kakh'",
+    "definition": "To take; to receive; to accept; to fetch",
+    "partOfSpeech": "verb"
+  },
+  "H3966": {
+    "word": "מְאֹד",
+    "transliteration": "meod",
+    "pronunciation": "meh-ode'",
+    "definition": "Very; exceedingly; greatly; much",
+    "partOfSpeech": "adverb"
+  },
+  "H4100": {
+    "word": "מָה",
+    "transliteration": "mah",
+    "pronunciation": "maw",
+    "definition": "What? How? Why? Whatever",
+    "partOfSpeech": "interrogative"
+  },
+  "H4191": {
+    "word": "מוּת",
+    "transliteration": "mut",
+    "pronunciation": "mooth",
+    "definition": "To die; to kill; to put to death",
+    "partOfSpeech": "verb"
+  },
+  "H4194": {
+    "word": "מָוֶת",
+    "transliteration": "mavet",
+    "pronunciation": "maw'-veth",
+    "definition": "Death; dying; realm of the dead",
+    "partOfSpeech": "noun masculine"
+  },
+  "H4310": {
+    "word": "מִי",
+    "transliteration": "mi",
+    "pronunciation": "me",
+    "definition": "Who? Whoever; anyone",
+    "partOfSpeech": "interrogative"
+  },
+  "H4325": {
+    "word": "מַיִם",
+    "transliteration": "mayim",
+    "pronunciation": "mah'-yim",
+    "definition": "Water; waters; flood",
+    "partOfSpeech": "noun masculine plural"
+  },
+  "H4390": {
+    "word": "מָלֵא",
+    "transliteration": "male",
+    "pronunciation": "maw-lay'",
+    "definition": "To fill; to be full; to fulfill; to accomplish",
+    "partOfSpeech": "verb"
+  },
+  "H4397": {
+    "word": "מַלְאָךְ",
+    "transliteration": "malak",
+    "pronunciation": "mal-awk'",
+    "definition": "Messenger; angel; ambassador",
+    "partOfSpeech": "noun masculine"
+  },
+  "H4421": {
+    "word": "מִלְחָמָה",
+    "transliteration": "milchamah",
+    "pronunciation": "mil-khaw-maw'",
+    "definition": "War; battle; fighting",
+    "partOfSpeech": "noun feminine"
+  },
+  "H4427": {
+    "word": "מָלַךְ",
+    "transliteration": "malak",
+    "pronunciation": "maw-lak'",
+    "definition": "To reign; to be king; to become king",
+    "partOfSpeech": "verb"
+  },
+  "H4428": {
+    "word": "מֶלֶךְ",
+    "transliteration": "melek",
+    "pronunciation": "meh'-lek",
+    "definition": "King; royal; ruler",
+    "partOfSpeech": "noun masculine"
+  },
+  "H4438": {
+    "word": "מַלְכוּת",
+    "transliteration": "malkut",
+    "pronunciation": "mal-kooth'",
+    "definition": "Kingdom; royalty; reign; sovereignty",
+    "partOfSpeech": "noun feminine"
+  },
+  "H4467": {
+    "word": "מַמְלָכָה",
+    "transliteration": "mamlakah",
+    "pronunciation": "mam-law-kaw'",
+    "definition": "Kingdom; dominion; realm",
+    "partOfSpeech": "noun feminine"
+  },
+  "H4480": {
+    "word": "מִן",
+    "transliteration": "min",
+    "pronunciation": "min",
+    "definition": "From; out of; because of; more than",
+    "partOfSpeech": "preposition"
+  },
+  "H4503": {
+    "word": "מִנְחָה",
+    "transliteration": "minchah",
+    "pronunciation": "min-khaw'",
+    "definition": "Gift; tribute; grain offering; present",
+    "partOfSpeech": "noun feminine"
+  },
+  "H4639": {
+    "word": "מַעֲשֶׂה",
+    "transliteration": "maaseh",
+    "pronunciation": "mah-as-eh'",
+    "definition": "Work; deed; action; labor",
+    "partOfSpeech": "noun masculine"
+  },
+  "H4672": {
+    "word": "מָצָא",
+    "transliteration": "matsa",
+    "pronunciation": "maw-tsaw'",
+    "definition": "To find; to attain; to discover; to meet",
+    "partOfSpeech": "verb"
+  },
+  "H4687": {
+    "word": "מִצְוָה",
+    "transliteration": "mitsvah",
+    "pronunciation": "mits-vaw'",
+    "definition": "Commandment; command; ordinance",
+    "partOfSpeech": "noun feminine"
+  },
+  "H4714": {
+    "word": "מִצְרַיִם",
+    "transliteration": "Mitsrayim",
+    "pronunciation": "mits-rah'-yim",
+    "definition": "Egypt; Egyptians",
+    "partOfSpeech": "proper noun"
+  },
+  "H4725": {
+    "word": "מָקוֹם",
+    "transliteration": "maqom",
+    "pronunciation": "maw-kome'",
+    "definition": "Place; standing place; site",
+    "partOfSpeech": "noun masculine"
+  },
+  "H4941": {
+    "word": "מִשְׁפָּט",
+    "transliteration": "mishpat",
+    "pronunciation": "mish-pawt'",
+    "definition": "Judgment; justice; ordinance; right",
+    "partOfSpeech": "noun masculine"
+  },
+  "H5002": {
+    "word": "נְאֻם",
+    "transliteration": "neum",
+    "pronunciation": "neh-oom'",
+    "definition": "Oracle; utterance; declaration (of the LORD)",
+    "partOfSpeech": "noun masculine"
+  },
+  "H5030": {
+    "word": "נָבִיא",
+    "transliteration": "nabi",
+    "pronunciation": "naw-bee'",
+    "definition": "Prophet; spokesman; one who speaks for God",
+    "partOfSpeech": "noun masculine"
+  },
+  "H5046": {
+    "word": "נָגַד",
+    "transliteration": "nagad",
+    "pronunciation": "naw-gad'",
+    "definition": "To declare; to tell; to announce; to report",
+    "partOfSpeech": "verb"
+  },
+  "H5048": {
+    "word": "נֶגֶד",
+    "transliteration": "neged",
+    "pronunciation": "neh'-ghed",
+    "definition": "Before; in front of; opposite; in sight of",
+    "partOfSpeech": "preposition"
+  },
+  "H5066": {
+    "word": "נָגַשׁ",
+    "transliteration": "nagash",
+    "pronunciation": "naw-gash'",
+    "definition": "To draw near; to approach; to come near",
+    "partOfSpeech": "verb"
+  },
+  "H5157": {
+    "word": "נָחַל",
+    "transliteration": "nachal",
+    "pronunciation": "naw-khal'",
+    "definition": "To inherit; to take as possession; to give as inheritance",
+    "partOfSpeech": "verb"
+  },
+  "H5159": {
+    "word": "נַחֲלָה",
+    "transliteration": "nachalah",
+    "pronunciation": "nakh-al-aw'",
+    "definition": "Inheritance; heritage; possession",
+    "partOfSpeech": "noun feminine"
+  },
+  "H5162": {
+    "word": "נָחַם",
+    "transliteration": "nacham",
+    "pronunciation": "naw-kham'",
+    "definition": "To comfort; to console; to repent; to relent",
+    "partOfSpeech": "verb"
+  },
+  "H5186": {
+    "word": "נָטָה",
+    "transliteration": "natah",
+    "pronunciation": "naw-taw'",
+    "definition": "To stretch out; to extend; to incline; to turn",
+    "partOfSpeech": "verb"
+  },
+  "H5315": {
+    "word": "נֶפֶשׁ",
+    "transliteration": "nephesh",
+    "pronunciation": "neh'-fesh",
+    "definition": "Soul; life; living being; self; person",
+    "partOfSpeech": "noun feminine"
+  },
+  "H5329": {
+    "word": "נָצַח",
+    "transliteration": "natsach",
+    "pronunciation": "naw-tsakh'",
+    "definition": "To lead; to oversee; to excel; to endure",
+    "partOfSpeech": "verb"
+  },
+  "H5337": {
+    "word": "נָצַל",
+    "transliteration": "natsal",
+    "pronunciation": "naw-tsal'",
+    "definition": "To deliver; to rescue; to save; to snatch away",
+    "partOfSpeech": "verb"
+  },
+  "H5375": {
+    "word": "נָשָׂא",
+    "transliteration": "nasa",
+    "pronunciation": "naw-saw'",
+    "definition": "To lift up; to carry; to bear; to take",
+    "partOfSpeech": "verb"
+  },
+  "H5414": {
+    "word": "נָתַן",
+    "transliteration": "natan",
+    "pronunciation": "naw-than'",
+    "definition": "To give; to put; to set; to appoint",
+    "partOfSpeech": "verb"
+  },
+  "H5493": {
+    "word": "סוּר",
+    "transliteration": "sur",
+    "pronunciation": "soor",
+    "definition": "To turn aside; to depart; to remove",
+    "partOfSpeech": "verb"
+  },
+  "H5545": {
+    "word": "סָלַח",
+    "transliteration": "salach",
+    "pronunciation": "saw-lakh'",
+    "definition": "To forgive; to pardon",
+    "partOfSpeech": "verb"
+  },
+  "H5650": {
+    "word": "עֶבֶד",
+    "transliteration": "ebed",
+    "pronunciation": "eh'-bed",
+    "definition": "Servant; slave; worshipper",
+    "partOfSpeech": "noun masculine"
+  },
+  "H5647": {
+    "word": "עָבַד",
+    "transliteration": "abad",
+    "pronunciation": "aw-bad'",
+    "definition": "To serve; to work; to worship",
+    "partOfSpeech": "verb"
+  },
+  "H5674": {
+    "word": "עָבַר",
+    "transliteration": "abar",
+    "pronunciation": "aw-bar'",
+    "definition": "To pass over; to cross; to transgress",
+    "partOfSpeech": "verb"
+  },
+  "H5703": {
+    "word": "עַד",
+    "transliteration": "ad",
+    "pronunciation": "ad",
+    "definition": "Perpetuity; forever; eternity",
+    "partOfSpeech": "noun masculine"
+  },
+  "H5704": {
+    "word": "עַד",
+    "transliteration": "ad",
+    "pronunciation": "ad",
+    "definition": "Until; as far as; up to; during",
+    "partOfSpeech": "preposition"
+  },
+  "H5706": {
+    "word": "עֵד",
+    "transliteration": "ed",
+    "pronunciation": "ayd",
+    "definition": "Witness; testimony",
+    "partOfSpeech": "noun masculine"
+  },
+  "H5750": {
+    "word": "עוֹד",
+    "transliteration": "od",
+    "pronunciation": "ode",
+    "definition": "Still; yet; again; more; besides",
+    "partOfSpeech": "adverb"
+  },
+  "H5769": {
+    "word": "עוֹלָם",
+    "transliteration": "olam",
+    "pronunciation": "o-lawm'",
+    "definition": "Eternity; forever; ancient time; everlasting",
+    "partOfSpeech": "noun masculine"
+  },
+  "H5771": {
+    "word": "עָוֹן",
+    "transliteration": "avon",
+    "pronunciation": "aw-vone'",
+    "definition": "Iniquity; guilt; punishment for sin",
+    "partOfSpeech": "noun masculine"
+  },
+  "H5797": {
+    "word": "עֹז",
+    "transliteration": "oz",
+    "pronunciation": "oze",
+    "definition": "Strength; power; might; boldness",
+    "partOfSpeech": "noun masculine"
+  },
+  "H5800": {
+    "word": "עָזַב",
+    "transliteration": "azab",
+    "pronunciation": "aw-zab'",
+    "definition": "To leave; to forsake; to abandon",
+    "partOfSpeech": "verb"
+  },
+  "H5826": {
+    "word": "עָזַר",
+    "transliteration": "azar",
+    "pronunciation": "aw-zar'",
+    "definition": "To help; to aid; to support",
+    "partOfSpeech": "verb"
+  },
+  "H5869": {
+    "word": "עַיִן",
+    "transliteration": "ayin",
+    "pronunciation": "ah'-yin",
+    "definition": "Eye; sight; appearance; fountain",
+    "partOfSpeech": "noun feminine"
+  },
+  "H5892": {
+    "word": "עִיר",
+    "transliteration": "ir",
+    "pronunciation": "eer",
+    "definition": "City; town; encampment",
+    "partOfSpeech": "noun feminine"
+  },
+  "H5920": {
+    "word": "עַל",
+    "transliteration": "al",
+    "pronunciation": "al",
+    "definition": "Above; over; upon; on account of",
+    "partOfSpeech": "preposition"
+  },
+  "H5921": {
+    "word": "עַל",
+    "transliteration": "al",
+    "pronunciation": "al",
+    "definition": "Upon; over; above; against; concerning",
+    "partOfSpeech": "preposition"
+  },
+  "H5927": {
+    "word": "עָלָה",
+    "transliteration": "alah",
+    "pronunciation": "aw-law'",
+    "definition": "To go up; to ascend; to climb",
+    "partOfSpeech": "verb"
+  },
+  "H5930": {
+    "word": "עֹלָה",
+    "transliteration": "olah",
+    "pronunciation": "o-law'",
+    "definition": "Burnt offering; whole burnt sacrifice",
+    "partOfSpeech": "noun feminine"
+  },
+  "H5945": {
+    "word": "עֶלְיוֹן",
+    "transliteration": "Elyon",
+    "pronunciation": "el-yone'",
+    "definition": "Most High; uppermost; the Most High God",
+    "partOfSpeech": "adjective"
+  },
+  "H5971": {
+    "word": "עַם",
+    "transliteration": "am",
+    "pronunciation": "am",
+    "definition": "People; nation; kinfolk",
+    "partOfSpeech": "noun masculine"
+  },
+  "H5973": {
+    "word": "עִם",
+    "transliteration": "im",
+    "pronunciation": "eem",
+    "definition": "With; together with; beside",
+    "partOfSpeech": "preposition"
+  },
+  "H5975": {
+    "word": "עָמַד",
+    "transliteration": "amad",
+    "pronunciation": "aw-mad'",
+    "definition": "To stand; to take a stand; to remain",
+    "partOfSpeech": "verb"
+  },
+  "H6030": {
+    "word": "עָנָה",
+    "transliteration": "anah",
+    "pronunciation": "aw-naw'",
+    "definition": "To answer; to respond; to testify",
+    "partOfSpeech": "verb"
+  },
+  "H6031": {
+    "word": "עָנָה",
+    "transliteration": "anah",
+    "pronunciation": "aw-naw'",
+    "definition": "To afflict; to humble; to be bowed down",
+    "partOfSpeech": "verb"
+  },
+  "H6040": {
+    "word": "עֳנִי",
+    "transliteration": "oni",
+    "pronunciation": "on-ee'",
+    "definition": "Affliction; misery; poverty",
+    "partOfSpeech": "noun masculine"
+  },
+  "H6086": {
+    "word": "עֵץ",
+    "transliteration": "ets",
+    "pronunciation": "ates",
+    "definition": "Tree; wood; timber",
+    "partOfSpeech": "noun masculine"
+  },
+  "H6213": {
+    "word": "עָשָׂה",
+    "transliteration": "asah",
+    "pronunciation": "aw-saw'",
+    "definition": "To do; to make; to accomplish; to create",
+    "partOfSpeech": "verb"
+  },
+  "H6256": {
+    "word": "עֵת",
+    "transliteration": "et",
+    "pronunciation": "ayth",
+    "definition": "Time; occasion; season",
+    "partOfSpeech": "noun feminine"
+  },
+  "H6310": {
+    "word": "פֶּה",
+    "transliteration": "peh",
+    "pronunciation": "peh",
+    "definition": "Mouth; speech; edge; opening",
+    "partOfSpeech": "noun masculine"
+  },
+  "H6440": {
+    "word": "פָּנִים",
+    "transliteration": "panim",
+    "pronunciation": "paw-neem'",
+    "definition": "Face; presence; surface; before",
+    "partOfSpeech": "noun masculine plural"
+  },
+  "H6485": {
+    "word": "פָּקַד",
+    "transliteration": "paqad",
+    "pronunciation": "paw-kad'",
+    "definition": "To visit; to number; to appoint; to punish",
+    "partOfSpeech": "verb"
+  },
+  "H6662": {
+    "word": "צַדִּיק",
+    "transliteration": "tsaddiq",
+    "pronunciation": "tsad-deek'",
+    "definition": "Righteous; just; lawful",
+    "partOfSpeech": "adjective"
+  },
+  "H6663": {
+    "word": "צָדַק",
+    "transliteration": "tsadaq",
+    "pronunciation": "tsaw-dak'",
+    "definition": "To be righteous; to be just; to be justified",
+    "partOfSpeech": "verb"
+  },
+  "H6664": {
+    "word": "צֶדֶק",
+    "transliteration": "tsedeq",
+    "pronunciation": "tseh'-dek",
+    "definition": "Righteousness; justice; rightness",
+    "partOfSpeech": "noun masculine"
+  },
+  "H6666": {
+    "word": "צְדָקָה",
+    "transliteration": "tsedaqah",
+    "pronunciation": "tsed-aw-kaw'",
+    "definition": "Righteousness; justice; righteous acts",
+    "partOfSpeech": "noun feminine"
+  },
+  "H6680": {
+    "word": "צָוָה",
+    "transliteration": "tsavah",
+    "pronunciation": "tsaw-vaw'",
+    "definition": "To command; to charge; to order",
+    "partOfSpeech": "verb"
+  },
+  "H6697": {
+    "word": "צוּר",
+    "transliteration": "tsur",
+    "pronunciation": "tsoor",
+    "definition": "Rock; cliff; God as a rock (refuge)",
+    "partOfSpeech": "noun masculine"
+  },
+  "H6726": {
+    "word": "צִיּוֹן",
+    "transliteration": "Tsiyon",
+    "pronunciation": "tsee-yone'",
+    "definition": "Zion; the holy mountain; Jerusalem",
+    "partOfSpeech": "proper noun"
+  },
+  "H6918": {
+    "word": "קָדוֹשׁ",
+    "transliteration": "qadosh",
+    "pronunciation": "kaw-doshe'",
+    "definition": "Holy; sacred; set apart",
+    "partOfSpeech": "adjective"
+  },
+  "H6942": {
+    "word": "קָדַשׁ",
+    "transliteration": "qadash",
+    "pronunciation": "kaw-dash'",
+    "definition": "To be holy; to sanctify; to consecrate",
+    "partOfSpeech": "verb"
+  },
+  "H6944": {
+    "word": "קֹדֶשׁ",
+    "transliteration": "qodesh",
+    "pronunciation": "ko'-desh",
+    "definition": "Holiness; sacredness; holy thing",
+    "partOfSpeech": "noun masculine"
+  },
+  "H6963": {
+    "word": "קוֹל",
+    "transliteration": "qol",
+    "pronunciation": "kole",
+    "definition": "Voice; sound; noise; thunder",
+    "partOfSpeech": "noun masculine"
+  },
+  "H6965": {
+    "word": "קוּם",
+    "transliteration": "qum",
+    "pronunciation": "koom",
+    "definition": "To rise; to stand up; to arise; to establish",
+    "partOfSpeech": "verb"
+  },
+  "H7121": {
+    "word": "קָרָא",
+    "transliteration": "qara",
+    "pronunciation": "kaw-raw'",
+    "definition": "To call; to proclaim; to read; to name",
+    "partOfSpeech": "verb"
+  },
+  "H7126": {
+    "word": "קָרַב",
+    "transliteration": "qarab",
+    "pronunciation": "kaw-rab'",
+    "definition": "To come near; to approach; to draw near",
+    "partOfSpeech": "verb"
+  },
+  "H7130": {
+    "word": "קֶרֶב",
+    "transliteration": "qereb",
+    "pronunciation": "keh'-reb",
+    "definition": "Midst; inner part; among; within",
+    "partOfSpeech": "noun masculine"
+  },
+  "H7200": {
+    "word": "רָאָה",
+    "transliteration": "raah",
+    "pronunciation": "raw-aw'",
+    "definition": "To see; to look; to perceive; to understand",
+    "partOfSpeech": "verb"
+  },
+  "H7218": {
+    "word": "רֹאשׁ",
+    "transliteration": "rosh",
+    "pronunciation": "roshe",
+    "definition": "Head; chief; top; beginning",
+    "partOfSpeech": "noun masculine"
+  },
+  "H7223": {
+    "word": "רִאשׁוֹן",
+    "transliteration": "rishon",
+    "pronunciation": "ree-shone'",
+    "definition": "First; former; beginning",
+    "partOfSpeech": "adjective"
+  },
+  "H7225": {
+    "word": "רֵאשִׁית",
+    "transliteration": "reshit",
+    "pronunciation": "ray-sheeth'",
+    "definition": "Beginning; first; chief; firstfruits",
+    "partOfSpeech": "noun feminine"
+  },
+  "H7227": {
+    "word": "רַב",
+    "transliteration": "rab",
+    "pronunciation": "rab",
+    "definition": "Many; much; great; abundant",
+    "partOfSpeech": "adjective"
+  },
+  "H7230": {
+    "word": "רֹב",
+    "transliteration": "rob",
+    "pronunciation": "robe",
+    "definition": "Multitude; abundance; greatness",
+    "partOfSpeech": "noun masculine"
+  },
+  "H7235": {
+    "word": "רָבָה",
+    "transliteration": "rabah",
+    "pronunciation": "raw-baw'",
+    "definition": "To be many; to increase; to multiply",
+    "partOfSpeech": "verb"
+  },
+  "H7307": {
+    "word": "רוּחַ",
+    "transliteration": "ruach",
+    "pronunciation": "roo'-akh",
+    "definition": "Spirit; breath; wind; mind",
+    "partOfSpeech": "noun feminine"
+  },
+  "H7311": {
+    "word": "רוּם",
+    "transliteration": "rum",
+    "pronunciation": "room",
+    "definition": "To be high; to rise; to exalt",
+    "partOfSpeech": "verb"
+  },
+  "H7355": {
+    "word": "רָחַם",
+    "transliteration": "racham",
+    "pronunciation": "raw-kham'",
+    "definition": "To love; to have compassion; to show mercy",
+    "partOfSpeech": "verb"
+  },
+  "H7356": {
+    "word": "רַחַם",
+    "transliteration": "racham",
+    "pronunciation": "rakh'-am",
+    "definition": "Compassion; mercy; tender love (lit. womb)",
+    "partOfSpeech": "noun masculine"
+  },
+  "H7451": {
+    "word": "רַע",
+    "transliteration": "ra",
+    "pronunciation": "rah",
+    "definition": "Evil; bad; wicked; distress",
+    "partOfSpeech": "adjective"
+  },
+  "H7453": {
+    "word": "רֵעַ",
+    "transliteration": "rea",
+    "pronunciation": "ray'-ah",
+    "definition": "Friend; companion; neighbor",
+    "partOfSpeech": "noun masculine"
+  },
+  "H7462": {
+    "word": "רָעָה",
+    "transliteration": "raah",
+    "pronunciation": "raw-aw'",
+    "definition": "To tend; to pasture; to shepherd",
+    "partOfSpeech": "verb"
+  },
+  "H7489": {
+    "word": "רָעַע",
+    "transliteration": "raa",
+    "pronunciation": "raw-ah'",
+    "definition": "To be evil; to do evil; to be wicked",
+    "partOfSpeech": "verb"
+  },
+  "H7521": {
+    "word": "רָצָה",
+    "transliteration": "ratsah",
+    "pronunciation": "raw-tsaw'",
+    "definition": "To be pleased; to delight in; to accept",
+    "partOfSpeech": "verb"
+  },
+  "H7563": {
+    "word": "רָשָׁע",
+    "transliteration": "rasha",
+    "pronunciation": "raw-shaw'",
+    "definition": "Wicked; guilty; ungodly",
+    "partOfSpeech": "adjective"
+  },
+  "H7626": {
+    "word": "שֵׁבֶט",
+    "transliteration": "shebet",
+    "pronunciation": "shay'-bet",
+    "definition": "Tribe; rod; staff; scepter",
+    "partOfSpeech": "noun masculine"
+  },
+  "H7650": {
+    "word": "שָׁבַע",
+    "transliteration": "shaba",
+    "pronunciation": "shaw-bah'",
+    "definition": "To swear; to take an oath; to adjure",
+    "partOfSpeech": "verb"
+  },
+  "H7651": {
+    "word": "שֶׁבַע",
+    "transliteration": "sheba",
+    "pronunciation": "sheh'-bah",
+    "definition": "Seven; seventh",
+    "partOfSpeech": "numeral"
+  },
+  "H7725": {
+    "word": "שׁוּב",
+    "transliteration": "shub",
+    "pronunciation": "shoob",
+    "definition": "To return; to turn back; to repent; to restore",
+    "partOfSpeech": "verb"
+  },
+  "H7760": {
+    "word": "שׂוּם",
+    "transliteration": "sum",
+    "pronunciation": "soom",
+    "definition": "To put; to set; to place; to appoint",
+    "partOfSpeech": "verb"
+  },
+  "H7812": {
+    "word": "שָׁחָה",
+    "transliteration": "shachah",
+    "pronunciation": "shaw-khaw'",
+    "definition": "To bow down; to worship; to prostrate",
+    "partOfSpeech": "verb"
+  },
+  "H7854": {
+    "word": "שָׂטָן",
+    "transliteration": "satan",
+    "pronunciation": "saw-tawn'",
+    "definition": "Adversary; accuser; Satan",
+    "partOfSpeech": "noun masculine"
+  },
+  "H7965": {
+    "word": "שָׁלוֹם",
+    "transliteration": "shalom",
+    "pronunciation": "shaw-lome'",
+    "definition": "Peace; completeness; welfare; prosperity",
+    "partOfSpeech": "noun masculine"
+  },
+  "H7971": {
+    "word": "שָׁלַח",
+    "transliteration": "shalach",
+    "pronunciation": "shaw-lakh'",
+    "definition": "To send; to stretch out; to let go",
+    "partOfSpeech": "verb"
+  },
+  "H8034": {
+    "word": "שֵׁם",
+    "transliteration": "shem",
+    "pronunciation": "shame",
+    "definition": "Name; reputation; fame; memorial",
+    "partOfSpeech": "noun masculine"
+  },
+  "H8064": {
+    "word": "שָׁמַיִם",
+    "transliteration": "shamayim",
+    "pronunciation": "shaw-mah'-yim",
+    "definition": "Heaven; sky; heavens",
+    "partOfSpeech": "noun masculine plural"
+  },
+  "H8085": {
+    "word": "שָׁמַע",
+    "transliteration": "shama",
+    "pronunciation": "shaw-mah'",
+    "definition": "To hear; to listen; to obey; to understand",
+    "partOfSpeech": "verb"
+  },
+  "H8104": {
+    "word": "שָׁמַר",
+    "transliteration": "shamar",
+    "pronunciation": "shaw-mar'",
+    "definition": "To keep; to guard; to observe; to preserve",
+    "partOfSpeech": "verb"
+  },
+  "H8121": {
+    "word": "שֶׁמֶשׁ",
+    "transliteration": "shemesh",
+    "pronunciation": "sheh'-mesh",
+    "definition": "Sun; sunrise",
+    "partOfSpeech": "noun masculine"
+  },
+  "H8141": {
+    "word": "שָׁנָה",
+    "transliteration": "shanah",
+    "pronunciation": "shaw-naw'",
+    "definition": "Year",
+    "partOfSpeech": "noun feminine"
+  },
+  "H8147": {
+    "word": "שְׁנַיִם",
+    "transliteration": "shenayim",
+    "pronunciation": "shen-ah'-yim",
+    "definition": "Two; both; second",
+    "partOfSpeech": "numeral"
+  },
+  "H8199": {
+    "word": "שָׁפַט",
+    "transliteration": "shaphat",
+    "pronunciation": "shaw-fat'",
+    "definition": "To judge; to govern; to vindicate",
+    "partOfSpeech": "verb"
+  },
+  "H8269": {
+    "word": "שַׂר",
+    "transliteration": "sar",
+    "pronunciation": "sar",
+    "definition": "Prince; ruler; chief; captain",
+    "partOfSpeech": "noun masculine"
+  },
+  "H8415": {
+    "word": "תְּהוֹם",
+    "transliteration": "tehom",
+    "pronunciation": "teh-home'",
+    "definition": "Deep; abyss; primeval waters",
+    "partOfSpeech": "noun feminine"
+  },
+  "H8416": {
+    "word": "תְּהִלָּה",
+    "transliteration": "tehillah",
+    "pronunciation": "teh-hil-law'",
+    "definition": "Praise; song of praise; glory",
+    "partOfSpeech": "noun feminine"
+  },
+  "H8426": {
+    "word": "תּוֹדָה",
+    "transliteration": "todah",
+    "pronunciation": "to-daw'",
+    "definition": "Thanksgiving; praise; confession",
+    "partOfSpeech": "noun feminine"
+  },
+  "H8432": {
+    "word": "תָּוֶךְ",
+    "transliteration": "tavek",
+    "pronunciation": "taw'-vek",
+    "definition": "Midst; middle; among",
+    "partOfSpeech": "noun masculine"
+  },
+  "H8441": {
+    "word": "תּוֹעֵבָה",
+    "transliteration": "toebah",
+    "pronunciation": "to-ay-baw'",
+    "definition": "Abomination; detestable thing",
+    "partOfSpeech": "noun feminine"
+  },
+  "H8451": {
+    "word": "תּוֹרָה",
+    "transliteration": "torah",
+    "pronunciation": "to-raw'",
+    "definition": "Law; instruction; teaching; direction",
+    "partOfSpeech": "noun feminine"
+  },
+  "H8478": {
+    "word": "תַּחַת",
+    "transliteration": "tachat",
+    "pronunciation": "takh'-ath",
+    "definition": "Under; beneath; instead of",
+    "partOfSpeech": "preposition"
+  },
+  "H8537": {
+    "word": "תֹּם",
+    "transliteration": "tom",
+    "pronunciation": "tome",
+    "definition": "Completeness; integrity; innocence",
+    "partOfSpeech": "noun masculine"
+  },
+  "H8549": {
+    "word": "תָּמִים",
+    "transliteration": "tamim",
+    "pronunciation": "taw-meem'",
+    "definition": "Complete; perfect; blameless; without blemish",
+    "partOfSpeech": "adjective"
+  },
+  "H8615": {
+    "word": "תִּקְוָה",
+    "transliteration": "tiqvah",
+    "pronunciation": "tik-vaw'",
+    "definition": "Hope; expectation; cord",
+    "partOfSpeech": "noun feminine"
+  }
+}

@@ -1,0 +1,1276 @@
+{
+  "G1": {
+    "word": "Α",
+    "transliteration": "alpha",
+    "pronunciation": "al'-fah",
+    "definition": "The first letter of the Greek alphabet; used as a numeral for one",
+    "partOfSpeech": "noun"
+  },
+  "G18": {
+    "word": "ἀγαθός",
+    "transliteration": "agathos",
+    "pronunciation": "ag-ath-os'",
+    "definition": "Good, beneficial, useful; describing intrinsic goodness",
+    "partOfSpeech": "adjective"
+  },
+  "G25": {
+    "word": "ἀγαπάω",
+    "transliteration": "agapao",
+    "pronunciation": "ag-ap-ah'-o",
+    "definition": "To love, value, esteem; to have preference for; to wish well to",
+    "partOfSpeech": "verb"
+  },
+  "G26": {
+    "word": "ἀγάπη",
+    "transliteration": "agape",
+    "pronunciation": "ag-ah'-pay",
+    "definition": "Love, affection, benevolence; the love of God or Christ for mankind",
+    "partOfSpeech": "noun feminine"
+  },
+  "G32": {
+    "word": "ἄγγελος",
+    "transliteration": "angelos",
+    "pronunciation": "ang'-el-os",
+    "definition": "A messenger; an angel; one who brings tidings",
+    "partOfSpeech": "noun masculine"
+  },
+  "G40": {
+    "word": "ἅγιος",
+    "transliteration": "hagios",
+    "pronunciation": "hag'-ee-os",
+    "definition": "Sacred, holy; set apart, sanctified; morally blameless",
+    "partOfSpeech": "adjective"
+  },
+  "G165": {
+    "word": "αἰών",
+    "transliteration": "aion",
+    "pronunciation": "ahee-ohn'",
+    "definition": "An age, perpetuity, eternity; a period of indefinite duration",
+    "partOfSpeech": "noun masculine"
+  },
+  "G166": {
+    "word": "αἰώνιος",
+    "transliteration": "aionios",
+    "pronunciation": "ahee-o'-nee-os",
+    "definition": "Eternal, everlasting; without beginning or end",
+    "partOfSpeech": "adjective"
+  },
+  "G225": {
+    "word": "ἀλήθεια",
+    "transliteration": "aletheia",
+    "pronunciation": "al-ay'-thi-a",
+    "definition": "Truth; the unveiled reality behind appearances",
+    "partOfSpeech": "noun feminine"
+  },
+  "G227": {
+    "word": "ἀληθής",
+    "transliteration": "alethes",
+    "pronunciation": "al-ay-thace'",
+    "definition": "True, truthful; conforming to reality",
+    "partOfSpeech": "adjective"
+  },
+  "G266": {
+    "word": "ἁμαρτία",
+    "transliteration": "hamartia",
+    "pronunciation": "ham-ar-tee'-ah",
+    "definition": "Sin; missing the mark; offense against God",
+    "partOfSpeech": "noun feminine"
+  },
+  "G281": {
+    "word": "ἀμήν",
+    "transliteration": "amen",
+    "pronunciation": "am-ane'",
+    "definition": "Truly, so be it; a strong affirmation of what precedes",
+    "partOfSpeech": "particle"
+  },
+  "G444": {
+    "word": "ἄνθρωπος",
+    "transliteration": "anthropos",
+    "pronunciation": "anth'-ro-pos",
+    "definition": "A human being, man; mankind collectively",
+    "partOfSpeech": "noun masculine"
+  },
+  "G450": {
+    "word": "ἀνίστημι",
+    "transliteration": "anistemi",
+    "pronunciation": "an-is'-tay-mee",
+    "definition": "To raise up, rise, stand; to rise from the dead",
+    "partOfSpeech": "verb"
+  },
+  "G536": {
+    "word": "ἀπαρχή",
+    "transliteration": "aparche",
+    "pronunciation": "ap-ar-khay'",
+    "definition": "Firstfruits; the beginning of a sacrifice",
+    "partOfSpeech": "noun feminine"
+  },
+  "G575": {
+    "word": "ἀπό",
+    "transliteration": "apo",
+    "pronunciation": "apo'",
+    "definition": "From, away from; denoting separation or departure",
+    "partOfSpeech": "preposition"
+  },
+  "G622": {
+    "word": "ἀπόλλυμι",
+    "transliteration": "apollumi",
+    "pronunciation": "ap-ol'-loo-mee",
+    "definition": "To destroy, lose, perish; to put to death",
+    "partOfSpeech": "verb"
+  },
+  "G652": {
+    "word": "ἀπόστολος",
+    "transliteration": "apostolos",
+    "pronunciation": "ap-os'-tol-os",
+    "definition": "Apostle; a messenger, one sent on a mission",
+    "partOfSpeech": "noun masculine"
+  },
+  "G746": {
+    "word": "ἀρχή",
+    "transliteration": "arche",
+    "pronunciation": "ar-khay'",
+    "definition": "Beginning, origin; first in a series; ruler, authority",
+    "partOfSpeech": "noun feminine"
+  },
+  "G907": {
+    "word": "βαπτίζω",
+    "transliteration": "baptizo",
+    "pronunciation": "bap-tid'-zo",
+    "definition": "To dip, immerse, submerge; to baptize",
+    "partOfSpeech": "verb"
+  },
+  "G908": {
+    "word": "βάπτισμα",
+    "transliteration": "baptisma",
+    "pronunciation": "bap'-tis-mah",
+    "definition": "Baptism; the rite of baptism",
+    "partOfSpeech": "noun neuter"
+  },
+  "G932": {
+    "word": "βασιλεία",
+    "transliteration": "basileia",
+    "pronunciation": "bas-il-i'-ah",
+    "definition": "Kingdom, royal power, dominion; the reign of God",
+    "partOfSpeech": "noun feminine"
+  },
+  "G935": {
+    "word": "βασιλεύς",
+    "transliteration": "basileus",
+    "pronunciation": "bas-il-yooce'",
+    "definition": "King, sovereign ruler",
+    "partOfSpeech": "noun masculine"
+  },
+  "G976": {
+    "word": "βίβλος",
+    "transliteration": "biblos",
+    "pronunciation": "bib'-los",
+    "definition": "Book, scroll; a written document",
+    "partOfSpeech": "noun feminine"
+  },
+  "G979": {
+    "word": "βίος",
+    "transliteration": "bios",
+    "pronunciation": "bee'-os",
+    "definition": "Life, manner of life; livelihood, possessions",
+    "partOfSpeech": "noun masculine"
+  },
+  "G1063": {
+    "word": "γάρ",
+    "transliteration": "gar",
+    "pronunciation": "gar",
+    "definition": "For, because; introducing a reason or explanation",
+    "partOfSpeech": "conjunction"
+  },
+  "G1080": {
+    "word": "γεννάω",
+    "transliteration": "gennao",
+    "pronunciation": "ghen-nah'-o",
+    "definition": "To beget, give birth to; to bring forth",
+    "partOfSpeech": "verb"
+  },
+  "G1093": {
+    "word": "γῆ",
+    "transliteration": "ge",
+    "pronunciation": "ghay",
+    "definition": "Earth, land, ground; the inhabited world",
+    "partOfSpeech": "noun feminine"
+  },
+  "G1097": {
+    "word": "γινώσκω",
+    "transliteration": "ginosko",
+    "pronunciation": "ghin-oce'-ko",
+    "definition": "To know, understand, perceive; to come to know",
+    "partOfSpeech": "verb"
+  },
+  "G1100": {
+    "word": "γλῶσσα",
+    "transliteration": "glossa",
+    "pronunciation": "gloce-sah'",
+    "definition": "Tongue; language; the gift of tongues",
+    "partOfSpeech": "noun feminine"
+  },
+  "G1124": {
+    "word": "γραφή",
+    "transliteration": "graphe",
+    "pronunciation": "graf-ay'",
+    "definition": "Writing, Scripture; the sacred writings",
+    "partOfSpeech": "noun feminine"
+  },
+  "G1125": {
+    "word": "γράφω",
+    "transliteration": "grapho",
+    "pronunciation": "graf'-o",
+    "definition": "To write; to compose; to describe",
+    "partOfSpeech": "verb"
+  },
+  "G1161": {
+    "word": "δέ",
+    "transliteration": "de",
+    "pronunciation": "deh",
+    "definition": "But, and, now; a conjunction showing contrast or continuation",
+    "partOfSpeech": "conjunction"
+  },
+  "G1223": {
+    "word": "διά",
+    "transliteration": "dia",
+    "pronunciation": "dee-ah'",
+    "definition": "Through, by means of; on account of",
+    "partOfSpeech": "preposition"
+  },
+  "G1228": {
+    "word": "διάβολος",
+    "transliteration": "diabolos",
+    "pronunciation": "dee-ab'-ol-os",
+    "definition": "Devil, slanderer, accuser; the adversary",
+    "partOfSpeech": "noun masculine"
+  },
+  "G1242": {
+    "word": "διαθήκη",
+    "transliteration": "diatheke",
+    "pronunciation": "dee-ath-ay'-kay",
+    "definition": "Covenant, testament; a disposition or arrangement",
+    "partOfSpeech": "noun feminine"
+  },
+  "G1343": {
+    "word": "δικαιοσύνη",
+    "transliteration": "dikaiosyne",
+    "pronunciation": "dik-ah-yos-oo'-nay",
+    "definition": "Righteousness, justice; the state of being right with God",
+    "partOfSpeech": "noun feminine"
+  },
+  "G1344": {
+    "word": "δικαιόω",
+    "transliteration": "dikaioo",
+    "pronunciation": "dik-ah-yo'-o",
+    "definition": "To justify, declare righteous; to vindicate",
+    "partOfSpeech": "verb"
+  },
+  "G1380": {
+    "word": "δοκέω",
+    "transliteration": "dokeo",
+    "pronunciation": "dok-eh'-o",
+    "definition": "To think, suppose; to seem, appear",
+    "partOfSpeech": "verb"
+  },
+  "G1391": {
+    "word": "δόξα",
+    "transliteration": "doxa",
+    "pronunciation": "dox'-ah",
+    "definition": "Glory, splendor, majesty; honor, praise",
+    "partOfSpeech": "noun feminine"
+  },
+  "G1392": {
+    "word": "δοξάζω",
+    "transliteration": "doxazo",
+    "pronunciation": "dox-ad'-zo",
+    "definition": "To glorify, honor; to magnify",
+    "partOfSpeech": "verb"
+  },
+  "G1401": {
+    "word": "δοῦλος",
+    "transliteration": "doulos",
+    "pronunciation": "doo'-los",
+    "definition": "Slave, servant, bondservant; one who serves another",
+    "partOfSpeech": "noun masculine"
+  },
+  "G1411": {
+    "word": "δύναμις",
+    "transliteration": "dunamis",
+    "pronunciation": "doo'-nam-is",
+    "definition": "Power, might, strength; miraculous power",
+    "partOfSpeech": "noun feminine"
+  },
+  "G1453": {
+    "word": "ἐγείρω",
+    "transliteration": "egeiro",
+    "pronunciation": "eg-i'-ro",
+    "definition": "To raise up, awaken; to rise from the dead",
+    "partOfSpeech": "verb"
+  },
+  "G1492": {
+    "word": "εἴδω",
+    "transliteration": "eido",
+    "pronunciation": "i'-do",
+    "definition": "To see, perceive; to know, understand",
+    "partOfSpeech": "verb"
+  },
+  "G1515": {
+    "word": "εἰρήνη",
+    "transliteration": "eirene",
+    "pronunciation": "i-ray'-nay",
+    "definition": "Peace, tranquility; harmony, welfare",
+    "partOfSpeech": "noun feminine"
+  },
+  "G1519": {
+    "word": "εἰς",
+    "transliteration": "eis",
+    "pronunciation": "ice",
+    "definition": "Into, to, toward; for the purpose of",
+    "partOfSpeech": "preposition"
+  },
+  "G1537": {
+    "word": "ἐκ",
+    "transliteration": "ek",
+    "pronunciation": "ek",
+    "definition": "Out of, from; denoting origin or source",
+    "partOfSpeech": "preposition"
+  },
+  "G1577": {
+    "word": "ἐκκλησία",
+    "transliteration": "ekklesia",
+    "pronunciation": "ek-klay-see'-ah",
+    "definition": "Church, assembly; a called-out gathering of believers",
+    "partOfSpeech": "noun feminine"
+  },
+  "G1588": {
+    "word": "ἐκλεκτός",
+    "transliteration": "eklektos",
+    "pronunciation": "ek-lek-tos'",
+    "definition": "Chosen, elect, selected; choice, excellent",
+    "partOfSpeech": "adjective"
+  },
+  "G1650": {
+    "word": "ἔλεος",
+    "transliteration": "eleos",
+    "pronunciation": "el'-eh-os",
+    "definition": "Mercy, compassion, pity; kindness toward the afflicted",
+    "partOfSpeech": "noun neuter"
+  },
+  "G1680": {
+    "word": "ἐλπίς",
+    "transliteration": "elpis",
+    "pronunciation": "el-pece'",
+    "definition": "Hope, expectation; confident anticipation",
+    "partOfSpeech": "noun feminine"
+  },
+  "G1722": {
+    "word": "ἐν",
+    "transliteration": "en",
+    "pronunciation": "en",
+    "definition": "In, on, at; among; by means of",
+    "partOfSpeech": "preposition"
+  },
+  "G1849": {
+    "word": "ἐξουσία",
+    "transliteration": "exousia",
+    "pronunciation": "ex-oo-see'-ah",
+    "definition": "Authority, power; right to act; jurisdiction",
+    "partOfSpeech": "noun feminine"
+  },
+  "G1860": {
+    "word": "ἐπαγγελία",
+    "transliteration": "epangelia",
+    "pronunciation": "ep-ang-el-ee'-ah",
+    "definition": "Promise, pledge; divine assurance",
+    "partOfSpeech": "noun feminine"
+  },
+  "G1909": {
+    "word": "ἐπί",
+    "transliteration": "epi",
+    "pronunciation": "ep-ee'",
+    "definition": "Upon, on; over; at; concerning",
+    "partOfSpeech": "preposition"
+  },
+  "G2036": {
+    "word": "ἔπω",
+    "transliteration": "epo",
+    "pronunciation": "ep'-o",
+    "definition": "To speak, say, tell",
+    "partOfSpeech": "verb"
+  },
+  "G2041": {
+    "word": "ἔργον",
+    "transliteration": "ergon",
+    "pronunciation": "er'-gon",
+    "definition": "Work, deed, action; labor",
+    "partOfSpeech": "noun neuter"
+  },
+  "G2064": {
+    "word": "ἔρχομαι",
+    "transliteration": "erchomai",
+    "pronunciation": "er'-khom-ahee",
+    "definition": "To come, go; to arrive, appear",
+    "partOfSpeech": "verb"
+  },
+  "G2098": {
+    "word": "εὐαγγέλιον",
+    "transliteration": "euangelion",
+    "pronunciation": "yoo-ang-ghel'-ee-on",
+    "definition": "Gospel, good news; the message of salvation",
+    "partOfSpeech": "noun neuter"
+  },
+  "G2127": {
+    "word": "εὐλογέω",
+    "transliteration": "eulogeo",
+    "pronunciation": "yoo-log-eh'-o",
+    "definition": "To bless, speak well of; to praise",
+    "partOfSpeech": "verb"
+  },
+  "G2168": {
+    "word": "εὐχαριστέω",
+    "transliteration": "eucharisteo",
+    "pronunciation": "yoo-khar-is-teh'-o",
+    "definition": "To give thanks, be thankful",
+    "partOfSpeech": "verb"
+  },
+  "G2192": {
+    "word": "ἔχω",
+    "transliteration": "echo",
+    "pronunciation": "ekh'-o",
+    "definition": "To have, hold, possess; to be in a certain condition",
+    "partOfSpeech": "verb"
+  },
+  "G2198": {
+    "word": "ζάω",
+    "transliteration": "zao",
+    "pronunciation": "dzah'-o",
+    "definition": "To live; to be alive; to enjoy life",
+    "partOfSpeech": "verb"
+  },
+  "G2222": {
+    "word": "ζωή",
+    "transliteration": "zoe",
+    "pronunciation": "dzo-ay'",
+    "definition": "Life; the state of living; eternal life",
+    "partOfSpeech": "noun feminine"
+  },
+  "G2288": {
+    "word": "θάνατος",
+    "transliteration": "thanatos",
+    "pronunciation": "than'-at-os",
+    "definition": "Death; physical or spiritual death",
+    "partOfSpeech": "noun masculine"
+  },
+  "G2307": {
+    "word": "θέλημα",
+    "transliteration": "thelema",
+    "pronunciation": "thel'-ay-mah",
+    "definition": "Will, desire; purpose, determination",
+    "partOfSpeech": "noun neuter"
+  },
+  "G2309": {
+    "word": "θέλω",
+    "transliteration": "thelo",
+    "pronunciation": "thel'-o",
+    "definition": "To will, wish, desire; to be resolved",
+    "partOfSpeech": "verb"
+  },
+  "G2316": {
+    "word": "θεός",
+    "transliteration": "theos",
+    "pronunciation": "theh'-os",
+    "definition": "God; the supreme deity; a god",
+    "partOfSpeech": "noun masculine"
+  },
+  "G2378": {
+    "word": "θυσία",
+    "transliteration": "thusia",
+    "pronunciation": "thoo-see'-ah",
+    "definition": "Sacrifice, offering; the act of offering",
+    "partOfSpeech": "noun feminine"
+  },
+  "G2398": {
+    "word": "ἴδιος",
+    "transliteration": "idios",
+    "pronunciation": "id'-ee-os",
+    "definition": "One's own, personal; private, distinct",
+    "partOfSpeech": "adjective"
+  },
+  "G2424": {
+    "word": "Ἰησοῦς",
+    "transliteration": "Iesous",
+    "pronunciation": "ee-ay-sooce'",
+    "definition": "Jesus; Hebrew 'Yeshua' meaning 'the Lord saves'",
+    "partOfSpeech": "noun proper masculine"
+  },
+  "G2433": {
+    "word": "ἱλάσκομαι",
+    "transliteration": "hilaskomai",
+    "pronunciation": "hil-as'-kom-ahee",
+    "definition": "To propitiate, make atonement; to be merciful",
+    "partOfSpeech": "verb"
+  },
+  "G2435": {
+    "word": "ἱλαστήριον",
+    "transliteration": "hilasterion",
+    "pronunciation": "hil-as-tay'-ree-on",
+    "definition": "Propitiation, mercy seat; means of atonement",
+    "partOfSpeech": "noun neuter"
+  },
+  "G2443": {
+    "word": "ἵνα",
+    "transliteration": "hina",
+    "pronunciation": "hin'-ah",
+    "definition": "In order that, so that; that, for the purpose of",
+    "partOfSpeech": "conjunction"
+  },
+  "G2532": {
+    "word": "καί",
+    "transliteration": "kai",
+    "pronunciation": "kahee",
+    "definition": "And, also, even; both...and",
+    "partOfSpeech": "conjunction"
+  },
+  "G2540": {
+    "word": "καιρός",
+    "transliteration": "kairos",
+    "pronunciation": "kahee-ros'",
+    "definition": "Time, season, opportunity; appointed time",
+    "partOfSpeech": "noun masculine"
+  },
+  "G2556": {
+    "word": "κακός",
+    "transliteration": "kakos",
+    "pronunciation": "kak-os'",
+    "definition": "Bad, evil, wicked; harmful",
+    "partOfSpeech": "adjective"
+  },
+  "G2564": {
+    "word": "καλέω",
+    "transliteration": "kaleo",
+    "pronunciation": "kal-eh'-o",
+    "definition": "To call, summon; to invite; to name",
+    "partOfSpeech": "verb"
+  },
+  "G2570": {
+    "word": "καλός",
+    "transliteration": "kalos",
+    "pronunciation": "kal-os'",
+    "definition": "Good, beautiful, noble; morally excellent",
+    "partOfSpeech": "adjective"
+  },
+  "G2588": {
+    "word": "καρδία",
+    "transliteration": "kardia",
+    "pronunciation": "kar-dee'-ah",
+    "definition": "Heart; the center of physical and spiritual life",
+    "partOfSpeech": "noun feminine"
+  },
+  "G2590": {
+    "word": "καρπός",
+    "transliteration": "karpos",
+    "pronunciation": "kar-pos'",
+    "definition": "Fruit; the result of labor; spiritual fruit",
+    "partOfSpeech": "noun masculine"
+  },
+  "G2596": {
+    "word": "κατά",
+    "transliteration": "kata",
+    "pronunciation": "kat-ah'",
+    "definition": "According to, against; down from",
+    "partOfSpeech": "preposition"
+  },
+  "G2634": {
+    "word": "κατακυριεύω",
+    "transliteration": "katakurieuo",
+    "pronunciation": "kat-ak-oo-ree-yoo'-o",
+    "definition": "To exercise dominion over; to lord it over",
+    "partOfSpeech": "verb"
+  },
+  "G2889": {
+    "word": "κόσμος",
+    "transliteration": "kosmos",
+    "pronunciation": "kos'-mos",
+    "definition": "World, universe; the earth; worldly affairs",
+    "partOfSpeech": "noun masculine"
+  },
+  "G2917": {
+    "word": "κρίμα",
+    "transliteration": "krima",
+    "pronunciation": "kree'-mah",
+    "definition": "Judgment, verdict; condemnation",
+    "partOfSpeech": "noun neuter"
+  },
+  "G2919": {
+    "word": "κρίνω",
+    "transliteration": "krino",
+    "pronunciation": "kree'-no",
+    "definition": "To judge, decide; to condemn",
+    "partOfSpeech": "verb"
+  },
+  "G2962": {
+    "word": "κύριος",
+    "transliteration": "kurios",
+    "pronunciation": "koo'-ree-os",
+    "definition": "Lord, master; sir; the Lord God",
+    "partOfSpeech": "noun masculine"
+  },
+  "G2980": {
+    "word": "λαλέω",
+    "transliteration": "laleo",
+    "pronunciation": "lal-eh'-o",
+    "definition": "To speak, say; to talk, utter words",
+    "partOfSpeech": "verb"
+  },
+  "G2983": {
+    "word": "λαμβάνω",
+    "transliteration": "lambano",
+    "pronunciation": "lam-ban'-o",
+    "definition": "To take, receive; to accept",
+    "partOfSpeech": "verb"
+  },
+  "G2992": {
+    "word": "λαός",
+    "transliteration": "laos",
+    "pronunciation": "lah-os'",
+    "definition": "People, nation; the people of God",
+    "partOfSpeech": "noun masculine"
+  },
+  "G3004": {
+    "word": "λέγω",
+    "transliteration": "lego",
+    "pronunciation": "leg'-o",
+    "definition": "To say, speak; to call, name",
+    "partOfSpeech": "verb"
+  },
+  "G3056": {
+    "word": "λόγος",
+    "transliteration": "logos",
+    "pronunciation": "log'-os",
+    "definition": "Word, statement; reason; the Word (of God)",
+    "partOfSpeech": "noun masculine"
+  },
+  "G3089": {
+    "word": "λύω",
+    "transliteration": "luo",
+    "pronunciation": "loo'-o",
+    "definition": "To loose, release; to destroy, dissolve",
+    "partOfSpeech": "verb"
+  },
+  "G3107": {
+    "word": "μακάριος",
+    "transliteration": "makarios",
+    "pronunciation": "mak-ar'-ee-os",
+    "definition": "Blessed, happy, fortunate",
+    "partOfSpeech": "adjective"
+  },
+  "G3140": {
+    "word": "μαρτυρέω",
+    "transliteration": "martureo",
+    "pronunciation": "mar-too-reh'-o",
+    "definition": "To bear witness, testify; to give evidence",
+    "partOfSpeech": "verb"
+  },
+  "G3141": {
+    "word": "μαρτυρία",
+    "transliteration": "marturia",
+    "pronunciation": "mar-too-ree'-ah",
+    "definition": "Testimony, witness; evidence",
+    "partOfSpeech": "noun feminine"
+  },
+  "G3173": {
+    "word": "μέγας",
+    "transliteration": "megas",
+    "pronunciation": "meg'-as",
+    "definition": "Great, large; mighty, important",
+    "partOfSpeech": "adjective"
+  },
+  "G3306": {
+    "word": "μένω",
+    "transliteration": "meno",
+    "pronunciation": "men'-o",
+    "definition": "To remain, abide; to stay, dwell",
+    "partOfSpeech": "verb"
+  },
+  "G3340": {
+    "word": "μετανοέω",
+    "transliteration": "metanoeo",
+    "pronunciation": "met-an-o-eh'-o",
+    "definition": "To repent, change one's mind; to convert",
+    "partOfSpeech": "verb"
+  },
+  "G3341": {
+    "word": "μετάνοια",
+    "transliteration": "metanoia",
+    "pronunciation": "met-an'-oy-ah",
+    "definition": "Repentance; a change of mind and heart",
+    "partOfSpeech": "noun feminine"
+  },
+  "G3361": {
+    "word": "μή",
+    "transliteration": "me",
+    "pronunciation": "may",
+    "definition": "Not; used in prohibitions and conditions",
+    "partOfSpeech": "particle"
+  },
+  "G3466": {
+    "word": "μυστήριον",
+    "transliteration": "musterion",
+    "pronunciation": "moos-tay'-ree-on",
+    "definition": "Mystery, secret; hidden truth revealed by God",
+    "partOfSpeech": "noun neuter"
+  },
+  "G3498": {
+    "word": "νεκρός",
+    "transliteration": "nekros",
+    "pronunciation": "nek-ros'",
+    "definition": "Dead; lifeless; spiritually dead",
+    "partOfSpeech": "adjective"
+  },
+  "G3551": {
+    "word": "νόμος",
+    "transliteration": "nomos",
+    "pronunciation": "nom'-os",
+    "definition": "Law; the Mosaic law; a principle or rule",
+    "partOfSpeech": "noun masculine"
+  },
+  "G3568": {
+    "word": "νῦν",
+    "transliteration": "nun",
+    "pronunciation": "noon",
+    "definition": "Now, at the present time",
+    "partOfSpeech": "adverb"
+  },
+  "G3588": {
+    "word": "ὁ",
+    "transliteration": "ho",
+    "pronunciation": "ho",
+    "definition": "The; the definite article",
+    "partOfSpeech": "article"
+  },
+  "G3598": {
+    "word": "ὁδός",
+    "transliteration": "hodos",
+    "pronunciation": "hod-os'",
+    "definition": "Way, road, path; manner of life",
+    "partOfSpeech": "noun feminine"
+  },
+  "G3614": {
+    "word": "οἰκία",
+    "transliteration": "oikia",
+    "pronunciation": "oy-kee'-ah",
+    "definition": "House, dwelling; household, family",
+    "partOfSpeech": "noun feminine"
+  },
+  "G3624": {
+    "word": "οἶκος",
+    "transliteration": "oikos",
+    "pronunciation": "oy'-kos",
+    "definition": "House, household; family; the temple",
+    "partOfSpeech": "noun masculine"
+  },
+  "G3686": {
+    "word": "ὄνομα",
+    "transliteration": "onoma",
+    "pronunciation": "on'-om-ah",
+    "definition": "Name; title; reputation; authority",
+    "partOfSpeech": "noun neuter"
+  },
+  "G3739": {
+    "word": "ὅς",
+    "transliteration": "hos",
+    "pronunciation": "hos",
+    "definition": "Who, which, what; the relative pronoun",
+    "partOfSpeech": "pronoun"
+  },
+  "G3754": {
+    "word": "ὅτι",
+    "transliteration": "hoti",
+    "pronunciation": "hot'-ee",
+    "definition": "That, because; since, for",
+    "partOfSpeech": "conjunction"
+  },
+  "G3756": {
+    "word": "οὐ",
+    "transliteration": "ou",
+    "pronunciation": "oo",
+    "definition": "Not; no; used for direct negation",
+    "partOfSpeech": "particle"
+  },
+  "G3772": {
+    "word": "οὐρανός",
+    "transliteration": "ouranos",
+    "pronunciation": "oo-ran-os'",
+    "definition": "Heaven, sky; the abode of God",
+    "partOfSpeech": "noun masculine"
+  },
+  "G3778": {
+    "word": "οὗτος",
+    "transliteration": "houtos",
+    "pronunciation": "hoo'-tos",
+    "definition": "This; he, she, it; this one",
+    "partOfSpeech": "pronoun"
+  },
+  "G3788": {
+    "word": "ὀφθαλμός",
+    "transliteration": "ophthalmos",
+    "pronunciation": "of-thal-mos'",
+    "definition": "Eye; sight, vision",
+    "partOfSpeech": "noun masculine"
+  },
+  "G3813": {
+    "word": "παιδίον",
+    "transliteration": "paidion",
+    "pronunciation": "pahee-dee'-on",
+    "definition": "Child, infant; young child",
+    "partOfSpeech": "noun neuter"
+  },
+  "G3844": {
+    "word": "παρά",
+    "transliteration": "para",
+    "pronunciation": "par-ah'",
+    "definition": "From, beside; alongside; contrary to",
+    "partOfSpeech": "preposition"
+  },
+  "G3870": {
+    "word": "παρακαλέω",
+    "transliteration": "parakaleo",
+    "pronunciation": "par-ak-al-eh'-o",
+    "definition": "To encourage, comfort; to exhort, entreat",
+    "partOfSpeech": "verb"
+  },
+  "G3875": {
+    "word": "παράκλητος",
+    "transliteration": "parakletos",
+    "pronunciation": "par-ak'-lay-tos",
+    "definition": "Advocate, helper, comforter; the Holy Spirit",
+    "partOfSpeech": "noun masculine"
+  },
+  "G3956": {
+    "word": "πᾶς",
+    "transliteration": "pas",
+    "pronunciation": "pas",
+    "definition": "All, every, whole; each",
+    "partOfSpeech": "adjective"
+  },
+  "G3962": {
+    "word": "πατήρ",
+    "transliteration": "pater",
+    "pronunciation": "pat-ayr'",
+    "definition": "Father; ancestor; God as Father",
+    "partOfSpeech": "noun masculine"
+  },
+  "G4043": {
+    "word": "περιπατέω",
+    "transliteration": "peripateo",
+    "pronunciation": "per-ee-pat-eh'-o",
+    "definition": "To walk, conduct one's life; to live",
+    "partOfSpeech": "verb"
+  },
+  "G4100": {
+    "word": "πιστεύω",
+    "transliteration": "pisteuo",
+    "pronunciation": "pist-yoo'-o",
+    "definition": "To believe, trust; to have faith in",
+    "partOfSpeech": "verb"
+  },
+  "G4102": {
+    "word": "πίστις",
+    "transliteration": "pistis",
+    "pronunciation": "pis'-tis",
+    "definition": "Faith, belief, trust; faithfulness, fidelity",
+    "partOfSpeech": "noun feminine"
+  },
+  "G4103": {
+    "word": "πιστός",
+    "transliteration": "pistos",
+    "pronunciation": "pis-tos'",
+    "definition": "Faithful, trustworthy, believing",
+    "partOfSpeech": "adjective"
+  },
+  "G4151": {
+    "word": "πνεῦμα",
+    "transliteration": "pneuma",
+    "pronunciation": "pnyoo'-mah",
+    "definition": "Spirit, breath; the Holy Spirit; disposition",
+    "partOfSpeech": "noun neuter"
+  },
+  "G4160": {
+    "word": "ποιέω",
+    "transliteration": "poieo",
+    "pronunciation": "poy-eh'-o",
+    "definition": "To do, make; to perform, accomplish",
+    "partOfSpeech": "verb"
+  },
+  "G4172": {
+    "word": "πόλις",
+    "transliteration": "polis",
+    "pronunciation": "pol'-is",
+    "definition": "City, town",
+    "partOfSpeech": "noun feminine"
+  },
+  "G4183": {
+    "word": "πολύς",
+    "transliteration": "polus",
+    "pronunciation": "pol-oos'",
+    "definition": "Much, many; great",
+    "partOfSpeech": "adjective"
+  },
+  "G4190": {
+    "word": "πονηρός",
+    "transliteration": "poneros",
+    "pronunciation": "pon-ay-ros'",
+    "definition": "Evil, wicked, bad; the evil one",
+    "partOfSpeech": "adjective"
+  },
+  "G4314": {
+    "word": "πρός",
+    "transliteration": "pros",
+    "pronunciation": "pros",
+    "definition": "To, toward; with; at; for the purpose of",
+    "partOfSpeech": "preposition"
+  },
+  "G4335": {
+    "word": "προσευχή",
+    "transliteration": "proseuche",
+    "pronunciation": "pros-yoo-khay'",
+    "definition": "Prayer; a place of prayer",
+    "partOfSpeech": "noun feminine"
+  },
+  "G4336": {
+    "word": "προσεύχομαι",
+    "transliteration": "proseuchomai",
+    "pronunciation": "pros-yoo'-khom-ahee",
+    "definition": "To pray; to offer prayer to God",
+    "partOfSpeech": "verb"
+  },
+  "G4396": {
+    "word": "προφήτης",
+    "transliteration": "prophetes",
+    "pronunciation": "prof-ay'-tace",
+    "definition": "Prophet; one who speaks for God",
+    "partOfSpeech": "noun masculine"
+  },
+  "G4487": {
+    "word": "ῥῆμα",
+    "transliteration": "rhema",
+    "pronunciation": "hray'-mah",
+    "definition": "Word, saying; a spoken word",
+    "partOfSpeech": "noun neuter"
+  },
+  "G4521": {
+    "word": "σάββατον",
+    "transliteration": "sabbaton",
+    "pronunciation": "sab'-bat-on",
+    "definition": "Sabbath; the seventh day; a week",
+    "partOfSpeech": "noun neuter"
+  },
+  "G4561": {
+    "word": "σάρξ",
+    "transliteration": "sarx",
+    "pronunciation": "sarx",
+    "definition": "Flesh; human nature; sinful nature",
+    "partOfSpeech": "noun feminine"
+  },
+  "G4592": {
+    "word": "σημεῖον",
+    "transliteration": "semeion",
+    "pronunciation": "say-mi'-on",
+    "definition": "Sign, miracle; distinguishing mark",
+    "partOfSpeech": "noun neuter"
+  },
+  "G4620": {
+    "word": "σιτομέτριον",
+    "transliteration": "sitometrion",
+    "pronunciation": "sit-om'-et-ree-on",
+    "definition": "Portion of grain; food allowance",
+    "partOfSpeech": "noun neuter"
+  },
+  "G4678": {
+    "word": "σοφία",
+    "transliteration": "sophia",
+    "pronunciation": "sof-ee'-ah",
+    "definition": "Wisdom; skill; divine wisdom",
+    "partOfSpeech": "noun feminine"
+  },
+  "G4690": {
+    "word": "σπέρμα",
+    "transliteration": "sperma",
+    "pronunciation": "sper'-mah",
+    "definition": "Seed; offspring, descendant",
+    "partOfSpeech": "noun neuter"
+  },
+  "G4716": {
+    "word": "σταυρός",
+    "transliteration": "stauros",
+    "pronunciation": "stow-ros'",
+    "definition": "Cross; the instrument of crucifixion",
+    "partOfSpeech": "noun masculine"
+  },
+  "G4717": {
+    "word": "σταυρόω",
+    "transliteration": "stauroo",
+    "pronunciation": "stow-ro'-o",
+    "definition": "To crucify; to nail to a cross",
+    "partOfSpeech": "verb"
+  },
+  "G4750": {
+    "word": "στόμα",
+    "transliteration": "stoma",
+    "pronunciation": "stom'-a",
+    "definition": "Mouth; speech; utterance",
+    "partOfSpeech": "noun neuter"
+  },
+  "G4862": {
+    "word": "σύν",
+    "transliteration": "sun",
+    "pronunciation": "soon",
+    "definition": "With, together with",
+    "partOfSpeech": "preposition"
+  },
+  "G4982": {
+    "word": "σῴζω",
+    "transliteration": "sozo",
+    "pronunciation": "sode'-zo",
+    "definition": "To save, deliver; to rescue from danger",
+    "partOfSpeech": "verb"
+  },
+  "G4983": {
+    "word": "σῶμα",
+    "transliteration": "soma",
+    "pronunciation": "so'-mah",
+    "definition": "Body; the physical body; the church as body",
+    "partOfSpeech": "noun neuter"
+  },
+  "G4991": {
+    "word": "σωτηρία",
+    "transliteration": "soteria",
+    "pronunciation": "so-tay-ree'-ah",
+    "definition": "Salvation, deliverance; preservation",
+    "partOfSpeech": "noun feminine"
+  },
+  "G4992": {
+    "word": "σωτήριον",
+    "transliteration": "soterion",
+    "pronunciation": "so-tay'-ree-on",
+    "definition": "Salvation; the means of salvation",
+    "partOfSpeech": "noun neuter"
+  },
+  "G5043": {
+    "word": "τέκνον",
+    "transliteration": "teknon",
+    "pronunciation": "tek'-non",
+    "definition": "Child; offspring; spiritual child",
+    "partOfSpeech": "noun neuter"
+  },
+  "G5046": {
+    "word": "τέλειος",
+    "transliteration": "teleios",
+    "pronunciation": "tel'-i-os",
+    "definition": "Perfect, complete, mature",
+    "partOfSpeech": "adjective"
+  },
+  "G5055": {
+    "word": "τελέω",
+    "transliteration": "teleo",
+    "pronunciation": "tel-eh'-o",
+    "definition": "To finish, complete; to accomplish",
+    "partOfSpeech": "verb"
+  },
+  "G5056": {
+    "word": "τέλος",
+    "transliteration": "telos",
+    "pronunciation": "tel'-os",
+    "definition": "End, goal; completion; tax",
+    "partOfSpeech": "noun neuter"
+  },
+  "G5083": {
+    "word": "τηρέω",
+    "transliteration": "tereo",
+    "pronunciation": "tay-reh'-o",
+    "definition": "To keep, guard; to observe, obey",
+    "partOfSpeech": "verb"
+  },
+  "G5101": {
+    "word": "τίς",
+    "transliteration": "tis",
+    "pronunciation": "tis",
+    "definition": "Who? Which? What?; interrogative pronoun",
+    "partOfSpeech": "pronoun"
+  },
+  "G5119": {
+    "word": "τότε",
+    "transliteration": "tote",
+    "pronunciation": "tot'-eh",
+    "definition": "Then, at that time",
+    "partOfSpeech": "adverb"
+  },
+  "G5207": {
+    "word": "υἱός",
+    "transliteration": "huios",
+    "pronunciation": "hwee-os'",
+    "definition": "Son; male offspring; descendant",
+    "partOfSpeech": "noun masculine"
+  },
+  "G5228": {
+    "word": "ὑπέρ",
+    "transliteration": "huper",
+    "pronunciation": "hoop-er'",
+    "definition": "For, on behalf of; above, beyond",
+    "partOfSpeech": "preposition"
+  },
+  "G5259": {
+    "word": "ὑπό",
+    "transliteration": "hupo",
+    "pronunciation": "hoop-o'",
+    "definition": "By, under; beneath",
+    "partOfSpeech": "preposition"
+  },
+  "G5281": {
+    "word": "ὑπομονή",
+    "transliteration": "hupomone",
+    "pronunciation": "hoop-om-on-ay'",
+    "definition": "Endurance, patience; steadfastness",
+    "partOfSpeech": "noun feminine"
+  },
+  "G5316": {
+    "word": "φαίνω",
+    "transliteration": "phaino",
+    "pronunciation": "fah'-ee-no",
+    "definition": "To shine; to appear, be visible",
+    "partOfSpeech": "verb"
+  },
+  "G5337": {
+    "word": "φαῦλος",
+    "transliteration": "phaulos",
+    "pronunciation": "fow'-los",
+    "definition": "Evil, worthless, bad",
+    "partOfSpeech": "adjective"
+  },
+  "G5342": {
+    "word": "φέρω",
+    "transliteration": "phero",
+    "pronunciation": "fer'-o",
+    "definition": "To bear, carry; to bring; to produce",
+    "partOfSpeech": "verb"
+  },
+  "G5368": {
+    "word": "φιλέω",
+    "transliteration": "phileo",
+    "pronunciation": "fil-eh'-o",
+    "definition": "To love, have affection for; to kiss",
+    "partOfSpeech": "verb"
+  },
+  "G5399": {
+    "word": "φοβέω",
+    "transliteration": "phobeo",
+    "pronunciation": "fob-eh'-o",
+    "definition": "To fear, be afraid; to reverence",
+    "partOfSpeech": "verb"
+  },
+  "G5401": {
+    "word": "φόβος",
+    "transliteration": "phobos",
+    "pronunciation": "fob'-os",
+    "definition": "Fear, terror; reverence, awe",
+    "partOfSpeech": "noun masculine"
+  },
+  "G5411": {
+    "word": "φόρος",
+    "transliteration": "phoros",
+    "pronunciation": "for'-os",
+    "definition": "Tax, tribute",
+    "partOfSpeech": "noun masculine"
+  },
+  "G5456": {
+    "word": "φωνή",
+    "transliteration": "phone",
+    "pronunciation": "fo-nay'",
+    "definition": "Voice, sound; language",
+    "partOfSpeech": "noun feminine"
+  },
+  "G5457": {
+    "word": "φῶς",
+    "transliteration": "phos",
+    "pronunciation": "foce",
+    "definition": "Light; illumination; God as light",
+    "partOfSpeech": "noun neuter"
+  },
+  "G5479": {
+    "word": "χαρά",
+    "transliteration": "chara",
+    "pronunciation": "khar-ah'",
+    "definition": "Joy, delight, gladness",
+    "partOfSpeech": "noun feminine"
+  },
+  "G5483": {
+    "word": "χαρίζομαι",
+    "transliteration": "charizomai",
+    "pronunciation": "khar-id'-zom-ahee",
+    "definition": "To give freely, grant; to forgive",
+    "partOfSpeech": "verb"
+  },
+  "G5485": {
+    "word": "χάρις",
+    "transliteration": "charis",
+    "pronunciation": "khar'-ece",
+    "definition": "Grace, favor; kindness; gratitude",
+    "partOfSpeech": "noun feminine"
+  },
+  "G5486": {
+    "word": "χάρισμα",
+    "transliteration": "charisma",
+    "pronunciation": "khar'-is-mah",
+    "definition": "Gift of grace; spiritual gift",
+    "partOfSpeech": "noun neuter"
+  },
+  "G5495": {
+    "word": "χείρ",
+    "transliteration": "cheir",
+    "pronunciation": "khire",
+    "definition": "Hand; power, activity",
+    "partOfSpeech": "noun feminine"
+  },
+  "G5547": {
+    "word": "Χριστός",
+    "transliteration": "Christos",
+    "pronunciation": "khris-tos'",
+    "definition": "Christ, Messiah; the Anointed One",
+    "partOfSpeech": "noun proper masculine"
+  },
+  "G5550": {
+    "word": "χρόνος",
+    "transliteration": "chronos",
+    "pronunciation": "khron'-os",
+    "definition": "Time; a period of time",
+    "partOfSpeech": "noun masculine"
+  },
+  "G5590": {
+    "word": "ψυχή",
+    "transliteration": "psuche",
+    "pronunciation": "psoo-khay'",
+    "definition": "Soul, life; the inner self",
+    "partOfSpeech": "noun feminine"
+  },
+  "G5602": {
+    "word": "ὧδε",
+    "transliteration": "hode",
+    "pronunciation": "ho'-deh",
+    "definition": "Here, in this place",
+    "partOfSpeech": "adverb"
+  },
+  "G5610": {
+    "word": "ὥρα",
+    "transliteration": "hora",
+    "pronunciation": "ho'-rah",
+    "definition": "Hour, time; a definite period",
+    "partOfSpeech": "noun feminine"
+  },
+  "G5613": {
+    "word": "ὡς",
+    "transliteration": "hos",
+    "pronunciation": "hoce",
+    "definition": "As, like; about; when",
+    "partOfSpeech": "adverb/conjunction"
+  }
+}

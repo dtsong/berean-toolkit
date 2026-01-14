@@ -1,10 +1,11 @@
 /**
  * Bible API client for fetching verse text from various sources
- * Supports ESV, NIV, and other translations via their respective APIs
+ * Supports ESV, NIV, BSB and other translations via their respective APIs
  */
 
 import type { VerseReference, VerseData, Translation } from '@/types';
 import { formatVerseReference } from './verse-parser';
+import { getBookCode } from './bible';
 
 interface ESVResponse {
   passages: string[];
@@ -117,6 +118,101 @@ export async function fetchBibleAPIVerse(
   };
 }
 
+interface BSBVerseContent {
+  type: 'text' | 'noteId';
+  text?: string;
+  noteId?: string;
+}
+
+interface BSBVerse {
+  type: 'verse' | 'heading' | 'line_break';
+  number?: number;
+  content?: (string | BSBVerseContent)[];
+  heading?: string;
+}
+
+interface BSBAPIResponse {
+  translation: {
+    id: string;
+    name: string;
+    language: string;
+  };
+  book: {
+    id: string;
+    name: string;
+  };
+  chapter: {
+    number: number;
+    content: BSBVerse[];
+  };
+}
+
+function extractBSBVerseText(content: (string | BSBVerseContent)[]): string {
+  return content
+    .map(item => {
+      if (typeof item === 'string') return item;
+      if (item.type === 'text' && item.text) return item.text;
+      return '';
+    })
+    .join('')
+    .trim();
+}
+
+/**
+ * Fetch verse from BSB via bible.helloao.org API
+ */
+export async function fetchBSBVerse(reference: VerseReference): Promise<VerseData | null> {
+  const bookCode = getBookCode(reference.book);
+  if (!bookCode) {
+    console.error(`Unknown book: ${reference.book}`);
+    return null;
+  }
+
+  try {
+    const response = await fetch(
+      `https://bible.helloao.org/api/BSB/${bookCode}/${reference.chapter}.json`,
+      {
+        headers: {
+          Accept: 'application/json',
+        },
+      }
+    );
+
+    if (!response.ok) {
+      console.error('BSB API error:', response.status);
+      return null;
+    }
+
+    const data = (await response.json()) as BSBAPIResponse;
+
+    // Get the specific verses
+    const startVerse = reference.startVerse;
+    const endVerse = reference.endVerse ?? reference.startVerse;
+
+    const verseTexts: string[] = [];
+    for (const item of data.chapter.content) {
+      if (item.type === 'verse' && item.number && item.content) {
+        if (item.number >= startVerse && item.number <= endVerse) {
+          verseTexts.push(extractBSBVerseText(item.content));
+        }
+      }
+    }
+
+    if (verseTexts.length === 0) {
+      return null;
+    }
+
+    return {
+      reference,
+      text: verseTexts.join(' '),
+      translation: 'BSB',
+    };
+  } catch (error) {
+    console.error('Failed to fetch BSB verse:', error);
+    return null;
+  }
+}
+
 /**
  * Main function to fetch verse in specified translation
  */
@@ -127,6 +223,8 @@ export async function fetchVerse(
   switch (translation) {
     case 'ESV':
       return fetchESVVerse(reference);
+    case 'BSB':
+      return fetchBSBVerse(reference);
     case 'NIV':
       return fetchBibleAPIVerse(reference, 'NIV');
     default:
