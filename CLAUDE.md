@@ -37,15 +37,16 @@ This is an independent project built in that same spirit — using the skills, e
 - **Home page** — Landing with navigation to all three tools
 - **Berean Challenge** — All 3 game modes with 54 curated questions (18 per mode)
 - **Sermon Companion** — Claude-powered outline generation from passage reference
-- **Scripture Deep Dive** — Verse lookup with ESV translation
+- **Scripture Deep Dive** — Verse lookup with ESV/BSB translations + Strong's lookup
+- **Strong's Concordance API** — Lookup Hebrew/Greek definitions via `/api/strongs/[number]`
+- **BSB Bible API** — Public domain BSB text via `/api/bible/[book]/[chapter]`
 - **Verse reference parsing** — Supports all 66 books with common abbreviations
 - **Supabase** — Local instance configured with full database schema
 
 ### Placeholder/Partial Implementation
 
-- **Original language display** — UI component exists, BSB API created, lexicon partial
-- **Strong's Concordance** — Validation utilities work, Greek lexicon started (~170 entries), lookup functions stubbed
-- **BSB translation** — Text API functional via `/api/bible/[book]/[chapter]`, Hebrew lexicon pending
+- **Original language display** — UI component wired up with Strong's lookup, full interlinear pending
+- **Strong's Concordance** — Lookup API functional, lexicons populated (~180 Hebrew, ~170 Greek entries)
 - **NIV translation** — Partially configured via api.bible
 - **KJV, NASB, LSB** — Types defined, not implemented
 - **Supabase auth/data** — Schema ready, not yet connected to app features
@@ -351,6 +352,9 @@ berean-toolkit/
 │   │       │   └── [book]/
 │   │       │       └── [chapter]/
 │   │       │           └── route.ts  # [x] BSB text via bible.helloao.org
+│   │       ├── strongs/
+│   │       │   └── [number]/
+│   │       │       └── route.ts      # [x] Strong's lexicon lookup
 │   │       ├── game/
 │   │       │   └── route.ts    # [x] Returns questions from JSON
 │   │       └── sermon/
@@ -358,12 +362,13 @@ berean-toolkit/
 │   ├── components/
 │   │   ├── ui/                 # [ ] Empty - for shared UI components
 │   │   ├── VerseDisplay.tsx    # [x] Shows verse with loading/error states
-│   │   ├── OriginalLanguage.tsx# [~] UI ready, awaiting BSB data
+│   │   ├── OriginalLanguage.tsx# [x] Displays Strong's lookups
 │   │   ├── GameBoard.tsx       # [x] Full game interface with answer reveal
 │   │   └── SermonOutline.tsx   # [x] Displays outline with themes/references
 │   ├── lib/
-│   │   ├── bible-api.ts        # [~] ESV full, NIV partial, others TODO
-│   │   ├── strongs.ts          # [~] Validation works, lookup stubbed
+│   │   ├── bible-api.ts        # [x] ESV, BSB full; NIV partial
+│   │   ├── bible.ts            # [x] Bible utility functions
+│   │   ├── strongs.ts          # [x] Validation + API lookup functions
 │   │   ├── verse-parser.ts     # [x] All 66 books + abbreviations
 │   │   ├── llm.ts              # [~] sermonOutline works, wordStudy/reflection unused
 │   │   └── supabase/
@@ -375,7 +380,8 @@ berean-toolkit/
 │   ├── data/
 │   │   ├── questions.json      # [x] 54 curated questions (18 per mode)
 │   │   └── strongs/
-│   │       └── greek.json      # [~] Greek lexicon (~170 common entries)
+│   │       ├── greek.json      # [x] Greek lexicon (~170 common entries)
+│   │       └── hebrew.json     # [x] Hebrew lexicon (~180 common entries)
 │   ├── types/
 │   │   ├── index.ts            # [x] All app types defined
 │   │   └── database.ts         # [~] Placeholder for generated types
@@ -542,17 +548,18 @@ Prompt engineering for outlines:
 - [x] Project scaffolding and tooling (Next.js, TypeScript, ESLint, Vitest, Husky)
 - [x] Berean Challenge game with all 3 modes (Verse Detective, Context Clues, Word Connections)
 - [x] Sermon outline generator (passage → outline via Claude API)
-- [x] Verse lookup with ESV translation
+- [x] Verse lookup with ESV and BSB translations
 - [x] Verse reference parsing for all 66 books
 - [x] Question bank populated (54 curated questions across modes/difficulties)
 - [x] Supabase local setup with database schema
+- [x] BSB Bible API (`/api/bible/[book]/[chapter]`) via bible.helloao.org
+- [x] Strong's Concordance API (`/api/strongs/[number]`) with ~350 entries
+- [x] Strong's lookup UI in Scripture Deep Dive page
 
 **Remaining:**
 
-- [~] Integrate BSB data for Greek/Hebrew word tagging (Bible API done, Greek lexicon partial, Hebrew pending)
-- [ ] Implement Strong's Concordance lookup (`fetchStrongsEntry`, `searchByStrongsNumber`)
-- [ ] Create Strong's API route `/api/strongs/[number]`
-- [ ] Wire up original language display in Scripture Deep Dive
+- [ ] Add full interlinear display (word-level Greek/Hebrew in verse text)
+- [ ] Download and process BSB Translation Tables for word-by-word Strong's mapping
 
 ### Phase 2 — Enhancement
 
