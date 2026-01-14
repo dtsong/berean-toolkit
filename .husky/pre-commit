@@ -1,6 +1,5 @@
 #!/usr/bin/env sh
 
-# Add bun to PATH
 export PATH="$HOME/.bun/bin:$PATH"
 
 bunx lint-staged
