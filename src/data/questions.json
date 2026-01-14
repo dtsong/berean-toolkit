@@ -1,4 +1,14 @@
 {
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-01-11",
+    "totalQuestions": 54,
+    "byMode": {
+      "verse_detective": 18,
+      "context_clues": 18,
+      "word_connections": 18
+    }
+  },
   "questions": [
     {
       "id": "q001",
@@ -7,8 +17,8 @@
       "verseReference": "John 3:16",
       "questionText": "\"For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life.\" Where is this verse found?",
       "correctAnswer": "John 3:16",
-      "incorrectAnswers": ["Romans 5:8", "1 John 4:8", "Ephesians 2:8"],
-      "explanation": "This is one of the most well-known verses in the Bible, often called 'the Gospel in a nutshell.'"
+      "incorrectAnswers": ["Romans 5:8", "1 John 4:9", "Ephesians 2:8"],
+      "explanation": "This is one of the most well-known verses in the Bible, often called 'the Gospel in a nutshell.' Jesus spoke these words to Nicodemus."
     },
     {
       "id": "q002",
@@ -18,46 +28,673 @@
       "questionText": "\"The LORD is my shepherd; I shall not want.\" Which book contains this verse?",
       "correctAnswer": "Psalms",
       "incorrectAnswers": ["Proverbs", "Isaiah", "Ecclesiastes"],
-      "explanation": "Psalm 23 is one of the most beloved passages in Scripture, written by David."
+      "explanation": "Psalm 23 is one of the most beloved passages in Scripture, written by David who was himself a shepherd before becoming king."
     },
     {
       "id": "q003",
-      "mode": "context_clues",
-      "difficulty": "medium",
-      "verseReference": "Genesis 1:1",
-      "questionText": "What comes immediately after 'In the beginning, God created the heavens and the earth'?",
-      "correctAnswer": "The earth was without form and void",
-      "incorrectAnswers": [
-        "And God said, 'Let there be light'",
-        "And the Spirit of God was hovering",
-        "And God saw that it was good"
-      ],
-      "explanation": "Genesis 1:2 describes the initial state of creation before God began to form and fill it."
+      "mode": "verse_detective",
+      "difficulty": "easy",
+      "verseReference": "Romans 8:28",
+      "questionText": "\"And we know that for those who love God all things work together for good, for those who are called according to his purpose.\" Where is this verse found?",
+      "correctAnswer": "Romans 8:28",
+      "incorrectAnswers": ["Philippians 4:13", "Jeremiah 29:11", "Proverbs 3:5"],
+      "explanation": "This verse is part of Paul's profound teaching on God's sovereign purpose in Romans 8, one of the richest theological chapters in Scripture."
     },
     {
       "id": "q004",
-      "mode": "word_connections",
+      "mode": "verse_detective",
+      "difficulty": "easy",
+      "verseReference": "Philippians 4:13",
+      "questionText": "\"I can do all things through him who strengthens me.\" Where is this verse found?",
+      "correctAnswer": "Philippians 4:13",
+      "incorrectAnswers": ["Romans 8:37", "2 Corinthians 12:9", "Ephesians 6:10"],
+      "explanation": "Paul wrote this while in prison, speaking of contentment in all circumstances through Christ's strength."
+    },
+    {
+      "id": "q005",
+      "mode": "verse_detective",
+      "difficulty": "easy",
+      "verseReference": "Jeremiah 29:11",
+      "questionText": "\"For I know the plans I have for you, declares the LORD, plans for welfare and not for evil, to give you a future and a hope.\" Where is this found?",
+      "correctAnswer": "Jeremiah 29:11",
+      "incorrectAnswers": ["Isaiah 41:10", "Proverbs 16:9", "Romans 8:28"],
+      "explanation": "God spoke these words through Jeremiah to the Israelites in Babylonian exile, promising restoration after 70 years."
+    },
+    {
+      "id": "q006",
+      "mode": "verse_detective",
+      "difficulty": "easy",
+      "verseReference": "Proverbs 3:5-6",
+      "questionText": "\"Trust in the LORD with all your heart, and do not lean on your own understanding. In all your ways acknowledge him, and he will make straight your paths.\" Which book?",
+      "correctAnswer": "Proverbs",
+      "incorrectAnswers": ["Psalms", "Ecclesiastes", "Isaiah"],
+      "explanation": "This wisdom teaching from Proverbs 3 is attributed to Solomon and emphasizes complete dependence on God's guidance."
+    },
+    {
+      "id": "q007",
+      "mode": "verse_detective",
+      "difficulty": "easy",
+      "verseReference": "Isaiah 40:31",
+      "questionText": "\"But they who wait for the LORD shall renew their strength; they shall mount up with wings like eagles.\" Where is this verse?",
+      "correctAnswer": "Isaiah 40:31",
+      "incorrectAnswers": ["Psalm 91:4", "Deuteronomy 32:11", "Exodus 19:4"],
+      "explanation": "Isaiah 40 begins the 'Book of Comfort' section, encouraging exiled Israel with promises of God's power and faithfulness."
+    },
+    {
+      "id": "q008",
+      "mode": "verse_detective",
+      "difficulty": "easy",
+      "verseReference": "Matthew 28:19-20",
+      "questionText": "\"Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit.\" Where is the Great Commission?",
+      "correctAnswer": "Matthew 28:19-20",
+      "incorrectAnswers": ["Mark 16:15", "Acts 1:8", "Luke 24:47"],
+      "explanation": "The Great Commission is Jesus' final command to his disciples before ascending to heaven, recorded at the end of Matthew's Gospel."
+    },
+    {
+      "id": "q009",
+      "mode": "verse_detective",
+      "difficulty": "medium",
+      "verseReference": "James 1:2-3",
+      "questionText": "\"Count it all joy, my brothers, when you meet trials of various kinds, for you know that the testing of your faith produces steadfastness.\" Where is this?",
+      "correctAnswer": "James 1:2-3",
+      "incorrectAnswers": ["1 Peter 1:6-7", "Romans 5:3-4", "Hebrews 12:11"],
+      "explanation": "James opens his letter with this counterintuitive command to find joy in trials because of their sanctifying effect."
+    },
+    {
+      "id": "q010",
+      "mode": "verse_detective",
+      "difficulty": "medium",
+      "verseReference": "1 Peter 5:7",
+      "questionText": "\"Casting all your anxieties on him, because he cares for you.\" Where is this verse found?",
+      "correctAnswer": "1 Peter 5:7",
+      "incorrectAnswers": ["Philippians 4:6", "Matthew 6:25", "Psalm 55:22"],
+      "explanation": "Peter wrote this encouragement to suffering Christians in Asia Minor, reminding them of God's personal care."
+    },
+    {
+      "id": "q011",
+      "mode": "verse_detective",
+      "difficulty": "medium",
+      "verseReference": "Hebrews 11:1",
+      "questionText": "\"Now faith is the assurance of things hoped for, the conviction of things not seen.\" Where is this definition of faith?",
+      "correctAnswer": "Hebrews 11:1",
+      "incorrectAnswers": ["Romans 10:17", "2 Corinthians 5:7", "James 2:17"],
+      "explanation": "Hebrews 11, known as the 'Hall of Faith,' begins with this foundational definition before listing Old Testament heroes of faith."
+    },
+    {
+      "id": "q012",
+      "mode": "verse_detective",
+      "difficulty": "medium",
+      "verseReference": "Romans 12:2",
+      "questionText": "\"Do not be conformed to this world, but be transformed by the renewal of your mind.\" Where is this command?",
+      "correctAnswer": "Romans 12:2",
+      "incorrectAnswers": ["Ephesians 4:23", "Colossians 3:10", "Philippians 2:5"],
+      "explanation": "Romans 12 marks the transition from doctrine to application in Paul's letter, beginning with this call to transformed living."
+    },
+    {
+      "id": "q013",
+      "mode": "verse_detective",
+      "difficulty": "medium",
+      "verseReference": "Galatians 5:22-23",
+      "questionText": "\"But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control.\" Where is this list?",
+      "correctAnswer": "Galatians 5:22-23",
+      "incorrectAnswers": ["Ephesians 5:9", "Colossians 3:12", "Romans 14:17"],
+      "explanation": "Paul contrasts the fruit of the Spirit with the works of the flesh in Galatians 5, showing what Spirit-led living produces."
+    },
+    {
+      "id": "q014",
+      "mode": "verse_detective",
+      "difficulty": "medium",
+      "verseReference": "Ephesians 6:10-11",
+      "questionText": "\"Be strong in the Lord and in the strength of his might. Put on the whole armor of God.\" Where does the armor of God passage begin?",
+      "correctAnswer": "Ephesians 6:10-11",
+      "incorrectAnswers": ["Romans 13:12", "1 Thessalonians 5:8", "2 Corinthians 10:4"],
+      "explanation": "Paul's description of spiritual warfare and the armor of God concludes his letter to the Ephesians."
+    },
+    {
+      "id": "q015",
+      "mode": "verse_detective",
       "difficulty": "hard",
-      "verseReference": "John 1:1",
-      "questionText": "The Greek word 'logos' (λόγος) translated as 'Word' in John 1:1 also appears in which of these passages?",
-      "correctAnswer": "Revelation 19:13 - 'His name is called The Word of God'",
+      "verseReference": "Habakkuk 3:17-18",
+      "questionText": "\"Though the fig tree should not blossom... yet I will rejoice in the LORD; I will take joy in the God of my salvation.\" Which minor prophet wrote this?",
+      "correctAnswer": "Habakkuk",
+      "incorrectAnswers": ["Micah", "Zephaniah", "Malachi"],
+      "explanation": "Habakkuk ends his prophecy with this profound declaration of faith regardless of circumstances, a model of trusting God in difficulty."
+    },
+    {
+      "id": "q016",
+      "mode": "verse_detective",
+      "difficulty": "hard",
+      "verseReference": "Micah 6:8",
+      "questionText": "\"He has told you, O man, what is good; and what does the LORD require of you but to do justice, and to love kindness, and to walk humbly with your God?\"",
+      "correctAnswer": "Micah 6:8",
+      "incorrectAnswers": ["Amos 5:24", "Isaiah 1:17", "Hosea 6:6"],
+      "explanation": "Micah's summary of what God requires is one of the most quoted verses from the minor prophets."
+    },
+    {
+      "id": "q017",
+      "mode": "verse_detective",
+      "difficulty": "hard",
+      "verseReference": "Ecclesiastes 3:1",
+      "questionText": "\"For everything there is a season, and a time for every matter under heaven.\" Where is this found?",
+      "correctAnswer": "Ecclesiastes 3:1",
+      "incorrectAnswers": ["Proverbs 15:23", "Psalm 31:15", "Isaiah 60:22"],
+      "explanation": "The Preacher (Qoheleth) follows this verse with the famous poem about times and seasons in Ecclesiastes 3:2-8."
+    },
+    {
+      "id": "q018",
+      "mode": "verse_detective",
+      "difficulty": "hard",
+      "verseReference": "Job 19:25",
+      "questionText": "\"For I know that my Redeemer lives, and at the last he will stand upon the earth.\" Who spoke these words?",
+      "correctAnswer": "Job",
+      "incorrectAnswers": ["David", "Isaiah", "Abraham"],
+      "explanation": "In the midst of his suffering, Job declares this profound statement of hope in his living Redeemer."
+    },
+    {
+      "id": "q019",
+      "mode": "context_clues",
+      "difficulty": "easy",
+      "verseReference": "Genesis 1:1-2",
+      "questionText": "What comes immediately after 'In the beginning, God created the heavens and the earth'?",
+      "correctAnswer": "The earth was without form and void, and darkness was over the face of the deep",
       "incorrectAnswers": [
-        "Matthew 5:17 - 'Do not think that I have come to abolish the Law'",
-        "Romans 10:17 - 'Faith comes from hearing'",
-        "2 Timothy 3:16 - 'All Scripture is breathed out by God'"
+        "And God said, 'Let there be light'",
+        "And God saw that it was good",
+        "And there was evening and there was morning"
+      ],
+      "explanation": "Genesis 1:2 describes the initial state of creation before God began to form and fill it over the six days."
+    },
+    {
+      "id": "q020",
+      "mode": "context_clues",
+      "difficulty": "easy",
+      "verseReference": "John 14:6",
+      "questionText": "Jesus said 'I am the way, and the truth, and the life. No one comes to the Father except through me.' To whom was he speaking?",
+      "correctAnswer": "Thomas (and the disciples)",
+      "incorrectAnswers": ["Nicodemus", "The Pharisees", "The crowd at the temple"],
+      "explanation": "Jesus spoke these words in the Upper Room after Thomas asked 'Lord, we do not know where you are going. How can we know the way?'"
+    },
+    {
+      "id": "q021",
+      "mode": "context_clues",
+      "difficulty": "easy",
+      "verseReference": "Psalm 22:1",
+      "questionText": "The psalm that begins 'My God, my God, why have you forsaken me?' was written by whom?",
+      "correctAnswer": "David",
+      "incorrectAnswers": ["Solomon", "Asaph", "Moses"],
+      "explanation": "David wrote Psalm 22, which Jesus quoted on the cross. It prophetically describes crucifixion centuries before it was invented."
+    },
+    {
+      "id": "q022",
+      "mode": "context_clues",
+      "difficulty": "easy",
+      "verseReference": "Genesis 3:9",
+      "questionText": "After Adam and Eve sinned and hid, what was God's first question to them?",
+      "correctAnswer": "Where are you?",
+      "incorrectAnswers": [
+        "What have you done?",
+        "Did you eat from the tree?",
+        "Why did you disobey me?"
+      ],
+      "explanation": "God's first words after the fall were 'Where are you?' - not seeking information but calling Adam to account."
+    },
+    {
+      "id": "q023",
+      "mode": "context_clues",
+      "difficulty": "easy",
+      "verseReference": "Matthew 3:17",
+      "questionText": "At Jesus' baptism, what did the voice from heaven say?",
+      "correctAnswer": "This is my beloved Son, with whom I am well pleased",
+      "incorrectAnswers": [
+        "You are my Son, today I have begotten you",
+        "Listen to him",
+        "This is the Lamb of God who takes away the sin of the world"
+      ],
+      "explanation": "The Father's declaration at Jesus' baptism affirmed his identity and the Father's pleasure in him before his public ministry began."
+    },
+    {
+      "id": "q024",
+      "mode": "context_clues",
+      "difficulty": "easy",
+      "verseReference": "Luke 2:10-11",
+      "questionText": "What did the angel announce to the shepherds on the night of Jesus' birth?",
+      "correctAnswer": "Fear not, for behold, I bring you good news of great joy... a Savior is born",
+      "incorrectAnswers": [
+        "Glory to God in the highest, and on earth peace",
+        "Go to Bethlehem and you will find the Messiah",
+        "The virgin shall conceive and bear a son"
+      ],
+      "explanation": "The angel's announcement to the shepherds is the first proclamation of the gospel - good news of a Savior."
+    },
+    {
+      "id": "q025",
+      "mode": "context_clues",
+      "difficulty": "medium",
+      "verseReference": "Romans 8:38-39",
+      "questionText": "What is Paul's conclusion at the end of Romans 8?",
+      "correctAnswer": "Nothing can separate us from the love of God in Christ Jesus",
+      "incorrectAnswers": [
+        "All things work together for good",
+        "We are more than conquerors",
+        "The Spirit helps us in our weakness"
+      ],
+      "explanation": "Romans 8 reaches its climax with Paul's triumphant declaration that no power in all creation can separate believers from God's love."
+    },
+    {
+      "id": "q026",
+      "mode": "context_clues",
+      "difficulty": "medium",
+      "verseReference": "Matthew 5:13-14",
+      "questionText": "What teaching immediately follows the Beatitudes in the Sermon on the Mount?",
+      "correctAnswer": "You are the salt of the earth... You are the light of the world",
+      "incorrectAnswers": [
+        "Do not think that I have come to abolish the Law",
+        "You have heard that it was said to those of old",
+        "Love your enemies and pray for those who persecute you"
+      ],
+      "explanation": "After pronouncing the Beatitudes, Jesus tells his disciples their identity and purpose as salt and light."
+    },
+    {
+      "id": "q027",
+      "mode": "context_clues",
+      "difficulty": "medium",
+      "verseReference": "Isaiah 53:5",
+      "questionText": "The servant song 'He was pierced for our transgressions' in Isaiah 53 is prophesying about whom?",
+      "correctAnswer": "The Messiah / Jesus Christ",
+      "incorrectAnswers": ["The nation of Israel", "The prophet Isaiah himself", "King David"],
+      "explanation": "Isaiah 53 is the fourth Servant Song, prophetically describing Christ's substitutionary death centuries before the crucifixion."
+    },
+    {
+      "id": "q028",
+      "mode": "context_clues",
+      "difficulty": "medium",
+      "verseReference": "Acts 2:38",
+      "questionText": "When the crowd at Pentecost asked 'What shall we do?', what was Peter's response?",
+      "correctAnswer": "Repent and be baptized every one of you in the name of Jesus Christ",
+      "incorrectAnswers": [
+        "Believe in the Lord Jesus and you will be saved",
+        "Confess with your mouth that Jesus is Lord",
+        "Go and make disciples of all nations"
+      ],
+      "explanation": "Peter's Pentecost sermon concluded with this call to repentance and baptism, resulting in 3,000 new believers."
+    },
+    {
+      "id": "q029",
+      "mode": "context_clues",
+      "difficulty": "medium",
+      "verseReference": "John 11:35",
+      "questionText": "The shortest verse in the Bible, 'Jesus wept,' occurs in what context?",
+      "correctAnswer": "At the tomb of Lazarus before raising him from the dead",
+      "incorrectAnswers": [
+        "In the Garden of Gethsemane before his arrest",
+        "When he looked over Jerusalem and predicted its destruction",
+        "At the Last Supper when he announced his betrayal"
+      ],
+      "explanation": "Jesus wept at Lazarus' tomb, showing his humanity and compassion even though he was about to raise Lazarus from the dead."
+    },
+    {
+      "id": "q030",
+      "mode": "context_clues",
+      "difficulty": "medium",
+      "verseReference": "Exodus 3:14",
+      "questionText": "When Moses asked God's name at the burning bush, what did God answer?",
+      "correctAnswer": "I AM WHO I AM",
+      "incorrectAnswers": [
+        "The LORD, the God of your fathers",
+        "The Almighty God",
+        "The God of Abraham, Isaac, and Jacob"
+      ],
+      "explanation": "God revealed his covenant name YHWH ('I AM') to Moses, emphasizing his eternal, self-existent nature."
+    },
+    {
+      "id": "q031",
+      "mode": "context_clues",
+      "difficulty": "medium",
+      "verseReference": "1 Corinthians 13:13",
+      "questionText": "In Paul's famous 'love chapter,' what does he say is the greatest of faith, hope, and love?",
+      "correctAnswer": "Love",
+      "incorrectAnswers": ["Faith", "Hope", "All three are equal"],
+      "explanation": "Paul concludes 1 Corinthians 13 by declaring that love is the greatest of the three abiding virtues."
+    },
+    {
+      "id": "q032",
+      "mode": "context_clues",
+      "difficulty": "medium",
+      "verseReference": "Revelation 21:4",
+      "questionText": "In the description of the new heaven and new earth, what does God promise to wipe away?",
+      "correctAnswer": "Every tear from their eyes",
+      "incorrectAnswers": [
+        "The memory of sin",
+        "All sorrow from their hearts",
+        "The old order of things"
+      ],
+      "explanation": "Revelation 21:4 promises that God himself will wipe away every tear, with no more death, mourning, crying, or pain."
+    },
+    {
+      "id": "q033",
+      "mode": "context_clues",
+      "difficulty": "hard",
+      "verseReference": "1 Kings 18:38-39",
+      "questionText": "What happened immediately after Elijah's prayer on Mount Carmel when challenging the prophets of Baal?",
+      "correctAnswer": "Fire from the LORD fell and consumed the burnt offering",
+      "incorrectAnswers": [
+        "Rain began to fall after three years of drought",
+        "The people seized the prophets of Baal",
+        "Elijah ran ahead of Ahab's chariot"
+      ],
+      "explanation": "God answered Elijah's prayer with fire from heaven, proving he is the true God. The rain came later that day."
+    },
+    {
+      "id": "q034",
+      "mode": "context_clues",
+      "difficulty": "hard",
+      "verseReference": "Galatians 2:20",
+      "questionText": "Paul's statement 'I have been crucified with Christ' comes in what context?",
+      "correctAnswer": "His confrontation with Peter about Gentile inclusion and justification by faith",
+      "incorrectAnswers": [
+        "His description of his conversion on the Damascus road",
+        "His teaching about spiritual gifts to the church",
+        "His defense of his apostleship to the Corinthians"
+      ],
+      "explanation": "Paul makes this declaration while recounting his rebuke of Peter for withdrawing from Gentile believers in Antioch."
+    },
+    {
+      "id": "q035",
+      "mode": "context_clues",
+      "difficulty": "hard",
+      "verseReference": "Philippians 2:5-11",
+      "questionText": "Paul's great hymn about Christ emptying himself and being exalted (Philippians 2:5-11) is given in what context?",
+      "correctAnswer": "As an example for believers to have humility and put others' interests first",
+      "incorrectAnswers": [
+        "As a defense of Christ's divinity against false teachers",
+        "As part of his thanksgiving prayer for the Philippians",
+        "As an explanation of how salvation works"
+      ],
+      "explanation": "The Christ Hymn illustrates the humility Paul calls the Philippians to practice: 'Do nothing from selfish ambition.'"
+    },
+    {
+      "id": "q036",
+      "mode": "context_clues",
+      "difficulty": "hard",
+      "verseReference": "Daniel 3:17-18",
+      "questionText": "When Shadrach, Meshach, and Abednego refused to bow to the golden image, what was their famous response to King Nebuchadnezzar?",
+      "correctAnswer": "Our God is able to deliver us... but if not, we still will not serve your gods",
+      "incorrectAnswers": [
+        "The LORD will fight for us; we need only be still",
+        "We must obey God rather than men",
+        "Into your hands I commit my spirit"
+      ],
+      "explanation": "Their response demonstrates faith that trusts God's power but also accepts his sovereign will, whatever the outcome."
+    },
+    {
+      "id": "q037",
+      "mode": "word_connections",
+      "difficulty": "easy",
+      "verseReference": "John 3:16",
+      "questionText": "The Greek word 'agape' (ἀγάπη, G26) meaning unconditional love appears prominently in which verse?",
+      "correctAnswer": "John 3:16 - 'For God so loved the world'",
+      "incorrectAnswers": [
+        "Matthew 22:37 - 'You shall love the Lord your God'",
+        "Romans 13:10 - 'Love does no wrong to a neighbor'",
+        "1 Peter 4:8 - 'Love covers a multitude of sins'"
+      ],
+      "strongsNumber": "G26",
+      "explanation": "Agape (G26) describes God's unconditional, self-sacrificing love. John 3:16 is its most famous occurrence, showing God's love for the world."
+    },
+    {
+      "id": "q038",
+      "mode": "word_connections",
+      "difficulty": "easy",
+      "verseReference": "Ephesians 2:8",
+      "questionText": "The Greek word 'pistis' (πίστις, G4102) meaning faith/trust is central to which verse?",
+      "correctAnswer": "Ephesians 2:8 - 'For by grace you have been saved through faith'",
+      "incorrectAnswers": [
+        "Romans 1:17 - 'The righteous shall live by faith'",
+        "Hebrews 11:6 - 'Without faith it is impossible to please him'",
+        "James 2:17 - 'Faith by itself, if it does not have works, is dead'"
+      ],
+      "strongsNumber": "G4102",
+      "explanation": "Pistis (G4102) is the key New Testament word for faith, trust, and belief. Ephesians 2:8-9 is foundational for salvation by grace through faith."
+    },
+    {
+      "id": "q039",
+      "mode": "word_connections",
+      "difficulty": "easy",
+      "verseReference": "Numbers 6:26",
+      "questionText": "The Hebrew word 'shalom' (שָׁלוֹם, H7965) meaning peace/wholeness appears in which priestly blessing?",
+      "correctAnswer": "Numbers 6:26 - 'The LORD lift up his countenance upon you and give you peace'",
+      "incorrectAnswers": [
+        "Psalm 29:11 - 'May the LORD bless his people with peace'",
+        "Isaiah 26:3 - 'You keep him in perfect peace'",
+        "Judges 6:24 - 'The LORD is Peace'"
+      ],
+      "strongsNumber": "H7965",
+      "explanation": "Shalom (H7965) means complete well-being, not just absence of conflict. The Aaronic blessing uses it as God's gift to his people."
+    },
+    {
+      "id": "q040",
+      "mode": "word_connections",
+      "difficulty": "easy",
+      "verseReference": "Romans 3:23",
+      "questionText": "The Greek word 'hamartia' (ἁμαρτία, G266) meaning sin/missing the mark is used in which foundational verse?",
+      "correctAnswer": "Romans 3:23 - 'For all have sinned and fall short of the glory of God'",
+      "incorrectAnswers": [
+        "1 John 1:9 - 'If we confess our sins, he is faithful'",
+        "Romans 6:23 - 'The wages of sin is death'",
+        "James 1:15 - 'Sin when it is fully grown brings forth death'"
+      ],
+      "strongsNumber": "G266",
+      "explanation": "Hamartia (G266) literally means 'missing the mark.' Romans 3:23 uses it to describe humanity's universal condition."
+    },
+    {
+      "id": "q041",
+      "mode": "word_connections",
+      "difficulty": "medium",
+      "verseReference": "John 1:1",
+      "questionText": "The Greek word 'logos' (λόγος, G3056) translated 'Word' appears in which passage about Christ's divinity?",
+      "correctAnswer": "John 1:1 - 'In the beginning was the Word, and the Word was with God'",
+      "incorrectAnswers": [
+        "Hebrews 4:12 - 'The word of God is living and active'",
+        "Romans 10:17 - 'Faith comes from hearing the word'",
+        "Colossians 3:16 - 'Let the word of Christ dwell in you'"
       ],
       "strongsNumber": "G3056",
-      "explanation": "Logos (G3056) is used as a title for Christ in both John 1:1 and Revelation 19:13."
+      "explanation": "Logos (G3056) is used as a title for Christ in John's prologue, identifying Jesus as God's eternal Word made flesh."
+    },
+    {
+      "id": "q042",
+      "mode": "word_connections",
+      "difficulty": "medium",
+      "verseReference": "Psalm 136:1",
+      "questionText": "The Hebrew word 'hesed' (חֶסֶד, H2617) meaning steadfast love/lovingkindness is repeated in which psalm?",
+      "correctAnswer": "Psalm 136 - 'His steadfast love endures forever' (26 times)",
+      "incorrectAnswers": [
+        "Psalm 23 - 'Surely goodness and mercy shall follow me'",
+        "Psalm 103 - 'The LORD is merciful and gracious'",
+        "Psalm 100 - 'His steadfast love endures'"
+      ],
+      "strongsNumber": "H2617",
+      "explanation": "Hesed (H2617) is one of the most important Hebrew words, describing God's covenant loyalty. Psalm 136 repeats it in every verse."
+    },
+    {
+      "id": "q043",
+      "mode": "word_connections",
+      "difficulty": "medium",
+      "verseReference": "Philippians 2:7",
+      "questionText": "The Greek word 'doulos' (δοῦλος, G1401) meaning servant/slave describes Christ in which passage?",
+      "correctAnswer": "Philippians 2:7 - 'He emptied himself, taking the form of a servant'",
+      "incorrectAnswers": [
+        "Mark 10:44 - 'Whoever would be first must be slave of all'",
+        "Romans 1:1 - 'Paul, a servant of Christ Jesus'",
+        "Galatians 1:10 - 'If I were still trying to please man, I would not be a servant of Christ'"
+      ],
+      "strongsNumber": "G1401",
+      "explanation": "Doulos (G1401) means slave or bondservant. The Christ Hymn uses it to describe Jesus taking the lowest position."
+    },
+    {
+      "id": "q044",
+      "mode": "word_connections",
+      "difficulty": "medium",
+      "verseReference": "Romans 3:25",
+      "questionText": "The Greek word 'dikaiosyne' (δικαιοσύνη, G1343) meaning righteousness is key to which Pauline passage?",
+      "correctAnswer": "Romans 3:21-26 - 'The righteousness of God has been manifested apart from the law'",
+      "incorrectAnswers": [
+        "Matthew 5:6 - 'Blessed are those who hunger and thirst for righteousness'",
+        "2 Corinthians 5:21 - 'That we might become the righteousness of God'",
+        "Philippians 3:9 - 'The righteousness from God that depends on faith'"
+      ],
+      "strongsNumber": "G1343",
+      "explanation": "Dikaiosyne (G1343) is central to Paul's argument in Romans about how God's righteousness is revealed and credited to believers."
+    },
+    {
+      "id": "q045",
+      "mode": "word_connections",
+      "difficulty": "medium",
+      "verseReference": "Acts 2:38",
+      "questionText": "The Greek word 'metanoia' (μετάνοια, G3341) meaning repentance is called for in which sermon?",
+      "correctAnswer": "Acts 2:38 - Peter's Pentecost sermon: 'Repent and be baptized'",
+      "incorrectAnswers": [
+        "Matthew 3:2 - John the Baptist: 'Repent, for the kingdom of heaven is at hand'",
+        "Luke 15:7 - 'There will be more joy in heaven over one sinner who repents'",
+        "2 Peter 3:9 - 'Not wishing that any should perish, but that all should reach repentance'"
+      ],
+      "strongsNumber": "G3341",
+      "explanation": "Metanoia (G3341) means a complete change of mind and direction. Peter calls for it as the first response to the gospel at Pentecost."
+    },
+    {
+      "id": "q046",
+      "mode": "word_connections",
+      "difficulty": "medium",
+      "verseReference": "John 14:26",
+      "questionText": "The Greek word 'parakletos' (παράκλητος, G3875) meaning Helper/Advocate describes whom?",
+      "correctAnswer": "The Holy Spirit - John 14:26 'The Helper, the Holy Spirit, whom the Father will send'",
+      "incorrectAnswers": [
+        "Jesus Christ - 1 John 2:1 'We have an advocate with the Father'",
+        "Angels - Hebrews 1:14 'Ministering spirits sent to serve'",
+        "The Apostles - 2 Corinthians 5:20 'Ambassadors for Christ'"
+      ],
+      "strongsNumber": "G3875",
+      "explanation": "Parakletos (G3875) means one called alongside to help. Jesus uses it for the Holy Spirit in his Farewell Discourse."
+    },
+    {
+      "id": "q047",
+      "mode": "word_connections",
+      "difficulty": "hard",
+      "verseReference": "Romans 3:25",
+      "questionText": "The Greek word 'hilasterion' (ἱλαστήριον, G2435) meaning propitiation/mercy seat appears in which doctrinal passage?",
+      "correctAnswer": "Romans 3:25 - 'Whom God put forward as a propitiation by his blood'",
+      "incorrectAnswers": [
+        "Hebrews 9:5 - Above the ark 'the cherubim of glory overshadowing the mercy seat'",
+        "1 John 2:2 - 'He is the propitiation for our sins'",
+        "1 John 4:10 - 'He loved us and sent his Son to be the propitiation'"
+      ],
+      "strongsNumber": "G2435",
+      "explanation": "Hilasterion (G2435) refers to the mercy seat where blood was sprinkled on Yom Kippur. Paul uses it to describe Christ's atoning sacrifice."
+    },
+    {
+      "id": "q048",
+      "mode": "word_connections",
+      "difficulty": "hard",
+      "verseReference": "John 19:30",
+      "questionText": "The Greek word 'tetelestai' (τετέλεσται, G5055) meaning 'it is finished' was spoken where?",
+      "correctAnswer": "John 19:30 - Jesus' final word on the cross",
+      "incorrectAnswers": [
+        "Luke 23:46 - 'Father, into your hands I commit my spirit'",
+        "Matthew 27:46 - 'My God, my God, why have you forsaken me'",
+        "John 17:4 - 'I glorified you on earth, having accomplished the work'"
+      ],
+      "strongsNumber": "G5055",
+      "explanation": "Tetelestai (G5055) was used for paid-in-full receipts. Jesus declared the debt of sin fully paid."
+    },
+    {
+      "id": "q049",
+      "mode": "word_connections",
+      "difficulty": "hard",
+      "verseReference": "Matthew 16:18",
+      "questionText": "The Greek word 'ekklesia' (ἐκκλησία, G1577) meaning church/assembly is first used by Jesus in which passage?",
+      "correctAnswer": "Matthew 16:18 - 'On this rock I will build my church'",
+      "incorrectAnswers": [
+        "Acts 2:47 - 'The Lord added to their number day by day'",
+        "Ephesians 5:25 - 'Christ loved the church and gave himself up for her'",
+        "Colossians 1:18 - 'He is the head of the body, the church'"
+      ],
+      "strongsNumber": "G1577",
+      "explanation": "Ekklesia (G1577) means 'called-out assembly.' Jesus' promise to build his church is the first Gospel mention of this word."
+    },
+    {
+      "id": "q050",
+      "mode": "word_connections",
+      "difficulty": "hard",
+      "verseReference": "Hebrews 12:2",
+      "questionText": "The Greek word 'archegos' (ἀρχηγός, G747) meaning founder/author describes Jesus in which passage?",
+      "correctAnswer": "Hebrews 12:2 - 'Jesus, the founder and perfecter of our faith'",
+      "incorrectAnswers": [
+        "Acts 3:15 - 'You killed the Author of life'",
+        "Acts 5:31 - 'God exalted him as Leader and Savior'",
+        "Hebrews 2:10 - 'The founder of their salvation'"
+      ],
+      "strongsNumber": "G747",
+      "explanation": "Archegos (G747) means pioneer, leader, or originator. Hebrews 12:2 presents Jesus as the one who initiates and completes our faith."
+    },
+    {
+      "id": "q051",
+      "mode": "word_connections",
+      "difficulty": "hard",
+      "verseReference": "Colossians 1:15",
+      "questionText": "The Greek word 'eikon' (εἰκών, G1504) meaning image describes Christ in which passage?",
+      "correctAnswer": "Colossians 1:15 - 'He is the image of the invisible God'",
+      "incorrectAnswers": [
+        "2 Corinthians 4:4 - 'Christ, who is the image of God'",
+        "Hebrews 1:3 - 'He is the radiance of the glory of God'",
+        "Genesis 1:27 - 'God created man in his own image'"
+      ],
+      "strongsNumber": "G1504",
+      "explanation": "Eikon (G1504) means exact representation. Colossians 1:15 declares that Christ perfectly reveals the invisible God."
+    },
+    {
+      "id": "q052",
+      "mode": "word_connections",
+      "difficulty": "hard",
+      "verseReference": "Philippians 2:6",
+      "questionText": "The Greek word 'morphe' (μορφή, G3444) meaning form/nature is used to describe Christ's deity in which passage?",
+      "correctAnswer": "Philippians 2:6 - 'Though he was in the form of God'",
+      "incorrectAnswers": [
+        "John 1:14 - 'The Word became flesh'",
+        "Colossians 2:9 - 'In him the whole fullness of deity dwells bodily'",
+        "Hebrews 1:3 - 'The exact imprint of his nature'"
+      ],
+      "strongsNumber": "G3444",
+      "explanation": "Morphe (G3444) refers to the essential nature, not just outward appearance. Christ existed in the very nature of God."
+    },
+    {
+      "id": "q053",
+      "mode": "word_connections",
+      "difficulty": "hard",
+      "verseReference": "1 Timothy 2:5",
+      "questionText": "The Greek word 'mesites' (μεσίτης, G3316) meaning mediator describes Christ in which passage?",
+      "correctAnswer": "1 Timothy 2:5 - 'There is one mediator between God and men, the man Christ Jesus'",
+      "incorrectAnswers": [
+        "Hebrews 8:6 - 'Christ has obtained a ministry that is as much more excellent'",
+        "Hebrews 9:15 - 'He is the mediator of a new covenant'",
+        "Hebrews 12:24 - 'Jesus, the mediator of a new covenant'"
+      ],
+      "strongsNumber": "G3316",
+      "explanation": "Mesites (G3316) means one who stands between two parties. 1 Timothy 2:5 emphasizes Christ as the only mediator between God and humanity."
+    },
+    {
+      "id": "q054",
+      "mode": "word_connections",
+      "difficulty": "hard",
+      "verseReference": "Revelation 19:16",
+      "questionText": "The Greek phrase 'Basileus Basileon' meaning 'King of Kings' appears as a title for Christ in which passage?",
+      "correctAnswer": "Revelation 19:16 - On his robe and thigh: 'King of kings and Lord of lords'",
+      "incorrectAnswers": [
+        "1 Timothy 6:15 - 'The blessed and only Sovereign, the King of kings'",
+        "Daniel 2:47 - 'Your God is God of gods and Lord of kings'",
+        "Deuteronomy 10:17 - 'The LORD your God is God of gods and Lord of lords'"
+      ],
+      "strongsNumber": "G935",
+      "explanation": "This royal title appears on Christ's robe as he returns in triumph, declaring his supreme authority over all earthly rulers."
     }
-  ],
-  "metadata": {
-    "version": "0.1.0",
-    "lastUpdated": "2024-01-01",
-    "totalQuestions": 4,
-    "byMode": {
-      "verse_detective": 2,
-      "context_clues": 1,
-      "word_connections": 1
-    }
-  }
+  ]
 }

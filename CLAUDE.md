@@ -21,6 +21,81 @@ This is an independent project built in that same spirit — using the skills, e
 
 ---
 
+## Current Status
+
+### Completed Infrastructure
+
+- Next.js 14+ with App Router, TypeScript, Tailwind CSS
+- ESLint + Prettier with strict TypeScript rules
+- Vitest testing setup with 80% coverage thresholds
+- Husky + lint-staged pre-commit hooks
+- GitHub Actions CI workflow
+- Supabase database schema (migration ready, not yet connected)
+
+### Functional Features
+
+- **Home page** — Landing with navigation to all three tools
+- **Berean Challenge** — All 3 game modes with 54 curated questions (18 per mode)
+- **Sermon Companion** — Claude-powered outline generation from passage reference
+- **Scripture Deep Dive** — Verse lookup with ESV translation
+- **Verse reference parsing** — Supports all 66 books with common abbreviations
+- **Supabase** — Local instance configured with full database schema
+
+### Placeholder/Partial Implementation
+
+- **Original language display** — UI component exists, BSB data integration pending
+- **Strong's Concordance** — Validation utilities work, lookup functions stubbed
+- **NIV translation** — Partially configured via api.bible
+- **KJV, NASB, LSB, BSB** — Types defined, not implemented
+- **Supabase auth/data** — Schema ready, not yet connected to app features
+
+---
+
+## Getting Started
+
+### Quick Start
+
+```bash
+# Install dependencies
+bun install
+
+# Start development server
+bun dev
+```
+
+The app will be available at http://localhost:3000
+
+### Environment Variables
+
+Copy `.env.example` to `.env.local` and add your API keys:
+
+```bash
+# Required for verse lookup (Scripture Deep Dive)
+ESV_API_KEY=your_esv_api_key          # Get from api.esv.org
+
+# Required for sermon outlines (Sermon Companion)
+ANTHROPIC_API_KEY=your_anthropic_key  # Get from console.anthropic.com
+
+# Optional - for NIV support
+BIBLE_API_KEY=your_bible_api_key      # Get from scripture.api.bible
+
+# Optional - for user accounts (not yet integrated)
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
+
+### What Works Without API Keys
+
+- **Berean Challenge** — Fully functional with seed questions
+- **Home page** — Navigation to all tools
+
+### What Requires API Keys
+
+- **Scripture Deep Dive** — Needs `ESV_API_KEY` for verse lookup
+- **Sermon Companion** — Needs `ANTHROPIC_API_KEY` for outline generation
+
+---
+
 ## Sustainability Model
 
 ### Guiding Principles
@@ -245,72 +320,71 @@ This may actually be viewed _favorably_ by Christian publishers.
 
 ## File Structure
 
+Status legend: `[x]` = functional, `[~]` = partial/placeholder, `[ ]` = not started
+
 ```
 berean-toolkit/
 ├── .github/
 │   └── workflows/
-│       └── ci.yml              # GitHub Actions CI
+│       └── ci.yml              # [x] GitHub Actions CI
 ├── .husky/
-│   └── pre-commit              # Pre-commit hook
+│   └── pre-commit              # [x] Pre-commit hook (lint-staged)
 ├── supabase/
-│   ├── config.toml             # Supabase local config
-│   └── migrations/             # Database migrations
-│       └── 00001_initial.sql
+│   ├── config.toml             # [x] Supabase local config
+│   └── migrations/
+│       └── 00001_initial.sql   # [x] Database schema (not yet applied)
 ├── src/
-│   ├── app/                    # Next.js App Router
-│   │   ├── layout.tsx          # Root layout
-│   │   ├── page.tsx            # Home page
-│   │   ├── study/              # Scripture Deep Dive
-│   │   │   └── page.tsx
-│   │   ├── berean/             # Berean Challenge game
-│   │   │   └── page.tsx
-│   │   ├── sermon/             # Sermon Companion
-│   │   │   └── page.tsx
-│   │   └── api/                # API routes
+│   ├── app/
+│   │   ├── layout.tsx          # [x] Root layout with dark mode
+│   │   ├── page.tsx            # [x] Home page with tool cards
+│   │   ├── study/
+│   │   │   └── page.tsx        # [~] Verse lookup works, original language pending
+│   │   ├── berean/
+│   │   │   └── page.tsx        # [x] All 3 game modes functional
+│   │   ├── sermon/
+│   │   │   └── page.tsx        # [x] Outline generation via Claude
+│   │   └── api/
 │   │       ├── verse/
-│   │       │   └── route.ts
+│   │       │   └── route.ts    # [x] ESV working, NIV partial
 │   │       ├── game/
-│   │       │   └── route.ts
+│   │       │   └── route.ts    # [x] Returns questions from JSON
 │   │       └── sermon/
-│   │           └── route.ts
+│   │           └── route.ts    # [x] Claude-powered outline generation
 │   ├── components/
-│   │   ├── ui/                 # Reusable UI components
-│   │   ├── VerseDisplay.tsx
-│   │   ├── OriginalLanguage.tsx
-│   │   ├── GameBoard.tsx
-│   │   └── SermonOutline.tsx
+│   │   ├── ui/                 # [ ] Empty - for shared UI components
+│   │   ├── VerseDisplay.tsx    # [x] Shows verse with loading/error states
+│   │   ├── OriginalLanguage.tsx# [~] UI ready, awaiting BSB data
+│   │   ├── GameBoard.tsx       # [x] Full game interface with answer reveal
+│   │   └── SermonOutline.tsx   # [x] Displays outline with themes/references
 │   ├── lib/
-│   │   ├── bible-api.ts        # Bible text fetching
-│   │   ├── strongs.ts          # Strong's concordance utilities
-│   │   ├── verse-parser.ts     # Parse verse references
-│   │   ├── llm.ts              # Claude API integration
+│   │   ├── bible-api.ts        # [~] ESV full, NIV partial, others TODO
+│   │   ├── strongs.ts          # [~] Validation works, lookup stubbed
+│   │   ├── verse-parser.ts     # [x] All 66 books + abbreviations
+│   │   ├── llm.ts              # [~] sermonOutline works, wordStudy/reflection unused
 │   │   └── supabase/
-│   │       ├── client.ts       # Browser client
-│   │       ├── server.ts       # Server client
-│   │       └── middleware.ts   # Auth middleware
-│   ├── hooks/                  # Custom React hooks
-│   │   └── useVerse.ts
+│   │       ├── client.ts       # [~] Configured, not integrated
+│   │       ├── server.ts       # [~] Configured, not integrated
+│   │       └── middleware.ts   # [~] Stub for auth
+│   ├── hooks/
+│   │   └── useVerse.ts         # [x] Verse fetching with loading/error
 │   ├── data/
-│   │   └── questions.json      # Berean Challenge question bank
+│   │   └── questions.json      # [~] 4 seed questions (needs 50+)
 │   ├── types/
-│   │   ├── index.ts            # App types
-│   │   └── database.ts         # Generated Supabase types
+│   │   ├── index.ts            # [x] All app types defined
+│   │   └── database.ts         # [~] Placeholder for generated types
 │   └── test/
-│       └── setup.ts            # Vitest setup
-├── public/
-├── .env.example
-├── .env.local                  # Local env (git-ignored)
-├── .eslintrc.json
-├── .prettierrc
-├── .lintstagedrc.json
-├── vitest.config.ts
-├── next.config.ts
-├── tailwind.config.ts
-├── tsconfig.json
-├── package.json
-├── bun.lock
-├── README.md
-└── CLAUDE.md
+│       └── setup.ts            # [x] Vitest/jest-dom setup
+├── .env.example                # [x] All env vars documented
+├── .prettierrc                 # [x] Code formatting rules
+├── .lintstagedrc.json          # [x] Pre-commit lint config
+├── vitest.config.ts            # [x] Test configuration
+├── eslint.config.mjs           # [x] ESLint with TypeScript rules
+├── next.config.ts              # [x] Next.js configuration
+├── tailwind.config.ts          # [x] Tailwind with dark mode
+├── tsconfig.json               # [x] Strict TypeScript settings
+├── package.json                # [x] All scripts configured
+├── bun.lock                    # [x] Dependency lockfile
+└── CLAUDE.md                   # [x] This file
 ```
 
 ---
@@ -454,25 +528,38 @@ Prompt engineering for outlines:
 
 ## MVP Priorities
 
-**Phase 1 — Core Functionality:**
+### Phase 1 — Core Functionality
 
-1. Verse lookup with original language display (dual translation view)
-2. Basic Berean game (Verse Detective mode with 50+ curated questions)
-3. Simple sermon outline generator (passage input → outline output)
+**Completed:**
 
-**Phase 2 — Enhancement:**
+- [x] Project scaffolding and tooling (Next.js, TypeScript, ESLint, Vitest, Husky)
+- [x] Berean Challenge game with all 3 modes (Verse Detective, Context Clues, Word Connections)
+- [x] Sermon outline generator (passage → outline via Claude API)
+- [x] Verse lookup with ESV translation
+- [x] Verse reference parsing for all 66 books
+- [x] Question bank populated (54 curated questions across modes/difficulties)
+- [x] Supabase local setup with database schema
 
-1. Multiple game modes
-2. User accounts and progress tracking
-3. Improved translation mapping with LLM assistance
-4. Reflection question generation
+**Remaining:**
 
-**Phase 3 — Polish:**
+- [ ] Integrate BSB data for Greek/Hebrew word tagging
+- [ ] Implement Strong's Concordance lookup (`fetchStrongsEntry`, `searchByStrongsNumber`)
+- [ ] Wire up original language display in Scripture Deep Dive
 
-1. Mobile optimization
-2. Daily challenge with social sharing
-3. Notes export (PDF/Markdown)
-4. Community question contribution
+### Phase 2 — Enhancement
+
+- [ ] User accounts and progress tracking (Supabase auth integration)
+- [ ] Multiple translation support (NIV, KJV full implementation)
+- [ ] Daily challenge mode with shareable results
+- [ ] Reflection question generation (LLM function exists in `llm.ts`, needs UI)
+- [ ] Game progress persistence to Supabase
+
+### Phase 3 — Polish
+
+- [ ] Mobile optimization
+- [ ] Notes export (PDF/Markdown)
+- [ ] Community question contribution
+- [ ] NASB/LSB support (requires licensing agreements)
 
 ---
 
@@ -631,12 +718,18 @@ bun start
 
 ### Supabase
 
+**Note:** Supabase local development requires Docker Desktop to be running.
+
 ```bash
-# Initialize Supabase locally
+# Initialize Supabase locally (already done)
 supabase init
 
-# Start local Supabase (requires Docker)
+# Start local Supabase
+# Requires: Docker Desktop running
 supabase start
+
+# After starting, apply the migration
+supabase db reset
 
 # Generate TypeScript types from database schema
 supabase gen types typescript --local > src/types/database.ts
