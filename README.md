@@ -165,8 +165,8 @@ bun run build     # Build for production
 - [x] Question bank (54 curated questions)
 - [x] Strong's Concordance API
 - [x] BSB Bible API
-- [ ] Full interlinear display (word-level Greek/Hebrew in verse text)
-- [ ] BSB Translation Tables for word-by-word Strong's mapping
+- [x] Full interlinear display (word-level Greek/Hebrew in verse text)
+- [x] BSB Translation Tables for word-by-word Strong's mapping
 
 ### Phase 2 — Enhancement
 

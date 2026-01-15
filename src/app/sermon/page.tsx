@@ -3,13 +3,19 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { SermonOutline } from '@/components/SermonOutline';
-import type { SermonOutline as SermonOutlineType } from '@/types';
+import { ReflectionQuestions } from '@/components/ReflectionQuestions';
+import type { SermonOutline as SermonOutlineType, ReflectionQuestion } from '@/types';
 
 export default function SermonCompanionPage(): React.ReactElement {
   const [passage, setPassage] = useState('');
   const [title, setTitle] = useState('');
   const [outline, setOutline] = useState<SermonOutlineType | null>(null);
   const [loading, setLoading] = useState(false);
+
+  // Reflection questions state
+  const [reflectionQuestions, setReflectionQuestions] = useState<ReflectionQuestion[] | null>(null);
+  const [reflectionLoading, setReflectionLoading] = useState(false);
+  const [answers, setAnswers] = useState<Record<number, string>>({});
 
   const generateOutline = async (): Promise<void> => {
     setLoading(true);
@@ -34,7 +40,34 @@ export default function SermonCompanionPage(): React.ReactElement {
   const handleGenerate = (e: React.FormEvent): void => {
     e.preventDefault();
     if (passage.trim() === '') return;
+    // Reset reflection questions when generating new outline
+    setReflectionQuestions(null);
+    setAnswers({});
     void generateOutline();
+  };
+
+  const generateQuestions = async (): Promise<void> => {
+    setReflectionLoading(true);
+    try {
+      const response = await fetch('/api/reflection', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ passage }),
+      });
+
+      if (response.ok) {
+        const data = (await response.json()) as { questions: ReflectionQuestion[] };
+        setReflectionQuestions(data.questions);
+      }
+    } catch {
+      console.error('Failed to generate reflection questions');
+    } finally {
+      setReflectionLoading(false);
+    }
+  };
+
+  const handleAnswerChange = (index: number, answer: string): void => {
+    setAnswers(prev => ({ ...prev, [index]: answer }));
   };
 
   return (
@@ -125,6 +158,37 @@ export default function SermonCompanionPage(): React.ReactElement {
             <SermonOutline outline={outline} loading={loading} />
           </div>
         </div>
+
+        {/* Reflection Questions Section - shows after outline is generated */}
+        {outline != null && (
+          <div className="mt-8 border-t border-zinc-200 pt-8 dark:border-zinc-800">
+            <div className="mb-4 flex items-center justify-between">
+              <div>
+                <h2 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100">
+                  Reflection Questions
+                </h2>
+                <p className="text-sm text-zinc-500 dark:text-zinc-400">
+                  Deepen your understanding with guided questions
+                </p>
+              </div>
+              {reflectionQuestions == null && !reflectionLoading && (
+                <button
+                  type="button"
+                  onClick={() => void generateQuestions()}
+                  className="rounded-lg bg-purple-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-purple-700"
+                >
+                  Generate Questions
+                </button>
+              )}
+            </div>
+            <ReflectionQuestions
+              questions={reflectionQuestions}
+              loading={reflectionLoading}
+              answers={answers}
+              onAnswerChange={handleAnswerChange}
+            />
+          </div>
+        )}
       </main>
     </div>
   );
