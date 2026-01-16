@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import { AuthHeader } from '@/components/auth/AuthHeader';
 
 export const metadata: Metadata = {
   title: 'Berean Toolkit - Scripture Study Tools',
@@ -10,6 +11,8 @@ export const metadata: Metadata = {
 export default function Home(): React.ReactElement {
   return (
     <div className="flex min-h-screen flex-col bg-zinc-50 dark:bg-zinc-950">
+      <AuthHeader title="Berean Toolkit" showBackLink={false} />
+
       <main className="mx-auto flex w-full max-w-4xl flex-1 flex-col px-6 py-12">
         {/* Hero Section */}
         <div className="mb-12 text-center">

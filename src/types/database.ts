@@ -114,6 +114,93 @@ export interface Database {
           updated_at?: string;
         };
       };
+      sermon_notes: {
+        Row: {
+          id: string;
+          user_id: string;
+          passage_reference: string;
+          sermon_title: string | null;
+          sermon_date: string | null;
+          generated_outline: Json | null;
+          user_notes: string | null;
+          reflection_answers: Json | null;
+          created_at: string;
+          updated_at: string;
+        };
+        Insert: {
+          id?: string;
+          user_id: string;
+          passage_reference: string;
+          sermon_title?: string | null;
+          sermon_date?: string | null;
+          generated_outline?: Json | null;
+          user_notes?: string | null;
+          reflection_answers?: Json | null;
+          created_at?: string;
+          updated_at?: string;
+        };
+        Update: {
+          id?: string;
+          user_id?: string;
+          passage_reference?: string;
+          sermon_title?: string | null;
+          sermon_date?: string | null;
+          generated_outline?: Json | null;
+          user_notes?: string | null;
+          reflection_answers?: Json | null;
+          created_at?: string;
+          updated_at?: string;
+        };
+      };
+      daily_challenges: {
+        Row: {
+          id: string;
+          challenge_date: string;
+          question_id: string | null;
+          created_at: string;
+        };
+        Insert: {
+          id?: string;
+          challenge_date: string;
+          question_id?: string | null;
+          created_at?: string;
+        };
+        Update: {
+          id?: string;
+          challenge_date?: string;
+          question_id?: string | null;
+          created_at?: string;
+        };
+      };
+      daily_attempts: {
+        Row: {
+          id: string;
+          user_id: string;
+          challenge_date: string;
+          attempts: number;
+          solved: boolean;
+          completed_at: string | null;
+          created_at: string;
+        };
+        Insert: {
+          id?: string;
+          user_id: string;
+          challenge_date: string;
+          attempts: number;
+          solved?: boolean;
+          completed_at?: string | null;
+          created_at?: string;
+        };
+        Update: {
+          id?: string;
+          user_id?: string;
+          challenge_date?: string;
+          attempts?: number;
+          solved?: boolean;
+          completed_at?: string | null;
+          created_at?: string;
+        };
+      };
     };
   };
 }
