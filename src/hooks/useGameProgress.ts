@@ -168,20 +168,57 @@ export function useGameProgress(): UseGameProgressReturn {
     [user]
   );
 
+  // Use functional setState to avoid stale closure issues with progress object
   const recordAnswer = useCallback(
     async (mode: GameMode, correct: boolean) => {
-      const current = progress[mode];
-      const newStreak = correct ? current.currentStreak + 1 : 0;
-      const newBestStreak = Math.max(current.bestStreak, newStreak);
+      // Compute update inside setProgress to get latest state
+      let updatePayload: Partial<ModeProgress> = {};
 
-      await updateProgress(mode, {
-        questionsAnswered: current.questionsAnswered + 1,
-        correctAnswers: current.correctAnswers + (correct ? 1 : 0),
-        currentStreak: newStreak,
-        bestStreak: newBestStreak,
+      setProgress(prev => {
+        const current = prev[mode];
+        const newStreak = correct ? current.currentStreak + 1 : 0;
+        const newBestStreak = Math.max(current.bestStreak, newStreak);
+
+        updatePayload = {
+          questionsAnswered: current.questionsAnswered + 1,
+          correctAnswers: current.correctAnswers + (correct ? 1 : 0),
+          currentStreak: newStreak,
+          bestStreak: newBestStreak,
+        };
+
+        const newProgress = {
+          ...prev,
+          [mode]: {
+            ...current,
+            ...updatePayload,
+            lastPlayedAt: new Date().toISOString(),
+          },
+        };
+
+        saveLocalProgress(newProgress);
+        return newProgress;
       });
+
+      // Sync to database if authenticated
+      if (user) {
+        try {
+          await fetch('/api/game/progress', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              mode,
+              questions_answered: updatePayload.questionsAnswered,
+              correct_answers: updatePayload.correctAnswers,
+              current_streak: updatePayload.currentStreak,
+              best_streak: updatePayload.bestStreak,
+            }),
+          });
+        } catch {
+          // Silently fail - local storage has the data
+        }
+      }
     },
-    [progress, updateProgress]
+    [user] // Removed progress dependency - uses functional setState instead
   );
 
   return {

@@ -165,9 +165,8 @@ export function useSermonNotes(): UseSermonNotesReturn {
         if (response.ok) {
           const updated = (await response.json()) as SermonNote;
           setNotes(prev => prev.map(n => (n.id === id ? updated : n)));
-          if (currentNote?.id === id) {
-            setCurrentNote(dbToLocal(updated));
-          }
+          // Use functional setState to avoid currentNote dependency
+          setCurrentNote(prev => (prev?.id === id ? dbToLocal(updated) : prev));
         }
       } catch {
         // Silently fail
@@ -175,7 +174,7 @@ export function useSermonNotes(): UseSermonNotesReturn {
         setSaving(false);
       }
     },
-    [user, currentNote]
+    [user] // Removed currentNote dependency - uses functional setState
   );
 
   const deleteNote = useCallback(
@@ -190,9 +189,8 @@ export function useSermonNotes(): UseSermonNotesReturn {
 
         if (response.ok) {
           setNotes(prev => prev.filter(n => n.id !== id));
-          if (currentNote?.id === id) {
-            setCurrentNote(null);
-          }
+          // Use functional setState to avoid currentNote dependency
+          setCurrentNote(prev => (prev?.id === id ? null : prev));
         }
       } catch {
         // Silently fail
@@ -200,7 +198,7 @@ export function useSermonNotes(): UseSermonNotesReturn {
         setSaving(false);
       }
     },
-    [user, currentNote]
+    [user] // Removed currentNote dependency - uses functional setState
   );
 
   // Debounced auto-save for reflection answers

@@ -17,7 +17,47 @@ export default function SermonCompanionPage(): React.ReactElement {
   const [reflectionLoading, setReflectionLoading] = useState(false);
   const [answers, setAnswers] = useState<Record<number, string>>({});
 
-  const generateOutline = async (): Promise<void> => {
+  // Option to generate both in parallel
+  const [includeReflection, setIncludeReflection] = useState(true);
+
+  // Generate both outline and questions in parallel (eliminates waterfall)
+  const generateBoth = async (): Promise<void> => {
+    setLoading(true);
+    setReflectionLoading(true);
+
+    const outlinePromise = fetch('/api/sermon', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ passage, title: title.trim() !== '' ? title : undefined }),
+    });
+
+    const questionsPromise = fetch('/api/reflection', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ passage }),
+    });
+
+    try {
+      const [outlineRes, questionsRes] = await Promise.all([outlinePromise, questionsPromise]);
+
+      if (outlineRes.ok) {
+        const outlineData = (await outlineRes.json()) as SermonOutlineType;
+        setOutline(outlineData);
+      }
+
+      if (questionsRes.ok) {
+        const questionsData = (await questionsRes.json()) as { questions: ReflectionQuestion[] };
+        setReflectionQuestions(questionsData.questions);
+      }
+    } catch {
+      console.error('Failed to generate content');
+    } finally {
+      setLoading(false);
+      setReflectionLoading(false);
+    }
+  };
+
+  const generateOutlineOnly = async (): Promise<void> => {
     setLoading(true);
     try {
       const response = await fetch('/api/sermon', {
@@ -40,10 +80,15 @@ export default function SermonCompanionPage(): React.ReactElement {
   const handleGenerate = (e: React.FormEvent): void => {
     e.preventDefault();
     if (passage.trim() === '') return;
-    // Reset reflection questions when generating new outline
+    // Reset state
     setReflectionQuestions(null);
     setAnswers({});
-    void generateOutline();
+    // Generate in parallel if checkbox is checked, otherwise just outline
+    if (includeReflection) {
+      void generateBoth();
+    } else {
+      void generateOutlineOnly();
+    }
   };
 
   const generateQuestions = async (): Promise<void> => {
@@ -115,12 +160,31 @@ export default function SermonCompanionPage(): React.ReactElement {
                   className="w-full rounded-lg border border-zinc-300 px-4 py-2 focus:border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-500/20 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-100 dark:placeholder:text-zinc-500"
                 />
               </div>
+              <div className="flex items-center gap-2">
+                <input
+                  id="includeReflection"
+                  type="checkbox"
+                  checked={includeReflection}
+                  onChange={e => setIncludeReflection(e.target.checked)}
+                  className="h-4 w-4 rounded border-zinc-300 text-purple-600 focus:ring-purple-500 dark:border-zinc-600 dark:bg-zinc-800"
+                />
+                <label
+                  htmlFor="includeReflection"
+                  className="text-sm text-zinc-700 dark:text-zinc-300"
+                >
+                  Include reflection questions
+                </label>
+              </div>
               <button
                 type="submit"
-                disabled={loading}
+                disabled={loading || reflectionLoading}
                 className="w-full rounded-lg bg-purple-600 px-6 py-2 font-medium text-white transition-colors hover:bg-purple-700 disabled:opacity-50"
               >
-                {loading ? 'Generating...' : 'Generate Outline'}
+                {loading || reflectionLoading
+                  ? 'Generating...'
+                  : includeReflection
+                    ? 'Generate Outline & Questions'
+                    : 'Generate Outline'}
               </button>
             </form>
 

@@ -69,70 +69,27 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
     return NextResponse.json({ error: 'Invalid mode' }, { status: 400 });
   }
 
-  // Check if progress exists for this mode
+  // Use upsert to eliminate sequential check-then-update waterfall
+  // Table has UNIQUE(user_id, mode) constraint for conflict resolution
+  const upsertData: GameProgressInsert = {
+    user_id: user.id,
+    mode: body.mode,
+    questions_answered: body.questions_answered ?? 0,
+    correct_answers: body.correct_answers ?? 0,
+    current_streak: body.current_streak ?? 0,
+    best_streak: body.best_streak ?? 0,
+    last_played_at: new Date().toISOString(),
+  };
+
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const { data: existing } = await (supabase.from('game_progress') as any)
-    .select('id')
-    .eq('user_id', user.id)
-    .eq('mode', body.mode)
+  const { data: progress, error } = await (supabase.from('game_progress') as any)
+    .upsert(upsertData, { onConflict: 'user_id,mode' })
+    .select()
     .single();
-
-  let progress: GameProgress | null = null;
-  let error: unknown = null;
-
-  if (existing) {
-    // Update existing progress
-    const updates: Partial<GameProgressInsert> = {
-      last_played_at: new Date().toISOString(),
-    };
-
-    if (body.questions_answered !== undefined) {
-      updates.questions_answered = body.questions_answered;
-    }
-    if (body.correct_answers !== undefined) {
-      updates.correct_answers = body.correct_answers;
-    }
-    if (body.current_streak !== undefined) {
-      updates.current_streak = body.current_streak;
-    }
-    if (body.best_streak !== undefined) {
-      updates.best_streak = body.best_streak;
-    }
-
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const result = await (supabase.from('game_progress') as any)
-      .update(updates)
-      .eq('id', existing.id)
-      .select()
-      .single();
-
-    progress = result.data;
-    error = result.error;
-  } else {
-    // Insert new progress
-    const newProgress: GameProgressInsert = {
-      user_id: user.id,
-      mode: body.mode,
-      questions_answered: body.questions_answered ?? 0,
-      correct_answers: body.correct_answers ?? 0,
-      current_streak: body.current_streak ?? 0,
-      best_streak: body.best_streak ?? 0,
-      last_played_at: new Date().toISOString(),
-    };
-
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const result = await (supabase.from('game_progress') as any)
-      .insert(newProgress)
-      .select()
-      .single();
-
-    progress = result.data;
-    error = result.error;
-  }
 
   if (error) {
     return NextResponse.json({ error: 'Failed to save progress' }, { status: 500 });
   }
 
-  return NextResponse.json(progress);
+  return NextResponse.json(progress as GameProgress);
 }

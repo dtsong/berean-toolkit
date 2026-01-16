@@ -1,15 +1,28 @@
 'use client';
 
 import { useState, useCallback } from 'react';
+import dynamic from 'next/dynamic';
 import { AuthHeader } from '@/components/auth/AuthHeader';
 import { VerseDisplay } from '@/components/VerseDisplay';
 import { OriginalLanguage } from '@/components/OriginalLanguage';
-import { InterlinearDisplay } from '@/components/InterlinearDisplay';
 import { useVerse } from '@/hooks/useVerse';
 import { useInterlinear } from '@/hooks/useInterlinear';
 import { getBookCode } from '@/lib/bible';
 import { parseVerseReference } from '@/lib/verse-parser';
 import type { Translation, OriginalLanguageWord, StrongsEntry, InterlinearWord } from '@/types';
+
+// Dynamic import for heavy InterlinearDisplay component (reduces initial bundle)
+const InterlinearDisplay = dynamic(
+  () => import('@/components/InterlinearDisplay').then(mod => mod.InterlinearDisplay),
+  {
+    loading: () => (
+      <div className="animate-pulse space-y-4">
+        <div className="h-24 rounded-lg bg-zinc-200 dark:bg-zinc-800" />
+        <div className="h-24 rounded-lg bg-zinc-200 dark:bg-zinc-800" />
+      </div>
+    ),
+  }
+);
 
 export default function StudyPage(): React.ReactElement {
   const [reference, setReference] = useState('');
