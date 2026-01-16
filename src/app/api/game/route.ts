@@ -4,6 +4,7 @@
  */
 
 import { NextResponse, type NextRequest } from 'next/server';
+import { rateLimiters, getClientIdentifier } from '@/lib/rate-limit';
 import questionsData from '@/data/questions.json';
 import type { GameMode, Difficulty, Question } from '@/types';
 
@@ -20,6 +21,21 @@ interface QuestionData {
 }
 
 export async function GET(request: NextRequest): Promise<NextResponse> {
+  const clientId = getClientIdentifier(request);
+  const rateLimit = rateLimiters.game.check(clientId);
+
+  if (!rateLimit.success) {
+    return NextResponse.json(
+      { error: 'Too many requests. Please try again later.' },
+      {
+        status: 429,
+        headers: {
+          'Retry-After': Math.ceil(rateLimit.resetIn / 1000).toString(),
+        },
+      }
+    );
+  }
+
   const searchParams = request.nextUrl.searchParams;
   const mode = searchParams.get('mode') as GameMode | null;
   const difficulty = searchParams.get('difficulty') as Difficulty | null;

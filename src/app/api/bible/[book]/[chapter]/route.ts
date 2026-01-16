@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { rateLimiters, getClientIdentifier } from '@/lib/rate-limit';
 import type { BibleChapter, BibleVerse } from '@/types';
 
 interface BSBVerseContent {
@@ -138,6 +139,21 @@ export async function GET(
   request: Request,
   { params }: { params: Promise<{ book: string; chapter: string }> }
 ): Promise<NextResponse> {
+  const clientId = getClientIdentifier(request);
+  const rateLimit = rateLimiters.bible.check(clientId);
+
+  if (!rateLimit.success) {
+    return NextResponse.json(
+      { error: 'Too many requests. Please try again later.' },
+      {
+        status: 429,
+        headers: {
+          'Retry-After': Math.ceil(rateLimit.resetIn / 1000).toString(),
+        },
+      }
+    );
+  }
+
   const { book, chapter } = await params;
 
   // Validate book code

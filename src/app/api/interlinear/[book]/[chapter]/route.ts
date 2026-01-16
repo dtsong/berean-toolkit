@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { rateLimiters, getClientIdentifier } from '@/lib/rate-limit';
 import type { InterlinearChapter, InterlinearVerse } from '@/types';
 
 interface BookData {
@@ -19,6 +20,21 @@ export async function GET(
   request: Request,
   { params }: { params: Promise<{ book: string; chapter: string }> }
 ): Promise<NextResponse> {
+  const clientId = getClientIdentifier(request);
+  const rateLimit = rateLimiters.interlinear.check(clientId);
+
+  if (!rateLimit.success) {
+    return NextResponse.json(
+      { error: 'Too many requests. Please try again later.' },
+      {
+        status: 429,
+        headers: {
+          'Retry-After': Math.ceil(rateLimit.resetIn / 1000).toString(),
+        },
+      }
+    );
+  }
+
   const { book, chapter } = await params;
   const bookCode = book.toUpperCase();
   const chapterNum = parseInt(chapter, 10);

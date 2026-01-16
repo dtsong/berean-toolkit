@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { createClient } from '@supabase/supabase-js';
+import { rateLimiters, getClientIdentifier } from '@/lib/rate-limit';
 import hebrewLexicon from '@/data/strongs/hebrew.json';
 import greekLexicon from '@/data/strongs/greek.json';
 
@@ -83,6 +84,21 @@ export async function GET(
   request: Request,
   { params }: { params: Promise<{ number: string }> }
 ): Promise<NextResponse> {
+  const clientId = getClientIdentifier(request);
+  const rateLimit = rateLimiters.strongs.check(clientId);
+
+  if (!rateLimit.success) {
+    return NextResponse.json(
+      { error: 'Too many requests. Please try again later.' },
+      {
+        status: 429,
+        headers: {
+          'Retry-After': Math.ceil(rateLimit.resetIn / 1000).toString(),
+        },
+      }
+    );
+  }
+
   const { number } = await params;
 
   const upper = number.toUpperCase();
