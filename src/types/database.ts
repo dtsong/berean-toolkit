@@ -6,7 +6,7 @@
 
 export type Json = string | number | boolean | null | { [key: string]: Json | undefined } | Json[];
 
-export interface Database {
+export type Database = {
   public: {
     Tables: {
       profiles: {
@@ -34,7 +34,46 @@ export interface Database {
           created_at?: string;
           updated_at?: string;
         };
+        Relationships: [];
       };
+
+      strongs_entries: {
+        Row: {
+          number: string;
+          language: string;
+          lemma: string;
+          transliteration: string;
+          pronunciation: string | null;
+          definition: string;
+          part_of_speech: string | null;
+          kjv_usage: Json | null;
+          created_at: string;
+        };
+        Insert: {
+          number: string;
+          language: string;
+          lemma: string;
+          transliteration: string;
+          pronunciation?: string | null;
+          definition: string;
+          part_of_speech?: string | null;
+          kjv_usage?: Json | null;
+          created_at?: string;
+        };
+        Update: {
+          number?: string;
+          language?: string;
+          lemma?: string;
+          transliteration?: string;
+          pronunciation?: string | null;
+          definition?: string;
+          part_of_speech?: string | null;
+          kjv_usage?: Json | null;
+          created_at?: string;
+        };
+        Relationships: [];
+      };
+
       sermon_notes: {
         Row: {
           id: string;
@@ -72,7 +111,12 @@ export interface Database {
           created_at?: string;
           updated_at?: string;
         };
+        Relationships: [];
       };
     };
+    Views: Record<string, never>;
+    Functions: Record<string, never>;
+    Enums: Record<string, never>;
+    CompositeTypes: Record<string, never>;
   };
-}
+};

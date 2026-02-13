@@ -43,7 +43,12 @@ export function AuthProvider({ children }: AuthProviderProps): React.ReactElemen
   const fetchProfile = useCallback(
     async (userId: string) => {
       if (!supabase) return;
-      const { data } = await supabase.from('profiles').select('*').eq('id', userId).single();
+      const { data } = await supabase
+        .from('profiles')
+        .select()
+        .eq('id', userId)
+        .single()
+        .overrideTypes<Profile, { merge: false }>();
 
       setProfile(data);
     },
@@ -130,8 +135,7 @@ export function AuthProvider({ children }: AuthProviderProps): React.ReactElemen
 
     // Create profile if signup successful
     if (!error && data.user) {
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      await (supabase.from('profiles') as any).insert({
+      await supabase.from('profiles').insert({
         id: data.user.id,
         display_name: displayName ?? null,
         preferred_translation: 'ESV',

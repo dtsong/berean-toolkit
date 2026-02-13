@@ -29,32 +29,34 @@ export async function GET(request: NextRequest): Promise<NextResponse> {
 
   if (id) {
     // Fetch single note
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const { data: note, error } = await (supabase.from('sermon_notes') as any)
-      .select('*')
+    const { data: note, error } = await supabase
+      .from('sermon_notes')
+      .select()
       .eq('id', id)
       .eq('user_id', user.id)
-      .single();
+      .single()
+      .overrideTypes<SermonNote, { merge: false }>();
 
     if (error || !note) {
       return NextResponse.json({ error: 'Note not found' }, { status: 404 });
     }
 
-    return NextResponse.json(note as SermonNote);
+    return NextResponse.json(note);
   }
 
   // List all notes
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const { data: notes, error } = await (supabase.from('sermon_notes') as any)
-    .select('*')
+  const { data: notes, error } = await supabase
+    .from('sermon_notes')
+    .select()
     .eq('user_id', user.id)
-    .order('created_at', { ascending: false });
+    .order('created_at', { ascending: false })
+    .overrideTypes<SermonNote[], { merge: false }>();
 
   if (error) {
     return NextResponse.json({ error: 'Failed to fetch notes' }, { status: 500 });
   }
 
-  return NextResponse.json(notes as SermonNote[]);
+  return NextResponse.json(notes);
 }
 
 export async function POST(request: NextRequest): Promise<NextResponse> {
@@ -97,17 +99,18 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
     reflection_answers: body.reflection_answers ?? null,
   };
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const { data: note, error } = await (supabase.from('sermon_notes') as any)
+  const { data: note, error } = await supabase
+    .from('sermon_notes')
     .insert(newNote)
     .select()
-    .single();
+    .single()
+    .overrideTypes<SermonNote, { merge: false }>();
 
   if (error) {
     return NextResponse.json({ error: 'Failed to create note' }, { status: 500 });
   }
 
-  return NextResponse.json(note as SermonNote, { status: 201 });
+  return NextResponse.json(note, { status: 201 });
 }
 
 export async function PATCH(request: NextRequest): Promise<NextResponse> {
@@ -163,19 +166,20 @@ export async function PATCH(request: NextRequest): Promise<NextResponse> {
     return NextResponse.json({ error: 'No valid fields to update' }, { status: 400 });
   }
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const { data: note, error } = await (supabase.from('sermon_notes') as any)
+  const { data: note, error } = await supabase
+    .from('sermon_notes')
     .update(updates)
     .eq('id', body.id)
     .eq('user_id', user.id)
     .select()
-    .single();
+    .single()
+    .overrideTypes<SermonNote, { merge: false }>();
 
   if (error || !note) {
     return NextResponse.json({ error: 'Failed to update note' }, { status: 500 });
   }
 
-  return NextResponse.json(note as SermonNote);
+  return NextResponse.json(note);
 }
 
 export async function DELETE(request: NextRequest): Promise<NextResponse> {
@@ -196,8 +200,8 @@ export async function DELETE(request: NextRequest): Promise<NextResponse> {
     return NextResponse.json({ error: 'Note ID is required' }, { status: 400 });
   }
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const { error } = await (supabase.from('sermon_notes') as any)
+  const { error } = await supabase
+    .from('sermon_notes')
     .delete()
     .eq('id', id)
     .eq('user_id', user.id);

@@ -9,6 +9,7 @@ import { createClient } from '@/lib/supabase/server';
 import type { Database } from '@/types/database';
 
 type ProfileUpdate = Database['public']['Tables']['profiles']['Update'];
+type ProfileRow = Database['public']['Tables']['profiles']['Row'];
 
 export async function GET(): Promise<NextResponse> {
   const supabase = await createClient();
@@ -23,9 +24,10 @@ export async function GET(): Promise<NextResponse> {
 
   const { data: profile, error } = await supabase
     .from('profiles')
-    .select('*')
+    .select()
     .eq('id', user.id)
-    .single();
+    .single()
+    .overrideTypes<ProfileRow, { merge: false }>();
 
   if (error) {
     return NextResponse.json({ error: 'Profile not found' }, { status: 404 });
@@ -73,12 +75,13 @@ export async function PATCH(request: NextRequest): Promise<NextResponse> {
     return NextResponse.json({ error: 'No valid fields to update' }, { status: 400 });
   }
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const { data: profile, error } = await (supabase.from('profiles') as any)
+  const { data: profile, error } = await supabase
+    .from('profiles')
     .update(updates)
     .eq('id', user.id)
     .select()
-    .single();
+    .single()
+    .overrideTypes<ProfileRow, { merge: false }>();
 
   if (error) {
     return NextResponse.json({ error: 'Failed to update profile' }, { status: 500 });

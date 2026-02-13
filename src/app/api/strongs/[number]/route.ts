@@ -1,8 +1,9 @@
 import { NextResponse } from 'next/server';
-import { createClient } from '@supabase/supabase-js';
+import { createClient } from '@/lib/supabase/server';
 import { rateLimiters, getClientIdentifier } from '@/lib/rate-limit';
 import hebrewLexicon from '@/data/strongs/hebrew.json';
 import greekLexicon from '@/data/strongs/greek.json';
+import type { Database } from '@/types/database';
 
 interface StrongsEntry {
   word: string;
@@ -12,16 +13,7 @@ interface StrongsEntry {
   partOfSpeech: string;
 }
 
-interface StrongsDBEntry {
-  number: string;
-  language: string;
-  lemma: string;
-  transliteration: string;
-  pronunciation: string | null;
-  definition: string;
-  part_of_speech: string | null;
-  kjv_usage: string[] | null;
-}
+type StrongsDBEntry = Database['public']['Tables']['strongs_entries']['Row'];
 
 type LexiconData = Record<string, StrongsEntry>;
 
@@ -49,26 +41,20 @@ function normalizeForLocalLookup(number: string): string {
 }
 
 async function fetchFromSupabase(formattedNumber: string): Promise<StrongsDBEntry | null> {
-  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-
-  if (!supabaseUrl || !supabaseKey) {
-    return null;
-  }
-
   try {
-    const supabase = createClient(supabaseUrl, supabaseKey);
+    const supabase = await createClient();
     const { data, error } = await supabase
       .from('strongs_entries')
-      .select('*')
+      .select()
       .eq('number', formattedNumber)
-      .single();
+      .maybeSingle()
+      .overrideTypes<StrongsDBEntry, { merge: false }>();
 
     if (error || !data) {
       return null;
     }
 
-    return data as StrongsDBEntry;
+    return data;
   } catch {
     return null;
   }

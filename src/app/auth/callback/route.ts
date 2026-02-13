@@ -25,8 +25,7 @@ export async function GET(request: NextRequest): Promise<NextResponse> {
 
       // Create profile if it doesn't exist
       if (!existingProfile) {
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        await (supabase.from('profiles') as any).insert({
+        await supabase.from('profiles').insert({
           id: data.user.id,
           display_name: data.user.user_metadata?.full_name ?? data.user.user_metadata?.name ?? null,
           preferred_translation: 'ESV',
