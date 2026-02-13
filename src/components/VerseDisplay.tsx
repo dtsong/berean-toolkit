@@ -38,7 +38,9 @@ export function VerseDisplay({
   if (verse == null) {
     return (
       <div className="rounded-lg bg-zinc-100 p-6 text-center text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400">
-        Enter a verse reference to begin studying
+        <p className="text-sm">
+          What passage is on your heart today? Search a verse to begin your deep dive.
+        </p>
       </div>
     );
   }

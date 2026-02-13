@@ -67,6 +67,24 @@ export default function Home(): React.ReactElement {
           </Link>
         </div>
 
+        {/* Try It */}
+        <div className="mt-10 rounded-xl border border-zinc-200 bg-white p-6 dark:border-zinc-800 dark:bg-zinc-900">
+          <div className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-center">
+            <div>
+              <h2 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100">Try It</h2>
+              <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
+                Jump into an interlinear example in under 10 seconds.
+              </p>
+            </div>
+            <Link
+              href="/study?reference=John%201:1&translation=BSB&interlinear=1"
+              className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-blue-700"
+            >
+              Open John 1:1
+            </Link>
+          </div>
+        </div>
+
         {/* Mission Statement */}
         <div className="mt-12 rounded-lg bg-zinc-100 p-6 dark:bg-zinc-900">
           <h3 className="mb-2 font-semibold text-zinc-900 dark:text-zinc-100">Our Mission</h3>

@@ -53,7 +53,7 @@ describe('VerseDisplay', () => {
   describe('empty state', () => {
     it('shows placeholder when verse is null', () => {
       render(<VerseDisplay verse={null} />);
-      expect(screen.getByText('Enter a verse reference to begin studying')).toBeInTheDocument();
+      expect(screen.getByText(/What passage is on your heart today\?/)).toBeInTheDocument();
     });
   });
 
@@ -94,9 +94,7 @@ describe('VerseDisplay', () => {
     it('error takes priority over empty', () => {
       render(<VerseDisplay verse={null} error="Error message" />);
       expect(screen.getByText('Error message')).toBeInTheDocument();
-      expect(
-        screen.queryByText('Enter a verse reference to begin studying')
-      ).not.toBeInTheDocument();
+      expect(screen.queryByText(/What passage is on your heart today\?/)).not.toBeInTheDocument();
     });
   });
 });
