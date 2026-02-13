@@ -140,18 +140,29 @@ export default function StudyPage(): React.ReactElement {
       <main className="mx-auto max-w-4xl px-6 py-8">
         {/* Search Form */}
         <form onSubmit={handleSubmit} className="mb-8">
-          <div className="flex gap-4">
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-end">
+            <label htmlFor="reference" className="sr-only">
+              Verse reference
+            </label>
             <input
+              id="reference"
+              name="reference"
               type="text"
               value={reference}
               onChange={e => setReference(e.target.value)}
               placeholder="Enter verse reference (e.g., John 3:16)"
-              className="flex-1 rounded-lg border border-zinc-300 px-4 py-2 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-100 dark:placeholder:text-zinc-500"
+              className="w-full flex-1 rounded-lg border border-zinc-300 px-4 py-2 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-100 dark:placeholder:text-zinc-500"
             />
+            <label htmlFor="translation" className="sr-only">
+              Translation
+            </label>
             <select
+              id="translation"
+              name="translation"
+              aria-label="Translation"
               value={translation}
               onChange={e => setTranslation(e.target.value as Translation)}
-              className="rounded-lg border border-zinc-300 px-4 py-2 focus:border-blue-500 focus:outline-none dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-100"
+              className="w-full rounded-lg border border-zinc-300 px-4 py-2 focus:border-blue-500 focus:outline-none dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-100 sm:w-auto"
             >
               <option value="ESV">ESV</option>
               <option value="BSB">BSB</option>
@@ -161,7 +172,7 @@ export default function StudyPage(): React.ReactElement {
             <button
               type="submit"
               disabled={loading}
-              className="rounded-lg bg-blue-600 px-6 py-2 font-medium text-white transition-colors hover:bg-blue-700 disabled:opacity-50"
+              className="w-full rounded-lg bg-blue-600 px-6 py-2 font-medium text-white transition-colors hover:bg-blue-700 disabled:opacity-50 sm:w-auto"
             >
               {loading ? 'Loading...' : 'Search'}
             </button>
@@ -177,7 +188,7 @@ export default function StudyPage(): React.ReactElement {
               onChange={handleInterlinearToggle}
               className="peer sr-only"
             />
-            <div className="peer h-6 w-11 rounded-full bg-gray-200 after:absolute after:left-[2px] after:top-[2px] after:h-5 after:w-5 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white dark:border-gray-600 dark:bg-gray-700"></div>
+            <div className="peer h-6 w-11 rounded-full bg-zinc-200 after:absolute after:left-[2px] after:top-[2px] after:h-5 after:w-5 after:rounded-full after:border after:border-zinc-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white dark:border-zinc-600 dark:bg-zinc-700"></div>
           </label>
           <span className="text-sm font-medium text-zinc-700 dark:text-zinc-300">
             Show Interlinear (Greek/Hebrew)

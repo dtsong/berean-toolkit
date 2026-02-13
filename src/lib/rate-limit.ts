@@ -115,6 +115,11 @@ export const rateLimiters = {
     windowMs: 60_000,
   }),
 
+  reflection: createRateLimiter('reflection', {
+    limit: 10,
+    windowMs: 60_000,
+  }),
+
   verse: createRateLimiter('verse', {
     limit: 60,
     windowMs: 60_000,

@@ -14,6 +14,8 @@ export function UserMenu(): React.ReactElement {
   const menuRef = useRef<HTMLDivElement>(null);
   const { user, profile, signOut } = useAuth();
 
+  const menuId = 'user-menu';
+
   // Close menu when clicking outside
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent): void => {
@@ -40,6 +42,10 @@ export function UserMenu(): React.ReactElement {
       <button
         type="button"
         onClick={() => setIsOpen(!isOpen)}
+        aria-haspopup="menu"
+        aria-expanded={isOpen}
+        aria-controls={menuId}
+        aria-label="User menu"
         className="flex items-center gap-2 rounded-lg px-3 py-1.5 text-sm text-zinc-700 transition-colors hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
       >
         {/* Avatar */}
@@ -60,7 +66,12 @@ export function UserMenu(): React.ReactElement {
 
       {/* Dropdown menu */}
       {isOpen && (
-        <div className="absolute right-0 z-50 mt-2 w-48 rounded-lg border border-zinc-200 bg-white py-1 shadow-lg dark:border-zinc-700 dark:bg-zinc-800">
+        <div
+          id={menuId}
+          role="menu"
+          aria-label="Account options"
+          className="absolute right-0 z-50 mt-2 w-48 rounded-lg border border-zinc-200 bg-white py-1 shadow-lg dark:border-zinc-700 dark:bg-zinc-800"
+        >
           <div className="border-b border-zinc-200 px-4 py-2 dark:border-zinc-700">
             <p className="text-sm font-medium text-zinc-900 dark:text-zinc-100">{displayName}</p>
             <p className="truncate text-xs text-zinc-500 dark:text-zinc-400">{user?.email}</p>
@@ -69,6 +80,7 @@ export function UserMenu(): React.ReactElement {
           <Link
             href="/profile"
             onClick={() => setIsOpen(false)}
+            role="menuitem"
             className="block px-4 py-2 text-sm text-zinc-700 hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-700"
           >
             Profile & Settings
@@ -77,6 +89,7 @@ export function UserMenu(): React.ReactElement {
           <button
             type="button"
             onClick={() => void handleSignOut()}
+            role="menuitem"
             className="block w-full px-4 py-2 text-left text-sm text-zinc-700 hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-700"
           >
             Sign Out

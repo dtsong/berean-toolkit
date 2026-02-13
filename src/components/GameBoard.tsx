@@ -5,7 +5,7 @@
 
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import type { Question, GameMode } from '@/types';
 
 // Fisher-Yates shuffle - pure function that takes a seed
@@ -42,6 +42,12 @@ export function GameBoard({
 }: GameBoardProps): React.ReactElement {
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [revealed, setRevealed] = useState(false);
+  const nextButtonRef = useRef<HTMLButtonElement | null>(null);
+
+  useEffect(() => {
+    if (!revealed) return;
+    nextButtonRef.current?.focus();
+  }, [revealed]);
 
   // Memoize shuffled answers based on question ID
   const allAnswers = useMemo(() => {
@@ -151,6 +157,7 @@ export function GameBoard({
       {revealed && (
         <button
           onClick={handleNext}
+          ref={nextButtonRef}
           className="mt-4 w-full rounded-lg bg-blue-600 py-2 font-medium text-white transition-colors hover:bg-blue-700"
           type="button"
         >

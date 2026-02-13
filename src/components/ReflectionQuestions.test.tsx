@@ -185,7 +185,8 @@ describe('ReflectionQuestions', () => {
         />
       );
       const textareas = screen.getAllByPlaceholderText('Write your reflection...');
-      fireEvent.change(textareas[0], { target: { value: 'New answer' } });
+      expect(textareas.length).toBeGreaterThan(0);
+      fireEvent.change(textareas[0]!, { target: { value: 'New answer' } });
       expect(handleChange).toHaveBeenCalledWith(0, 'New answer');
     });
   });

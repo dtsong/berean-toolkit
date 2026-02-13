@@ -19,7 +19,7 @@ export interface SermonNoteData {
   sermonDate?: string | null;
   generatedOutline?: Json | null;
   userNotes?: string | null;
-  reflectionAnswers?: Record<string, string> | null;
+  reflectionAnswers?: Json | null;
 }
 
 interface UseSermonNotesReturn {
@@ -34,7 +34,7 @@ interface UseSermonNotesReturn {
   updateNote: (id: string, data: Partial<SermonNoteData>) => Promise<void>;
   deleteNote: (id: string) => Promise<void>;
   setCurrentNote: (note: SermonNoteData | null) => void;
-  autoSaveReflection: (noteId: string, answers: Record<string, string>) => void;
+  autoSaveReflection: (noteId: string, reflectionAnswers: Json) => void;
 }
 
 const DEBOUNCE_MS = 1500;
@@ -47,7 +47,7 @@ function dbToLocal(dbNote: SermonNote): SermonNoteData {
     sermonDate: dbNote.sermon_date,
     generatedOutline: dbNote.generated_outline,
     userNotes: dbNote.user_notes,
-    reflectionAnswers: dbNote.reflection_answers as Record<string, string> | null,
+    reflectionAnswers: dbNote.reflection_answers,
   };
 }
 
@@ -60,7 +60,7 @@ export function useSermonNotes(): UseSermonNotesReturn {
 
   // Debounce timer ref for auto-save
   const autoSaveTimer = useRef<NodeJS.Timeout | null>(null);
-  const pendingSave = useRef<{ noteId: string; answers: Record<string, string> } | null>(null);
+  const pendingSave = useRef<{ noteId: string; reflectionAnswers: Json } | null>(null);
 
   // Cleanup on unmount
   useEffect(() => {
@@ -203,11 +203,11 @@ export function useSermonNotes(): UseSermonNotesReturn {
 
   // Debounced auto-save for reflection answers
   const autoSaveReflection = useCallback(
-    (noteId: string, answers: Record<string, string>) => {
+    (noteId: string, reflectionAnswers: Json) => {
       if (!user) return;
 
       // Store pending save
-      pendingSave.current = { noteId, answers };
+      pendingSave.current = { noteId, reflectionAnswers };
 
       // Clear existing timer
       if (autoSaveTimer.current) {
@@ -220,7 +220,7 @@ export function useSermonNotes(): UseSermonNotesReturn {
         if (!pending) return;
 
         pendingSave.current = null;
-        void updateNote(pending.noteId, { reflectionAnswers: pending.answers });
+        void updateNote(pending.noteId, { reflectionAnswers: pending.reflectionAnswers });
       }, DEBOUNCE_MS);
     },
     [user, updateNote]

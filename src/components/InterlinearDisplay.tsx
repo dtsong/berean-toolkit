@@ -28,13 +28,13 @@ function InterlinearWordCard({
           : 'cursor-default opacity-75'
       }`}
     >
-      <span className="text-sm text-gray-600 dark:text-gray-400">{word.text}</span>
+      <span className="text-sm text-zinc-600 dark:text-zinc-300">{word.text}</span>
       <span className="text-lg font-serif text-blue-700 dark:text-blue-400">{word.original}</span>
-      <span className="text-xs text-gray-500 dark:text-gray-500 italic">
+      <span className="text-xs italic text-zinc-500 dark:text-zinc-400">
         {word.transliteration}
       </span>
       {hasStrongs && (
-        <span className="text-xs bg-gray-100 dark:bg-gray-800 px-1.5 py-0.5 rounded mt-1 font-mono">
+        <span className="mt-1 rounded bg-zinc-100 px-1.5 py-0.5 font-mono text-xs dark:bg-zinc-800">
           {word.strongsNumber}
         </span>
       )}
@@ -52,7 +52,7 @@ function InterlinearVerseLine({
   return (
     <div className="mb-6">
       <div className="flex items-center gap-2 mb-2">
-        <span className="text-sm font-medium text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800 px-2 py-0.5 rounded">
+        <span className="rounded bg-zinc-100 px-2 py-0.5 text-sm font-medium text-zinc-600 dark:bg-zinc-800 dark:text-zinc-300">
           {verse.verse}
         </span>
       </div>
@@ -70,10 +70,10 @@ function LoadingSkeleton(): React.ReactElement {
     <div className="animate-pulse space-y-4">
       {[1, 2, 3].map(i => (
         <div key={i} className="space-y-2">
-          <div className="h-4 w-12 bg-gray-200 dark:bg-gray-700 rounded" />
+          <div className="h-4 w-12 rounded bg-zinc-200 dark:bg-zinc-700" />
           <div className="flex flex-wrap gap-2">
             {[1, 2, 3, 4, 5].map(j => (
-              <div key={j} className="w-16 h-20 bg-gray-200 dark:bg-gray-700 rounded" />
+              <div key={j} className="h-20 w-16 rounded bg-zinc-200 dark:bg-zinc-700" />
             ))}
           </div>
         </div>
@@ -90,8 +90,8 @@ export function InterlinearDisplay({
 }: InterlinearDisplayProps): React.ReactElement {
   if (loading) {
     return (
-      <div className="bg-white dark:bg-gray-900 rounded-lg p-6 border border-gray-200 dark:border-gray-700">
-        <h3 className="text-lg font-semibold mb-4 text-gray-900 dark:text-white">
+      <div className="rounded-lg border border-zinc-200 bg-white p-6 dark:border-zinc-700 dark:bg-zinc-900">
+        <h3 className="mb-4 text-lg font-semibold text-zinc-900 dark:text-zinc-100">
           Interlinear View
         </h3>
         <LoadingSkeleton />
@@ -109,8 +109,8 @@ export function InterlinearDisplay({
 
   if (verses.length === 0) {
     return (
-      <div className="bg-gray-50 dark:bg-gray-900 rounded-lg p-6 border border-gray-200 dark:border-gray-700">
-        <p className="text-gray-500 dark:text-gray-400 text-center">
+      <div className="rounded-lg border border-zinc-200 bg-zinc-50 p-6 dark:border-zinc-700 dark:bg-zinc-900">
+        <p className="text-center text-zinc-500 dark:text-zinc-400">
           Enable interlinear view to see word-by-word Greek/Hebrew text
         </p>
       </div>
@@ -118,10 +118,10 @@ export function InterlinearDisplay({
   }
 
   return (
-    <div className="bg-white dark:bg-gray-900 rounded-lg p-6 border border-gray-200 dark:border-gray-700">
+    <div className="rounded-lg border border-zinc-200 bg-white p-6 dark:border-zinc-700 dark:bg-zinc-900">
       <div className="flex items-center justify-between mb-4">
-        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Interlinear View</h3>
-        <span className="text-xs text-gray-500 dark:text-gray-400">
+        <h3 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100">Interlinear View</h3>
+        <span className="text-xs text-zinc-500 dark:text-zinc-400">
           Click a word to see its Strong&apos;s definition
         </span>
       </div>

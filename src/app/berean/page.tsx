@@ -47,6 +47,10 @@ export default function BereanChallengePage(): React.ReactElement {
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-950">
       <AuthHeader title="Berean Challenge">
         <div className="flex items-center gap-4 text-sm">
+          <div aria-live="polite" className="sr-only">
+            Score: {currentProgress.correctAnswers}/{currentProgress.questionsAnswered}. Streak:{' '}
+            {currentProgress.currentStreak}.
+          </div>
           {!isAuthenticated && (
             <span className="text-amber-600 dark:text-amber-400">Sign in to save progress</span>
           )}
@@ -63,7 +67,7 @@ export default function BereanChallengePage(): React.ReactElement {
         {/* Mode Selection */}
         <div className="mb-8">
           <h2 className="mb-3 text-sm font-medium text-zinc-500 dark:text-zinc-400">Game Mode</h2>
-          <div className="flex gap-2">
+          <div className="flex flex-wrap gap-2">
             {[
               { id: 'verse_detective', label: 'Verse Detective' },
               { id: 'context_clues', label: 'Context Clues' },
@@ -72,7 +76,9 @@ export default function BereanChallengePage(): React.ReactElement {
               <button
                 key={m.id}
                 onClick={() => handleModeChange(m.id as GameMode)}
-                className={`rounded-lg px-4 py-2 text-sm font-medium transition-colors ${
+                aria-label={m.label}
+                aria-pressed={mode === m.id}
+                className={`min-h-[44px] flex-1 rounded-lg px-4 py-2 text-sm font-medium leading-snug transition-colors sm:flex-none ${
                   mode === m.id
                     ? 'bg-green-600 text-white'
                     : 'bg-zinc-200 text-zinc-700 hover:bg-zinc-300 dark:bg-zinc-800 dark:text-zinc-300 dark:hover:bg-zinc-700'

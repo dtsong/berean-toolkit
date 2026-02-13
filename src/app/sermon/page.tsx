@@ -1,16 +1,42 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { AuthHeader } from '@/components/auth/AuthHeader';
 import { SermonOutline } from '@/components/SermonOutline';
 import { ReflectionQuestions } from '@/components/ReflectionQuestions';
+import { useSermonNotes } from '@/hooks/useSermonNotes';
+import type { Json } from '@/types/database';
 import type { SermonOutline as SermonOutlineType, ReflectionQuestion } from '@/types';
+
+type SavedReflectionPayload = {
+  questions?: ReflectionQuestion[];
+  answers?: Record<string, string>;
+};
+
+function isSavedReflectionPayload(value: unknown): value is SavedReflectionPayload {
+  if (value == null || typeof value !== 'object' || Array.isArray(value)) return false;
+  return true;
+}
 
 export default function SermonCompanionPage(): React.ReactElement {
   const [passage, setPassage] = useState('');
   const [title, setTitle] = useState('');
   const [outline, setOutline] = useState<SermonOutlineType | null>(null);
   const [loading, setLoading] = useState(false);
+
+  const {
+    notes,
+    currentNote,
+    loading: notesLoading,
+    saving: notesSaving,
+    isAuthenticated,
+    loadNotes,
+    loadNote,
+    createNote,
+    updateNote,
+    setCurrentNote,
+    autoSaveReflection,
+  } = useSermonNotes();
 
   // Reflection questions state
   const [reflectionQuestions, setReflectionQuestions] = useState<ReflectionQuestion[] | null>(null);
@@ -19,6 +45,93 @@ export default function SermonCompanionPage(): React.ReactElement {
 
   // Option to generate both in parallel
   const [includeReflection, setIncludeReflection] = useState(true);
+
+  // Load saved notes once authenticated
+  useEffect(() => {
+    if (!isAuthenticated) return;
+    void loadNotes();
+  }, [isAuthenticated, loadNotes]);
+
+  // When a note is loaded/created, hydrate local UI state
+  useEffect(() => {
+    if (!isAuthenticated || currentNote == null) return;
+
+    setPassage(currentNote.passageReference);
+    setTitle(currentNote.sermonTitle ?? '');
+
+    if (currentNote.generatedOutline != null) {
+      setOutline(currentNote.generatedOutline as unknown as SermonOutlineType);
+    }
+
+    const reflection = currentNote.reflectionAnswers;
+    if (isSavedReflectionPayload(reflection)) {
+      if (Array.isArray(reflection.questions)) {
+        setReflectionQuestions(reflection.questions);
+      }
+
+      if (reflection.answers && typeof reflection.answers === 'object') {
+        const parsed: Record<number, string> = {};
+        for (const [key, value] of Object.entries(reflection.answers)) {
+          const index = Number(key);
+          if (!Number.isNaN(index) && typeof value === 'string') {
+            parsed[index] = value;
+          }
+        }
+        setAnswers(parsed);
+      }
+    }
+  }, [currentNote, isAuthenticated]);
+
+  const reflectionSavePayload = useMemo(() => {
+    if (reflectionQuestions == null && Object.keys(answers).length === 0) return null;
+
+    const serializedAnswers: Record<string, string> = {};
+    for (const [key, value] of Object.entries(answers)) {
+      serializedAnswers[key] = value;
+    }
+
+    return {
+      questions: reflectionQuestions ?? undefined,
+      answers: serializedAnswers,
+    } satisfies SavedReflectionPayload;
+  }, [answers, reflectionQuestions]);
+
+  // Debounced auto-save for reflection answers/questions
+  useEffect(() => {
+    if (!isAuthenticated) return;
+    if (currentNote?.id == null) return;
+    if (reflectionSavePayload == null) return;
+    autoSaveReflection(currentNote.id, reflectionSavePayload as unknown as Json);
+  }, [autoSaveReflection, currentNote?.id, isAuthenticated, reflectionSavePayload]);
+
+  const persistGeneratedOutline = async (generated: SermonOutlineType): Promise<void> => {
+    if (!isAuthenticated) return;
+
+    const trimmedPassage = passage.trim();
+    if (trimmedPassage === '') return;
+
+    const trimmedTitle = title.trim();
+    const sermonTitle = trimmedTitle === '' ? null : trimmedTitle;
+
+    // If we already have a note for this passage, update it.
+    if (currentNote?.id && currentNote.passageReference === trimmedPassage) {
+      await updateNote(currentNote.id, {
+        sermonTitle,
+        generatedOutline: generated as unknown as Json,
+      });
+      return;
+    }
+
+    // Otherwise, create a new note tied to this passage.
+    await createNote({
+      passageReference: trimmedPassage,
+      sermonTitle,
+      sermonDate: null,
+      generatedOutline: generated as unknown as Json,
+      userNotes: null,
+      reflectionAnswers: (reflectionSavePayload as unknown as Json) ?? null,
+    });
+  };
 
   // Generate both outline and questions in parallel (eliminates waterfall)
   const generateBoth = async (): Promise<void> => {
@@ -43,6 +156,7 @@ export default function SermonCompanionPage(): React.ReactElement {
       if (outlineRes.ok) {
         const outlineData = (await outlineRes.json()) as SermonOutlineType;
         setOutline(outlineData);
+        await persistGeneratedOutline(outlineData);
       }
 
       if (questionsRes.ok) {
@@ -69,6 +183,7 @@ export default function SermonCompanionPage(): React.ReactElement {
       if (response.ok) {
         const data = (await response.json()) as SermonOutlineType;
         setOutline(data);
+        await persistGeneratedOutline(data);
       }
     } catch {
       console.error('Failed to generate outline');
@@ -113,6 +228,13 @@ export default function SermonCompanionPage(): React.ReactElement {
 
   const handleAnswerChange = (index: number, answer: string): void => {
     setAnswers(prev => ({ ...prev, [index]: answer }));
+  };
+
+  const resetToNewNote = (): void => {
+    setCurrentNote(null);
+    setOutline(null);
+    setReflectionQuestions(null);
+    setAnswers({});
   };
 
   return (
@@ -199,6 +321,72 @@ export default function SermonCompanionPage(): React.ReactElement {
                 <li>• Use the outline as a starting point for notes</li>
               </ul>
             </div>
+
+            <div className="mt-6 rounded-lg border border-zinc-200 bg-white p-4 dark:border-zinc-800 dark:bg-zinc-900">
+              <div className="mb-3 flex items-center justify-between">
+                <h3 className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+                  My Saved Notes
+                </h3>
+                {isAuthenticated && currentNote?.id != null && (
+                  <button
+                    type="button"
+                    onClick={resetToNewNote}
+                    className="text-xs text-zinc-500 hover:text-zinc-700 dark:text-zinc-400 dark:hover:text-zinc-200"
+                  >
+                    New
+                  </button>
+                )}
+              </div>
+
+              {!isAuthenticated ? (
+                <p className="text-sm text-zinc-500 dark:text-zinc-400">
+                  Sign in to save outlines and reflection answers.
+                </p>
+              ) : notesLoading ? (
+                <div className="space-y-2">
+                  <div className="h-4 w-40 animate-pulse rounded bg-zinc-200 dark:bg-zinc-700" />
+                  <div className="h-4 w-56 animate-pulse rounded bg-zinc-200 dark:bg-zinc-700" />
+                  <div className="h-4 w-48 animate-pulse rounded bg-zinc-200 dark:bg-zinc-700" />
+                </div>
+              ) : notes.length === 0 ? (
+                <p className="text-sm text-zinc-500 dark:text-zinc-400">
+                  No saved notes yet. Generate an outline to start saving.
+                </p>
+              ) : (
+                <div className="space-y-2">
+                  {notes.slice(0, 8).map(note => (
+                    <button
+                      key={note.id}
+                      type="button"
+                      onClick={() => void loadNote(note.id)}
+                      className={`w-full rounded-lg border px-3 py-2 text-left transition-colors ${
+                        currentNote?.id === note.id
+                          ? 'border-purple-300 bg-purple-50 dark:border-purple-700 dark:bg-purple-900/20'
+                          : 'border-zinc-200 hover:bg-zinc-50 dark:border-zinc-700 dark:hover:bg-zinc-800'
+                      }`}
+                    >
+                      <div className="flex items-center justify-between gap-3">
+                        <span className="text-sm font-medium text-zinc-900 dark:text-zinc-100">
+                          {note.passage_reference}
+                        </span>
+                        <span className="text-xs text-zinc-500 dark:text-zinc-400">
+                          {note.sermon_date ?? note.created_at.slice(0, 10)}
+                        </span>
+                      </div>
+                      {note.sermon_title && (
+                        <div className="mt-1 text-xs text-zinc-500 dark:text-zinc-400">
+                          {note.sermon_title}
+                        </div>
+                      )}
+                    </button>
+                  ))}
+
+                  {notesSaving && (
+                    <p className="pt-1 text-xs text-zinc-500 dark:text-zinc-400">Saving…</p>
+                  )}
+                </div>
+              )}
+            </div>
           </div>
 
           {/* Outline Display */}
@@ -213,7 +401,7 @@ export default function SermonCompanionPage(): React.ReactElement {
         {/* Reflection Questions Section - shows after outline is generated */}
         {outline != null && (
           <div className="mt-8 border-t border-zinc-200 pt-8 dark:border-zinc-800">
-            <div className="mb-4 flex items-center justify-between">
+            <div className="mb-4 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
               <div>
                 <h2 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100">
                   Reflection Questions
