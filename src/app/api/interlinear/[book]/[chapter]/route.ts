@@ -89,7 +89,11 @@ export async function GET(
       verses: [verse],
     };
 
-    return NextResponse.json(response);
+    return NextResponse.json(response, {
+      headers: {
+        'Cache-Control': 'public, max-age=86400, s-maxage=604800',
+      },
+    });
   }
 
   // Return full chapter
@@ -112,5 +116,9 @@ export async function GET(
     verses,
   };
 
-  return NextResponse.json(response);
+  return NextResponse.json(response, {
+    headers: {
+      'Cache-Control': 'public, max-age=86400, s-maxage=604800',
+    },
+  });
 }
