@@ -67,12 +67,11 @@ For NASB/LSB support, contact:
 
 ## Finding Information
 
-| What                          | Where                     |
-| ----------------------------- | ------------------------- |
-| Getting started, contributing | `README.md`               |
-| Environment variables         | `.env.example`            |
-| Available scripts             | `package.json`            |
-| TypeScript types              | `src/types/index.ts`      |
-| Database schema               | `supabase/migrations/`    |
-| Game questions                | `src/data/questions.json` |
-| Strong's lexicons             | `src/data/strongs/`       |
+| What                          | Where                  |
+| ----------------------------- | ---------------------- |
+| Getting started, contributing | `README.md`            |
+| Environment variables         | `.env.example`         |
+| Available scripts             | `package.json`         |
+| TypeScript types              | `src/types/index.ts`   |
+| Database schema               | `supabase/migrations/` |
+| Strong's lexicons             | `src/data/strongs/`    |

@@ -139,9 +139,4 @@ export const rateLimiters = {
     limit: 60,
     windowMs: 60_000,
   }),
-
-  game: createRateLimiter('game', {
-    limit: 30,
-    windowMs: 60_000,
-  }),
 };

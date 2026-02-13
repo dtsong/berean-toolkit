@@ -15,9 +15,6 @@ export type {
   InterlinearChapter,
 } from './strongs';
 
-// Game types
-export type { GameMode, Difficulty, Question, GameProgress } from './game';
-
 // Sermon types
 export type { SermonOutline, OutlinePoint, ReflectionQuestion } from './sermon';
 

@@ -31,7 +31,7 @@ export default function Home(): React.ReactElement {
         </div>
 
         {/* Tools Grid */}
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-2">
           {/* Scripture Deep Dive */}
           <Link
             href="/study"
@@ -46,23 +46,6 @@ export default function Home(): React.ReactElement {
             <p className="text-sm text-zinc-600 dark:text-zinc-400">
               Look up any verse and explore the original Hebrew or Greek with Strong&apos;s
               Concordance definitions and word studies.
-            </p>
-          </Link>
-
-          {/* Berean Challenge */}
-          <Link
-            href="/berean"
-            className="group rounded-xl border border-zinc-200 bg-white p-6 transition-all hover:border-green-300 hover:shadow-lg dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-green-700"
-          >
-            <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-green-100 text-2xl dark:bg-green-900/30">
-              🎯
-            </div>
-            <h2 className="mb-2 text-xl font-semibold text-zinc-900 group-hover:text-green-600 dark:text-zinc-100 dark:group-hover:text-green-400">
-              Berean Challenge
-            </h2>
-            <p className="text-sm text-zinc-600 dark:text-zinc-400">
-              Test and grow your Scripture knowledge with fun, gamified challenges inspired by
-              Wordle.
             </p>
           </Link>
 
