@@ -13,18 +13,8 @@ This project is inspired by [Basil Tech](https://www.basiltech.org/), a Christia
 Look up any Bible verse and explore the original Hebrew (OT) or Greek (NT) with Strong's Concordance numbers and definitions.
 
 - Verse lookup with ESV and BSB translations
-- Strong's Concordance integration (~350 entries)
-- Word-level Greek/Hebrew definitions
-
-### Berean Challenge
-
-A gamified way to grow in Scripture knowledge with three game modes:
-
-- **Verse Detective** — Guess the reference from a verse quote
-- **Context Clues** — Answer questions about surrounding context
-- **Word Connections** — Identify verses containing Greek/Hebrew words
-
-54 curated questions across difficulty levels.
+- Strong's Concordance definitions (local lexicon + optional Supabase-backed full dataset)
+- Word-level Greek/Hebrew interlinear view
 
 ### Sermon Companion
 
@@ -77,8 +67,8 @@ BIBLE_API_KEY=your_bible_api_key      # Get from scripture.api.bible
 
 **What works without API keys:**
 
-- Berean Challenge (all game modes)
 - Home page navigation
+- Scripture Deep Dive with BSB (verse lookup + interlinear)
 
 ## Tech Stack
 
@@ -158,11 +148,9 @@ bun run build     # Build for production
 ### Phase 1 — Core Functionality (Current)
 
 - [x] Project scaffolding (Next.js, TypeScript, ESLint, Vitest, Husky)
-- [x] Berean Challenge game (all 3 modes)
 - [x] Sermon outline generator
 - [x] Verse lookup (ESV, BSB)
 - [x] Verse reference parsing (all 66 books)
-- [x] Question bank (54 curated questions)
 - [x] Strong's Concordance API
 - [x] BSB Bible API
 - [x] Full interlinear display (word-level Greek/Hebrew in verse text)
@@ -170,11 +158,11 @@ bun run build     # Build for production
 
 ### Phase 2 — Enhancement
 
-- [x] User accounts and progress tracking (Supabase auth)
+- [x] User accounts (Supabase auth)
+- [x] Sermon notes persistence (saved outlines + reflection answers)
+- [ ] First-time user onboarding / "Try It" flow
 - [ ] Multiple translation support (NIV, KJV full implementation)
-- [ ] Daily challenge mode with shareable results
-- [x] Reflection question generation UI
-- [x] Game progress persistence
+- [ ] Notes export (PDF/Markdown)
 
 ### Phase 3 — Polish
 

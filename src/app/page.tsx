@@ -5,7 +5,7 @@ import { AuthHeader } from '@/components/auth/AuthHeader';
 export const metadata: Metadata = {
   title: 'Berean Toolkit - Scripture Study Tools',
   description:
-    "A suite of Scripture study tools designed to help Christians grow in knowledge, wisdom, and spiritual maturity through deeper engagement with God's Word.",
+    "Two Scripture-centered tools designed to help Christians grow in knowledge, wisdom, and spiritual maturity through deeper engagement with God's Word.",
 };
 
 export default function Home(): React.ReactElement {
@@ -20,8 +20,8 @@ export default function Home(): React.ReactElement {
             Berean Toolkit
           </h1>
           <p className="mx-auto max-w-2xl text-lg text-zinc-600 dark:text-zinc-400">
-            Scripture study tools designed to help Christians grow in knowledge, wisdom, and
-            spiritual maturity through deeper engagement with God&apos;s Word.
+            Two tools for deeper Scripture study: explore the original languages, and prepare for
+            sermons with humble, clearly-labeled AI assistance.
           </p>
           <p className="mt-4 text-sm italic text-zinc-500 dark:text-zinc-500">
             &quot;Now the Bereans were more noble-minded than the Thessalonians, for they received

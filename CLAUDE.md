@@ -9,9 +9,8 @@ Inspired by [Basil Tech](https://www.basiltech.org/), a Christian faith-based te
 ## Goals
 
 1. Make original language study (Hebrew/Greek) accessible to everyday believers
-2. Gamify Scripture knowledge to make learning joyful
-3. Support sermon engagement with note-taking and reflection tools
-4. Ground everything in accurate, faithful handling of God's Word
+2. Support sermon engagement with note-taking and reflection tools
+3. Ground everything in accurate, faithful handling of God's Word
 
 ## Design Principles
 
@@ -21,15 +20,11 @@ Inspired by [Basil Tech](https://www.basiltech.org/), a Christian faith-based te
 4. **Joyful** — Learning Scripture should be delightful
 5. **Humble** — Tools support study, don't replace the Holy Spirit's work
 
-## The Three Tools
+## The Two Tools
 
 ### Scripture Deep Dive
 
 Look up any verse and see the original Hebrew/Greek with Strong's Concordance numbers and definitions. User reads in their preferred translation (ESV, NIV); BSB powers the word-level tagging behind the scenes.
-
-### Berean Challenge
-
-Gamified Scripture knowledge with three modes: Verse Detective (guess the reference), Context Clues (surrounding context questions), and Word Connections (Greek/Hebrew vocabulary).
 
 ### Sermon Companion
 
