@@ -170,11 +170,11 @@ bun run build     # Build for production
 
 ### Phase 2 — Enhancement
 
-- [ ] User accounts and progress tracking (Supabase auth)
+- [x] User accounts and progress tracking (Supabase auth)
 - [ ] Multiple translation support (NIV, KJV full implementation)
 - [ ] Daily challenge mode with shareable results
-- [ ] Reflection question generation UI
-- [ ] Game progress persistence
+- [x] Reflection question generation UI
+- [x] Game progress persistence
 
 ### Phase 3 — Polish
 
