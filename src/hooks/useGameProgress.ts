@@ -25,6 +25,8 @@ interface UseGameProgressReturn {
   progress: Record<GameMode, ModeProgress>;
   loading: boolean;
   isAuthenticated: boolean;
+  syncError: string | null;
+  clearSyncError: () => void;
   updateProgress: (mode: GameMode, update: Partial<ModeProgress>) => Promise<void>;
   recordAnswer: (mode: GameMode, correct: boolean) => Promise<void>;
 }
@@ -83,6 +85,9 @@ export function useGameProgress(): UseGameProgressReturn {
   const { user, loading: authLoading } = useAuth();
   const [progress, setProgress] = useState<Record<GameMode, ModeProgress>>(getLocalProgress);
   const [loading, setLoading] = useState(true);
+  const [syncError, setSyncError] = useState<string | null>(null);
+
+  const clearSyncError = useCallback((): void => setSyncError(null), []);
 
   // Load progress from database when authenticated
   useEffect(() => {
@@ -91,6 +96,7 @@ export function useGameProgress(): UseGameProgressReturn {
     if (!user) {
       // Not authenticated - use local storage
       setProgress(getLocalProgress());
+      setSyncError(null);
       setLoading(false);
       return;
     }
@@ -116,10 +122,13 @@ export function useGameProgress(): UseGameProgressReturn {
           }
 
           setProgress(newProgress);
+        } else {
+          setSyncError('Could not sync progress. Your progress is still saved locally.');
         }
       } catch {
         // Fall back to local storage on error
         setProgress(getLocalProgress());
+        setSyncError('Could not sync progress. Your progress is still saved locally.');
       } finally {
         setLoading(false);
       }
@@ -149,7 +158,7 @@ export function useGameProgress(): UseGameProgressReturn {
       // Sync to database if authenticated
       if (user) {
         try {
-          await fetch('/api/game/progress', {
+          const response = await fetch('/api/game/progress', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
@@ -160,8 +169,13 @@ export function useGameProgress(): UseGameProgressReturn {
               best_streak: update.bestStreak,
             }),
           });
+          if (!response.ok) {
+            setSyncError('Could not sync progress. Your progress is still saved locally.');
+          } else {
+            setSyncError(null);
+          }
         } catch {
-          // Silently fail - local storage has the data
+          setSyncError('Could not sync progress. Your progress is still saved locally.');
         }
       }
     },
@@ -202,7 +216,7 @@ export function useGameProgress(): UseGameProgressReturn {
       // Sync to database if authenticated
       if (user) {
         try {
-          await fetch('/api/game/progress', {
+          const response = await fetch('/api/game/progress', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
@@ -213,8 +227,13 @@ export function useGameProgress(): UseGameProgressReturn {
               best_streak: updatePayload.bestStreak,
             }),
           });
+          if (!response.ok) {
+            setSyncError('Could not sync progress. Your progress is still saved locally.');
+          } else {
+            setSyncError(null);
+          }
         } catch {
-          // Silently fail - local storage has the data
+          setSyncError('Could not sync progress. Your progress is still saved locally.');
         }
       }
     },
@@ -225,6 +244,8 @@ export function useGameProgress(): UseGameProgressReturn {
     progress,
     loading,
     isAuthenticated: !!user,
+    syncError,
+    clearSyncError,
     updateProgress,
     recordAnswer,
   };

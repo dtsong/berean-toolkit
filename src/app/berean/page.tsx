@@ -2,6 +2,7 @@
 
 import { useState, useCallback, useEffect } from 'react';
 import { AuthHeader } from '@/components/auth/AuthHeader';
+import { Alert } from '@/components/Alert';
 import { GameBoard } from '@/components/GameBoard';
 import { useGameProgress } from '@/hooks/useGameProgress';
 import type { Question, GameMode } from '@/types';
@@ -9,19 +10,27 @@ import type { Question, GameMode } from '@/types';
 export default function BereanChallengePage(): React.ReactElement {
   const [mode, setMode] = useState<GameMode>('verse_detective');
   const [question, setQuestion] = useState<Question | null>(null);
-  const { progress, recordAnswer, isAuthenticated } = useGameProgress();
+  const [questionLoading, setQuestionLoading] = useState(false);
+  const [questionError, setQuestionError] = useState<string | null>(null);
+  const { progress, recordAnswer, isAuthenticated, syncError, clearSyncError } = useGameProgress();
 
   const currentProgress = progress[mode];
 
   const fetchQuestion = useCallback(async (gameMode: GameMode): Promise<void> => {
+    setQuestionLoading(true);
+    setQuestionError(null);
     try {
       const response = await fetch(`/api/game?mode=${gameMode}`);
       if (response.ok) {
         const data = (await response.json()) as Question;
         setQuestion(data);
+      } else {
+        setQuestionError('Could not load a new question. Please try again.');
       }
     } catch {
-      console.error('Failed to fetch question');
+      setQuestionError('Could not load a new question. Check your connection and try again.');
+    } finally {
+      setQuestionLoading(false);
     }
   }, []);
 
@@ -32,6 +41,7 @@ export default function BereanChallengePage(): React.ReactElement {
   const handleModeChange = (newMode: GameMode): void => {
     setMode(newMode);
     setQuestion(null);
+    setQuestionError(null);
   };
 
   const handleAnswer = (answer: string): void => {
@@ -64,6 +74,17 @@ export default function BereanChallengePage(): React.ReactElement {
       </AuthHeader>
 
       <main className="mx-auto max-w-2xl px-6 py-8">
+        {syncError && isAuthenticated && (
+          <div className="mb-6">
+            <Alert
+              variant="warning"
+              title="Progress not synced"
+              description={syncError}
+              onDismiss={clearSyncError}
+            />
+          </div>
+        )}
+
         {/* Mode Selection */}
         <div className="mb-8">
           <h2 className="mb-3 text-sm font-medium text-zinc-500 dark:text-zinc-400">Game Mode</h2>
@@ -92,7 +113,25 @@ export default function BereanChallengePage(): React.ReactElement {
         </div>
 
         {/* Game Board */}
-        <GameBoard question={question} mode={mode} onAnswer={handleAnswer} onNext={handleNext} />
+        {questionError && (
+          <div className="mb-4">
+            <Alert
+              variant="error"
+              title="Question load failed"
+              description={questionError}
+              actionLabel="Try again"
+              onAction={() => void fetchQuestion(mode)}
+              onDismiss={() => setQuestionError(null)}
+            />
+          </div>
+        )}
+
+        <GameBoard
+          question={questionLoading ? null : question}
+          mode={mode}
+          onAnswer={handleAnswer}
+          onNext={handleNext}
+        />
 
         {/* Info Card */}
         <div className="mt-8 rounded-lg bg-zinc-100 p-4 dark:bg-zinc-900">

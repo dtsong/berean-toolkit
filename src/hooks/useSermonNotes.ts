@@ -27,6 +27,7 @@ interface UseSermonNotesReturn {
   currentNote: SermonNoteData | null;
   loading: boolean;
   saving: boolean;
+  error: string | null;
   isAuthenticated: boolean;
   loadNotes: () => Promise<void>;
   loadNote: (id: string) => Promise<void>;
@@ -57,6 +58,7 @@ export function useSermonNotes(): UseSermonNotesReturn {
   const [currentNote, setCurrentNote] = useState<SermonNoteData | null>(null);
   const [loading, setLoading] = useState(false);
   const [saving, setSaving] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   // Debounce timer ref for auto-save
   const autoSaveTimer = useRef<NodeJS.Timeout | null>(null);
@@ -75,14 +77,17 @@ export function useSermonNotes(): UseSermonNotesReturn {
     if (!user) return;
 
     setLoading(true);
+    setError(null);
     try {
       const response = await fetch('/api/sermon/notes');
       if (response.ok) {
         const data = (await response.json()) as SermonNote[];
         setNotes(data);
+      } else {
+        setError('Could not load saved notes. Please try again.');
       }
     } catch {
-      // Silently fail
+      setError('Could not load saved notes. Check your connection and try again.');
     } finally {
       setLoading(false);
     }
@@ -93,14 +98,17 @@ export function useSermonNotes(): UseSermonNotesReturn {
       if (!user) return;
 
       setLoading(true);
+      setError(null);
       try {
         const response = await fetch(`/api/sermon/notes?id=${id}`);
         if (response.ok) {
           const data = (await response.json()) as SermonNote;
           setCurrentNote(dbToLocal(data));
+        } else {
+          setError('Could not load this note. Please try again.');
         }
       } catch {
-        // Silently fail
+        setError('Could not load this note. Check your connection and try again.');
       } finally {
         setLoading(false);
       }
@@ -113,6 +121,7 @@ export function useSermonNotes(): UseSermonNotesReturn {
       if (!user) return null;
 
       setSaving(true);
+      setError(null);
       try {
         const response = await fetch('/api/sermon/notes', {
           method: 'POST',
@@ -133,8 +142,10 @@ export function useSermonNotes(): UseSermonNotesReturn {
           setCurrentNote(dbToLocal(newNote));
           return newNote.id;
         }
+
+        setError('Could not save this note. Please try again.');
       } catch {
-        // Silently fail
+        setError('Could not save this note. Check your connection and try again.');
       } finally {
         setSaving(false);
       }
@@ -148,6 +159,7 @@ export function useSermonNotes(): UseSermonNotesReturn {
       if (!user) return;
 
       setSaving(true);
+      setError(null);
       try {
         const response = await fetch('/api/sermon/notes', {
           method: 'PATCH',
@@ -167,9 +179,11 @@ export function useSermonNotes(): UseSermonNotesReturn {
           setNotes(prev => prev.map(n => (n.id === id ? updated : n)));
           // Use functional setState to avoid currentNote dependency
           setCurrentNote(prev => (prev?.id === id ? dbToLocal(updated) : prev));
+        } else {
+          setError('Could not save changes. Please try again.');
         }
       } catch {
-        // Silently fail
+        setError('Could not save changes. Check your connection and try again.');
       } finally {
         setSaving(false);
       }
@@ -182,6 +196,7 @@ export function useSermonNotes(): UseSermonNotesReturn {
       if (!user) return;
 
       setSaving(true);
+      setError(null);
       try {
         const response = await fetch(`/api/sermon/notes?id=${id}`, {
           method: 'DELETE',
@@ -191,9 +206,11 @@ export function useSermonNotes(): UseSermonNotesReturn {
           setNotes(prev => prev.filter(n => n.id !== id));
           // Use functional setState to avoid currentNote dependency
           setCurrentNote(prev => (prev?.id === id ? null : prev));
+        } else {
+          setError('Could not delete this note. Please try again.');
         }
       } catch {
-        // Silently fail
+        setError('Could not delete this note. Check your connection and try again.');
       } finally {
         setSaving(false);
       }
@@ -231,6 +248,7 @@ export function useSermonNotes(): UseSermonNotesReturn {
     currentNote,
     loading,
     saving,
+    error,
     isAuthenticated: !!user,
     loadNotes,
     loadNote,

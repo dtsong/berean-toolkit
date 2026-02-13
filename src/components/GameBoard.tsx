@@ -59,7 +59,7 @@ export function GameBoard({
   if (question == null) {
     return (
       <div className="rounded-lg bg-zinc-100 p-8 text-center dark:bg-zinc-800">
-        <p className="text-lg text-zinc-500 dark:text-zinc-400">Loading question...</p>
+        <p className="text-lg text-zinc-500 dark:text-zinc-400">Loading question…</p>
       </div>
     );
   }

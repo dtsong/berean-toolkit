@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import { AuthHeader } from '@/components/auth/AuthHeader';
+import { Alert } from '@/components/Alert';
 import { SermonOutline } from '@/components/SermonOutline';
 import { ReflectionQuestions } from '@/components/ReflectionQuestions';
 import { useSermonNotes } from '@/hooks/useSermonNotes';
@@ -23,12 +24,15 @@ export default function SermonCompanionPage(): React.ReactElement {
   const [title, setTitle] = useState('');
   const [outline, setOutline] = useState<SermonOutlineType | null>(null);
   const [loading, setLoading] = useState(false);
+  const [outlineError, setOutlineError] = useState<string | null>(null);
+  const [reflectionError, setReflectionError] = useState<string | null>(null);
 
   const {
     notes,
     currentNote,
     loading: notesLoading,
     saving: notesSaving,
+    error: notesError,
     isAuthenticated,
     loadNotes,
     loadNote,
@@ -137,6 +141,8 @@ export default function SermonCompanionPage(): React.ReactElement {
   const generateBoth = async (): Promise<void> => {
     setLoading(true);
     setReflectionLoading(true);
+    setOutlineError(null);
+    setReflectionError(null);
 
     const outlinePromise = fetch('/api/sermon', {
       method: 'POST',
@@ -157,14 +163,19 @@ export default function SermonCompanionPage(): React.ReactElement {
         const outlineData = (await outlineRes.json()) as SermonOutlineType;
         setOutline(outlineData);
         await persistGeneratedOutline(outlineData);
+      } else {
+        setOutlineError('Could not generate an outline. Please try again.');
       }
 
       if (questionsRes.ok) {
         const questionsData = (await questionsRes.json()) as { questions: ReflectionQuestion[] };
         setReflectionQuestions(questionsData.questions);
+      } else {
+        setReflectionError('Could not generate reflection questions. Please try again.');
       }
     } catch {
-      console.error('Failed to generate content');
+      setOutlineError('Could not generate content. Check your connection and try again.');
+      setReflectionError('Could not generate content. Check your connection and try again.');
     } finally {
       setLoading(false);
       setReflectionLoading(false);
@@ -173,6 +184,7 @@ export default function SermonCompanionPage(): React.ReactElement {
 
   const generateOutlineOnly = async (): Promise<void> => {
     setLoading(true);
+    setOutlineError(null);
     try {
       const response = await fetch('/api/sermon', {
         method: 'POST',
@@ -184,9 +196,11 @@ export default function SermonCompanionPage(): React.ReactElement {
         const data = (await response.json()) as SermonOutlineType;
         setOutline(data);
         await persistGeneratedOutline(data);
+      } else {
+        setOutlineError('Could not generate an outline. Please try again.');
       }
     } catch {
-      console.error('Failed to generate outline');
+      setOutlineError('Could not generate an outline. Check your connection and try again.');
     } finally {
       setLoading(false);
     }
@@ -198,6 +212,8 @@ export default function SermonCompanionPage(): React.ReactElement {
     // Reset state
     setReflectionQuestions(null);
     setAnswers({});
+    setOutlineError(null);
+    setReflectionError(null);
     // Generate in parallel if checkbox is checked, otherwise just outline
     if (includeReflection) {
       void generateBoth();
@@ -208,6 +224,7 @@ export default function SermonCompanionPage(): React.ReactElement {
 
   const generateQuestions = async (): Promise<void> => {
     setReflectionLoading(true);
+    setReflectionError(null);
     try {
       const response = await fetch('/api/reflection', {
         method: 'POST',
@@ -218,9 +235,13 @@ export default function SermonCompanionPage(): React.ReactElement {
       if (response.ok) {
         const data = (await response.json()) as { questions: ReflectionQuestion[] };
         setReflectionQuestions(data.questions);
+      } else {
+        setReflectionError('Could not generate reflection questions. Please try again.');
       }
     } catch {
-      console.error('Failed to generate reflection questions');
+      setReflectionError(
+        'Could not generate reflection questions. Check your connection and try again.'
+      );
     } finally {
       setReflectionLoading(false);
     }
@@ -303,11 +324,39 @@ export default function SermonCompanionPage(): React.ReactElement {
                 className="w-full rounded-lg bg-purple-600 px-6 py-2 font-medium text-white transition-colors hover:bg-purple-700 disabled:opacity-50"
               >
                 {loading || reflectionLoading
-                  ? 'Generating...'
+                  ? 'Generating…'
                   : includeReflection
                     ? 'Generate Outline & Questions'
                     : 'Generate Outline'}
               </button>
+
+              {outlineError && (
+                <Alert
+                  variant="error"
+                  title="Outline generation failed"
+                  description={outlineError}
+                  actionLabel="Retry"
+                  onAction={() => {
+                    if (includeReflection) {
+                      void generateBoth();
+                    } else {
+                      void generateOutlineOnly();
+                    }
+                  }}
+                  onDismiss={() => setOutlineError(null)}
+                />
+              )}
+
+              {reflectionError && includeReflection && (
+                <Alert
+                  variant="warning"
+                  title="Reflection question generation failed"
+                  description={reflectionError}
+                  actionLabel="Retry"
+                  onAction={() => void generateQuestions()}
+                  onDismiss={() => setReflectionError(null)}
+                />
+              )}
             </form>
 
             {/* Tips */}
@@ -342,6 +391,14 @@ export default function SermonCompanionPage(): React.ReactElement {
                 <p className="text-sm text-zinc-500 dark:text-zinc-400">
                   Sign in to save outlines and reflection answers.
                 </p>
+              ) : notesError ? (
+                <Alert
+                  variant="error"
+                  title="Could not load notes"
+                  description={notesError}
+                  actionLabel="Retry"
+                  onAction={() => void loadNotes()}
+                />
               ) : notesLoading ? (
                 <div className="space-y-2">
                   <div className="h-4 w-40 animate-pulse rounded bg-zinc-200 dark:bg-zinc-700" />
@@ -420,6 +477,17 @@ export default function SermonCompanionPage(): React.ReactElement {
                 </button>
               )}
             </div>
+
+            {reflectionError && (
+              <Alert
+                variant="warning"
+                title="Could not load reflection questions"
+                description={reflectionError}
+                actionLabel="Retry"
+                onAction={() => void generateQuestions()}
+                onDismiss={() => setReflectionError(null)}
+              />
+            )}
             <ReflectionQuestions
               questions={reflectionQuestions}
               loading={reflectionLoading}

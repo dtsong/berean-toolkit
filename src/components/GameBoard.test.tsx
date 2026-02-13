@@ -32,7 +32,7 @@ describe('GameBoard', () => {
       render(
         <GameBoard question={null} mode="verse_detective" onAnswer={vi.fn()} onNext={vi.fn()} />
       );
-      expect(screen.getByText('Loading question...')).toBeInTheDocument();
+      expect(screen.getByText(/Loading question/)).toBeInTheDocument();
     });
   });
 
