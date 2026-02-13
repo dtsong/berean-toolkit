@@ -94,6 +94,24 @@ export function ReflectionQuestions({
 
   return (
     <div className="space-y-6">
+      <div
+        role="note"
+        className="rounded-lg border border-purple-200 bg-purple-50 px-3 py-2 dark:border-purple-900/40 dark:bg-purple-950/30"
+      >
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="inline-flex items-center rounded-full bg-purple-100 px-2 py-0.5 text-xs font-semibold text-purple-900 dark:bg-purple-900/40 dark:text-purple-100">
+            AI-generated
+          </span>
+          <span className="text-xs font-medium text-purple-900/80 dark:text-purple-100/80">
+            Confidence: Suggested
+          </span>
+        </div>
+        <p className="mt-1 text-xs text-purple-900/80 dark:text-purple-100/80">
+          Use these prompts as a starting point; revise for your context and verify with the
+          passage.
+        </p>
+      </div>
+
       {categoryOrder.map(category => {
         const categoryQuestions = grouped[category];
         if (!categoryQuestions || categoryQuestions.length === 0) return null;
