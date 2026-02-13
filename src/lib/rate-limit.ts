@@ -19,6 +19,11 @@ interface RateLimitResult {
   resetIn: number;
 }
 
+interface RateLimiter {
+  check: (identifier: string) => RateLimitResult;
+  reset: (identifier: string) => void;
+}
+
 const stores = new Map<string, Map<string, RateLimitEntry>>();
 
 const CLEANUP_INTERVAL = 60_000;
@@ -53,7 +58,7 @@ function getStore(name: string): Map<string, RateLimitEntry> {
   return store;
 }
 
-export function createRateLimiter(name: string, config: RateLimitConfig) {
+export function createRateLimiter(name: string, config: RateLimitConfig): RateLimiter {
   const store = getStore(name);
 
   return {
