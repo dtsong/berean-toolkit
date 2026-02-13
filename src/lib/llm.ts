@@ -127,18 +127,22 @@ Example Verses: ${safeVerses.join('; ')}
  */
 export async function generateSermonOutline(
   passage: string,
+  passageText: string,
   title?: string
 ): Promise<SermonOutlineResponse | null> {
   const client = getClient();
 
   const safePassage = sanitizeInput(passage, INPUT_LIMITS.passage);
+  const safePassageText = sanitizeInput(passageText, 4000);
   const safeTitle = title ? sanitizeInput(title, INPUT_LIMITS.title) : null;
 
   if (!safePassage) {
     return null;
   }
 
-  const systemPrompt = `You are helping a sermon listener prepare for deeper engagement with God's Word. You will receive a Bible passage reference inside <passage_data> tags.
+  const systemPrompt = `You are helping a sermon listener prepare for deeper engagement with God's Word.
+
+You will receive a Bible passage reference AND the actual verse text (BSB). Use ONLY the provided verse text when stating what the passage says. If you are unsure, say so.
 
 Generate a PROBABLE expository outline that follows the passage's flow. This is a suggested outline - the actual sermon may differ.
 
@@ -154,7 +158,10 @@ Respond ONLY with valid JSON in this exact format (no markdown, no explanation):
 Keep the outline practical and focused on the text's main message.`;
 
   const userMessage = `<passage_data>
-Passage: ${safePassage}${safeTitle ? `\nSermon Title: ${safeTitle}` : ''}
+Passage reference: ${safePassage}${safeTitle ? `\nSermon Title: ${safeTitle}` : ''}
+
+BSB text:
+${safePassageText}
 </passage_data>`;
 
   try {
@@ -194,18 +201,20 @@ Passage: ${safePassage}${safeTitle ? `\nSermon Title: ${safeTitle}` : ''}
  */
 export async function generateReflectionQuestions(
   passage: string,
+  passageText: string,
   count: number = 5
 ): Promise<ReflectionQuestionsResponse | null> {
   const client = getClient();
 
   const safePassage = sanitizeInput(passage, INPUT_LIMITS.passage);
+  const safePassageText = sanitizeInput(passageText, 4000);
   const safeCount = Math.min(Math.max(1, count), 10);
 
   if (!safePassage) {
     return null;
   }
 
-  const systemPrompt = `You will receive a Bible passage reference inside <passage_data> tags. Generate reflection questions for it.
+  const systemPrompt = `You will receive a Bible passage reference AND the actual verse text (BSB) inside <passage_data> tags. Generate reflection questions for it.
 
 Create open-ended questions that help the reader:
 1. Observe what the text says (observation)
@@ -220,8 +229,11 @@ Respond ONLY with valid JSON array in this exact format (no markdown, no explana
 Valid categories: observation, interpretation, application`;
 
   const userMessage = `<passage_data>
-Passage: ${safePassage}
+Passage reference: ${safePassage}
 Number of questions: ${safeCount}
+
+BSB text:
+${safePassageText}
 </passage_data>`;
 
   try {

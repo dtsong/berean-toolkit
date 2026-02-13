@@ -7,6 +7,7 @@
 import { NextResponse, type NextRequest } from 'next/server';
 import { generateSermonOutline } from '@/lib/llm';
 import { rateLimiters, getClientIdentifier } from '@/lib/rate-limit';
+import { getBsbPassageText, isValidBsbReference } from '@/lib/bsb-text';
 import type { SermonOutline } from '@/types';
 
 interface RequestBody {
@@ -47,11 +48,25 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
   }
 
   try {
-    const result = await generateSermonOutline(passage, title);
+    const bsb = getBsbPassageText(passage);
+    if (!bsb) {
+      return NextResponse.json(
+        { error: 'Could not load BSB text for this passage reference' },
+        { status: 400 }
+      );
+    }
+
+    const result = await generateSermonOutline(passage, bsb.text, title);
 
     if (result == null) {
       return NextResponse.json({ error: 'Failed to generate outline' }, { status: 500 });
     }
+
+    const validatedCrossRefs = result.crossReferences
+      .filter(r => typeof r === 'string')
+      .map(r => r.trim())
+      .filter(r => r.length > 0)
+      .filter(isValidBsbReference);
 
     const outline: SermonOutline = {
       title,
@@ -61,7 +76,7 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
         subPoints: p.subPoints,
       })),
       keyThemes: result.keyThemes,
-      crossReferences: result.crossReferences,
+      crossReferences: validatedCrossRefs,
     };
 
     return NextResponse.json(outline);

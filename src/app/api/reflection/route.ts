@@ -7,6 +7,7 @@
 import { NextResponse, type NextRequest } from 'next/server';
 import { generateReflectionQuestions } from '@/lib/llm';
 import { rateLimiters, getClientIdentifier } from '@/lib/rate-limit';
+import { getBsbPassageText } from '@/lib/bsb-text';
 import type { ReflectionQuestion } from '@/types';
 
 interface RequestBody {
@@ -47,7 +48,15 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
   }
 
   try {
-    const result = await generateReflectionQuestions(passage, count);
+    const bsb = getBsbPassageText(passage);
+    if (!bsb) {
+      return NextResponse.json(
+        { error: 'Could not load BSB text for this passage reference' },
+        { status: 400 }
+      );
+    }
+
+    const result = await generateReflectionQuestions(passage, bsb.text, count);
 
     if (result == null) {
       return NextResponse.json({ error: 'Failed to generate questions' }, { status: 500 });
